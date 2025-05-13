@@ -39,7 +39,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
     const [uploadedImage, setUploadedImage] = useState<string | null>(null);
     const [imageUrl, setImageUrl] = useState<string | null>(null);
     const [resultImage, setResultImage] = useState<string[] | null>(null);
-    const [previewImage, setPreviewImage] = useState<string | null>(null);
+    const [previewImage, setPreviewImage] = useState<string | undefined>(undefined);
     const [showFullscreenPreview, setShowFullscreenPreview] = useState(false);
     const [showOriginal, setShowOriginal] = useState(false);
     const [isPolling, setIsPolling] = useState(false);
@@ -884,7 +884,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                                     onClick={(e) => {
                                         e.stopPropagation();
                                         const link = document.createElement('a');
-                                        link.href = previewImage;
+                                        link.href = previewImage ? previewImage : '';
                                         link.download = `result--${Date.now()}.jpg`;
                                         document.body.appendChild(link);
                                         link.click();
