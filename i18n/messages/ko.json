@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "몇 시간 만에 AI SaaS 스타트업 출시 | ShipAny",
-    "description": "ShipAny는 NextJS 보일러플레이트로, 다양한 템플릿과 컴포넌트로 AI SaaS 스타트업을 빠르게 구축할 수 있습니다.",
-    "keywords": "ShipAny, AI SaaS 보일러플레이트, NextJS 보일러플레이트"
+    "title": "AI 헤어스타일 체인저 | 무료 온라인 가상 헤어스타일 및 커트 시뮬레이터",
+    "description": "AI 헤어스타일 체인저는 무료로 사용할 수 있는 가상 헤어스타일 체험 도구이자 커트 시뮬레이터입니다. 사진을 업로드하면 즉시 헤어스타일을 시도하고, AI를 통해 나만의 커트를 생성하며, 자신에게 어울리는 스타일을 빠르게 찾아보세요. 남녀 모두에게 적합합니다.",
+    "keywords": "AI 헤어스타일 체인저, 헤어스타일 체험, 가상 헤어스타일, 커트 시뮬레이터, 무료 AI 헤어스타일, 사진으로 헤어스타일 체험, 나에게 어울리는 헤어스타일, 커트 생성기, 남성 가상 헤어스타일, 무료 남성 헤어스타일, 헤어스타일 시도, 헤어스타일 생성기"
   },
   "user": {
     "sign_in": "로그인",
@@ -34,7 +34,7 @@
   },
   "my_orders": {
     "title": "주문 내역",
-    "description": "ShipAny로 결제한 주문 내역입니다.",
+    "description": "AI Hairstyle Changer로 결제한 주문 내역입니다.",
     "no_orders": "주문 내역이 없습니다",
     "tip": "",
     "activate_order": "주문 활성화",
@@ -82,7 +82,7 @@
   },
   "blog": {
     "title": "블로그",
-    "description": "ShipAny 관련 소식, 리소스 및 업데이트",
+    "description": "AI Hairstyle Changer 관련 소식, 리소스 및 업데이트",
     "read_more_text": "더 보기"
   },
   "my_invites": {
@@ -93,7 +93,7 @@
     "edit_invite_link": "초대 링크 수정",
     "copy_invite_link": "초대 링크 복사",
     "invite_code": "초대 코드",
-    "invite_tip": "친구 1명을 초대하여 ShipAny를 구매하면 $50 보상",
+    "invite_tip": "친구 1명을 초대하여 AI Hairstyle Changer를 구매하면 $50 보상",
     "invite_balance": "초대 보상 잔액",
     "total_invite_count": "총 초대 수",
     "total_paid_count": "총 구매 수",
@@ -101,7 +101,7 @@
     "update_invite_code": "초대 코드 설정",
     "update_invite_code_tip": "사용자 지정 초대 코드를 입력하세요",
     "update_invite_button": "저장",
-    "no_orders": "ShipAny를 구매하기 전에는 다른 사람을 초대할 수 없습니다",
+    "no_orders": "AI Hairstyle Changer를 구매하기 전에는 다른 사람을 초대할 수 없습니다",
     "no_affiliates": "초대 권한이 없습니다. 권한을 신청하려면 문의해 주세요.",
     "table": {
       "invite_time": "초대 일시",

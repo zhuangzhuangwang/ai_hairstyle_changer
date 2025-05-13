@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Jedes AI SaaS Startup in Stunden veröffentlichen | ShipAny",
-    "description": "ShipAny ist eine NextJS-Vorlage für den Aufbau von AI SaaS Startups, veröffentlichen Sie schnell mit einer Vielzahl von Vorlagen und Komponenten.",
-    "keywords": "ShipAny, AI SaaS Vorlage, NextJS Vorlage"
+    "title": "AI Frisurenwechsler | Frisuren & Haarschnitte online kostenlos ausprobieren",
+    "description": "AI Frisurenwechsler ist ein kostenloses virtuelles Tool zum Ausprobieren von Frisuren und ein Haarschnitt-Simulator. Probiere sofort verschiedene Frisuren mit deinem Foto aus, erstelle deinen eigenen Haarschnitt mit KI und finde heraus, welche Frisur am besten zu dir passt – perfekt für Männer und Frauen.",
+    "keywords": "AI Frisurenwechsler, Frisuren ausprobieren, Frisur ausprobieren, Haarschnitt-Simulator, kostenlose KI-Frisuren online, Frisuren mit eigenem Bild ausprobieren, welche Frisur passt zu mir, eigenen Haarschnitt erstellen, virtuelle Frisuren Männer, kostenlose Männerfrisuren online, Haarschnitt ausprobieren, Haarschnitt-Generator"
   },
   "user": {
     "sign_in": "Anmelden",
@@ -34,7 +34,7 @@
   },
   "my_orders": {
     "title": "Meine Bestellungen",
-    "description": "Mit ShipAny bezahlte Bestellungen.",
+    "description": "Mit AI Hairstyle Changer bezahlte Bestellungen.",
     "no_orders": "Keine Bestellungen gefunden",
     "tip": "",
     "activate_order": "Bestellung aktivieren",
@@ -82,7 +82,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Neuigkeiten, Ressourcen und Updates über ShipAny",
+    "description": "Neuigkeiten, Ressourcen und Updates über AI Hairstyle Changer",
     "read_more_text": "Mehr lesen"
   },
   "my_invites": {
@@ -93,7 +93,7 @@
     "edit_invite_link": "Einladungslink bearbeiten",
     "copy_invite_link": "Einladungslink kopieren",
     "invite_code": "Einladungscode",
-    "invite_tip": "Laden Sie 1 Freund ein, ShipAny zu kaufen, Belohnung $50.",
+    "invite_tip": "Laden Sie 1 Freund ein, AI Hairstyle Changer zu kaufen, Belohnung $50.",
     "invite_balance": "Einladungsguthaben",
     "total_invite_count": "Gesamteinladungen",
     "total_paid_count": "Bezahlte Einladungen",
@@ -101,7 +101,7 @@
     "update_invite_code": "Einladungscode festlegen",
     "update_invite_code_tip": "Geben Sie Ihren benutzerdefinierten Einladungscode ein",
     "update_invite_button": "Speichern",
-    "no_orders": "Sie können keine anderen einladen, bevor Sie ShipAny gekauft haben",
+    "no_orders": "Sie können keine anderen einladen, bevor Sie AI Hairstyle Changer gekauft haben",
     "no_affiliates": "Sie dürfen keine anderen einladen, kontaktieren Sie uns für eine Berechtigung.",
     "table": {
       "invite_time": "Einladungszeit",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Lanza cualquier Startup de SaaS con IA en horas | ShipAny",
-    "description": "ShipAny es una plantilla NextJS para construir startups de SaaS con IA, Lanza Rápido con variedad de plantillas y componentes.",
-    "keywords": "ShipAny, Plantilla SaaS con IA, Plantilla NextJS"
+    "title": "Cambiador de Peinados con IA | Prueba Peinados y Cortes Gratis en Línea",
+    "description": "AI Hairstyle Changer es una herramienta gratuita para probar peinados virtuales y un simulador de cortes de cabello. Prueba instantáneamente peinados con tu foto, crea tu propio corte usando IA y descubre qué estilo te queda mejor — ideal para hombres y mujeres.",
+    "keywords": "Cambiador de Peinados con IA, probar peinados, prueba de peinado, simulador de corte de pelo, IA peinados gratis en línea, prueba peinados con tu foto, qué peinado me queda, generador de corte personalizado, peinados virtuales para hombres, peinados para hombres gratis online, probar cortes, generador de peinados"
   },
   "user": {
     "sign_in": "Iniciar Sesión",
@@ -34,7 +34,7 @@
   },
   "my_orders": {
     "title": "Mis Pedidos",
-    "description": "pedidos pagados con ShipAny.",
+    "description": "pedidos pagados con AI Hairstyle Changer.",
     "no_orders": "No se encontraron pedidos",
     "tip": "",
     "activate_order": "Activar Pedido",
@@ -82,7 +82,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Noticias, recursos y actualizaciones sobre ShipAny",
+    "description": "Noticias, recursos y actualizaciones sobre AI Hairstyle Changer",
     "read_more_text": "Leer Más"
   },
   "my_invites": {
@@ -93,7 +93,7 @@
     "edit_invite_link": "Editar Enlace",
     "copy_invite_link": "Copiar Enlace",
     "invite_code": "Código de Invitación",
-    "invite_tip": "Invita a 1 amigo a comprar ShipAny, recompensa $50.",
+    "invite_tip": "Invita a 1 amigo a comprar AI Hairstyle Changer, recompensa $50.",
     "invite_balance": "Saldo de Recompensas",
     "total_invite_count": "Total de Invitados",
     "total_paid_count": "Total de Pagados",
@@ -101,7 +101,7 @@
     "update_invite_code": "Configurar Código",
     "update_invite_code_tip": "Ingresa tu código personalizado",
     "update_invite_button": "Guardar",
-    "no_orders": "No puedes invitar a otros antes de comprar ShipAny",
+    "no_orders": "No puedes invitar a otros antes de comprar AI Hairstyle Changer",
     "no_affiliates": "No tienes permiso para invitar, contáctanos para solicitarlo.",
     "table": {
       "invite_time": "Fecha de Invitación",

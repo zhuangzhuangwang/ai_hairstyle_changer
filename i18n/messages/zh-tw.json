@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "數小時內發布任何AI SaaS新創 | ShipAny",
-    "description": "ShipAny是用於構建AI SaaS新創的NextJS樣板，透過多種模板和組件快速發布產品。",
-    "keywords": "ShipAny, AI SaaS樣板, NextJS樣板"
+    "title": "AI髮型更換器 | 免費線上試髮型與髮型模擬器",
+    "description": "AI髮型更換器是一款免費的虛擬髮型試用工具與髮型模擬器。上傳照片即可即時試髮型，透過AI生成專屬髮型，幫助你找到最適合自己的造型 — 適用於男性與女性。",
+    "keywords": "AI髮型更換器, 嘗試髮型, 髮型試用, 髮型模擬器, 免費AI髮型線上, 用照片試髮型, 適合我的髮型, 自訂髮型產生器, 男性虛擬髮型, 免費男性髮型線上, 試髮型, 髮型產生器"
   },
   "user": {
     "sign_in": "登入",
@@ -34,7 +34,7 @@
   },
   "my_orders": {
     "title": "我的訂單",
-    "description": "使用ShipAny支付的訂單",
+    "description": "使用AI Hairstyle Changer支付的訂單",
     "no_orders": "未找到訂單",
     "tip": "",
     "activate_order": "啟用訂單",
@@ -82,7 +82,7 @@
   },
   "blog": {
     "title": "部落格",
-    "description": "關於ShipAny的新聞、資源和更新",
+    "description": "關於AI Hairstyle Changer的新聞、資源和更新",
     "read_more_text": "閱讀更多"
   },
   "my_invites": {
@@ -93,7 +93,7 @@
     "edit_invite_link": "編輯邀請連結",
     "copy_invite_link": "複製邀請連結",
     "invite_code": "邀請碼",
-    "invite_tip": "邀請1位朋友購買ShipAny，獎勵$50。",
+    "invite_tip": "邀請1位朋友購買AI Hairstyle Changer，獎勵$50。",
     "invite_balance": "邀請獎勵餘額",
     "total_invite_count": "總邀請人數",
     "total_paid_count": "總支付人數",
@@ -101,7 +101,7 @@
     "update_invite_code": "設置邀請碼",
     "update_invite_code_tip": "輸入您的自定義邀請碼",
     "update_invite_button": "保存",
-    "no_orders": "在您購買ShipAny之前無法邀請他人",
+    "no_orders": "在您購買AI Hairstyle Changer之前無法邀請他人",
     "no_affiliates": "您沒有邀請他人的權限，請聯繫我們申請權限。",
     "table": {
       "invite_time": "邀請時間",

@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Ship Any AI SaaS Startups in hours | ShipAny",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups, Ship Fast with a variety of templates and components.",
-    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+    "title": "AI Hairstyle Changer | Try On Hairstyles & Haircuts Online Free",
+    "description": "AI Hairstyle Changer is a free virtual hairstyle try-on tool and haircut simulator. Instantly try on hairstyles with your picture, create your own haircut using AI, and discover what hairstyle suits you best — perfect for men and women.",
+    "keywords": "AI Hairstyle Changer, try on hairstyles, hairstyle try on, haircut simulator, AI hairstyle online free, try on hairstyles with your picture, what hairstyle suits me, create your own haircut generator, virtual hair style men, free men hairstyle online, try on haircuts, haircut generator"
   },
   "user": {
     "sign_in": "Sign In",
@@ -34,7 +34,7 @@
   },
   "my_orders": {
     "title": "My Orders",
-    "description": "orders paid with ShipAny.",
+    "description": "orders paid with AI Hairstyle Changer.",
     "no_orders": "No orders found",
     "tip": "",
     "activate_order": "Activate Order",
@@ -82,7 +82,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "News, resources, and updates about ShipAny",
+    "description": "News, resources, and updates about AI Hairstyle Changer",
     "read_more_text": "Read More"
   },
   "my_invites": {
@@ -93,7 +93,7 @@
     "edit_invite_link": "Edit Invite Link",
     "copy_invite_link": "Copy Invite Link",
     "invite_code": "Invite Code",
-    "invite_tip": "Invite 1 friend to buy ShipAny, reward $50.",
+    "invite_tip": "Invite 1 friend to buy AI Hairstyle Changer, reward $50.",
     "invite_balance": "Invite Reward Balance",
     "total_invite_count": "Total Invite Count",
     "total_paid_count": "Total Paid Count",
@@ -101,7 +101,7 @@
     "update_invite_code": "Set Invite Code",
     "update_invite_code_tip": "Input your custom invite code",
     "update_invite_button": "Save",
-    "no_orders": "You can't invite others before you bought ShipAny",
+    "no_orders": "You can't invite others before you bought AI Hairstyle Changer",
     "no_affiliates": "You're not allowed to invite others, please contact us to apply for permission.",
     "table": {
       "invite_time": "Invite Time",
