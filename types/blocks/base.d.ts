@@ -78,9 +78,9 @@ export interface Tip {
 }
 
 export interface SocialItem {
-  text: ReactNode;
-  text: any;
-  title: string;
+  text?: ReactNode;
+  text?: any;
+  title?: string;
   icon?: string;
   url?: string;
   target?: string;
