@@ -1,0 +1,1156 @@
+{
+  "template": "AIヘアスタイルチェンジャー-template-one",
+  "theme": "light",
+  "header": {
+      "brand": {
+          "title": "AIヘアスタイルチェンジャー",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AIヘアスタイルチェンジャー"
+          },
+          "url": "/"
+      },
+      "nav": {
+          "items": [
+              {
+                  "title": "特徴",
+                  "url": "/#feature",
+                  "icon": "HiOutlineSparkles"
+              },
+              {
+                  "title": "例",
+                  "url": "/#example",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "よくある質問",
+                  "url": "/#faq",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "APIドキュメント",
+                  "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                  "target": "_blank",
+                  "variant": "link",
+                  "icon": "HiOutlineSparkles"
+              }
+          ]
+      },
+      "buttons": [
+          {
+              "title": "APIキーを取得",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "variant": "link",
+              "icon": "RiArrowRightUpLine"
+          }
+      ],
+      "show_sign": false,
+      "show_theme": false,
+      "show_locale": true
+  },
+  "hero": {
+      "title": "ヘアスタイルを試せるAIヘアスタイルチェンジャー",
+      "highlight_text": "AIヘアスタイルチェンジャー",
+      "description": "当社のヘアスタイルチェンジャーツールでさまざまなヘアスタイルを試して、自分に似合うスタイルを見つけましょう！今すぐ無料のAIヘアスタイルツールをチェックして、簡単に完璧なスタイルを見つけてください！",
+      "labels": [
+          {
+              "title": "100%無料",
+              "color": "amber"
+          },
+          {
+              "title": "AILabTools提供",
+              "color": "red"
+          },
+          {
+              "title": "ログイン不要",
+              "color": "blue"
+          },
+          {
+              "title": "無制限の生成",
+              "color": "green"
+          }
+      ],
+      "show_happy_users": false,
+      "show_badge": false,
+      "show_label": true
+  },
+  "editor": {
+      "name": "editor",
+      "turnstile": {
+          "title": "確認してください"
+      },
+      "generate_model": {
+          "title": "再試行",
+          "sub_text": "本当によろしいですか？",
+          "content": "この操作は元に戻せません。写真が完全に削除され、当社のサーバーからデータが削除されます。",
+          "confirm": "確認",
+          "cencel": "キャンセル"
+      },
+      "left_box": {
+          "men_btn": "男性用ヘアスタイル",
+          "women_btn": "女性用ヘアスタイル",
+          "hair_style_btn": "ヘアスタイル",
+          "hair_color_btn": "髪色",
+          "generate_btn": "生成",
+          "hair_styles": {
+              "colors": [
+                  {
+                      "title": "ブロンド",
+                      "value": "blonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                  },
+                  {
+                      "title": "ブラウン",
+                      "value": "brown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/brown.jpg"
+                  },
+                  {
+                      "title": "ライトブラウン",
+                      "value": "lightBrown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                  },
+                  {
+                      "title": "黒",
+                      "value": "black",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/black.jpg"
+                  },
+                  {
+                      "title": "プラチナブロンド",
+                      "value": "platinumBlonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                  },
+                  {
+                      "title": "白",
+                      "value": "white",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/white.jpg"
+                  },
+                  {
+                      "title": "グレー",
+                      "value": "grey",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/grey.jpg"
+                  },
+                  {
+                      "title": "紫",
+                      "value": "purple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/purple.jpg"
+                  },
+                  {
+                      "title": "ダークブルー",
+                      "value": "darkBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                  },
+                  {
+                      "title": "ライトパープル",
+                      "value": "lightPurple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                  },
+                  {
+                      "title": "青",
+                      "value": "blue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blue.jpg"
+                  },
+                  {
+                      "title": "ライトブルー",
+                      "value": "lightBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                  },
+                  {
+                      "title": "ダークグリーン",
+                      "value": "darkGreen",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                  },
+                  {
+                      "title": "緑",
+                      "value": "green",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/green.jpg"
+                  },
+                  {
+                      "title": "赤",
+                      "value": "red",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/red.jpg"
+                  },
+                  {
+                      "title": "バーガンディ",
+                      "value": "burgundy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                  },
+                  {
+                      "title": "ピンク",
+                      "value": "pink",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/pink.jpg"
+                  },
+                  {
+                      "title": "オレンジ",
+                      "value": "orange",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/orange.jpg"
+                  }
+              ],
+              "men": [
+                  {
+                      "title": "スリックバック",
+                      "value": "ManGreased",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                  },
+                  {
+                      "title": "チェストナットカット",
+                      "value": "Chestnut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                  },
+                  {
+                      "title": "チョッピーバング",
+                      "value": "ChoppyBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                  },
+                  {
+                      "title": "ローフェード",
+                      "value": "LowFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                  },
+                  {
+                      "title": "ミドルパート",
+                      "value": "Middle-parted",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                  },
+                  {
+                      "title": "スリックバック",
+                      "value": "SlickBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                  },
+                  {
+                      "title": "ティンフォイルパーマ",
+                      "value": "TinfoilPerm",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                  },
+                  {
+                      "title": "メシーカール",
+                      "value": "CurlyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                  },
+                  {
+                      "title": "アンダーカット",
+                      "value": "UnderCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                  },
+                  {
+                      "title": "ウェービーシャグ",
+                      "value": "WavyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                  },
+                  {
+                      "title": "ウェービーミドルパート",
+                      "value": "WavyMiddlePart",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                  },
+                  {
+                      "title": "バズカット",
+                      "value": "BuzzCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                  },
+                  {
+                      "title": "フォーホーク",
+                      "value": "FauxHawk",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                  },
+                  {
+                      "title": "ハイタイトフェード",
+                      "value": "HighTightFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                  }
+              ],
+              "women": [
+                  {
+                      "title": "クラシックボブ",
+                      "value": "BobCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                  },
+                  {
+                      "title": "カーリーボブ",
+                      "value": "CurlyBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                  },
+                  {
+                      "title": "フィッシュテールブレード",
+                      "value": "FishtailBraid",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                  },
+                  {
+                      "title": "ジャパニーズショート",
+                      "value": "JapaneseShort",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                  },
+                  {
+                      "title": "ロングカール",
+                      "value": "LongCurly",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                  },
+                  {
+                      "title": "ロング姫カット",
+                      "value": "LongHimeCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                  },
+                  {
+                      "title": "ロングウェービー",
+                      "value": "LongWavy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                  },
+                  {
+                      "title": "ミディアムロングレイヤード",
+                      "value": "MediumLongLayered",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                  },
+                  {
+                      "title": "ピクシーカット",
+                      "value": "PixieCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                  },
+                  {
+                      "title": "ショートカーリーピクシー",
+                      "value": "ShortCurlyPixie",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                  },
+                  {
+                      "title": "ショートニートボブ",
+                      "value": "ShortNeatBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                  },
+                  {
+                      "title": "ショルダーレングスストレート",
+                      "value": "ShoulderLengthHair",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                  },
+                  {
+                      "title": "ダブルバン",
+                      "value": "DoubleBun",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                  },
+                  {
+                      "title": "ボウルカット",
+                      "value": "bowlCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                  },
+                  {
+                      "title": "ボックスブレード",
+                      "value": "BoxBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                  },
+                  {
+                      "title": "シニョン",
+                      "value": "Chignon",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                  },
+                  {
+                      "title": "フレンチバング",
+                      "value": "FrenchBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                  },
+                  {
+                      "title": "ロングストレート",
+                      "value": "LongStraight",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                  },
+                  {
+                      "title": "ロングツインテール",
+                      "value": "LongTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                  },
+                  {
+                      "title": "ポニーテール",
+                      "value": "Ponytail",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                  },
+                  {
+                      "title": "サイド刈り上げピクシー",
+                      "value": "ShortPixieWithShavedSides",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                  },
+                  {
+                      "title": "ショートツインテール",
+                      "value": "ShortTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                  },
+                  {
+                      "title": "スリックバック",
+                      "value": "SlickedBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                  },
+                  {
+                      "title": "スタックカールショートボブ",
+                      "value": "StackedCurlsInShortBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                  },
+                  {
+                      "title": "ツインブレード",
+                      "value": "TwinBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                  },
+                  {
+                      "title": "アップスタイル",
+                      "value": "Updo",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                  },
+                  {
+                      "title": "ウェービーフレンチボブ（1920年代風）",
+                      "value": "WavyFrenchBobVibesfrom1920",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                  }
+              ]
+          }
+      },
+      "right_box": {
+          "download_btn": "ダウンロード",
+          "upload_btn": "写真をアップロード",
+          "upload_text": "画像をクリックまたはドラッグ＆ドロップしてヘアスタイルを試してみましょう",
+          "upload_rules": [
+              "画像形式：PNG JPG JPEG",
+              "画像サイズ：3MB以下",
+              "画像解像度：200x200px以上、1999x1999px以下"
+          ],
+          "upload_example": "ヘアカットシミュレーターを試したいですか？これらの例を使用してください：",
+          "upload_example_imgs": [
+              "https://ai-resource.ailabtools.com/resource/361-before.png",
+              "https://ai-resource.ailabtools.com/resource/360-before.png",
+              "https://ai-resource.ailabtools.com/resource/359-before.png",
+              "https://ai-resource.ailabtools.com/resource/358-before.png"
+          ]
+      }
+  },
+  "example": {
+      "name": "example",
+      "title": "ヘアスタイル例",
+      "description": "バーチャルヘアスタイルジェネレーターでヘアスタイルを試して完璧なルックを見つけるために必要なすべてが揃っています",
+      "imgs": [
+          {
+              "title": "ロングウェービーヘア",
+              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-1.png"
+          },
+          {
+              "title": "サイド刈り上げピクシー",
+              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-2.png"
+          },
+          {
+              "title": "ピクシーカット",
+              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-3.png"
+          },
+          {
+              "title": "ロングツインテール",
+              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-4.png"
+          },
+          {
+              "title": "アップスタイル",
+              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-5.png"
+          },
+          {
+              "title": "シニョン",
+              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-6.png"
+          },
+          {
+              "title": "ボブカット",
+              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-7.png"
+          },
+          {
+              "title": "ショートカーリーピクシー",
+              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-8.png"
+          },
+          {
+              "title": "ダブルバン",
+              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-9.png"
+          },
+          {
+              "title": "コーンロウ",
+              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-10.png"
+          },
+          {
+              "title": "1920年代風ウェービーフレンチボブ",
+              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-11.png"
+          },
+          {
+              "title": "ロング姫カット",
+              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-12.png"
+          },
+          {
+              "title": "カーリーボブ",
+              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-13.png"
+          },
+          {
+              "title": "ショルダーレングスストレート",
+              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-14.png"
+          },
+          {
+              "title": "ツインブレード",
+              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-15.png"
+          },
+          {
+              "title": "ミドルパート",
+              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-16.png"
+          },
+          {
+              "title": "バズカット",
+              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-17.png"
+          },
+          {
+              "title": "ツーブロック",
+              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-18.png"
+          },
+          {
+              "title": "カーリーシャグ",
+              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-19.png"
+          },
+          {
+              "title": "ロングヘアアップスタイル",
+              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-20.png"
+          }
+      ]
+  },
+  "branding": {
+      "title": "AIヘアスタイルチェンジャーは巨人の肩の上に立っています",
+      "items": [
+          {
+              "title": "Next.js",
+              "image": {
+                  "src": "/imgs/logos/nextjs.svg",
+                  "alt": "Next.js"
+              }
+          },
+          {
+              "title": "React",
+              "image": {
+                  "src": "/imgs/logos/react.svg",
+                  "alt": "React"
+              }
+          },
+          {
+              "title": "TailwindCSS",
+              "image": {
+                  "src": "/imgs/logos/tailwindcss.svg",
+                  "alt": "TailwindCSS"
+              }
+          },
+          {
+              "title": "Shadcn/UI",
+              "image": {
+                  "src": "/imgs/logos/shadcn.svg",
+                  "alt": "Shadcn/UI"
+              }
+          },
+          {
+              "title": "Vercel",
+              "image": {
+                  "src": "/imgs/logos/vercel.svg",
+                  "alt": "Vercel"
+              }
+          }
+      ]
+  },
+  "introduce": {
+      "name": "introduce",
+      "title": "AIヘアスタイルチェンジャーAPIサービス",
+      "label": "紹介",
+      "email": "mailto:business@ailabtools.com",
+      "description": "AIヘアスタイルチェンジャーAPIは深層学習を活用して顔の特徴と髪の領域を正確に検出し、リアルタイムのバーチャルヘアスタイル変換（ショート、ロング、カール、カラー）を可能にします。美容アプリ、eコマース、ソーシャルメディア、ARプラットフォームに最適で、高速処理、プライバシー準拠、高いユーザーエンゲージメントを提供します。",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "items": [
+          {
+              "title": "詳細な調査",
+              "description": "各地域の文化的背景と美的嗜好について詳細な調査を行い、ヘアスタイルデザインがお客様の期待に正確に応えるようにしています。",
+              "icon": "RiNextjsFill"
+          },
+          {
+              "title": "パーソナライズされたカスタマイズ",
+              "description": "先進のAI技術と地元の美容師の専門知識を組み合わせ、各顧客に合わせたパーソナライズされたヘアスタイルデザインソリューションを提供します。",
+              "icon": "RiDatabase2Line"
+          },
+          {
+              "title": "継続的な革新",
+              "description": "私たちは世界のファッション動向を常にリードし、最新のヘアスタイルトレンドと技術を探求し続け、お客様がスタイルの最先端であり続けることを保証します。",
+              "icon": "RiCloudyFill"
+          }
+      ]
+  },
+  "benefit": {
+      "name": "benefit",
+      "title": "AIヘアスタイルチェンジャーを選ぶ理由",
+      "label": "メリット",
+      "description": "最高の無料AIヘアスタイルツールの素晴らしい利点をご体験ください:",
+      "items": [
+          {
+              "title": "リアルなヘアスタイルシミュレーション",
+              "description": "AI搭載のヘアカットジェネレーターが驚くほど正確にヘアスタイルを試せます。",
+              "icon": "RiMagicLine"
+          },
+          {
+              "title": "数百種類のヘアスタイル",
+              "description": "クラシックなスタイルからトレンディなヘアまで、バーチャルヘアスタイルジェネレーターで無限の可能性を。",
+              "icon": "RiScissorsCutLine"
+          },
+          {
+              "title": "即時結果",
+              "description": "高速で正確なAI技術により、数秒でヘアスタイルの結果を確認できます。",
+              "icon": "RiTimerFlashLine"
+          }
+      ]
+  },
+  "usage": {
+      "name": "usage",
+      "title": "プライベートヘアスタイルのカスタマイズ方法",
+      "email": "mailto:business@ailabtools.com",
+      "description": "お客様一人ひとりのニーズにお応えするため、先進的なAI画像処理技術を活用したパーソナライズドサービスを提供しています。",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "image_position": "left",
+      "text_align": "center",
+      "items": [
+          {
+              "title": "ヘアスタイル画像の収集",
+              "description": "カスタマイズしたいヘアスタイルの高解像度画像を30枚以上ご提供ください。",
+              "image": {
+                  "src": "/imgs/features/image-1.png"
+              }
+          },
+          {
+              "title": "データ処理",
+              "description": "AIチームが画像のトリミング、ラベリング、画質向上などの処理を行います。",
+              "image": {
+                  "src": "/imgs/features/image-2.png"
+              }
+          },
+          {
+              "title": "AIモデルのトレーニング",
+              "description": "処理済みデータを使用し、正確でリアルな結果を得るためヘアスタイルモデルを調整します。",
+              "image": {
+                  "src": "/imgs/features/image-3.png"
+              }
+          },
+          {
+              "title": "検証と納品",
+              "description": "AIによる検証後、お客様に結果を確認いただき、承認後API経由で納品します。",
+              "image": {
+                  "src": "/imgs/features/image-4.png"
+              }
+          }
+      ]
+  },
+  "feature": {
+      "name": "feature",
+      "title": "AIヘアスタイルチェンジャーの主な機能",
+      "description": "AI搭載のバーチャルヘアスタイルジェネレーターで、簡単に完璧なヘアスタイルを見つけましょう！様々なスタイルを即座に試せます。",
+      "items": [
+          {
+              "title": "AI搭載ヘアカットシミュレーター",
+              "description": "先進的なAIヘアカットジェネレーターでリアルなヘアスタイル変化を体験。",
+              "icon": "RiRobot2Line"
+          },
+          {
+              "title": "バーチャルヘアスタイル試着",
+              "description": "自分の写真を使って数百種類のヘアスタイルを即座に試せます。",
+              "icon": "RiCameraLensFill"
+          },
+          {
+              "title": "男性・女性用ヘアスタイル",
+              "description": "無料のオンラインツールで自分に似合うヘアスタイルを発見。",
+              "icon": "RiUserSmileLine"
+          },
+          {
+              "title": "リアルな髪色シミュレーション",
+              "description": "AIカラーシミュレーターで様々な髪色を試し、完璧な色を見つけましょう。",
+              "icon": "RiPaletteFill"
+          },
+          {
+              "title": "即時結果",
+              "description": "高速で正確なAI技術により、数秒で結果を確認できます。",
+              "icon": "RiFlashlightFill"
+          },
+          {
+              "title": "無料で利用可能",
+              "description": "制限なく使える最高の無料AIヘアスタイルツールをお楽しみください。",
+              "icon": "RiMoneyDollarCircleFill"
+          }
+      ]
+  },
+  "showcase": {
+      "name": "showcase",
+      "title": "AIヘアスタイルチェンジャーで構築されたAI SaaSスタートアップ",
+      "description": "簡単に使えて迅速にリリース可能",
+      "items": [
+          {
+              "title": "ThinkAny",
+              "description": "AI検索エンジン",
+              "url": "https://thinkany.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/7.png"
+              }
+          },
+          {
+              "title": "HeyBeauty",
+              "description": "AIバーチャル試着",
+              "url": "https://heybeauty.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/5.png"
+              }
+          },
+          {
+              "title": "AI Wallpaper",
+              "description": "AI壁紙ジェネレーター",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/1.png"
+              }
+          },
+          {
+              "title": "AI Cover",
+              "description": "AIカバージェネレーター",
+              "url": "https://aicover.design",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/2.png"
+              }
+          },
+          {
+              "title": "GPTs Works",
+              "description": "GPTsディレクトリ",
+              "url": "https://gpts.works",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/3.png"
+              }
+          },
+          {
+              "title": "Melodisco",
+              "description": "AIミュージックプレイヤー",
+              "url": "https://melodis.co",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/4.png"
+              }
+          },
+          {
+              "title": "Pagen",
+              "description": "AIランディングページジェネレーター",
+              "url": "https://pagen.so",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/6.png"
+              }
+          },
+          {
+              "title": "SoraFM",
+              "description": "AI動画ジェネレーター",
+              "url": "https://sorafm.trys.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/8.png"
+              }
+          },
+          {
+              "title": "PodLM",
+              "description": "AIポッドキャストジェネレーター",
+              "url": "https://podlm.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/9.png"
+              }
+          }
+      ]
+  },
+  "stats": {
+      "name": "stats",
+      "label": "統計",
+      "title": "愛されるAIヘアスタイルチェンジャー",
+      "description": "使いやすさと迅速なリリースが特徴",
+      "icon": "FaRegHeart",
+      "items": [
+          {
+              "title": "信頼されている",
+              "label": "99+",
+              "description": "顧客"
+          },
+          {
+              "title": "構成要素",
+              "label": "20+",
+              "description": "コンポーネント"
+          },
+          {
+              "title": "迅速なリリース",
+              "label": "5",
+              "description": "分"
+          }
+      ]
+  },
+  "pricing": {
+      "name": "pricing",
+      "label": "料金",
+      "title": "料金プラン",
+      "description": "AIヘアスタイルチェンジャーの全機能を活用し、AI SaaSスタートアップを迅速にリリース",
+      "groups": [
+
+      ],
+      "items": [
+          {
+              "title": "スターター",
+              "description": "最初のSaaSスタートアップを始めましょう",
+              "features_title": "含まれるもの",
+              "features": [
+                  "100クレジット（1ヶ月有効）",
+                  "NextJSボイラープレート",
+                  "SEO最適化構造",
+                  "Stripeによる決済",
+                  "Supabaseによるデータ保存",
+                  "Google Oauth &ワンタップログイン",
+                  "i18nサポート"
+              ],
+              "interval": "one-time",
+              "amount": 9900,
+              "cn_amount": 69900,
+              "currency": "USD",
+              "price": "$99",
+              "original_price": "$199",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "一度支払えば無制限にプロジェクトを作成可能",
+              "button": {
+                  "title": "AIヘアスタイルチェンジャーを入手",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "starter",
+              "product_name": "AIヘアスタイルチェンジャー ボイラープレート スターター",
+              "credits": 100,
+              "valid_months": 1
+          },
+          {
+              "title": "スタンダード",
+              "description": "SaaSスタートアップを迅速にリリース",
+              "label": "人気",
+              "features_title": "スターターに加えて",
+              "features": [
+                  "200クレジット（3ヶ月有効）",
+                  "VercelまたはCloudflareでデプロイ",
+                  "プライバシーポリシーと利用規約の自動生成",
+                  "Google Analytics統合",
+                  "Google Search Console統合",
+                  "Discordコミュニティ",
+                  "初回リリース時のテクニカルサポート",
+                  "生涯アップデート"
+              ],
+              "interval": "one-time",
+              "amount": 19900,
+              "cn_amount": 139900,
+              "currency": "USD",
+              "price": "$199",
+              "original_price": "$299",
+              "unit": "USD",
+              "is_featured": true,
+              "tip": "一度支払えば無制限にプロジェクトを作成可能",
+              "button": {
+                  "title": "AIヘアスタイルチェンジャーを入手",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "standard",
+              "product_name": "AIヘアスタイルチェンジャー ボイラープレート スタンダード",
+              "credits": 200,
+              "valid_months": 3
+          },
+          {
+              "title": "プレミアム",
+              "description": "あらゆるAI SaaSスタートアップをリリース",
+              "features_title": "スタンダードに加えて",
+              "features": [
+                  "300クレジット（1年間有効）",
+                  "AIビジネス機能",
+                  "ユーザーセンター",
+                  "クレジットシステム",
+                  "SaaS向けAPI販売",
+                  "管理システム",
+                  "優先テクニカルサポート"
+              ],
+              "interval": "one-time",
+              "amount": 29900,
+              "cn_amount": 199900,
+              "currency": "USD",
+              "price": "$299",
+              "original_price": "$399",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "一度支払えば無制限にプロジェクトを作成可能",
+              "button": {
+                  "title": "AIヘアスタイルチェンジャーを入手",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "premium",
+              "product_name": "AIヘアスタイルチェンジャー ボイラープレート プレミアム",
+              "credits": 300,
+              "valid_months": 12
+          }
+      ]
+  },
+  "testimonial": {
+      "name": "testimonial",
+      "label": "お客様の声",
+      "title": "AIヘアスタイルチェンジャーについてのユーザーレビュー",
+      "description": "AIヘアスタイルチェンジャーの開発者や創業者からの体験談と意見",
+      "icon": "GoThumbsup",
+      "items": [
+          {
+              "title": "デビッド・チェン",
+              "label": "個人ユーザー",
+              "description": "AIヘアスタイルチェンジャーは素晴らしい！写真をアップロードするだけで、様々なヘアスタイルや髪色を即座に試せます。結果は自然でリアル。ヘアスタイル変更を迷っている人に最適です。",
+              "image": {
+                  "src": "/imgs/users/1.png"
+              }
+          },
+          {
+              "title": "レイチェル・キム",
+              "label": "個人ユーザー",
+              "description": "このツールは決断疲れから私を救ってくれました！実際に髪を切ったり染めたりせずに様々なスタイルを確認できます。非常に便利！",
+              "image": {
+                  "src": "/imgs/users/2.png"
+              }
+          },
+          {
+              "title": "マーカス・トンプソン",
+              "label": "個人開発者",
+              "description": "ヘアスタイル調整は驚くほど精密で、細かい髪の毛のディテールまで再現。他のAIヘアチェンジツールと比べてはるかにリアルです。強くおすすめします！",
+              "image": {
+                  "src": "/imgs/users/3.png"
+              }
+          },
+          {
+              "title": "ソフィア・ガルシア",
+              "label": "個人ユーザー",
+              "description": "テンプレートはすぐに使える状態で高度にカスタマイズ可能。AI音楽プラットフォームを数ヶ月ではなく数時間で構築できました。信じられないほど迅速な市場投入！",
+              "image": {
+                  "src": "/imgs/users/4.png"
+              }
+          },
+          {
+              "title": "ジェームズ・ウィルソン",
+              "label": "スタートアップ創業者",
+              "description": "ユーザーフレンドリーなインターフェースで簡単に使えます！ワンクリックでヘアスタイルを変更できるのは非常に便利。今後のアップデートでさらに多くのヘアスタイルと髪色オプションが追加されることを期待しています！",
+              "image": {
+                  "src": "/imgs/users/5.png"
+              }
+          },
+          {
+              "title": "アンナ・チャン",
+              "label": "スタートアップ創業者",
+              "description": "AIヘアスタイルチェンジャーは革新的です！新しいスタイルを簡単に試せるので、実際に髪を切る前に実験できます。AIの精度は印象的です！",
+              "image": {
+                  "src": "/imgs/users/6.png"
+              }
+          }
+      ]
+  },
+  "faq": {
+      "name": "faq",
+      "label": "よくある質問",
+      "title": "よくあるご質問",
+      "description": "無料AIヘアスタイルツールについての質問にお答えします",
+      "items": [
+          {
+              "title": "バーチャルヘアスタイル試着はどのように機能しますか？",
+              "description": "AI搭載のヘアカットシミュレーターは、アップロードした写真にヘアスタイルをマッピングする高度なアルゴリズムを使用し、驚くほど正確にヘアスタイルを試せます。"
+          },
+          {
+              "title": "本当に無料でヘアスタイルを試せますか？",
+              "description": "はい！AIヘアスタイルチェンジャーは完全無料です。追加費用なしでヘアカットを試したり、様々なスタイルを実験できます。"
+          },
+          {
+              "title": "AIヘアスタイル試着APIの使用方法",
+              "description": "1. 開発者として登録 2. アプリケーションを作成しAPIキーを取得 3. ヘアスタイルチェンジャーAPIドキュメントに従って統合し、独自のバーチャルヘアカットジェネレーターを構築"
+          },
+          {
+              "title": "自分の写真を使えますか？",
+              "description": "もちろんです！自分の画像をアップロードしてヘアスタイルを試せます。ヘアカットシミュレーターは、正面を向いたクリアな写真で最も効果的です。"
+          },
+          {
+              "title": "男性と女性の両方に適していますか？",
+              "description": "はい、無料の男女兼用ヘアスタイルツールには、クラシックな男性用カットからトレンディな女性用スタイルまで、すべての性別に対応したスタイルが含まれています。"
+          }
+      ]
+  },
+  "cta": {
+      "name": "cta",
+      "title": "AIヘアスタイルスタートアップを始めよう",
+      "description": "ここから始めて、AIヘアスタイルチェンジャーで変革を",
+      "buttons": [
+          {
+              "title": "APIキーを取得",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "icon": "GoArrowUpRight"
+          },
+          {
+              "title": "ドキュメントを読む",
+              "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+              "target": "_blank",
+              "variant": "outline"
+          }
+      ]
+  },
+  "footer": {
+      "name": "footer",
+      "brand": {
+          "title": "AIヘアスタイルチェンジャー",
+          "description": "AIヘアスタイルチェンジャーはAIを使用してセルフィーを分析し、様々なヘアスタイルと髪色を提供します。リアルタイムプレビューで、顔に最も似合うスタイルを簡単に見つけられます。",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AIヘアスタイルチェンジャー"
+          },
+          "url": "/"
+      },
+      "copyright": "© 2025 • AIヘアスタイルチェンジャー 全著作権所有",
+      "nav": {
+          "items": [
+              {
+                  "title": "について",
+                  "children": [
+                      {
+                          "title": "機能",
+                          "url": "/#feature",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "事例",
+                          "url": "/#expalme",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "エディター",
+                          "url": "/#editor",
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "title": "リソース",
+                  "children": [
+                      {
+                          "title": "カスタマイズ",
+                          "url": "/#usage",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "ドキュメント",
+                          "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                          "target": "_blank"
+                      },
+                      {
+                          "title": "APIキーを取得",
+                          "url": "https://www.ailabtools.com/doc/get-api-key",
+                          "target": "_blank"
+                      }
+                  ]
+              }
+          ]
+      },
+      "social": {
+          "items": [
+              {
+                  "title": "メール",
+                  "icon": "RiMailLine",
+                  "url": "mailto:businesst@ailabtools.com",
+                  "target": "_self"
+              }
+          ]
+      },
+      "agreement": {
+          "items": [
+              {
+                  "title": "プライバシーポリシー",
+                  "url": "/privacy-policy"
+              },
+              {
+                  "title": "利用規約",
+                  "url": "/terms-of-service"
+              }
+          ]
+      }
+  }
+}

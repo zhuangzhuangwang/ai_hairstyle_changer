@@ -1,0 +1,1156 @@
+{
+  "template": "AI 헤어스타일 체인저-template-one",
+  "theme": "light",
+  "header": {
+      "brand": {
+          "title": "AI 헤어스타일 체인저",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AI 헤어스타일 체인저"
+          },
+          "url": "/"
+      },
+      "nav": {
+          "items": [
+              {
+                  "title": "기능",
+                  "url": "/#feature",
+                  "icon": "HiOutlineSparkles"
+              },
+              {
+                  "title": "예시",
+                  "url": "/#example",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "FAQ",
+                  "url": "/#faq",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "API 문서",
+                  "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                  "target": "_blank",
+                  "variant": "link",
+                  "icon": "HiOutlineSparkles"
+              }
+          ]
+      },
+      "buttons": [
+          {
+              "title": "API 키 받기",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "variant": "link",
+              "icon": "RiArrowRightUpLine"
+          }
+      ],
+      "show_sign": false,
+      "show_theme": false,
+      "show_locale": true
+  },
+  "hero": {
+      "title": "헤어스타일 체험을 위한 AI 헤어스타일 체인저",
+      "highlight_text": "AI 헤어스타일 체인저",
+      "description": "우리의 헤어스타일 체인저 도구로 다양한 헤어스타일을 체험하고 나에게 어울리는 스타일을 발견하세요! 지금 바로 무료 AI 헤어스타일 온라인 도구를 확인하고 쉽게 완벽한 룩을 찾아보세요!",
+      "labels": [
+          {
+              "title": "100% 무료",
+              "color": "amber"
+          },
+          {
+              "title": "AILabTools 제공",
+              "color": "red"
+          },
+          {
+              "title": "로그인 불필요",
+              "color": "blue"
+          },
+          {
+              "title": "무제한 생성",
+              "color": "green"
+          }
+      ],
+      "show_happy_users": false,
+      "show_badge": false,
+      "show_label": true
+  },
+  "editor": {
+      "name": "editor",
+      "turnstile": {
+          "title": "인증해주세요"
+      },
+      "generate_model": {
+          "title": "다시 시도",
+          "sub_text": "확실합니까?",
+          "content": "이 작업은 취소할 수 없습니다. 사진이 영구적으로 삭제되고 서버에서 데이터가 제거됩니다.",
+          "confirm": "확인",
+          "cencel": "취소"
+      },
+      "left_box": {
+          "men_btn": "남성 헤어스타일",
+          "women_btn": "여성 헤어스타일",
+          "hair_style_btn": "헤어 스타일",
+          "hair_color_btn": "헤어 컬러",
+          "generate_btn": "생성",
+          "hair_styles": {
+              "colors": [
+                  {
+                      "title": "블론드",
+                      "value": "blonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                  },
+                  {
+                      "title": "브라운",
+                      "value": "brown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/brown.jpg"
+                  },
+                  {
+                      "title": "라이트 브라운",
+                      "value": "lightBrown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                  },
+                  {
+                      "title": "블랙",
+                      "value": "black",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/black.jpg"
+                  },
+                  {
+                      "title": "플래티넘 블론드",
+                      "value": "platinumBlonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                  },
+                  {
+                      "title": "화이트",
+                      "value": "white",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/white.jpg"
+                  },
+                  {
+                      "title": "그레이",
+                      "value": "grey",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/grey.jpg"
+                  },
+                  {
+                      "title": "퍼플",
+                      "value": "purple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/purple.jpg"
+                  },
+                  {
+                      "title": "다크 블루",
+                      "value": "darkBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                  },
+                  {
+                      "title": "라이트 퍼플",
+                      "value": "lightPurple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                  },
+                  {
+                      "title": "블루",
+                      "value": "blue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blue.jpg"
+                  },
+                  {
+                      "title": "라이트 블루",
+                      "value": "lightBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                  },
+                  {
+                      "title": "다크 그린",
+                      "value": "darkGreen",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                  },
+                  {
+                      "title": "그린",
+                      "value": "green",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/green.jpg"
+                  },
+                  {
+                      "title": "레드",
+                      "value": "red",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/red.jpg"
+                  },
+                  {
+                      "title": "버건디",
+                      "value": "burgundy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                  },
+                  {
+                      "title": "핑크",
+                      "value": "pink",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/pink.jpg"
+                  },
+                  {
+                      "title": "오렌지",
+                      "value": "orange",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/orange.jpg"
+                  }
+              ],
+              "men": [
+                  {
+                      "title": "슬릭 백",
+                      "value": "ManGreased",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                  },
+                  {
+                      "title": "체스트넷 컷",
+                      "value": "Chestnut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                  },
+                  {
+                      "title": "초피 뱅",
+                      "value": "ChoppyBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                  },
+                  {
+                      "title": "로우 페이드",
+                      "value": "LowFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                  },
+                  {
+                      "title": "미들 파트",
+                      "value": "Middle-parted",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                  },
+                  {
+                      "title": "슬릭 백",
+                      "value": "SlickBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                  },
+                  {
+                      "title": "틴포일 펌",
+                      "value": "TinfoilPerm",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                  },
+                  {
+                      "title": "메시 컬",
+                      "value": "CurlyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                  },
+                  {
+                      "title": "언더컷",
+                      "value": "UnderCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                  },
+                  {
+                      "title": "웨이비 샤그",
+                      "value": "WavyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                  },
+                  {
+                      "title": "웨이비 미들 파트",
+                      "value": "WavyMiddlePart",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                  },
+                  {
+                      "title": "버즈 컷",
+                      "value": "BuzzCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                  },
+                  {
+                      "title": "포 호크",
+                      "value": "FauxHawk",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                  },
+                  {
+                      "title": "하이 타이트 페이드",
+                      "value": "HighTightFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                  }
+              ],
+              "women": [
+                  {
+                      "title": "클래식 밥",
+                      "value": "BobCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                  },
+                  {
+                      "title": "컬리 밥",
+                      "value": "CurlyBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                  },
+                  {
+                      "title": "피쉬테일 브레이드",
+                      "value": "FishtailBraid",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                  },
+                  {
+                      "title": "일본식 숏",
+                      "value": "JapaneseShort",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                  },
+                  {
+                      "title": "롱 컬리",
+                      "value": "LongCurly",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                  },
+                  {
+                      "title": "롱 히메 컷",
+                      "value": "LongHimeCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                  },
+                  {
+                      "title": "롱 웨이비",
+                      "value": "LongWavy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                  },
+                  {
+                      "title": "미디엄 롱 레이어드",
+                      "value": "MediumLongLayered",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                  },
+                  {
+                      "title": "픽시 컷",
+                      "value": "PixieCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                  },
+                  {
+                      "title": "숏 컬리 픽시",
+                      "value": "ShortCurlyPixie",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                  },
+                  {
+                      "title": "숏 니트 밥",
+                      "value": "ShortNeatBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                  },
+                  {
+                      "title": "숄더 렝스 스트레이트",
+                      "value": "ShoulderLengthHair",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                  },
+                  {
+                      "title": "더블 번",
+                      "value": "DoubleBun",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                  },
+                  {
+                      "title": "보울 컷",
+                      "value": "bowlCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                  },
+                  {
+                      "title": "박스 브레이드",
+                      "value": "BoxBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                  },
+                  {
+                      "title": "시뇽",
+                      "value": "Chignon",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                  },
+                  {
+                      "title": "프렌치 뱅",
+                      "value": "FrenchBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                  },
+                  {
+                      "title": "롱 스트레이트",
+                      "value": "LongStraight",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                  },
+                  {
+                      "title": "롱 트윈 테일",
+                      "value": "LongTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                  },
+                  {
+                      "title": "포니테일",
+                      "value": "Ponytail",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                  },
+                  {
+                      "title": "사이드 밀업 픽시",
+                      "value": "ShortPixieWithShavedSides",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                  },
+                  {
+                      "title": "숏 트윈 테일",
+                      "value": "ShortTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                  },
+                  {
+                      "title": "슬릭 백",
+                      "value": "SlickedBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                  },
+                  {
+                      "title": "스택 컬 숏 밥",
+                      "value": "StackedCurlsInShortBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                  },
+                  {
+                      "title": "트윈 브레이드",
+                      "value": "TwinBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                  },
+                  {
+                      "title": "업도",
+                      "value": "Updo",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                  },
+                  {
+                      "title": "웨이비 프렌치 밥 (1920년대 스타일)",
+                      "value": "WavyFrenchBobVibesfrom1920",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                  }
+              ]
+          }
+      },
+      "right_box": {
+          "download_btn": "다운로드",
+          "upload_btn": "사진 업로드",
+          "upload_text": "이미지를 클릭하거나 드래그 앤 드롭하여 헤어스타일을 체험해보세요",
+          "upload_rules": [
+              "이미지 형식: PNG JPG JPEG",
+              "이미지 크기: 3MB 이하",
+              "이미지 해상도: 200x200px 이상, 1999x1999px 이하"
+          ],
+          "upload_example": "헤어컷 시뮬레이터를 체험하고 싶으신가요? 다음 예시를 사용해보세요:",
+          "upload_example_imgs": [
+              "https://ai-resource.ailabtools.com/resource/361-before.png",
+              "https://ai-resource.ailabtools.com/resource/360-before.png",
+              "https://ai-resource.ailabtools.com/resource/359-before.png",
+              "https://ai-resource.ailabtools.com/resource/358-before.png"
+          ]
+      }
+  },
+  "example": {
+      "name": "example",
+      "title": "헤어스타일 예시",
+      "description": "가상 헤어스타일 생성기로 다양한 헤어스타일을 체험하고 완벽한 룩을 찾아보세요",
+      "imgs": [
+          {
+              "title": "롱 웨이비 헤어",
+              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-1.png"
+          },
+          {
+              "title": "사이드 밀업 픽시",
+              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-2.png"
+          },
+          {
+              "title": "픽시 컷",
+              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-3.png"
+          },
+          {
+              "title": "롱 트윈 테일",
+              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-4.png"
+          },
+          {
+              "title": "업도",
+              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-5.png"
+          },
+          {
+              "title": "시뇽",
+              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-6.png"
+          },
+          {
+              "title": "밥 컷",
+              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-7.png"
+          },
+          {
+              "title": "숏 컬리 픽시",
+              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-8.png"
+          },
+          {
+              "title": "더블 번",
+              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-9.png"
+          },
+          {
+              "title": "콘로우",
+              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-10.png"
+          },
+          {
+              "title": "1920년대 스타일 웨이비 프렌치 밥",
+              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-11.png"
+          },
+          {
+              "title": "롱 히메 컷",
+              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-12.png"
+          },
+          {
+              "title": "컬리 밥",
+              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-13.png"
+          },
+          {
+              "title": "숄더 렝스 스트레이트",
+              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-14.png"
+          },
+          {
+              "title": "트윈 브레이드",
+              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-15.png"
+          },
+          {
+              "title": "미들 파트",
+              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-16.png"
+          },
+          {
+              "title": "버즈 컷",
+              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-17.png"
+          },
+          {
+              "title": "투 블록 컷",
+              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-18.png"
+          },
+          {
+              "title": "컬리 샤그",
+              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-19.png"
+          },
+          {
+              "title": "롱 헤어 업스타일",
+              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-20.png"
+          }
+      ]
+  },
+  "branding": {
+      "title": "AI 헤어스타일 체인저는 거인의 어깨 위에 서 있습니다",
+      "items": [
+          {
+              "title": "Next.js",
+              "image": {
+                  "src": "/imgs/logos/nextjs.svg",
+                  "alt": "Next.js"
+              }
+          },
+          {
+              "title": "React",
+              "image": {
+                  "src": "/imgs/logos/react.svg",
+                  "alt": "React"
+              }
+          },
+          {
+              "title": "TailwindCSS",
+              "image": {
+                  "src": "/imgs/logos/tailwindcss.svg",
+                  "alt": "TailwindCSS"
+              }
+          },
+          {
+              "title": "Shadcn/UI",
+              "image": {
+                  "src": "/imgs/logos/shadcn.svg",
+                  "alt": "Shadcn/UI"
+              }
+          },
+          {
+              "title": "Vercel",
+              "image": {
+                  "src": "/imgs/logos/vercel.svg",
+                  "alt": "Vercel"
+              }
+          }
+      ]
+  },
+  "introduce": {
+      "name": "introduce",
+      "title": "AI 헤어스타일 체인저 API 서비스",
+      "label": "소개",
+      "email": "mailto:business@ailabtools.com",
+      "description": "AI 헤어스타일 체인저 API는 딥러닝을 활용하여 얼굴 특징과 헤어 영역을 정확하게 감지하고, 실시간 가상 헤어스타일 변환(숏, 롱, 컬리, 컬러)을 가능하게 합니다. 뷰티 앱, 전자상거래, 소셜 미디어 및 AR 플랫폼에 이상적이며, 빠른 처리 속도, 개인정보 보호 준수 및 높은 사용자 참여를 제공합니다.",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "items": [
+          {
+              "title": "심층 연구",
+              "description": "우리는 각 지역의 문화적 배경과 미적 선호도에 대한 심층 연구를 수행하여 헤어스타일 디자인이 고객의 기대에 정확히 부응하도록 합니다.",
+              "icon": "RiNextjsFill"
+          },
+          {
+              "title": "맞춤형 서비스",
+              "description": "현지 헤어디자이너의 전문 지식과 결합된 첨단 AI 기술을 사용하여 각 고객에게 맞춤형 헤어스타일 디자인 솔루션을 제공합니다.",
+              "icon": "RiDatabase2Line"
+          },
+          {
+              "title": "지속적인 혁신",
+              "description": "우리는 글로벌 패션 트렌드를 선도하며 최신 헤어스타일 트렌드와 기술을 지속적으로 탐구하여 고객이 스타일의 최전선에 머무를 수 있도록 합니다.",
+              "icon": "RiCloudyFill"
+          }
+      ]
+  },
+  "benefit": {
+      "name": "benefit",
+      "title": "AI 헤어스타일 체인저를 선택해야 하는 이유",
+      "label": "장점",
+      "description": "최고의 무료 AI 헤어스타일 온라인 도구의 놀라운 장점을 경험해보세요:",
+      "items": [
+          {
+              "title": "현실적인 헤어스타일 시뮬레이션",
+              "description": "우리의 AI 기반 헤어컷 생성기는 놀라운 정확도로 헤어스타일을 체험할 수 있도록 현실적인 변환을 생성합니다.",
+              "icon": "RiMagicLine"
+          },
+          {
+              "title": "수백 가지 헤어스타일",
+              "description": "클래식한 컷부터 트렌디한 스타일까지, 가상 헤어스타일 생성기는 나만의 헤어스타일을 만들 수 있는 무한한 가능성을 제공합니다.",
+              "icon": "RiScissorsCutLine"
+          },
+          {
+              "title": "즉각적인 결과",
+              "description": "빠르고 정확한 AI 기술로 몇 초 안에 가상 헤어스타일 결과를 확인할 수 있습니다.",
+              "icon": "RiTimerFlashLine"
+          }
+      ]
+  },
+  "usage": {
+      "name": "usage",
+      "title": "개인 맞춤 헤어스타일 방법",
+      "email": "mailto:business@ailabtools.com",
+      "description": "각 고객의 독특한 요구를 충족시키기 위해, 우리는 첨단 AI 이미지 처리 기술로 지원되는 맞춤형 헤어스타일 서비스를 제공합니다.",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "image_position": "left",
+      "text_align": "center",
+      "items": [
+          {
+              "title": "헤어스타일 이미지 수집",
+              "description": "맞춤 설정을 원하는 헤어스타일의 고해상도 이미지 30장 이상을 제공해 주세요.",
+              "image": {
+                  "src": "/imgs/features/image-1.png"
+              }
+          },
+          {
+              "title": "데이터 처리",
+              "description": "우리 AI 팀은 크롭핑, 라벨링, 화질 향상 등의 데이터 처리를 담당합니다.",
+              "image": {
+                  "src": "/imgs/features/image-2.png"
+              }
+          },
+          {
+              "title": "AI 모델 학습",
+              "description": "처리된 데이터를 사용하여 정확하고 현실적인 결과를 위한 헤어스타일 모델을 개선합니다.",
+              "image": {
+                  "src": "/imgs/features/image-3.png"
+              }
+          },
+          {
+              "title": "검증 및 전달",
+              "description": "AI 검증 후 고객이 결과를 검토합니다. 승인되면 API를 통해 헤어스타일이 전달됩니다.",
+              "image": {
+                  "src": "/imgs/features/image-4.png"
+              }
+          }
+      ]
+  },
+  "feature": {
+      "name": "feature",
+      "title": "AI 헤어스타일 체인저의 주요 기능",
+      "description": "AI 기반 가상 헤어스타일 생성기로 쉽게 완벽한 헤어스타일을 찾아보세요! 다양한 스타일을 즉시 체험하고 가장 잘 어울리는 룩을 찾을 수 있습니다.",
+      "items": [
+          {
+              "title": "AI 기반 헤어컷 시뮬레이터",
+              "description": "우리의 고급 AI 헤어컷 생성기로 현실적인 헤어스타일 변환을 경험해 보세요.",
+              "icon": "RiRobot2Line"
+          },
+          {
+              "title": "가상 헤어스타일 체험",
+              "description": "당신의 사진으로 수백 가지 헤어스타일을 즉시 체험할 수 있습니다.",
+              "icon": "RiCameraLensFill"
+          },
+          {
+              "title": "남성 & 여성 헤어스타일",
+              "description": "무료 남녀 공용 헤어스타일 온라인 도구로 당신에게 가장 잘 어울리는 스타일을 찾아보세요.",
+              "icon": "RiUserSmileLine"
+          },
+          {
+              "title": "현실적인 헤어 컬러 시뮬레이션",
+              "description": "AI 컬러 시뮬레이터로 다양한 헤어 컬러를 시도하고 완벽한 매치를 찾아보세요.",
+              "icon": "RiPaletteFill"
+          },
+          {
+              "title": "즉각적인 결과",
+              "description": "빠르고 정확한 AI 기술로 몇 초 안에 가상 헤어스타일 결과를 확인할 수 있습니다.",
+              "icon": "RiFlashlightFill"
+          },
+          {
+              "title": "무료 사용",
+              "description": "무제한 생성이 가능한 최고의 무료 AI 헤어스타일 온라인 도구를 경험해 보세요.",
+              "icon": "RiMoneyDollarCircleFill"
+          }
+      ]
+  },
+  "showcase": {
+      "name": "showcase",
+      "title": "AI 헤어스타일 체인저로 구축된 AI SaaS 스타트업",
+      "description": "사용하기 쉽고 빠르게 배포 가능",
+      "items": [
+          {
+              "title": "ThinkAny",
+              "description": "AI 검색 엔진",
+              "url": "https://thinkany.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/7.png"
+              }
+          },
+          {
+              "title": "HeyBeauty",
+              "description": "AI 가상 체험",
+              "url": "https://heybeauty.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/5.png"
+              }
+          },
+          {
+              "title": "AI Wallpaper",
+              "description": "AI 월페이퍼 생성기",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/1.png"
+              }
+          },
+          {
+              "title": "AI Cover",
+              "description": "AI 커버 생성기",
+              "url": "https://aiccover.design",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/2.png"
+              }
+          },
+          {
+              "title": "GPTs Works",
+              "description": "GPTs 디렉토리",
+              "url": "https://gpts.works",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/3.png"
+              }
+          },
+          {
+              "title": "Melodisco",
+              "description": "AI 음악 플레이어",
+              "url": "https://melodis.co",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/4.png"
+              }
+          },
+          {
+              "title": "Pagen",
+              "description": "AI 랜딩 페이지 생성기",
+              "url": "https://pagen.so",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/6.png"
+              }
+          },
+          {
+              "title": "SoraFM",
+              "description": "AI 비디오 생성기",
+              "url": "https://sorafm.trys.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/8.png"
+              }
+          },
+          {
+              "title": "PodLM",
+              "description": "AI 팟캐스트 생성기",
+              "url": "https://podlm.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/9.png"
+              }
+          }
+      ]
+  },
+  "stats": {
+      "name": "stats",
+      "label": "통계",
+      "title": "사용자들이 사랑하는 AI 헤어스타일 체인저",
+      "description": "사용하기 쉽고 빠르게 배포할 수 있어서",
+      "icon": "FaRegHeart",
+      "items": [
+          {
+              "title": "신뢰받는",
+              "label": "99+",
+              "description": "고객"
+          },
+          {
+              "title": "구성 요소",
+              "label": "20+",
+              "description": "컴포넌트"
+          },
+          {
+              "title": "빠른 배포",
+              "label": "5",
+              "description": "분"
+          }
+      ]
+  },
+  "pricing": {
+      "name": "pricing",
+      "label": "가격",
+      "title": "가격 정책",
+      "description": "AI 헤어스타일 체인저의 모든 기능을 활용하고 AI SaaS 스타트업을 빠르게 배포하세요.",
+      "groups": [
+
+      ],
+      "items": [
+          {
+              "title": "스타터",
+              "description": "첫 번째 SaaS 스타트업을 시작하세요.",
+              "features_title": "포함 사항",
+              "features": [
+                  "100 크레딧 (1개월 유효)",
+                  "NextJS 보일러플레이트",
+                  "SEO 친화적 구조",
+                  "Stripe 결제",
+                  "Supabase 데이터 저장",
+                  "Google Oauth & 원탭 로그인",
+                  "i18n 지원"
+              ],
+              "interval": "one-time",
+              "amount": 9900,
+              "cn_amount": 69900,
+              "currency": "USD",
+              "price": "$99",
+              "original_price": "$199",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "한 번 결제로 무제한 프로젝트 생성 가능!",
+              "button": {
+                  "title": "AI 헤어스타일 체인저 받기",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "starter",
+              "product_name": "AI 헤어스타일 체인저 보일러플레이트 스타터",
+              "credits": 100,
+              "valid_months": 1
+          },
+          {
+              "title": "스탠다드",
+              "description": "SaaS 스타트업을 빠르게 배포하세요.",
+              "label": "인기",
+              "features_title": "스타터 포함 사항에 추가",
+              "features": [
+                  "200 크레딧 (3개월 유효)",
+                  "Vercel 또는 Cloudflare 배포",
+                  "개인정보 보호정책 및 이용약관 생성",
+                  "Google Analytics 통합",
+                  "Google Search Console 통합",
+                  "Discord 커뮤니티",
+                  "첫 배포 기술 지원",
+                  "평생 업데이트"
+              ],
+              "interval": "one-time",
+              "amount": 19900,
+              "cn_amount": 139900,
+              "currency": "USD",
+              "price": "$199",
+              "original_price": "$299",
+              "unit": "USD",
+              "is_featured": true,
+              "tip": "한 번 결제로 무제한 프로젝트 생성 가능!",
+              "button": {
+                  "title": "AI 헤어스타일 체인저 받기",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "standard",
+              "product_name": "AI 헤어스타일 체인저 보일러플레이트 스탠다드",
+              "credits": 200,
+              "valid_months": 3
+          },
+          {
+              "title": "프리미엄",
+              "description": "모든 AI SaaS 스타트업을 배포하세요.",
+              "features_title": "스탠다드 포함 사항에 추가",
+              "features": [
+                  "300 크레딧 (1년 유효)",
+                  "AI 비즈니스 기능",
+                  "사용자 센터",
+                  "크레딧 시스템",
+                  "SaaS API 판매",
+                  "관리자 시스템",
+                  "우선 기술 지원"
+              ],
+              "interval": "one-time",
+              "amount": 29900,
+              "cn_amount": 199900,
+              "currency": "USD",
+              "price": "$299",
+              "original_price": "$399",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "한 번 결제로 무제한 프로젝트 생성 가능!",
+              "button": {
+                  "title": "AI 헤어스타일 체인저 받기",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "premium",
+              "product_name": "AI 헤어스타일 체인저 보일러플레이트 프리미엄",
+              "credits": 300,
+              "valid_months": 12
+          }
+      ]
+  },
+  "testimonial": {
+      "name": "testimonial",
+      "label": "사용자 평가",
+      "title": "AI 헤어스타일 체인저에 대한 사용자 평가",
+      "description": "AI 헤어스타일 체인저의 개발자와 창립자들이 경험과 통찰을 공유합니다.",
+      "icon": "GoThumbsup",
+      "items": [
+          {
+              "title": "데이비드 첸",
+              "label": "개인 사용자",
+              "description": "AI 헤어스타일 체인저는 놀랍습니다! 사진을 업로드하기만 하면 다양한 헤어스타일과 컬러를 즉시 체험할 수 있습니다. 결과는 자연스럽고 현실적이어서 헤어스타일 변경을 고민하는 사람에게 완벽합니다.",
+              "image": {
+                  "src": "/imgs/users/1.png"
+              }
+          },
+          {
+              "title": "레이첼 김",
+              "label": "개인 사용자",
+              "description": "이 도구는 결정 피로에서 저를 구해주었습니다! 실제로 머리를 자르거나 염색하지 않고도 다양한 스타일을 미리 볼 수 있어요. 정말 유용합니다!",
+              "image": {
+                  "src": "/imgs/users/2.png"
+              }
+          },
+          {
+              "title": "마커스 톰슨",
+              "label": "개인 개발자",
+              "description": "헤어스타일 조정은 놀라울 정도로 정밀하며, 섬세한 헤어 디테일까지 캡처합니다. 다른 AI 헤어 변경 도구와 비교해 훨씬 더 현실적입니다. 강력 추천합니다!",
+              "image": {
+                  "src": "/imgs/users/3.png"
+              }
+          },
+          {
+              "title": "소피아 가르시아",
+              "label": "개인 사용자",
+              "description": "템플릿은 바로 사용 가능한 상태로 매우 커스터마이징이 가능합니다. 우리는 몇 달이 아니라 몇 시간 만에 AI 음악 플랫폼을 구축했습니다. 믿을 수 없을 정도로 빠른 시장 출시였습니다!",
+              "image": {
+                  "src": "/imgs/users/4.png"
+              }
+          },
+          {
+              "title": "제임스 윌슨",
+              "label": "스타트업 창립자",
+              "description": "사용자 친화적인 인터페이스로 쉽게 사용할 수 있습니다! 한 번의 클릭으로 헤어스타일을 변경할 수 있는 것은 매우 편리합니다. 앞으로 더 많은 헤어스타일과 컬러 옵션이 추가되길 기대합니다!",
+              "image": {
+                  "src": "/imgs/users/5.png"
+              }
+          },
+          {
+              "title": "안나 장",
+              "label": "스타트업 창립자",
+              "description": "AI 헤어스타일 체인저는 게임 체인저입니다! 실제로 머리를 자르기 전에 새로운 룩을 쉽게 실험할 수 있습니다. AI 정확도는 인상적입니다!",
+              "image": {
+                  "src": "/imgs/users/6.png"
+              }
+          }
+      ]
+  },
+  "faq": {
+      "name": "faq",
+      "label": "자주 묻는 질문",
+      "title": "자주 묻는 질문",
+      "description": "무료 AI 헤어스타일 온라인 도구에 대한 질문이 있으신가요? 우리가 답변해 드립니다.",
+      "items": [
+          {
+              "title": "가상 헤어스타일 체험은 어떻게 작동하나요?",
+              "description": "우리의 AI 기반 헤어컷 시뮬레이터는 고급 알고리즘을 사용하여 업로드한 사진에 헤어스타일을 매핑하며, 놀라운 정확도로 헤어스타일을 체험할 수 있도록 현실적인 변환을 생성합니다."
+          },
+          {
+              "title": "정말 무료로 헤어스타일을 체험할 수 있나요?",
+              "description": "네! AI 헤어스타일 체인저는 완전히 무료로 사용할 수 있습니다. 추가 비용 없이 헤어컷을 체험하고 다양한 룩을 실험해 볼 수 있습니다."
+          },
+          {
+              "title": "AI 헤어스타일 체험 API 사용 방법",
+              "description": "1. 개발자로 등록 2. 애플리케이션 생성 및 API 키 획득 3. 헤어스타일 체인저 API 문서를 따라 통합하고 자신만의 가상 헤어컷 생성기를 구축하세요."
+          },
+          {
+              "title": "내 사진을 사용할 수 있나요?",
+              "description": "물론입니다! 자신의 이미지를 업로드하여 헤어스타일을 체험할 수 있습니다. 헤어컷 시뮬레이터는 정면을 향한 선명한 사진에서 가장 잘 작동합니다."
+          },
+          {
+              "title": "남성과 여성 모두에게 적합한가요?",
+              "description": "네, 우리의 무료 남녀 공용 헤어스타일 온라인 도구는 클래식한 남성 컷부터 트렌디한 여성 스타일까지 모든 성별을 위한 스타일을 포함하고 있습니다."
+          }
+      ]
+  },
+  "cta": {
+      "name": "cta",
+      "title": "AI 헤어스타일 스타트업 시작하기",
+      "description": "여기서 시작하고, AI 헤어스타일 체인저로 변신하세요.",
+      "buttons": [
+          {
+              "title": "API 키 받기",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "icon": "GoArrowUpRight"
+          },
+          {
+              "title": "문서 읽기",
+              "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+              "target": "_blank",
+              "variant": "outline"
+          }
+      ]
+  },
+  "footer": {
+      "name": "footer",
+      "brand": {
+          "title": "AI 헤어스타일 체인저",
+          "description": "AI 헤어스타일 체인저는 AI를 사용하여 셀카를 분석하고 다양한 헤어스타일과 컬러를 제공합니다. 실시간 미리보기로 얼굴에 가장 잘 어울리는 스타일을 쉽게 찾을 수 있습니다.",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AI 헤어스타일 체인저"
+          },
+          "url": "/"
+      },
+      "copyright": "© 2025 • AI 헤어스타일 체인저 모든 권리 보유.",
+      "nav": {
+          "items": [
+              {
+                  "title": "소개",
+                  "children": [
+                      {
+                          "title": "기능",
+                          "url": "/#feature",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "사례",
+                          "url": "/#expalme",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "에디터",
+                          "url": "/#editor",
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "title": "리소스",
+                  "children": [
+                      {
+                          "title": "맞춤 설정",
+                          "url": "/#usage",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "문서",
+                          "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                          "target": "_blank"
+                      },
+                      {
+                          "title": "API 키 받기",
+                          "url": "https://www.ailabtools.com/doc/get-api-key",
+                          "target": "_blank"
+                      }
+                  ]
+              }
+          ]
+      },
+      "social": {
+          "items": [
+              {
+                  "title": "이메일",
+                  "icon": "RiMailLine",
+                  "url": "mailto:businesst@ailabtools.com",
+                  "target": "_self"
+              }
+          ]
+      },
+      "agreement": {
+          "items": [
+              {
+                  "title": "개인정보 처리방침",
+                  "url": "/privacy-policy"
+              },
+              {
+                  "title": "이용약관",
+                  "url": "/terms-of-service"
+              }
+          ]
+      }
+  }
+}

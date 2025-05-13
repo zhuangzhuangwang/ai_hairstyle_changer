@@ -1,0 +1,1156 @@
+{
+  "template": "AI HairStyle Changer-template-one",
+  "theme": "light",
+  "header": {
+      "brand": {
+          "title": "Смена прически с ИИ",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "Смена прически с ИИ"
+          },
+          "url": "/"
+      },
+      "nav": {
+          "items": [
+              {
+                  "title": "Возможности",
+                  "url": "/#feature",
+                  "icon": "HiOutlineSparkles"
+              },
+              {
+                  "title": "Примеры",
+                  "url": "/#example",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "FAQ",
+                  "url": "/#faq",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "API Документация",
+                  "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                  "target": "_blank",
+                  "variant": "link",
+                  "icon": "HiOutlineSparkles"
+              }
+          ]
+      },
+      "buttons": [
+          {
+              "title": "Получить API ключ",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "variant": "link",
+              "icon": "RiArrowRightUpLine"
+          }
+      ],
+      "show_sign": false,
+      "show_theme": false,
+      "show_locale": true
+  },
+  "hero": {
+      "title": "Смена прически с ИИ - примерьте новые образы",
+      "highlight_text": "Смена прически с ИИ",
+      "description": "Примерьте разные прически с нашим инструментом и узнайте, какая вам идет! Попробуйте бесплатный онлайн-инструмент для смены прически с ИИ и легко найдите свой идеальный образ!",
+      "labels": [
+          {
+              "title": "100% Бесплатно",
+              "color": "amber"
+          },
+          {
+              "title": "Работает на AILabTools",
+              "color": "red"
+          },
+          {
+              "title": "Без регистрации",
+              "color": "blue"
+          },
+          {
+              "title": "Неограниченные генерации",
+              "color": "green"
+          }
+      ],
+      "show_happy_users": false,
+      "show_badge": false,
+      "show_label": true
+  },
+  "editor": {
+      "name": "editor",
+      "turnstile": {
+          "title": "Пожалуйста, подтвердите"
+      },
+      "generate_model": {
+          "title": "Повторить",
+          "sub_text": "Вы уверены?",
+          "content": "Это действие нельзя отменить. Ваше фото будет удалено безвозвратно, а данные удалены с наших серверов.",
+          "confirm": "Подтвердить",
+          "cencel": "Отмена"
+      },
+      "left_box": {
+          "men_btn": "Мужские стрижки",
+          "women_btn": "Женские стрижки",
+          "hair_style_btn": "Стиль",
+          "hair_color_btn": "Цвет",
+          "generate_btn": "Сгенерировать",
+          "hair_styles": {
+              "colors": [
+                  {
+                      "title": "Блонд",
+                      "value": "blonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                  },
+                  {
+                      "title": "Шатен",
+                      "value": "brown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/brown.jpg"
+                  },
+                  {
+                      "title": "Светлый шатен",
+                      "value": "lightBrown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                  },
+                  {
+                      "title": "Черный",
+                      "value": "black",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/black.jpg"
+                  },
+                  {
+                      "title": "Платиновый блонд",
+                      "value": "platinumBlonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                  },
+                  {
+                      "title": "Белый",
+                      "value": "white",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/white.jpg"
+                  },
+                  {
+                      "title": "Серый",
+                      "value": "grey",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/grey.jpg"
+                  },
+                  {
+                      "title": "Фиолетовый",
+                      "value": "purple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/purple.jpg"
+                  },
+                  {
+                      "title": "Темно-синий",
+                      "value": "darkBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                  },
+                  {
+                      "title": "Светло-фиолетовый",
+                      "value": "lightPurple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                  },
+                  {
+                      "title": "Синий",
+                      "value": "blue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blue.jpg"
+                  },
+                  {
+                      "title": "Голубой",
+                      "value": "lightBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                  },
+                  {
+                      "title": "Темно-зеленый",
+                      "value": "darkGreen",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                  },
+                  {
+                      "title": "Зеленый",
+                      "value": "green",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/green.jpg"
+                  },
+                  {
+                      "title": "Рыжий",
+                      "value": "red",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/red.jpg"
+                  },
+                  {
+                      "title": "Бордовый",
+                      "value": "burgundy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                  },
+                  {
+                      "title": "Розовый",
+                      "value": "pink",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/pink.jpg"
+                  },
+                  {
+                      "title": "Оранжевый",
+                      "value": "orange",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/orange.jpg"
+                  }
+              ],
+              "men": [
+                  {
+                      "title": "Зачес назад",
+                      "value": "ManGreased",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                  },
+                  {
+                      "title": "Каштановая стрижка",
+                      "value": "Chestnut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                  },
+                  {
+                      "title": "Рваная челка",
+                      "value": "ChoppyBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                  },
+                  {
+                      "title": "Низкий фейд",
+                      "value": "LowFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                  },
+                  {
+                      "title": "Пробор посередине",
+                      "value": "Middle-parted",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                  },
+                  {
+                      "title": "Гладкий зачес",
+                      "value": "SlickBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                  },
+                  {
+                      "title": "Химическая завивка",
+                      "value": "TinfoilPerm",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                  },
+                  {
+                      "title": "Беспорядочные кудри",
+                      "value": "CurlyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                  },
+                  {
+                      "title": "Андеркат",
+                      "value": "UnderCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                  },
+                  {
+                      "title": "Волнистая шапочка",
+                      "value": "WavyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                  },
+                  {
+                      "title": "Волнистый пробор",
+                      "value": "WavyMiddlePart",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                  },
+                  {
+                      "title": "Бритая стрижка",
+                      "value": "BuzzCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                  },
+                  {
+                      "title": "Ирокез",
+                      "value": "FauxHawk",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                  },
+                  {
+                      "title": "Высокий фейд",
+                      "value": "HighTightFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                  }
+              ],
+              "women": [
+                  {
+                      "title": "Классический боб",
+                      "value": "BobCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                  },
+                  {
+                      "title": "Кудрявый боб",
+                      "value": "CurlyBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                  },
+                  {
+                      "title": "Рыбий хвост",
+                      "value": "FishtailBraid",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                  },
+                  {
+                      "title": "Японская каре",
+                      "value": "JapaneseShort",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                  },
+                  {
+                      "title": "Длинные кудри",
+                      "value": "LongCurly",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                  },
+                  {
+                      "title": "Длинное химе",
+                      "value": "LongHimeCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                  },
+                  {
+                      "title": "Длинные волны",
+                      "value": "LongWavy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                  },
+                  {
+                      "title": "Средние слои",
+                      "value": "MediumLongLayered",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                  },
+                  {
+                      "title": "Пикси",
+                      "value": "PixieCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                  },
+                  {
+                      "title": "Короткие кудри",
+                      "value": "ShortCurlyPixie",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                  },
+                  {
+                      "title": "Аккуратный боб",
+                      "value": "ShortNeatBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                  },
+                  {
+                      "title": "Прямые до плеч",
+                      "value": "ShoulderLengthHair",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                  },
+                  {
+                      "title": "Два пучка",
+                      "value": "DoubleBun",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                  },
+                  {
+                      "title": "Горшок",
+                      "value": "bowlCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                  },
+                  {
+                      "title": "Африканские косички",
+                      "value": "BoxBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                  },
+                  {
+                      "title": "Шиньон",
+                      "value": "Chignon",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                  },
+                  {
+                      "title": "Французская челка",
+                      "value": "FrenchBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                  },
+                  {
+                      "title": "Длинные прямые",
+                      "value": "LongStraight",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                  },
+                  {
+                      "title": "Два хвоста",
+                      "value": "LongTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                  },
+                  {
+                      "title": "Хвостик",
+                      "value": "Ponytail",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                  },
+                  {
+                      "title": "Пикси с выбритыми висками",
+                      "value": "ShortPixieWithShavedSides",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                  },
+                  {
+                      "title": "Два коротких хвоста",
+                      "value": "ShortTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                  },
+                  {
+                      "title": "Зачес назад",
+                      "value": "SlickedBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                  },
+                  {
+                      "title": "Кудрявый боб",
+                      "value": "StackedCurlsInShortBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                  },
+                  {
+                      "title": "Две косы",
+                      "value": "TwinBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                  },
+                  {
+                      "title": "Прическа вверх",
+                      "value": "Updo",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                  },
+                  {
+                      "title": "Волнистый боб (стиль 1920-х)",
+                      "value": "WavyFrenchBobVibesfrom1920",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                  }
+              ]
+          }
+      },
+      "right_box": {
+          "download_btn": "Скачать",
+          "upload_btn": "Загрузить фото",
+          "upload_text": "Нажмите или перетащите изображение, чтобы примерить прически",
+          "upload_rules": [
+              "Формат: PNG JPG JPEG",
+              "Размер: Не более 3 МБ.",
+              "Разрешение: От 200x200px до 1999x1999px."
+          ],
+          "upload_example": "Хотите попробовать симулятор стрижки? Используйте примеры:",
+          "upload_example_imgs": [
+              "https://ai-resource.ailabtools.com/resource/361-before.png",
+              "https://ai-resource.ailabtools.com/resource/360-before.png",
+              "https://ai-resource.ailabtools.com/resource/359-before.png",
+              "https://ai-resource.ailabtools.com/resource/358-before.png"
+          ]
+      }
+  },
+  "example": {
+      "name": "example",
+      "title": "Примеры причесок",
+      "description": "Все, что нужно, чтобы примерить прически и найти свой идеальный образ с нашим виртуальным генератором стилей",
+      "imgs": [
+          {
+              "title": "Длинные волнистые",
+              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-1.png"
+          },
+          {
+              "title": "Короткое пикси с выбритыми висками",
+              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-2.png"
+          },
+          {
+              "title": "Стрижка пикси",
+              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-3.png"
+          },
+          {
+              "title": "Два длинных хвоста",
+              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-4.png"
+          },
+          {
+              "title": "Прическа вверх",
+              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-5.png"
+          },
+          {
+              "title": "Шиньон",
+              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-6.png"
+          },
+          {
+              "title": "Каре",
+              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-7.png"
+          },
+          {
+              "title": "Короткие кудри",
+              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-8.png"
+          },
+          {
+              "title": "Два пучка",
+              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-9.png"
+          },
+          {
+              "title": "Африканские косички",
+              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-10.png"
+          },
+          {
+              "title": "Волнистый боб в стиле 1920-х",
+              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-11.png"
+          },
+          {
+              "title": "Длинное химе",
+              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-12.png"
+          },
+          {
+              "title": "Кудрявый боб",
+              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-13.png"
+          },
+          {
+              "title": "Прямые до плеч",
+              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-14.png"
+          },
+          {
+              "title": "Две косы",
+              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-15.png"
+          },
+          {
+              "title": "Пробор посередине",
+              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-16.png"
+          },
+          {
+              "title": "Бритая стрижка",
+              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-17.png"
+          },
+          {
+              "title": "Двухблочная стрижка",
+              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-18.png"
+          },
+          {
+              "title": "Беспорядочные кудри",
+              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-19.png"
+          },
+          {
+              "title": "Собранные волосы",
+              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-20.png"
+          }
+      ]
+  },
+  "branding": {
+      "title": "Смена прически с ИИ построена на плечах гигантов",
+      "items": [
+          {
+              "title": "Next.js",
+              "image": {
+                  "src": "/imgs/logos/nextjs.svg",
+                  "alt": "Next.js"
+              }
+          },
+          {
+              "title": "React",
+              "image": {
+                  "src": "/imgs/logos/react.svg",
+                  "alt": "React"
+              }
+          },
+          {
+              "title": "TailwindCSS",
+              "image": {
+                  "src": "/imgs/logos/tailwindcss.svg",
+                  "alt": "TailwindCSS"
+              }
+          },
+          {
+              "title": "Shadcn/UI",
+              "image": {
+                  "src": "/imgs/logos/shadcn.svg",
+                  "alt": "Shadcn/UI"
+              }
+          },
+          {
+              "title": "Vercel",
+              "image": {
+                  "src": "/imgs/logos/vercel.svg",
+                  "alt": "Vercel"
+              }
+          }
+      ]
+  },
+  "introduce": {
+      "name": "introduce",
+      "title": "API сервис смены прически с ИИ",
+      "label": "О сервисе",
+      "email": "mailto:business@ailabtools.com",
+      "description": "API смены прически с ИИ использует глубокое обучение для точного определения черт лица и зон волос, позволяя проводить виртуальные преобразования причесок (короткие, длинные, кудрявые, окрашенные) в реальном времени. Идеально подходит для приложений красоты, электронной коммерции, социальных сетей и AR платформ, предлагая быструю обработку, соблюдение конфиденциальности и высокую вовлеченность пользователей.",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "items": [
+          {
+              "title": "Глубокие исследования",
+              "description": "Мы проводим глубокие исследования культурных особенностей и эстетических предпочтений в разных регионах, чтобы наши дизайны причесок точно соответствовали вашим ожиданиям.",
+              "icon": "RiNextjsFill"
+          },
+          {
+              "title": "Персонализированная настройка",
+              "description": "Используя передовые технологии ИИ в сочетании с опытом местных стилистов, мы предоставляем индивидуальные решения по дизайну причесок для каждого клиента.",
+              "icon": "RiDatabase2Line"
+          },
+          {
+              "title": "Непрерывные инновации",
+              "description": "Мы следим за глобальными тенденциями моды, постоянно исследуя последние тенденции в прическах и технологии, чтобы вы оставались на переднем крае стиля.",
+              "icon": "RiCloudyFill"
+          }
+      ]
+  },
+  "benefit": {
+      "name": "benefit",
+      "title": "Почему стоит выбрать смену прически с ИИ?",
+      "label": "Преимущества",
+      "description": "Оцените лучший бесплатный онлайн-инструмент для смены прически с ИИ с этими замечательными преимуществами:",
+      "items": [
+          {
+              "title": "Реалистичная симуляция прически",
+              "description": "Наш генератор стрижек на основе ИИ создает реалистичные преобразования, позволяя вам примерить стрижки с потрясающей точностью.",
+              "icon": "RiMagicLine"
+          },
+          {
+              "title": "Сотни причесок",
+              "description": "От классических стрижек до модных стилей - наш виртуальный генератор причесок предлагает бесконечные возможности для создания собственной стрижки.",
+              "icon": "RiScissorsCutLine"
+          },
+          {
+              "title": "Мгновенные результаты",
+              "description": "Получите результаты виртуальной прически за секунды благодаря нашей быстрой и точной технологии ИИ.",
+              "icon": "RiTimerFlashLine"
+          }
+      ]
+  },
+  "usage": {
+      "name": "usage",
+      "title": "Как настроить индивидуальные прически",
+      "email": "mailto:business@ailabtools.com",
+      "description": "Чтобы удовлетворить уникальные потребности каждого клиента, мы предоставляем персонализированные услуги по созданию причесок с использованием передовых технологий обработки изображений ИИ.",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "image_position": "left",
+      "text_align": "center",
+      "items": [
+          {
+              "title": "Коллекция изображений причесок",
+              "description": "Пожалуйста, предоставьте не менее 30 изображений причесок в высоком разрешении, которые вы хотите настроить.",
+              "image": {
+                  "src": "/imgs/features/image-1.png"
+              }
+          },
+          {
+              "title": "Обработка данных",
+              "description": "Наша команда ИИ обрабатывает данные, включая обрезку, маркировку и улучшение.",
+              "image": {
+                  "src": "/imgs/features/image-2.png"
+              }
+          },
+          {
+              "title": "Обучение модели ИИ",
+              "description": "Наша команда ИИ совершенствует модель прически, используя обработанные данные для получения точных и реалистичных результатов.",
+              "image": {
+                  "src": "/imgs/features/image-3.png"
+              }
+          },
+          {
+              "title": "Проверка и доставка",
+              "description": "После проверки ИИ клиенты оценивают результаты. После утверждения прическа доставляется через API.",
+              "image": {
+                  "src": "/imgs/features/image-4.png"
+              }
+          }
+      ]
+  },
+  "feature": {
+      "name": "feature",
+      "title": "Ключевые возможности смены прически с ИИ",
+      "description": "Откройте для себя идеальную прическу без усилий с нашим виртуальным генератором причесок на основе ИИ! Примеряйте разные образы мгновенно и найдите тот, который вам больше всего подходит.",
+      "items": [
+          {
+              "title": "Симулятор стрижки на ИИ",
+              "description": "Испытайте реалистичные преобразования прически с нашим продвинутым генератором стрижек на ИИ.",
+              "icon": "RiRobot2Line"
+          },
+          {
+              "title": "Виртуальная примерка прически",
+              "description": "Примерьте сотни причесок мгновенно с вашим фото, используя наш виртуальный генератор стилей.",
+              "icon": "RiCameraLensFill"
+          },
+          {
+              "title": "Прически для мужчин и женщин",
+              "description": "Узнайте, какая прическа вам больше всего подходит, с нашим бесплатным онлайн-инструментом.",
+              "icon": "RiUserSmileLine"
+          },
+          {
+              "title": "Реалистичная симуляция цвета волос",
+              "description": "Попробуйте разные цвета волос с нашим симулятором цвета на ИИ, чтобы найти идеальный вариант.",
+              "icon": "RiPaletteFill"
+          },
+          {
+              "title": "Мгновенные результаты",
+              "description": "Получайте результаты виртуальной прически за секунды с нашей быстрой и точной технологией ИИ.",
+              "icon": "RiFlashlightFill"
+          },
+          {
+              "title": "Бесплатное использование",
+              "description": "Оцените лучший бесплатный онлайн-инструмент для смены прически с ИИ с неограниченными генерациями.",
+              "icon": "RiMoneyDollarCircleFill"
+          }
+      ]
+  },
+  "showcase": {
+      "name": "showcase",
+      "title": "SaaS-стартапы на основе смены прически с ИИ",
+      "description": "Простота использования и быстрый запуск.",
+      "items": [
+          {
+              "title": "ThinkAny",
+              "description": "Поисковая система на ИИ",
+              "url": "https://thinkany.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/7.png"
+              }
+          },
+          {
+              "title": "HeyBeauty",
+              "description": "Виртуальная примерка на ИИ",
+              "url": "https://heybeauty.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/5.png"
+              }
+          },
+          {
+              "title": "AI Wallpaper",
+              "description": "Генератор обоев на ИИ",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/1.png"
+              }
+          },
+          {
+              "title": "AI Cover",
+              "description": "Генератор обложек на ИИ",
+              "url": "https://aicover.design",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/2.png"
+              }
+          },
+          {
+              "title": "GPTs Works",
+              "description": "Каталог GPT",
+              "url": "https://gpts.works",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/3.png"
+              }
+          },
+          {
+              "title": "Melodisco",
+              "description": "Музыкальный плеер на ИИ",
+              "url": "https://melodis.co",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/4.png"
+              }
+          },
+          {
+              "title": "Pagen",
+              "description": "Генератор лендингов на ИИ",
+              "url": "https://pagen.so",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/6.png"
+              }
+          },
+          {
+              "title": "SoraFM",
+              "description": "Генератор видео на ИИ",
+              "url": "https://sorafm.trys.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/8.png"
+              }
+          },
+          {
+              "title": "PodLM",
+              "description": "Генератор подкастов на ИИ",
+              "url": "https://podlm.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/9.png"
+              }
+          }
+      ]
+  },
+  "stats": {
+      "name": "stats",
+      "label": "Статистика",
+      "title": "Пользователи любят смену прически с ИИ",
+      "description": "за простоту использования и быстрый запуск.",
+      "icon": "FaRegHeart",
+      "items": [
+          {
+              "title": "Доверяют",
+              "label": "99+",
+              "description": "Клиентов"
+          },
+          {
+              "title": "Построено на",
+              "label": "20+",
+              "description": "Компонентах"
+          },
+          {
+              "title": "Быстрый запуск за",
+              "label": "5",
+              "description": "Минут"
+          }
+      ]
+  },
+  "pricing": {
+      "name": "pricing",
+      "label": "Цены",
+      "title": "Цены",
+      "description": "Получите все возможности смены прически с ИИ, быстро запускайте свои SaaS-стартапы.",
+      "groups": [
+
+      ],
+      "items": [
+          {
+              "title": "Стартовый",
+              "description": "Начните свой первый SaaS-стартап.",
+              "features_title": "Включает",
+              "features": [
+                  "100 кредитов, срок действия 1 месяц",
+                  "NextJS шаблон",
+                  "SEO-оптимизированная структура",
+                  "Оплата через Stripe",
+                  "Хранение данных в Supabase",
+                  "Google Oauth & One-Tap Login",
+                  "Поддержка i18n"
+              ],
+              "interval": "one-time",
+              "amount": 9900,
+              "cn_amount": 69900,
+              "currency": "USD",
+              "price": "$99",
+              "original_price": "$199",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "Оплатите один раз. Создавайте неограниченные проекты!",
+              "button": {
+                  "title": "Получить смену прически с ИИ",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "starter",
+              "product_name": "Смена прически с ИИ: Стартовый шаблон",
+              "credits": 100,
+              "valid_months": 1
+          },
+          {
+              "title": "Стандартный",
+              "description": "Быстрый запуск ваших SaaS-стартапов.",
+              "label": "Популярный",
+              "features_title": "Все из Стартового плюс",
+              "features": [
+                  "200 кредитов, срок действия 3 месяца",
+                  "Развертывание на Vercel или Cloudflare",
+                  "Генерация Политики конфиденциальности и Условий",
+                  "Интеграция Google Analytics",
+                  "Интеграция Google Search Console",
+                  "Сообщество Discord",
+                  "Техническая поддержка для первого запуска",
+                  "Пожизненные обновления"
+              ],
+              "interval": "one-time",
+              "amount": 19900,
+              "cn_amount": 139900,
+              "currency": "USD",
+              "price": "$199",
+              "original_price": "$299",
+              "unit": "USD",
+              "is_featured": true,
+              "tip": "Оплатите один раз. Создавайте неограниченные проекты!",
+              "button": {
+                  "title": "Получить смену прически с ИИ",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "standard",
+              "product_name": "Смена прически с ИИ: Стандартный шаблон",
+              "credits": 200,
+              "valid_months": 3
+          },
+          {
+              "title": "Премиум",
+              "description": "Запускайте любые SaaS-стартапы на ИИ.",
+              "features_title": "Все из Стандартного плюс",
+              "features": [
+                  "300 кредитов, срок действия 1 год",
+                  "Бизнес-функции с ИИ",
+                  "Пользовательский центр",
+                  "Кредитная система",
+                  "Продажи API для вашего SaaS",
+                  "Административная система",
+                  "Приоритетная техническая поддержка"
+              ],
+              "interval": "one-time",
+              "amount": 29900,
+              "cn_amount": 199900,
+              "currency": "USD",
+              "price": "$299",
+              "original_price": "$399",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "Оплатите один раз. Создавайте неограниченные проекты!",
+              "button": {
+                  "title": "Получить смену прически с ИИ",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "premium",
+              "product_name": "Смена прически с ИИ: Премиум шаблон",
+              "credits": 300,
+              "valid_months": 12
+          }
+      ]
+  },
+  "testimonial": {
+      "name": "testimonial",
+      "label": "Отзывы",
+      "title": "Что говорят пользователи о смене прически с ИИ",
+      "description": "Услышьте от разработчиков и основателей, использующих смену прически с ИИ, их опыт и идеи.",
+      "icon": "GoThumbsup",
+      "items": [
+          {
+              "title": "Дэвид Чен",
+              "label": "Частное лицо",
+              "description": "Смена прически с ИИ - это потрясающе! Просто загрузите фото и мгновенно примерьте разные прически и цвета. Результаты выглядят естественно и реалистично - идеально для тех, кто сомневается в смене прически.",
+              "image": {
+                  "src": "/imgs/users/1.png"
+              }
+          },
+          {
+              "title": "Рэйчел Ким",
+              "label": "Частное лицо",
+              "description": "Этот инструмент спас меня от усталости от принятия решений! Я могу предварительно просмотреть разные стили, не стригясь и не окрашивая волосы. Очень полезно!",
+              "image": {
+                  "src": "/imgs/users/2.png"
+              }
+          },
+          {
+              "title": "Маркус Томпсон",
+              "label": "Индивидуальный разработчик",
+              "description": "Корректировки прически невероятно точные, даже мельчайшие детали волос. По сравнению с другими инструментами смены прически на ИИ, этот выглядит намного реалистичнее. Очень рекомендую!",
+              "image": {
+                  "src": "/imgs/users/3.png"
+              }
+          },
+          {
+              "title": "София Гарсия",
+              "label": "Частное лицо",
+              "description": "Шаблоны готовы к использованию и легко настраиваются. Мы создали нашу музыкальную платформу на ИИ за часы, а не месяцы. Невероятно быстрый выход на рынок!",
+              "image": {
+                  "src": "/imgs/users/4.png"
+              }
+          },
+          {
+              "title": "Джеймс Уилсон",
+              "label": "Основатель стартапа",
+              "description": "Удобный интерфейс и простота использования! Смена прически одним кликом очень удобна. Надеюсь увидеть больше вариантов причесок и цветов в будущих обновлениях!",
+              "image": {
+                  "src": "/imgs/users/5.png"
+              }
+          },
+          {
+              "title": "Анна Чжан",
+              "label": "Основатель стартапа",
+              "description": "Смена прически с ИИ меняет правила игры! Она позволяет мне экспериментировать с новыми образами без усилий перед реальной стрижкой. Точность ИИ впечатляет!",
+              "image": {
+                  "src": "/imgs/users/6.png"
+              }
+          }
+      ]
+  },
+  "faq": {
+      "name": "faq",
+      "label": "FAQ",
+      "title": "Часто задаваемые вопросы",
+      "description": "Есть вопросы о нашем бесплатном онлайн-инструменте смены прически с ИИ? У нас есть ответы.",
+      "items": [
+          {
+              "title": "Как работает виртуальная примерка прически?",
+              "description": "Наш симулятор стрижки на ИИ использует продвинутые алгоритмы для наложения причесок на ваше загруженное фото, создавая реалистичные преобразования, которые позволяют примерять прически с удивительной точностью."
+          },
+          {
+              "title": "Действительно ли можно примерять прически бесплатно?",
+              "description": "Да! Смена прически с ИИ полностью бесплатна. Вы можете примерять стрижки и экспериментировать с разными образами без каких-либо затрат."
+          },
+          {
+              "title": "Как использовать API виртуальной примерки прически?",
+              "description": "1. Зарегистрируйтесь как разработчик. 2. Создайте приложение и получите API-ключ. 3. Следуйте документации API смены прически для интеграции и создания собственного генератора виртуальных стрижек."
+          },
+          {
+              "title": "Можно ли использовать свое фото?",
+              "description": "Конечно! Загрузите свое фото, чтобы примерять прически с вашим изображением. Наш симулятор стрижки лучше всего работает с четкими фото анфас."
+          },
+          {
+              "title": "Подходит ли это для мужчин и женщин?",
+              "description": "Да, наш бесплатный онлайн-инструмент включает стили для всех. Будь то классическая мужская стрижка или модный женский стиль - у нас есть все."
+          }
+      ]
+  },
+  "cta": {
+      "name": "cta",
+      "title": "Запустите свой стартап по смене прически с ИИ",
+      "description": "Начните здесь, преобразуйтесь с помощью смены прически с ИИ.",
+      "buttons": [
+          {
+              "title": "Получить API-ключ",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "icon": "GoArrowUpRight"
+          },
+          {
+              "title": "Читать документацию",
+              "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+              "target": "_blank",
+              "variant": "outline"
+          }
+      ]
+  },
+  "footer": {
+      "name": "footer",
+      "brand": {
+          "title": "Смена прически с ИИ",
+          "description": "Смена прически с ИИ использует искусственный интеллект для анализа вашего селфи, предлагая разнообразие причесок и цветов. С предпросмотром в реальном времени вы легко найдете стиль, который лучше всего подходит вашему лицу.",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "Смена прически с ИИ"
+          },
+          "url": "/"
+      },
+      "copyright": "© 2025 • Смена прически с ИИ. Все права защищены.",
+      "nav": {
+          "items": [
+              {
+                  "title": "О нас",
+                  "children": [
+                      {
+                          "title": "Возможности",
+                          "url": "/#feature",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "Примеры",
+                          "url": "/#expalme",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "Редактор",
+                          "url": "/#editor",
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "title": "Ресурсы",
+                  "children": [
+                      {
+                          "title": "Настройка",
+                          "url": "/#usage",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "Документация",
+                          "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                          "target": "_blank"
+                      },
+                      {
+                          "title": "Получить API-ключ",
+                          "url": "https://www.ailabtools.com/doc/get-api-key",
+                          "target": "_blank"
+                      }
+                  ]
+              }
+          ]
+      },
+      "social": {
+          "items": [
+              {
+                  "title": "Email",
+                  "icon": "RiMailLine",
+                  "url": "mailto:businesst@ailabtools.com",
+                  "target": "_self"
+              }
+          ]
+      },
+      "agreement": {
+          "items": [
+              {
+                  "title": "Политика конфиденциальности",
+                  "url": "/privacy-policy"
+              },
+              {
+                  "title": "Условия использования",
+                  "url": "/terms-of-service"
+              }
+          ]
+      }
+  }
+}

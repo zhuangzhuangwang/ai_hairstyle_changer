@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "theme.css";
+@import "./hue/hue.css";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  :root {
+    --sidebar-background: var(--background);
+    --sidebar-foreground: var(--foreground);
+    --sidebar-primary: var(--primary);
+    --sidebar-primary-foreground: var(--primary-foreground);
+    --sidebar-accent: var(--background);
+    --sidebar-accent-foreground: var(--primary);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--ring);
+  }
+  .dark {
+    --sidebar-background: var(--background);
+    --sidebar-foreground: var(--foreground);
+    --sidebar-primary: var(--primary);
+    --sidebar-primary-foreground: var(--primary-foreground);
+    --sidebar-accent: var(--accent);
+    --sidebar-accent-foreground: var(--accent-foreground);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--ring);
+  }
+}
+@keyframes cut {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(100px); opacity: 0; }
+}
+
+.animate-cut {
+  animation: cut 0.5s ease-out forwards;
+}
+
+.hair-strand {
+  position: absolute;
+  width: 0.6px;
+  background: linear-gradient(
+    to bottom,
+    rgba(40, 35, 30, 0.9) 0%,
+    rgba(70, 60, 55, 0.6) 70%,
+    transparent 100%
+  );
+  transform-origin: top center;
+  pointer-events: none;
+  border-radius: 0.3px;
+  z-index: 9999;
+}
+
+.cutting-animation {
+  animation: scissor-cut 0.15s linear infinite alternate;
+}
+
+@keyframes scissor-cut {
+  0% {
+    transform: rotate(-3deg) translateY(-1px);
+  }
+  100% {
+    transform: rotate(3deg) translateY(1px);
+  }
+}
+
+.scan-animation {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(#07aaff,#07aaff),linear-gradient(90deg,#ffffff33 1px,transparent 0),linear-gradient( #ffffff33 1px,transparent 0),linear-gradient(transparent,#07aaff);
+  background-size: 100% 1.5%,10% 100%,100% 8%,100% 100%;
+  background-repeat: no-repeat,repeat,repeat,no-repeat;
+  background-position: 0 0,0 0,0 0,0 0;
+  clip-path: polygon(0% 0%,100% 0%,100% 1.5%,0% 1.5%);
+  animation: move 2.5s infinite linear;
+}
+@keyframes move {
+  to {
+    background-position: 0 100%, 0 0, 0 0, 0 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}

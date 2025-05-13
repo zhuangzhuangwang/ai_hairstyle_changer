@@ -1,0 +1,1156 @@
+{
+  "template": "AI HairStyle Changer-template-one",
+  "theme": "light",
+  "header": {
+      "brand": {
+          "title": "KI Frisuren-Wechsler",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "KI Frisuren-Wechsler"
+          },
+          "url": "/"
+      },
+      "nav": {
+          "items": [
+              {
+                  "title": "Funktionen",
+                  "url": "/#feature",
+                  "icon": "HiOutlineSparkles"
+              },
+              {
+                  "title": "Beispiele",
+                  "url": "/#example",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "FAQ",
+                  "url": "/#faq",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "API-Dokumentation",
+                  "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                  "target": "_blank",
+                  "variant": "link",
+                  "icon": "HiOutlineSparkles"
+              }
+          ]
+      },
+      "buttons": [
+          {
+              "title": "API-Schlüssel holen",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "variant": "link",
+              "icon": "RiArrowRightUpLine"
+          }
+      ],
+      "show_sign": false,
+      "show_theme": false,
+      "show_locale": true
+  },
+  "hero": {
+      "title": "KI Frisuren-Wechsler zum Ausprobieren von Frisuren",
+      "highlight_text": "KI Frisuren-Wechsler",
+      "description": "Probieren Sie Frisuren mit unserem Frisuren-Wechsler aus und entdecken Sie, welche Frisur zu mir passt! Testen Sie jetzt das kostenlose KI-Frisuren-Tool online und finden Sie mühelos Ihren perfekten Look!",
+      "labels": [
+          {
+              "title": "100% Kostenlos",
+              "color": "amber"
+          },
+          {
+              "title": "Betrieben von AILabTools",
+              "color": "red"
+          },
+          {
+              "title": "Kein Login erforderlich",
+              "color": "blue"
+          },
+          {
+              "title": "Unbegrenzte Generierungen",
+              "color": "green"
+          }
+      ],
+      "show_happy_users": false,
+      "show_badge": false,
+      "show_label": true
+  },
+  "editor": {
+      "name": "editor",
+      "turnstile": {
+          "title": "Bitte verifizieren"
+      },
+      "generate_model": {
+          "title": "Erneut versuchen",
+          "sub_text": "Sind Sie sicher?",
+          "content": "Diese Aktion kann nicht rückgängig gemacht werden. Sie löscht Ihr Foto dauerhaft und entfernt Ihre Daten von unseren Servern.",
+          "confirm": "Bestätigen",
+          "cencel": "Abbrechen"
+      },
+      "left_box": {
+          "men_btn": "Männerfrisuren",
+          "women_btn": "Frauenfrisuren",
+          "hair_style_btn": "Frisurenstil",
+          "hair_color_btn": "Haarfarbe",
+          "generate_btn": "Generieren",
+          "hair_styles": {
+              "colors": [
+                  {
+                      "title": "Blond",
+                      "value": "blonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                  },
+                  {
+                      "title": "Braun",
+                      "value": "brown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/brown.jpg"
+                  },
+                  {
+                      "title": "Hellbraun",
+                      "value": "lightBrown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                  },
+                  {
+                      "title": "Schwarz",
+                      "value": "black",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/black.jpg"
+                  },
+                  {
+                      "title": "Platinblond",
+                      "value": "platinumBlonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                  },
+                  {
+                      "title": "Weiß",
+                      "value": "white",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/white.jpg"
+                  },
+                  {
+                      "title": "Grau",
+                      "value": "grey",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/grey.jpg"
+                  },
+                  {
+                      "title": "Lila",
+                      "value": "purple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/purple.jpg"
+                  },
+                  {
+                      "title": "Dunkelblau",
+                      "value": "darkBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                  },
+                  {
+                      "title": "Helllila",
+                      "value": "lightPurple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                  },
+                  {
+                      "title": "Blau",
+                      "value": "blue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blue.jpg"
+                  },
+                  {
+                      "title": "Hellblau",
+                      "value": "lightBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                  },
+                  {
+                      "title": "Dunkelgrün",
+                      "value": "darkGreen",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                  },
+                  {
+                      "title": "Grün",
+                      "value": "green",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/green.jpg"
+                  },
+                  {
+                      "title": "Rot",
+                      "value": "red",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/red.jpg"
+                  },
+                  {
+                      "title": "Bordeaux",
+                      "value": "burgundy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                  },
+                  {
+                      "title": "Rosa",
+                      "value": "pink",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/pink.jpg"
+                  },
+                  {
+                      "title": "Orange",
+                      "value": "orange",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/orange.jpg"
+                  }
+              ],
+              "men": [
+                  {
+                      "title": "Nach hinten gekämmt",
+                      "value": "ManGreased",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                  },
+                  {
+                      "title": "Kastanienschnitt",
+                      "value": "Chestnut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                  },
+                  {
+                      "title": "Zerzauste Pony",
+                      "value": "ChoppyBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                  },
+                  {
+                      "title": "Low Fade",
+                      "value": "LowFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                  },
+                  {
+                      "title": "Mittelscheitel",
+                      "value": "Middle-parted",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                  },
+                  {
+                      "title": "Glatt nach hinten",
+                      "value": "SlickBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                  },
+                  {
+                      "title": "Tinfoil Dauerwelle",
+                      "value": "TinfoilPerm",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                  },
+                  {
+                      "title": "Lockige Unordnung",
+                      "value": "CurlyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                  },
+                  {
+                      "title": "Undercut",
+                      "value": "UnderCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                  },
+                  {
+                      "title": "Welliger Shag",
+                      "value": "WavyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                  },
+                  {
+                      "title": "Welliger Mittelscheitel",
+                      "value": "WavyMiddlePart",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                  },
+                  {
+                      "title": "Bürstenschnitt",
+                      "value": "BuzzCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                  },
+                  {
+                      "title": "Faux Hawk",
+                      "value": "FauxHawk",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                  },
+                  {
+                      "title": "Hoher enger Fade",
+                      "value": "HighTightFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                  }
+              ],
+              "women": [
+                  {
+                      "title": "Klassischer Bob",
+                      "value": "BobCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                  },
+                  {
+                      "title": "Lockiger Bob",
+                      "value": "CurlyBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                  },
+                  {
+                      "title": "Fishtail-Zopf",
+                      "value": "FishtailBraid",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                  },
+                  {
+                      "title": "Japanischer Kurzhaarschnitt",
+                      "value": "JapaneseShort",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                  },
+                  {
+                      "title": "Lange Locken",
+                      "value": "LongCurly",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                  },
+                  {
+                      "title": "Langer Hime-Schnitt",
+                      "value": "LongHimeCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                  },
+                  {
+                      "title": "Lange Wellen",
+                      "value": "LongWavy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                  },
+                  {
+                      "title": "Mittellanger gestufter Schnitt",
+                      "value": "MediumLongLayered",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                  },
+                  {
+                      "title": "Pixie-Schnitt",
+                      "value": "PixieCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                  },
+                  {
+                      "title": "Kurzer lockiger Pixie",
+                      "value": "ShortCurlyPixie",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                  },
+                  {
+                      "title": "Kurzer gepflegter Bob",
+                      "value": "ShortNeatBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                  },
+                  {
+                      "title": "Schulterlanges glattes Haar",
+                      "value": "ShoulderLengthHair",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                  },
+                  {
+                      "title": "Doppelter Dutt",
+                      "value": "DoubleBun",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                  },
+                  {
+                      "title": "Topfschnitt",
+                      "value": "bowlCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                  },
+                  {
+                      "title": "Box Braids",
+                      "value": "BoxBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                  },
+                  {
+                      "title": "Chignon",
+                      "value": "Chignon",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                  },
+                  {
+                      "title": "Französischer Pony",
+                      "value": "FrenchBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                  },
+                  {
+                      "title": "Langes glattes Haar",
+                      "value": "LongStraight",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                  },
+                  {
+                      "title": "Lange Zöpfe",
+                      "value": "LongTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                  },
+                  {
+                      "title": "Pferdeschwanz",
+                      "value": "Ponytail",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                  },
+                  {
+                      "title": "Kurzer Pixie mit rasierten Seiten",
+                      "value": "ShortPixieWithShavedSides",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                  },
+                  {
+                      "title": "Kurze Zöpfe",
+                      "value": "ShortTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                  },
+                  {
+                      "title": "Nach hinten gekämmt",
+                      "value": "SlickedBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                  },
+                  {
+                      "title": "Gestapelte Locken im kurzen Bob",
+                      "value": "StackedCurlsInShortBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                  },
+                  {
+                      "title": "Zwillingszöpfe",
+                      "value": "TwinBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                  },
+                  {
+                      "title": "Hochsteckfrisur",
+                      "value": "Updo",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                  },
+                  {
+                      "title": "Welliger französischer Bob (1920er-Jahre-Vibe)",
+                      "value": "WavyFrenchBobVibesfrom1920",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                  }
+              ]
+          }
+      },
+      "right_box": {
+          "download_btn": "Herunterladen",
+          "upload_btn": "Foto hochladen",
+          "upload_text": "Klicken Sie oder ziehen Sie Ihr Bild hierher, um Frisuren auszuprobieren",
+          "upload_rules": [
+              "Bildformat: PNG JPG JPEG",
+              "Bildgröße: Nicht mehr als 3 MB.",
+              "Bildauflösung: Größer als 200x200px, kleiner als 1999x1999px."
+          ],
+          "upload_example": "Möchten Sie den Haarschnitt-Simulator ausprobieren? Verwenden Sie diese Beispiele:",
+          "upload_example_imgs": [
+              "https://ai-resource.ailabtools.com/resource/361-before.png",
+              "https://ai-resource.ailabtools.com/resource/360-before.png",
+              "https://ai-resource.ailabtools.com/resource/359-before.png",
+              "https://ai-resource.ailabtools.com/resource/358-before.png"
+          ]
+      }
+  },
+  "example": {
+      "name": "example",
+      "title": "Frisuren-Beispiele",
+      "description": "Alles, was Sie brauchen, um Frisuren auszuprobieren und Ihren perfekten Look mit unserem virtuellen Frisuren-Generator zu finden",
+      "imgs": [
+          {
+              "title": "Langes welliges Haar",
+              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-1.png"
+          },
+          {
+              "title": "Kurzer Pixie mit rasierten Seiten",
+              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-2.png"
+          },
+          {
+              "title": "Pixie-Haarschnitt",
+              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-3.png"
+          },
+          {
+              "title": "Lange Zöpfe",
+              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-4.png"
+          },
+          {
+              "title": "Hochsteckfrisur",
+              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-5.png"
+          },
+          {
+              "title": "Chignon-Frisur",
+              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-6.png"
+          },
+          {
+              "title": "Bob-Haarschnitt",
+              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-7.png"
+          },
+          {
+              "title": "Kurzer lockiger Pixie",
+              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-8.png"
+          },
+          {
+              "title": "Doppelter Dutt",
+              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-9.png"
+          },
+          {
+              "title": "Cornrows",
+              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-10.png"
+          },
+          {
+              "title": "Welliger französischer Bob (1920er-Jahre-Vibe)",
+              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-11.png"
+          },
+          {
+              "title": "Langer Hime-Schnitt",
+              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-12.png"
+          },
+          {
+              "title": "Lockiger Bob",
+              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-13.png"
+          },
+          {
+              "title": "Schulterlanges glattes Haar",
+              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-14.png"
+          },
+          {
+              "title": "Zwillingszöpfe",
+              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-15.png"
+          },
+          {
+              "title": "Mittelscheitel",
+              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-16.png"
+          },
+          {
+              "title": "Bürstenschnitt",
+              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-17.png"
+          },
+          {
+              "title": "Two-Block-Haarschnitt",
+              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-18.png"
+          },
+          {
+              "title": "Lockige Shag-Frisur",
+              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-19.png"
+          },
+          {
+              "title": "Hochgebundenes langes Haar",
+              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-20.png"
+          }
+      ]
+  },
+  "branding": {
+      "title": "KI Frisuren-Wechsler basiert auf den Schultern von Riesen",
+      "items": [
+          {
+              "title": "Next.js",
+              "image": {
+                  "src": "/imgs/logos/nextjs.svg",
+                  "alt": "Next.js"
+              }
+          },
+          {
+              "title": "React",
+              "image": {
+                  "src": "/imgs/logos/react.svg",
+                  "alt": "React"
+              }
+          },
+          {
+              "title": "TailwindCSS",
+              "image": {
+                  "src": "/imgs/logos/tailwindcss.svg",
+                  "alt": "TailwindCSS"
+              }
+          },
+          {
+              "title": "Shadcn/UI",
+              "image": {
+                  "src": "/imgs/logos/shadcn.svg",
+                  "alt": "Shadcn/UI"
+              }
+          },
+          {
+              "title": "Vercel",
+              "image": {
+                  "src": "/imgs/logos/vercel.svg",
+                  "alt": "Vercel"
+              }
+          }
+      ]
+  },
+  "introduce": {
+      "name": "introduce",
+      "title": "KI Frisuren-Wechsler API-Dienst",
+      "label": "Einführung",
+      "email": "mailto:business@ailabtools.com",
+      "description": "Die KI Frisuren-Wechsler API nutzt Deep Learning, um Gesichtszüge und Haarregionen präzise zu erkennen und ermöglicht so virtuelle Frisurentransformationen in Echtzeit (kurz, lang, lockig, gefärbt). Ideal für Beauty-Apps, E-Commerce, soziale Medien und AR-Plattformen bietet sie schnelle Verarbeitung, Datenschutzkonformität und hohe Benutzerbindung.",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "items": [
+          {
+              "title": "Tiefgehende Forschung",
+              "description": "Wir führen tiefgehende Forschungen zu kulturellen Hintergründen und ästhetischen Vorlieben in verschiedenen Regionen durch, um sicherzustellen, dass unsere Frisurendesigns Ihren Erwartungen entsprechen.",
+              "icon": "RiNextjsFill"
+          },
+          {
+              "title": "Personalisierte Anpassung",
+              "description": "Mit fortschrittlicher KI-Technologie in Kombination mit der Expertise lokaler Friseure bieten wir maßgeschneiderte Frisurendesign-Lösungen für jeden Kunden.",
+              "icon": "RiDatabase2Line"
+          },
+          {
+              "title": "Kontinuierliche Innovation",
+              "description": "Wir bleiben auf dem neuesten Stand der globalen Modetrends und erforschen kontinuierlich die neuesten Frisurentrends und Technologien, um Sie an der Spitze des Stils zu halten.",
+              "icon": "RiCloudyFill"
+          }
+      ]
+  },
+  "benefit": {
+      "name": "benefit",
+      "title": "Warum KI Frisuren-Wechsler wählen?",
+      "label": "Vorteile",
+      "description": "Erleben Sie das beste kostenlose KI-Frisuren-Tool online mit diesen fantastischen Vorteilen:",
+      "items": [
+          {
+              "title": "Realistische Frisurensimulation",
+              "description": "Unser KI-gestützter Haarschnitt-Generator erstellt realistische Transformationen, mit denen Sie Haarschnitte mit erstaunlicher Genauigkeit ausprobieren können.",
+              "icon": "RiMagicLine"
+          },
+          {
+              "title": "Hunderte von Frisuren",
+              "description": "Von klassischen Schnitten bis zu trendigen Styles bietet unser virtueller Frisuren-Generator endlose Möglichkeiten, Ihren eigenen Haarschnitt zu kreieren.",
+              "icon": "RiScissorsCutLine"
+          },
+          {
+              "title": "Sofortige Ergebnisse",
+              "description": "Erhalten Sie Ihre virtuellen Frisuren-Ergebnisse in Sekundenschnelle mit unserer schnellen und präzisen KI-Technologie.",
+              "icon": "RiTimerFlashLine"
+          }
+      ]
+  },
+  "usage": {
+      "name": "usage",
+      "title": "Wie man private Frisuren anpasst",
+      "email": "mailto:business@ailabtools.com",
+      "description": "Um den individuellen Bedürfnissen jedes Kunden gerecht zu werden, bieten wir personalisierte Frisurenservices mit modernster KI-Bildverarbeitungstechnologie.",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "image_position": "left",
+      "text_align": "center",
+      "items": [
+          {
+              "title": "Frisurenbilder-Sammlung",
+              "description": "Bitte stellen Sie mindestens 30 hochauflösende Bilder der Frisuren bereit, die Sie anpassen möchten.",
+              "image": {
+                  "src": "/imgs/features/image-1.png"
+              }
+          },
+          {
+              "title": "Datenverarbeitung",
+              "description": "Unser KI-Team übernimmt die Datenverarbeitung, einschließlich Zuschneiden, Kennzeichnung und Optimierung.",
+              "image": {
+                  "src": "/imgs/features/image-2.png"
+              }
+          },
+          {
+              "title": "KI-Modelltraining",
+              "description": "Unser KI-Team verfeinert das Frisurenmodell mit den verarbeiteten Daten für präzise und realistische Ergebnisse.",
+              "image": {
+                  "src": "/imgs/features/image-3.png"
+              }
+          },
+          {
+              "title": "Validierung & Bereitstellung",
+              "description": "Nach KI-Validierung prüfen Kunden die Ergebnisse. Nach Genehmigung wird die Frisur per API bereitgestellt.",
+              "image": {
+                  "src": "/imgs/features/image-4.png"
+              }
+          }
+      ]
+  },
+  "feature": {
+      "name": "feature",
+      "title": "Hauptmerkmale des KI Frisuren-Wechslers",
+      "description": "Entdecken Sie mühelos Ihre perfekte Frisur mit unserem KI-gestützten virtuellen Frisuren-Generator! Probieren Sie verschiedene Looks sofort aus und finden Sie den besten für sich.",
+      "items": [
+          {
+              "title": "KI-gestützter Haarschnitt-Simulator",
+              "description": "Erleben Sie realistische Frisurentransformationen mit unserem fortschrittlichen KI-Haarschnitt-Generator.",
+              "icon": "RiRobot2Line"
+          },
+          {
+              "title": "Virtuelles Frisuren-Anprobieren",
+              "description": "Probieren Sie Hunderte von Frisuren sofort mit Ihrem eigenen Foto aus - mit unserem virtuellen Frisuren-Generator.",
+              "icon": "RiCameraLensFill"
+          },
+          {
+              "title": "Frisuren für Männer & Frauen",
+              "description": "Entdecken Sie, welche Frisur Ihnen am besten steht mit unserem kostenlosen Online-Tool für Männer- und Frauenfrisuren.",
+              "icon": "RiUserSmileLine"
+          },
+          {
+              "title": "Realistische Haarfarben-Simulation",
+              "description": "Probieren Sie verschiedene Haarfarben mit unserem KI-gestützten Farb-Simulator aus, um Ihren perfekten Look zu finden.",
+              "icon": "RiPaletteFill"
+          },
+          {
+              "title": "Sofortige Ergebnisse",
+              "description": "Erhalten Sie Ihre virtuellen Frisuren-Ergebnisse in Sekundenschnelle mit unserer schnellen und präzisen KI-Technologie.",
+              "icon": "RiFlashlightFill"
+          },
+          {
+              "title": "Kostenlos nutzbar",
+              "description": "Erleben Sie das beste kostenlose KI-Frisuren-Tool online mit unbegrenzten Generierungen.",
+              "icon": "RiMoneyDollarCircleFill"
+          }
+      ]
+  },
+  "showcase": {
+      "name": "showcase",
+      "title": "KI-SaaS-Startups, die mit KI Frisuren-Wechsler gebaut wurden",
+      "description": "Einfach zu bedienen und schnell umzusetzen.",
+      "items": [
+          {
+              "title": "ThinkAny",
+              "description": "KI-Suchmaschine",
+              "url": "https://thinkany.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/7.png"
+              }
+          },
+          {
+              "title": "HeyBeauty",
+              "description": "Virtuelles Anprobieren mit KI",
+              "url": "https://heybeauty.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/5.png"
+              }
+          },
+          {
+              "title": "KI-Hintergrundbilder",
+              "description": "KI-Hintergrundbild-Generator",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/1.png"
+              }
+          },
+          {
+              "title": "KI-Cover",
+              "description": "KI-Cover-Generator",
+              "url": "https://aicover.design",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/2.png"
+              }
+          },
+          {
+              "title": "GPTs Works",
+              "description": "GPTs-Verzeichnis",
+              "url": "https://gpts.works",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/3.png"
+              }
+          },
+          {
+              "title": "Melodisco",
+              "description": "KI-Musikplayer",
+              "url": "https://melodis.co",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/4.png"
+              }
+          },
+          {
+              "title": "Pagen",
+              "description": "KI-Landingpage-Generator",
+              "url": "https://pagen.so",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/6.png"
+              }
+          },
+          {
+              "title": "SoraFM",
+              "description": "KI-Video-Generator",
+              "url": "https://sorafm.trys.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/8.png"
+              }
+          },
+          {
+              "title": "PodLM",
+              "description": "KI-Podcast-Generator",
+              "url": "https://podlm.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/9.png"
+              }
+          }
+      ]
+  },
+  "stats": {
+      "name": "stats",
+      "label": "Statistiken",
+      "title": "Nutzer lieben den KI Frisuren-Wechsler",
+      "description": "wegen seiner einfachen Bedienung und schnellen Umsetzung.",
+      "icon": "FaRegHeart",
+      "items": [
+          {
+              "title": "Vertrauen von",
+              "label": "99+",
+              "description": "Kunden"
+          },
+          {
+              "title": "Aufgebaut mit",
+              "label": "20+",
+              "description": "Komponenten"
+          },
+          {
+              "title": "Schnelle Umsetzung in",
+              "label": "5",
+              "description": "Minuten"
+          }
+      ]
+  },
+  "pricing": {
+      "name": "pricing",
+      "label": "Preise",
+      "title": "Preisgestaltung",
+      "description": "Erhalten Sie alle Funktionen des KI Frisuren-Wechslers, um Ihre KI-SaaS-Startups schnell umzusetzen.",
+      "groups": [
+
+      ],
+      "items": [
+          {
+              "title": "Starter",
+              "description": "Starten Sie mit Ihrem ersten SaaS-Startup.",
+              "features_title": "Enthält",
+              "features": [
+                  "100 Credits, gültig für 1 Monat",
+                  "NextJS-Boilerplate",
+                  "SEO-freundliche Struktur",
+                  "Zahlungen mit Stripe",
+                  "Datenhaltung mit Supabase",
+                  "Google OAuth & One-Tap-Login",
+                  "i18n-Unterstützung"
+              ],
+              "interval": "einmalig",
+              "amount": 9900,
+              "cn_amount": 69900,
+              "currency": "USD",
+              "price": "$99",
+              "original_price": "$199",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "Einmal zahlen. Unbegrenzte Projekte erstellen!",
+              "button": {
+                  "title": "KI Frisuren-Wechsler erhalten",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "starter",
+              "product_name": "KI Frisuren-Wechsler Boilerplate Starter",
+              "credits": 100,
+              "valid_months": 1
+          },
+          {
+              "title": "Standard",
+              "description": "Setzen Sie schnell Ihre SaaS-Startups um.",
+              "label": "Beliebt",
+              "features_title": "Alles aus Starter, plus",
+              "features": [
+                  "200 Credits, gültig für 3 Monate",
+                  "Bereitstellung mit Vercel oder Cloudflare",
+                  "Generierung von Datenschutz & Nutzungsbedingungen",
+                  "Google Analytics-Integration",
+                  "Google Search Console-Integration",
+                  "Discord-Community",
+                  "Technischer Support für Ihre erste Umsetzung",
+                  "Lebenslange Updates"
+              ],
+              "interval": "einmalig",
+              "amount": 19900,
+              "cn_amount": 139900,
+              "currency": "USD",
+              "price": "$199",
+              "original_price": "$299",
+              "unit": "USD",
+              "is_featured": true,
+              "tip": "Einmal zahlen. Unbegrenzte Projekte erstellen!",
+              "button": {
+                  "title": "KI Frisuren-Wechsler erhalten",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "standard",
+              "product_name": "KI Frisuren-Wechsler Boilerplate Standard",
+              "credits": 200,
+              "valid_months": 3
+          },
+          {
+              "title": "Premium",
+              "description": "Setzen Sie jedes KI-SaaS-Startup um.",
+              "features_title": "Alles aus Standard, plus",
+              "features": [
+                  "300 Credits, gültig für 1 Jahr",
+                  "Geschäftsfunktionen mit KI",
+                  "Nutzerzentrum",
+                  "Credits-System",
+                  "API-Verkauf für Ihr SaaS",
+                  "Admin-System",
+                  "Priorisierter technischer Support"
+              ],
+              "interval": "einmalig",
+              "amount": 29900,
+              "cn_amount": 199900,
+              "currency": "USD",
+              "price": "$299",
+              "original_price": "$399",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "Einmal zahlen. Unbegrenzte Projekte erstellen!",
+              "button": {
+                  "title": "KI Frisuren-Wechsler erhalten",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "premium",
+              "product_name": "KI Frisuren-Wechsler Boilerplate Premium",
+              "credits": 300,
+              "valid_months": 12
+          }
+      ]
+  },
+  "testimonial": {
+      "name": "testimonial",
+      "label": "Kundenstimmen",
+      "title": "Was Nutzer über den KI Frisuren-Wechsler sagen",
+      "description": "Hören Sie von Entwicklern und Gründern des KI Frisuren-Wechslers, die ihre Erfahrungen und Erkenntnisse teilen.",
+      "icon": "GoThumbsup",
+      "items": [
+          {
+              "title": "David Chen",
+              "label": "Privatperson",
+              "description": "Der KI Frisuren-Wechsler ist fantastisch! Einfach ein Foto hochladen und sofort verschiedene Frisuren und Farben ausprobieren. Die Ergebnisse sehen natürlich und realistisch aus - perfekt für alle, die unsicher bei Frisuränderungen sind.",
+              "image": {
+                  "src": "/imgs/users/1.png"
+              }
+          },
+          {
+              "title": "Rachel Kim",
+              "label": "Privatperson",
+              "description": "Dieses Tool hat mich vor Entscheidungsmüdigkeit bewahrt! Ich kann verschiedene Styles vorab sehen, ohne meine Haare tatsächlich zu schneiden oder zu färben. Super nützlich!",
+              "image": {
+                  "src": "/imgs/users/2.png"
+              }
+          },
+          {
+              "title": "Marcus Thompson",
+              "label": "Einzelentwickler",
+              "description": "Die Frisuranpassungen sind unglaublich präzise und erfassen selbst feine Haardetails. Im Vergleich zu anderen KI-Frisurentools sieht dieses viel realistischer aus. Sehr empfehlenswert!",
+              "image": {
+                  "src": "/imgs/users/3.png"
+              }
+          },
+          {
+              "title": "Sofia Garcia",
+              "label": "Privatperson",
+              "description": "Die Vorlagen sind produktionsreif und hochgradig anpassbar. Wir haben unsere KI-Musikplattform in Stunden statt Monaten aufgebaut. Unglaubliche Markteinführungszeit!",
+              "image": {
+                  "src": "/imgs/users/4.png"
+              }
+          },
+          {
+              "title": "James Wilson",
+              "label": "Startup-Gründer",
+              "description": "Benutzerfreundliche Oberfläche und einfach zu bedienen! Frisuren mit einem Klick zu wechseln ist super praktisch. Ich hoffe auf mehr Frisuren- und Farboptionen in zukünftigen Updates!",
+              "image": {
+                  "src": "/imgs/users/5.png"
+              }
+          },
+          {
+              "title": "Anna Zhang",
+              "label": "Startup-Gründer",
+              "description": "Der KI Frisuren-Wechsler ist revolutionär! Er lässt mich neue Looks mühelos ausprobieren, bevor ich mich für einen echten Haarschnitt entscheide. Die KI-Genauigkeit ist beeindruckend!",
+              "image": {
+                  "src": "/imgs/users/6.png"
+              }
+          }
+      ]
+  },
+  "faq": {
+      "name": "faq",
+      "label": "FAQ",
+      "title": "Häufig gestellte Fragen",
+      "description": "Fragen zu unserem kostenlosen KI-Frisuren-Tool online? Wir haben die Antworten.",
+      "items": [
+          {
+              "title": "Wie funktioniert das virtuelle Frisuren-Anprobieren?",
+              "description": "Unser KI-gestützter Haarschnitt-Simulator verwendet fortschrittliche Algorithmen, um Frisuren auf Ihr hochgeladenes Foto zu projizieren und erstellt realistische Transformationen, mit denen Sie Frisuren mit erstaunlicher Genauigkeit ausprobieren können."
+          },
+          {
+              "title": "Kann ich wirklich kostenlos Frisuren ausprobieren?",
+              "description": "Ja! Der KI Frisuren-Wechsler ist komplett kostenlos nutzbar. Sie können Haarschnitte ausprobieren und mit verschiedenen Looks experimentieren, ohne Kosten."
+          },
+          {
+              "title": "Wie verwendet man die KI Frisuren-Anprobiert-API?",
+              "description": "1. Als Entwickler registrieren. 2. Eine Anwendung erstellen und einen API-Schlüssel erhalten. 3. Der Frisuren-Wechsler-API-Dokumentation folgen, um Ihren eigenen virtuellen Haarschnitt-Generator zu integrieren und aufzubauen."
+          },
+          {
+              "title": "Kann ich mein eigenes Foto verwenden?",
+              "description": "Absolut! Laden Sie Ihr Foto hoch, um Frisuren mit Ihrem eigenen Bild auszuprobieren. Unser Haarschnitt-Simulator funktioniert am besten mit klaren, frontal aufgenommenen Fotos."
+          },
+          {
+              "title": "Ist dies für Männer und Frauen geeignet?",
+              "description": "Ja, unser kostenloses Online-Tool für Männer- und Frauenfrisuren enthält Styles für alle Geschlechter. Egal, ob Sie einen klassischen Männerhaarschnitt oder einen trendigen Frauenstyle suchen - wir haben alles."
+          }
+      ]
+  },
+  "cta": {
+      "name": "cta",
+      "title": "Starten Sie Ihr KI-Frisuren-Startup",
+      "description": "Beginnen Sie hier, transformieren Sie mit KI Frisuren-Wechsler.",
+      "buttons": [
+          {
+              "title": "API-Schlüssel erhalten",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "icon": "GoArrowUpRight"
+          },
+          {
+              "title": "Dokumentation lesen",
+              "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+              "target": "_blank",
+              "variant": "outline"
+          }
+      ]
+  },
+  "footer": {
+      "name": "footer",
+      "brand": {
+          "title": "KI Frisuren-Wechsler",
+          "description": "Der KI Frisuren-Wechsler analysiert Ihr Selfie mit KI und bietet verschiedene Frisuren und Farben. Mit Echtzeit-Vorschauen finden Sie leicht den Style, der am besten zu Ihrem Gesicht passt.",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "KI Frisuren-Wechsler"
+          },
+          "url": "/"
+      },
+      "copyright": "© 2025 • KI Frisuren-Wechsler Alle Rechte vorbehalten.",
+      "nav": {
+          "items": [
+              {
+                  "title": "Über uns",
+                  "children": [
+                      {
+                          "title": "Funktionen",
+                          "url": "/#feature",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "Beispiele",
+                          "url": "/#expalme",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "Editor",
+                          "url": "/#editor",
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "title": "Ressourcen",
+                  "children": [
+                      {
+                          "title": "Anpassen",
+                          "url": "/#usage",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "Dokumente",
+                          "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                          "target": "_blank"
+                      },
+                      {
+                          "title": "API-Schlüssel erhalten",
+                          "url": "https://www.ailabtools.com/doc/get-api-key",
+                          "target": "_blank"
+                      }
+                  ]
+              }
+          ]
+      },
+      "social": {
+          "items": [
+              {
+                  "title": "E-Mail",
+                  "icon": "RiMailLine",
+                  "url": "mailto:businesst@ailabtools.com",
+                  "target": "_self"
+              }
+          ]
+      },
+      "agreement": {
+          "items": [
+              {
+                  "title": "Datenschutzrichtlinie",
+                  "url": "/privacy-policy"
+              },
+              {
+                  "title": "Nutzungsbedingungen",
+                  "url": "/terms-of-service"
+              }
+          ]
+      }
+  }
+}

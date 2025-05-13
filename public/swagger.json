@@ -1,0 +1,726 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "接口文档",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "{agreement}{domain}{port}",
+            "description": "IP访问",
+            "variables": {
+                "agreement": {
+                    "enum": [
+                        "https://",
+                        "http://"
+                    ],
+                    "default": "http://"
+                },
+                "domain": {
+                    "enum": [
+                        "127.0.0.1"
+                    ],
+                    "default": "127.0.0.1"
+                },
+                "port": {
+                    "enum": [
+                        ":9601"
+                    ],
+                    "default": ":9601"
+                }
+            }
+        },
+        {
+            "url": "{agreement}{domain}",
+            "description": "域名访问",
+            "variables": {
+                "agreement": {
+                    "enum": [
+                        "https://",
+                        "http://"
+                    ],
+                    "default": "http://"
+                },
+                "domain": {
+                    "enum": [
+                        "swoole.ai-hairstyle.com",
+                        "ai-hairstyle.tincent.me",
+                        "hairstyle-app.ailabtools.com"
+                    ],
+                    "default": "swoole.ai-hairstyle.com"
+                }
+            }
+        }
+    ],
+    "paths": {
+        "/api/api/task/push-task": {
+            "post": {
+                "tags": [
+                    "任务"
+                ],
+                "summary": "添加任务",
+                "description": "",
+                "operationId": "a6f8115aa8161e4a92e40585d08e29c8",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Accept-Language"
+                    }
+                ],
+                "requestBody": {
+                    "description": "",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "cipher"
+                                ],
+                                "properties": {
+                                    "cipher": {
+                                        "description": "所有参数加密后内容，其他参数无需传。",
+                                        "type": "string",
+                                        "example": "fppz2jSw1hDwl56ww0WO6vSpWwIj7sN+Nbx7TXay60p4aphd36ALQj5NHbr+6umoZDXwAx7bmX8KuWU+G/c8I9vWeduHYz2YqXZkbGfXN07G2HQ+Cro3Pagd6Mly+tbOH30xW1zcYNlz96VU4fDZErkf4/TrWYe96RtDJu+dVuU="
+                                    },
+                                    "id": {
+                                        "description": "ID(`274`:发型编辑-专业版 `275`:人脸分析)",
+                                        "type": "integer",
+                                        "enum": [
+                                            274,
+                                            275
+                                        ]
+                                    },
+                                    "platform": {
+                                        "description": "平台(`1`:iOS `2`:Android `3`:抖音小程序)",
+                                        "type": "integer",
+                                        "enum": [
+                                            1,
+                                            2,
+                                            3
+                                        ]
+                                    },
+                                    "ai_params": {
+                                        "description": "AI参数",
+                                        "type": "object",
+                                        "allOf": [
+                                            {
+                                                "properties": {
+                                                    "task_type": {
+                                                        "description": "任务类型【`发型编辑-专业版`和`人脸分析`共用参数】",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "async"
+                                                        ]
+                                                    },
+                                                    "image_url": {
+                                                        "description": "图像URL【`发型编辑-专业版`和`人脸分析`共用参数】",
+                                                        "type": "string"
+                                                    },
+                                                    "service": {
+                                                        "description": "结果图片存储方式（``:本地存储 `cn`:OSS存储-香港）【`发型编辑-专业版`独有参数】",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "",
+                                                            "cn"
+                                                        ]
+                                                    },
+                                                    "hair_style": {
+                                                        "description": "[发型](https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api.html#hairstyle)【`发型编辑-专业版`独有参数】",
+                                                        "type": "string"
+                                                    },
+                                                    "color": {
+                                                        "description": "[发色](https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api.html#color)【`发型编辑-专业版`独有参数】",
+                                                        "type": "string"
+                                                    },
+                                                    "bangs": {
+                                                        "description": "是否保留刘海（`0`:否 `1`:是）【`发型编辑-专业版`独有参数】",
+                                                        "type": "integer",
+                                                        "enum": [
+                                                            0,
+                                                            1
+                                                        ]
+                                                    },
+                                                    "mode": {
+                                                        "description": "模式（`1`:头部模式 `2`:全图模式）【`发型编辑-专业版`独有参数】",
+                                                        "type": "integer",
+                                                        "enum": [
+                                                            1,
+                                                            2
+                                                        ]
+                                                    },
+                                                    "reference": {
+                                                        "description": "是否参考原图（`0`:否 `1`:是）【`发型编辑-专业版`独有参数】",
+                                                        "type": "integer",
+                                                        "enum": [
+                                                            0,
+                                                            1
+                                                        ]
+                                                    },
+                                                    "image_size": {
+                                                        "description": "返回图像数量【`发型编辑-专业版`独有参数】",
+                                                        "type": "integer",
+                                                        "default": 1,
+                                                        "enum": [
+                                                            1,
+                                                            2,
+                                                            3,
+                                                            4
+                                                        ]
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "object",
+                                                    "allOf": [
+                                                        {
+                                                            "properties": {
+                                                                "id": {
+                                                                    "description": "任务ID",
+                                                                    "type": "integer"
+                                                                }
+                                                            },
+                                                            "type": "object"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        {
+                                            "$ref": "#components/schemas/commonResponses"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/api/task/get-results": {
+            "get": {
+                "tags": [
+                    "任务"
+                ],
+                "summary": "获取结果",
+                "description": "",
+                "operationId": "81ff0184eae9859548f8aeaaaf6ebd0d",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Accept-Language"
+                    },
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "object",
+                                                    "allOf": [
+                                                        {
+                                                            "properties": {
+                                                                "id": {
+                                                                    "description": "任务ID",
+                                                                    "type": "integer"
+                                                                },
+                                                                "status": {
+                                                                    "description": "状态(`-1`:处理失败 `0`:待处理 `1`:处理成功)",
+                                                                    "type": "string",
+                                                                    "enum": [
+                                                                        -1,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "out_type": {
+                                                                    "description": "结果格式(`4`:图片数组(外网链接) `5`:JSON)",
+                                                                    "type": "string",
+                                                                    "enum": [
+                                                                        4,
+                                                                        5
+                                                                    ]
+                                                                },
+                                                                "results": {
+                                                                    "description": "结果",
+                                                                    "type": "object"
+                                                                }
+                                                            },
+                                                            "type": "object"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        {
+                                            "$ref": "#components/schemas/commonResponses"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/api/web-task/push-task": {
+            "post": {
+                "tags": [
+                    "WEB任务"
+                ],
+                "summary": "添加任务",
+                "description": "",
+                "operationId": "49a56d80a71ff77bf766e93f309564da",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Accept-Language"
+                    }
+                ],
+                "requestBody": {
+                    "description": "",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "id"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "description": "ID(`275`:人脸分析 `302`:发型编辑-专业版)",
+                                        "type": "integer",
+                                        "enum": [
+                                            275,
+                                            302
+                                        ]
+                                    },
+                                    "ai_params": {
+                                        "description": "AI参数",
+                                        "type": "object",
+                                        "allOf": [
+                                            {
+                                                "properties": {
+                                                    "task_type": {
+                                                        "description": "任务类型【`发型编辑-专业版`和`人脸分析`共用参数】",
+                                                        "type": "string",
+                                                        "enum": [
+                                                            "async"
+                                                        ]
+                                                    },
+                                                    "image_url": {
+                                                        "description": "图像URL【`发型编辑-专业版`和`人脸分析`共用参数】",
+                                                        "type": "string"
+                                                    },
+                                                    "hair_style": {
+                                                        "description": "[发型](https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api.html#hairstyle)【`发型编辑-专业版`独有参数】",
+                                                        "type": "string"
+                                                    },
+                                                    "color": {
+                                                        "description": "[发色](https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api.html#color)【`发型编辑-专业版`独有参数】",
+                                                        "type": "string"
+                                                    },
+                                                    "image_size": {
+                                                        "description": "返回图像数量【`发型编辑-专业版`独有参数】",
+                                                        "type": "integer",
+                                                        "default": 1,
+                                                        "enum": [
+                                                            1,
+                                                            2,
+                                                            3,
+                                                            4
+                                                        ]
+                                                    }
+                                                },
+                                                "type": "object"
+                                            }
+                                        ]
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "object",
+                                                    "allOf": [
+                                                        {
+                                                            "properties": {
+                                                                "id": {
+                                                                    "description": "任务ID",
+                                                                    "type": "integer"
+                                                                }
+                                                            },
+                                                            "type": "object"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        {
+                                            "$ref": "#components/schemas/commonResponses"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/api/web-task/get-results": {
+            "get": {
+                "tags": [
+                    "WEB任务"
+                ],
+                "summary": "获取结果",
+                "description": "",
+                "operationId": "9656b63988ca25d3ae1f6df23603154b",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Accept-Language"
+                    },
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "object",
+                                                    "allOf": [
+                                                        {
+                                                            "properties": {
+                                                                "status": {
+                                                                    "description": "状态(`-1`:处理失败 `0`:待处理 `1`:处理成功)",
+                                                                    "type": "string",
+                                                                    "enum": [
+                                                                        -1,
+                                                                        0,
+                                                                        1
+                                                                    ]
+                                                                },
+                                                                "data": {
+                                                                    "description": "结果",
+                                                                    "type": "object"
+                                                                }
+                                                            },
+                                                            "type": "object"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        {
+                                            "$ref": "#components/schemas/commonResponses"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/system/dou-yin/get-access-token": {
+            "get": {
+                "tags": [
+                    "系统-抖音"
+                ],
+                "summary": "获取调用凭证",
+                "description": "",
+                "operationId": "e67985f168310c1d74d5d0974468f94f",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Accept-Language"
+                    },
+                    {
+                        "name": "appid",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "object",
+                                                    "allOf": [
+                                                        {
+                                                            "properties": {
+                                                                "access_token": {
+                                                                    "description": "Access Token",
+                                                                    "type": "string"
+                                                                },
+                                                                "expiration": {
+                                                                    "description": "过期时间（时间戳）",
+                                                                    "type": "integer"
+                                                                }
+                                                            },
+                                                            "type": "object"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        {
+                                            "$ref": "#components/schemas/commonResponses"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/system/upload/get-sts-cert": {
+            "get": {
+                "tags": [
+                    "系统-上传"
+                ],
+                "summary": "获取sts授权",
+                "description": "",
+                "operationId": "9069488765a88337e24718f183fbbe7d",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Accept-Language"
+                    },
+                    {
+                        "name": "bucket",
+                        "in": "query",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "enum": [
+                                "ailab-tem-hongkong",
+                                "ailab-tem"
+                            ]
+                        },
+                        "example": "ailab-tem-hongkong"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "allOf": [
+                                        {
+                                            "properties": {
+                                                "data": {
+                                                    "type": "object",
+                                                    "allOf": [
+                                                        {
+                                                            "properties": {
+                                                                "Bucket": {
+                                                                    "description": "Bucket",
+                                                                    "type": "string"
+                                                                },
+                                                                "Endpoint": {
+                                                                    "description": "端点",
+                                                                    "type": "string"
+                                                                },
+                                                                "Cname": {
+                                                                    "description": "是否使用自定义域名访问oss。如果为 true，您可以使用您的自定义域名填写字段Endpoint。",
+                                                                    "type": "boolean",
+                                                                    "enum": [
+                                                                        false,
+                                                                        true
+                                                                    ]
+                                                                },
+                                                                "AccelerateDomain": {
+                                                                    "description": "全球加速域名",
+                                                                    "type": "string"
+                                                                },
+                                                                "OutsideDomain": {
+                                                                    "description": "外网域名",
+                                                                    "type": "string"
+                                                                },
+                                                                "InternalDomain": {
+                                                                    "description": "内网域名",
+                                                                    "type": "string"
+                                                                },
+                                                                "CustomDomain": {
+                                                                    "description": "自定义域名",
+                                                                    "type": "string"
+                                                                },
+                                                                "FileDir": {
+                                                                    "description": "存储文件夹",
+                                                                    "type": "string"
+                                                                },
+                                                                "Credentials": {
+                                                                    "type": "object",
+                                                                    "allOf": [
+                                                                        {
+                                                                            "properties": {
+                                                                                "SecurityToken": {
+                                                                                    "description": "临时凭证",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "AccessKeyId": {
+                                                                                    "description": "AccessKeyId",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "AccessKeySecret": {
+                                                                                    "description": "AccessKeySecret",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "Expiration": {
+                                                                                    "description": "失效时间",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "type": "object"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "type": "object"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "type": "object"
+                                        },
+                                        {
+                                            "$ref": "#components/schemas/commonResponses"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "commonResponses": {
+                "description": "公共返回",
+                "properties": {
+                    "code": {
+                        "type": "integer",
+                        "example": 0
+                    },
+                    "msg": {
+                        "type": "string",
+                        "example": "OK"
+                    }
+                },
+                "type": "object"
+            },
+            "hair_ai_call_record": {
+                "title": "发型APP-AI调用记录表",
+                "properties": {
+                    "id": {
+                        "description": "ID",
+                        "type": "integer"
+                    },
+                    "platform": {
+                        "description": "平台【字典:platform】",
+                        "type": "integer"
+                    },
+                    "tiid": {
+                        "description": "工具接口ID",
+                        "type": "integer"
+                    },
+                    "atr_id": {
+                        "description": "异步任务结果ID",
+                        "type": "string"
+                    },
+                    "data": {
+                        "description": "结果",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "状态(-1:处理失败 0:待处理 1:处理成功)",
+                        "type": "integer"
+                    },
+                    "create_time": {
+                        "description": "创建时间",
+                        "type": "integer"
+                    },
+                    "update_time": {
+                        "description": "更新时间",
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "parameters": {
+            "Accept-Language": {
+                "name": "Accept-Language",
+                "in": "header",
+                "description": "多语言（`zh-cn`:中文-简体 `zh-tw`:中文-繁体 `en`:英文 `de`:德语 `fr`:法语 `es`:西班牙语 `ja`:日语 `ko`:韩语 `ru`俄语）",
+                "schema": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

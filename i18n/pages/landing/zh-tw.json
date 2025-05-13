@@ -1,0 +1,1156 @@
+{
+  "template": "AI髮型更換器-模板一",
+  "theme": "明亮",
+  "header": {
+      "brand": {
+          "title": "AI髮型更換器",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AI髮型更換器"
+          },
+          "url": "/"
+      },
+      "nav": {
+          "items": [
+              {
+                  "title": "功能特色",
+                  "url": "/#feature",
+                  "icon": "HiOutlineSparkles"
+              },
+              {
+                  "title": "效果範例",
+                  "url": "/#example",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "常見問題",
+                  "url": "/#faq",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "API文檔",
+                  "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                  "target": "_blank",
+                  "variant": "link",
+                  "icon": "HiOutlineSparkles"
+              }
+          ]
+      },
+      "buttons": [
+          {
+              "title": "獲取API密鑰",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "variant": "link",
+              "icon": "RiArrowRightUpLine"
+          }
+      ],
+      "show_sign": false,
+      "show_theme": false,
+      "show_locale": true
+  },
+  "hero": {
+      "title": "AI髮型更換器 - 線上試戴髮型",
+      "highlight_text": "AI髮型更換器",
+      "description": "使用我們的髮型更換工具試戴各種髮型，發現最適合我的髮型！立即體驗免費的AI線上髮型更換工具，輕鬆找到完美造型！",
+      "labels": [
+          {
+              "title": "100%免費",
+              "color": "amber"
+          },
+          {
+              "title": "由AILabTools驅動",
+              "color": "red"
+          },
+          {
+              "title": "無需登錄",
+              "color": "blue"
+          },
+          {
+              "title": "無限生成",
+              "color": "green"
+          }
+      ],
+      "show_happy_users": false,
+      "show_badge": false,
+      "show_label": true
+  },
+  "editor": {
+      "name": "editor",
+      "turnstile": {
+          "title": "請驗證"
+      },
+      "generate_model": {
+          "title": "重試",
+          "sub_text": "確定嗎？",
+          "content": "此操作無法撤銷。將永久刪除您的照片並從伺服器移除數據。",
+          "confirm": "確認",
+          "cencel": "取消"
+      },
+      "left_box": {
+          "men_btn": "男士髮型",
+          "women_btn": "女士髮型",
+          "hair_style_btn": "髮型選擇",
+          "hair_color_btn": "髮色選擇",
+          "generate_btn": "生成",
+          "hair_styles": {
+              "colors": [
+                  {
+                      "title": "金髮",
+                      "value": "blonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                  },
+                  {
+                      "title": "棕髮",
+                      "value": "brown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/brown.jpg"
+                  },
+                  {
+                      "title": "淺棕",
+                      "value": "lightBrown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                  },
+                  {
+                      "title": "黑髮",
+                      "value": "black",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/black.jpg"
+                  },
+                  {
+                      "title": "鉑金髮",
+                      "value": "platinumBlonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                  },
+                  {
+                      "title": "白髮",
+                      "value": "white",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/white.jpg"
+                  },
+                  {
+                      "title": "灰髮",
+                      "value": "grey",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/grey.jpg"
+                  },
+                  {
+                      "title": "紫色",
+                      "value": "purple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/purple.jpg"
+                  },
+                  {
+                      "title": "深藍",
+                      "value": "darkBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                  },
+                  {
+                      "title": "淺紫",
+                      "value": "lightPurple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                  },
+                  {
+                      "title": "藍色",
+                      "value": "blue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blue.jpg"
+                  },
+                  {
+                      "title": "淺藍",
+                      "value": "lightBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                  },
+                  {
+                      "title": "深綠",
+                      "value": "darkGreen",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                  },
+                  {
+                      "title": "綠色",
+                      "value": "green",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/green.jpg"
+                  },
+                  {
+                      "title": "紅色",
+                      "value": "red",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/red.jpg"
+                  },
+                  {
+                      "title": "酒紅",
+                      "value": "burgundy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                  },
+                  {
+                      "title": "粉色",
+                      "value": "pink",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/pink.jpg"
+                  },
+                  {
+                      "title": "橙色",
+                      "value": "orange",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/orange.jpg"
+                  }
+              ],
+              "men": [
+                  {
+                      "title": "大背頭",
+                      "value": "ManGreased",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                  },
+                  {
+                      "title": "栗子頭",
+                      "value": "Chestnut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                  },
+                  {
+                      "title": "碎劉海",
+                      "value": "ChoppyBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                  },
+                  {
+                      "title": "低漸變",
+                      "value": "LowFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                  },
+                  {
+                      "title": "中分頭",
+                      "value": "Middle-parted",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                  },
+                  {
+                      "title": "光背頭",
+                      "value": "SlickBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                  },
+                  {
+                      "title": "錫紙燙",
+                      "value": "TinfoilPerm",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                  },
+                  {
+                      "title": "凌亂卷",
+                      "value": "CurlyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                  },
+                  {
+                      "title": "底削剪",
+                      "value": "UnderCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                  },
+                  {
+                      "title": "波浪蓬",
+                      "value": "WavyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                  },
+                  {
+                      "title": "波浪中分",
+                      "value": "WavyMiddlePart",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                  },
+                  {
+                      "title": "圓寸頭",
+                      "value": "BuzzCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                  },
+                  {
+                      "title": "仿鷹頭",
+                      "value": "FauxHawk",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                  },
+                  {
+                      "title": "高緊漸變",
+                      "value": "HighTightFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                  }
+              ],
+              "women": [
+                  {
+                      "title": "經典波波頭",
+                      "value": "BobCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                  },
+                  {
+                      "title": "捲髮波波",
+                      "value": "CurlyBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                  },
+                  {
+                      "title": "魚尾辮",
+                      "value": "FishtailBraid",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                  },
+                  {
+                      "title": "日式短髮",
+                      "value": "JapaneseShort",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                  },
+                  {
+                      "title": "長捲髮",
+                      "value": "LongCurly",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                  },
+                  {
+                      "title": "長姬髮式",
+                      "value": "LongHimeCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                  },
+                  {
+                      "title": "長波浪",
+                      "value": "LongWavy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                  },
+                  {
+                      "title": "中長層次",
+                      "value": "MediumLongLayered",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                  },
+                  {
+                      "title": "精靈短髮",
+                      "value": "PixieCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                  },
+                  {
+                      "title": "短捲精靈",
+                      "value": "ShortCurlyPixie",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                  },
+                  {
+                      "title": "整潔波波",
+                      "value": "ShortNeatBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                  },
+                  {
+                      "title": "齊肩直髮",
+                      "value": "ShoulderLengthHair",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                  },
+                  {
+                      "title": "雙丸子頭",
+                      "value": "DoubleBun",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                  },
+                  {
+                      "title": "鍋蓋頭",
+                      "value": "bowlCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                  },
+                  {
+                      "title": "盒辮",
+                      "value": "BoxBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                  },
+                  {
+                      "title": "髮髻",
+                      "value": "Chignon",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                  },
+                  {
+                      "title": "法式劉海",
+                      "value": "FrenchBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                  },
+                  {
+                      "title": "長直髮",
+                      "value": "LongStraight",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                  },
+                  {
+                      "title": "長雙馬尾",
+                      "value": "LongTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                  },
+                  {
+                      "title": "馬尾辮",
+                      "value": "Ponytail",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                  },
+                  {
+                      "title": "側削精靈",
+                      "value": "ShortPixieWithShavedSides",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                  },
+                  {
+                      "title": "短雙馬尾",
+                      "value": "ShortTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                  },
+                  {
+                      "title": "光背造型",
+                      "value": "SlickedBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                  },
+                  {
+                      "title": "短波捲層",
+                      "value": "StackedCurlsInShortBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                  },
+                  {
+                      "title": "雙辮子",
+                      "value": "TwinBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                  },
+                  {
+                      "title": "盤髮",
+                      "value": "Updo",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                  },
+                  {
+                      "title": "波浪法式波波(1920年代風)",
+                      "value": "WavyFrenchBobVibesfrom1920",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                  }
+              ]
+          }
+      },
+      "right_box": {
+          "download_btn": "下載",
+          "upload_btn": "上傳照片",
+          "upload_text": "點擊或拖放圖片試戴髮型",
+          "upload_rules": [
+              "圖片格式: PNG JPG JPEG",
+              "圖片大小: 不超過3MB",
+              "圖片分辨率: 大於200x200px，小於1999x1999px"
+          ],
+          "upload_example": "想體驗髮型模擬器？使用這些範例：",
+          "upload_example_imgs": [
+              "https://ai-resource.ailabtools.com/resource/361-before.png",
+              "https://ai-resource.ailabtools.com/resource/360-before.png",
+              "https://ai-resource.ailabtools.com/resource/359-before.png",
+              "https://ai-resource.ailabtools.com/resource/358-before.png"
+          ]
+      }
+  },
+  "example": {
+      "name": "example",
+      "title": "髮型效果範例",
+      "description": "通過我們的虛擬髮型生成器試戴髮型，找到完美造型所需的一切",
+      "imgs": [
+          {
+              "title": "長波浪髮",
+              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-1.png"
+          },
+          {
+              "title": "側削精靈短髮",
+              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-2.png"
+          },
+          {
+              "title": "精靈短髮",
+              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-3.png"
+          },
+          {
+              "title": "長雙馬尾",
+              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-4.png"
+          },
+          {
+              "title": "盤髮造型",
+              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-5.png"
+          },
+          {
+              "title": "髮髻造型",
+              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-6.png"
+          },
+          {
+              "title": "波波頭",
+              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-7.png"
+          },
+          {
+              "title": "短捲精靈",
+              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-8.png"
+          },
+          {
+              "title": "雙丸子頭",
+              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-9.png"
+          },
+          {
+              "title": "玉米辮",
+              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-10.png"
+          },
+          {
+              "title": "1920年代波浪法式波波",
+              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-11.png"
+          },
+          {
+              "title": "長姬髮式",
+              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-12.png"
+          },
+          {
+              "title": "捲髮波波",
+              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-13.png"
+          },
+          {
+              "title": "齊肩直髮",
+              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-14.png"
+          },
+          {
+              "title": "雙辮子",
+              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-15.png"
+          },
+          {
+              "title": "中分髮型",
+              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-16.png"
+          },
+          {
+              "title": "圓寸頭",
+              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-17.png"
+          },
+          {
+              "title": "二分區髮型",
+              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-18.png"
+          },
+          {
+              "title": "凌亂捲髮",
+              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-19.png"
+          },
+          {
+              "title": "高扎長髮",
+              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-20.png"
+          }
+      ]
+  },
+  "branding": {
+      "title": "AI髮型更換器基於頂尖技術打造",
+      "items": [
+          {
+              "title": "Next.js",
+              "image": {
+                  "src": "/imgs/logos/nextjs.svg",
+                  "alt": "Next.js"
+              }
+          },
+          {
+              "title": "React",
+              "image": {
+                  "src": "/imgs/logos/react.svg",
+                  "alt": "React"
+              }
+          },
+          {
+              "title": "TailwindCSS",
+              "image": {
+                  "src": "/imgs/logos/tailwindcss.svg",
+                  "alt": "TailwindCSS"
+              }
+          },
+          {
+              "title": "Shadcn/UI",
+              "image": {
+                  "src": "/imgs/logos/shadcn.svg",
+                  "alt": "Shadcn/UI"
+              }
+          },
+          {
+              "title": "Vercel",
+              "image": {
+                  "src": "/imgs/logos/vercel.svg",
+                  "alt": "Vercel"
+              }
+          }
+      ]
+  },
+  "introduce": {
+      "name": "introduce",
+      "title": "AI髮型更換器API服務",
+      "label": "產品介紹",
+      "email": "mailto:business@ailabtools.com",
+      "description": "AI髮型更換器API利用深度學習精準檢測面部特徵和頭髮區域，實現實時虛擬髮型變換（短髮、長髮、捲髮、染色）。適用於美妝應用、電商、社交媒體和AR平台，具有快速處理、隱私合規和高用戶參與度等特點。",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "items": [
+          {
+              "title": "深度研究",
+              "description": "我們深入研究不同地區的文化背景和審美偏好，確保髮型設計精準符合預期效果。",
+              "icon": "RiNextjsFill"
+          },
+          {
+              "title": "個性化定制",
+              "description": "結合先進AI技術與本地髮型師專業經驗，為每位客戶提供個性化髮型設計方案。",
+              "icon": "RiDatabase2Line"
+          },
+          {
+              "title": "持續創新",
+              "description": "緊跟全球時尚潮流，持續探索最新髮型趨勢與技術，確保您始終引領時尚前沿。",
+              "icon": "RiCloudyFill"
+          }
+      ]
+  },
+  "benefit": {
+      "name": "benefit",
+      "title": "為何選擇AI髮型更換器？",
+      "label": "核心優勢",
+      "description": "體驗最佳的免費AI線上髮型工具，享受以下卓越優勢：",
+      "items": [
+          {
+              "title": "逼真髮型模擬",
+              "description": "我們的AI髮型生成器創造逼真變換效果，讓您以驚人精度試戴各種髮型。",
+              "icon": "RiMagicLine"
+          },
+          {
+              "title": "數百種髮型",
+              "description": "從經典造型到潮流髮型，我們的虛擬髮型生成器提供無限可能，打造專屬髮型。",
+              "icon": "RiScissorsCutLine"
+          },
+          {
+              "title": "即時效果",
+              "description": "憑藉快速精準的AI技術，秒級獲取虛擬髮型效果。",
+              "icon": "RiTimerFlashLine"
+          }
+      ]
+  },
+  "usage": {
+      "name": "usage",
+      "title": "如何定制專屬髮型",
+      "email": "mailto:business@ailabtools.com",
+      "description": "為滿足每位客戶的獨特需求，我們提供基於先進AI圖像處理技術的個性化髮型服務。",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "image_position": "left",
+      "text_align": "center",
+      "items": [
+          {
+              "title": "髮型圖像採集",
+              "description": "請提供至少30張高清目標髮型圖像。",
+              "image": {
+                  "src": "/imgs/features/image-1.png"
+              }
+          },
+          {
+              "title": "數據處理",
+              "description": "AI團隊進行裁剪、標註和增強等數據處理。",
+              "image": {
+                  "src": "/imgs/features/image-2.png"
+              }
+          },
+          {
+              "title": "AI模型訓練",
+              "description": "使用處理後的數據精調髮型模型，確保效果精準逼真。",
+              "image": {
+                  "src": "/imgs/features/image-3.png"
+              }
+          },
+          {
+              "title": "驗證交付",
+              "description": "AI驗證後客戶確認效果，通過API交付最終髮型方案。",
+              "image": {
+                  "src": "/imgs/features/image-4.png"
+              }
+          }
+      ]
+  },
+  "feature": {
+      "name": "feature",
+      "title": "AI髮型更換器核心功能",
+      "description": "通過我們的AI驅動虛擬髮型生成器，輕鬆發現完美髮型！即時試戴不同造型，找到最適合您的款式。",
+      "items": [
+          {
+              "title": "AI髮型模擬器",
+              "description": "通過先進AI髮型生成器體驗逼真髮型變換。",
+              "icon": "RiRobot2Line"
+          },
+          {
+              "title": "虛擬髮型試戴",
+              "description": "使用個人照片即時試戴數百種髮型。",
+              "icon": "RiCameraLensFill"
+          },
+          {
+              "title": "男女髮型庫",
+              "description": "通過免費線上工具探索最適合您的男女髮型。",
+              "icon": "RiUserSmileLine"
+          },
+          {
+              "title": "逼真髮色模擬",
+              "description": "使用AI色彩模擬器嘗試不同髮色，找到完美搭配。",
+              "icon": "RiPaletteFill"
+          },
+          {
+              "title": "即時效果",
+              "description": "憑藉快速精準的AI技術，秒級獲取虛擬髮型效果。",
+              "icon": "RiFlashlightFill"
+          },
+          {
+              "title": "免費使用",
+              "description": "體驗最佳的免費AI線上髮型工具，無限次生成。",
+              "icon": "RiMoneyDollarCircleFill"
+          }
+      ]
+  },
+  "showcase": {
+      "name": "showcase",
+      "title": "使用 AI 髮型更換器建立的 AI SaaS 新創專案",
+      "description": "簡單好用，快速上線。",
+      "items": [
+          {
+              "title": "ThinkAny",
+              "description": "AI 搜尋引擎",
+              "url": "https://thinkany.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/7.png"
+              }
+          },
+          {
+              "title": "HeyBeauty",
+              "description": "AI 虛擬試妝",
+              "url": "https://heybeauty.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/5.png"
+              }
+          },
+          {
+              "title": "AI Wallpaper",
+              "description": "AI 桌布產生器",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/1.png"
+              }
+          },
+          {
+              "title": "AI Cover",
+              "description": "AI 封面產生器",
+              "url": "https://aicover.design",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/2.png"
+              }
+          },
+          {
+              "title": "GPTs Works",
+              "description": "GPTs 工具目錄",
+              "url": "https://gpts.works",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/3.png"
+              }
+          },
+          {
+              "title": "Melodisco",
+              "description": "AI 音樂播放器",
+              "url": "https://melodis.co",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/4.png"
+              }
+          },
+          {
+              "title": "Pagen",
+              "description": "AI 登陸頁產生器",
+              "url": "https://pagen.so",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/6.png"
+              }
+          },
+          {
+              "title": "SoraFM",
+              "description": "AI 影片產生器",
+              "url": "https://sorafm.trys.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/8.png"
+              }
+          },
+          {
+              "title": "PodLM",
+              "description": "AI Podcast 產生器",
+              "url": "https://podlm.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/9.png"
+              }
+          }
+      ]
+  },
+  "stats": {
+      "name": "stats",
+      "label": "統計資料",
+      "title": "大家都愛用 AI 髮型更換器",
+      "description": "因為它簡單易用、快速上線。",
+      "icon": "FaRegHeart",
+      "items": [
+          {
+              "title": "深受信賴",
+              "label": "99+",
+              "description": "位顧客"
+          },
+          {
+              "title": "內建",
+              "label": "20+",
+              "description": "個元件"
+          },
+          {
+              "title": "最快上線",
+              "label": "5",
+              "description": "分鐘完成"
+          }
+      ]
+  },
+  "pricing": {
+      "name": "pricing",
+      "label": "價格方案",
+      "title": "價格方案",
+      "description": "取得 AI 髮型更換器的所有功能，快速打造你的 AI SaaS 專案。",
+      "groups": [
+
+      ],
+      "items": [
+          {
+              "title": "入門版",
+              "description": "適合你的第一個 SaaS 專案。",
+              "features_title": "包含內容",
+              "features": [
+                  "100 點數，有效期 1 個月",
+                  "NextJS 專案模板",
+                  "SEO 友善結構",
+                  "Stripe 支付整合",
+                  "Supabase 數據儲存",
+                  "Google Oauth 與一鍵登入",
+                  "i18n 多語系支援"
+              ],
+              "interval": "一次性",
+              "amount": 9900,
+              "cn_amount": 69900,
+              "currency": "USD",
+              "price": "$99",
+              "original_price": "$199",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "一次付費，無限建立專案！",
+              "button": {
+                  "title": "取得 AI 髮型更換器",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "starter",
+              "product_name": "AI 髮型更換器 入門模板",
+              "credits": 100,
+              "valid_months": 1
+          },
+          {
+              "title": "標準版",
+              "description": "加速 SaaS 上線流程。",
+              "label": "熱門",
+              "features_title": "包含入門版內容，並新增",
+              "features": [
+                  "200 點數，有效期 3 個月",
+                  "支援 Vercel 或 Cloudflare 部署",
+                  "自動生成隱私權與使用條款",
+                  "Google Analytics 整合",
+                  "Google Search Console 整合",
+                  "Discord 社群支援",
+                  "首次上線技術支援",
+                  "終身免費更新"
+              ],
+              "interval": "一次性",
+              "amount": 19900,
+              "cn_amount": 139900,
+              "currency": "USD",
+              "price": "$199",
+              "original_price": "$299",
+              "unit": "USD",
+              "is_featured": true,
+              "tip": "一次付費，無限建立專案！",
+              "button": {
+                  "title": "取得 AI 髮型更換器",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "standard",
+              "product_name": "AI 髮型更換器 標準模板",
+              "credits": 200,
+              "valid_months": 3
+          },
+          {
+              "title": "高級版",
+              "description": "打造任意 AI SaaS 專案。",
+              "features_title": "包含標準版內容，並新增",
+              "features": [
+                  "300 點數，有效期 1 年",
+                  "進階 AI 商業功能",
+                  "使用者中心",
+                  "點數系統",
+                  "API 銷售功能",
+                  "後台管理系統",
+                  "優先技術支援"
+              ],
+              "interval": "一次性",
+              "amount": 29900,
+              "cn_amount": 199900,
+              "currency": "USD",
+              "price": "$299",
+              "original_price": "$399",
+              "unit": "USD",
+              "is_featured": false,
+              "tip": "一次付費，無限建立專案！",
+              "button": {
+                  "title": "取得 AI 髮型更換器",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "premium",
+              "product_name": "AI 髮型更換器 高級模板",
+              "credits": 300,
+              "valid_months": 12
+          }
+      ]
+  },
+  "testimonial": {
+      "name": "testimonial",
+      "label": "用戶好評",
+      "title": "用戶對 AI 髮型更換器 的評價",
+      "description": "來自開發者與創辦人的實際使用心得與建議。",
+      "icon": "GoThumbsup",
+      "items": [
+          {
+              "title": "David Chen",
+              "label": "個人用戶",
+              "description": "AI 髮型更換器太神了！只需上傳照片即可試用各種髮型與顏色，結果非常自然真實，適合不確定要不要改變髮型的人使用。",
+              "image": {
+                  "src": "/imgs/users/1.png"
+              }
+          },
+          {
+              "title": "Rachel Kim",
+              "label": "個人用戶",
+              "description": "這個工具幫我節省了選擇障礙的時間！不用真的剪髮或染髮就能預覽不同造型，超實用！",
+              "image": {
+                  "src": "/imgs/users/2.png"
+              }
+          },
+          {
+              "title": "Marcus Thompson",
+              "label": "個人開發者",
+              "description": "髮型調整非常精細，連細節都處理得很棒。比起其他 AI 髮型工具，這個的真實度更高，超推薦！",
+              "image": {
+                  "src": "/imgs/users/3.png"
+              }
+          },
+          {
+              "title": "Sofia Garcia",
+              "label": "個人用戶",
+              "description": "模板非常實用且容易客製化。我們在幾小時內就完成了 AI 音樂平台的搭建，省下數個月的開發時間！",
+              "image": {
+                  "src": "/imgs/users/4.png"
+              }
+          },
+          {
+              "title": "James Wilson",
+              "label": "新創創辦人",
+              "description": "使用介面友善且操作簡單！一鍵切換髮型超方便。希望未來可以增加更多髮型與顏色選項！",
+              "image": {
+                  "src": "/imgs/users/5.png"
+              }
+          },
+          {
+              "title": "Anna Zhang",
+              "label": "新創創辦人",
+              "description": "AI 髮型更換器真的改變了一切！讓我能輕鬆試驗新造型再決定是否實際更換，AI 精準度令人驚豔！",
+              "image": {
+                  "src": "/imgs/users/6.png"
+              }
+          }
+      ]
+  },
+  "faq": {
+      "name": "faq",
+      "label": "常見問題",
+      "title": "常見問答",
+      "description": "對我們的 AI 線上髮型模擬工具有疑問？我們為你解答。",
+      "items": [
+          {
+              "title": "虛擬髮型試穿是如何運作的？",
+              "description": "我們的 AI 髮型模擬器運用先進演算法，將髮型精準地套用到上傳照片上，提供真實的造型預覽體驗。"
+          },
+          {
+              "title": "真的可以免費試髮型嗎？",
+              "description": "可以！AI 髮型更換器完全免費使用，讓你自由嘗試不同髮型與造型。"
+          },
+          {
+              "title": "如何使用 AI 髮型試穿 API？",
+              "description": "1、註冊開發者帳號。2、建立應用並獲取 API 金鑰。3、根據 API 文件進行整合，打造專屬虛擬髮型模擬工具。"
+          },
+          {
+              "title": "可以使用自己的照片嗎？",
+              "description": "當然可以！只要上傳清晰正面的個人照片，即可試用 AI 髮型模擬功能。"
+          },
+          {
+              "title": "這個工具適合男女使用嗎？",
+              "description": "是的，我們的免費工具支援男性與女性造型模擬。"
+          }
+      ]
+  },
+  "cta": {
+      "name": "cta",
+      "title": "啟動您的 AI 髮型創業",
+      "description": "從這裡開始，使用 AI 髮型更換器進行變革。",
+      "buttons": [
+          {
+              "title": "獲取 API 金鑰",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "icon": "GoArrowUpRight"
+          },
+          {
+              "title": "閱讀文檔",
+              "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+              "target": "_blank",
+              "variant": "outline"
+          }
+      ]
+  },
+  "footer": {
+      "name": "footer",
+      "brand": {
+          "title": "AI 髮型更換器",
+          "description": "AI 髮型更換器使用 AI 分析您的自拍照，提供多種髮型和顏色選擇。您可以通過即時預覽輕鬆找到最適合您臉型的風格。",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AI 髮型更換器"
+          },
+          "url": "/"
+      },
+      "copyright": "© 2025 • AI 髮型更換器 版權所有。",
+      "nav": {
+          "items": [
+              {
+                  "title": "關於我們",
+                  "children": [
+                      {
+                          "title": "功能",
+                          "url": "/#feature",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "範例展示",
+                          "url": "/#expalme",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "編輯器",
+                          "url": "/#editor",
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "title": "資源",
+                  "children": [
+                      {
+                          "title": "自訂",
+                          "url": "/#usage",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "文檔",
+                          "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                          "target": "_blank"
+                      },
+                      {
+                          "title": "獲取 API 金鑰",
+                          "url": "https://www.ailabtools.com/doc/get-api-key",
+                          "target": "_blank"
+                      }
+                  ]
+              }
+          ]
+      },
+      "social": {
+          "items": [
+              {
+                  "title": "電子郵件",
+                  "icon": "RiMailLine",
+                  "url": "mailto:businesst@ailabtools.com",
+                  "target": "_self"
+              }
+          ]
+      },
+      "agreement": {
+          "items": [
+              {
+                  "title": "隱私政策",
+                  "url": "/privacy-policy"
+              },
+              {
+                  "title": "服務條款",
+                  "url": "/terms-of-service"
+              }
+          ]
+      }
+  }
+}

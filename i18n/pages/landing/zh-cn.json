@@ -1,0 +1,1156 @@
+{
+  "template": "AI发型更换器-模板一",
+  "theme": "明亮",
+  "header": {
+      "brand": {
+          "title": "AI发型更换器",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AI发型更换器"
+          },
+          "url": "/"
+      },
+      "nav": {
+          "items": [
+              {
+                  "title": "功能特色",
+                  "url": "/zh-cn/#feature",
+                  "icon": "HiOutlineSparkles"
+              },
+              {
+                  "title": "效果示例",
+                  "url": "/zh-cn/#example",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "常见问题",
+                  "url": "/zh-cn/#faq",
+                  "icon": "FaQuestion"
+              },
+              {
+                  "title": "API文档",
+                  "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                  "target": "_blank",
+                  "variant": "link",
+                  "icon": "HiOutlineSparkles"
+              }
+          ]
+      },
+      "buttons": [
+          {
+              "title": "获取API密钥",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "variant": "link",
+              "icon": "RiArrowRightUpLine"
+          }
+      ],
+      "show_sign": false,
+      "show_theme": false,
+      "show_locale": true
+  },
+  "hero": {
+      "title": "AI发型更换器 - 在线试戴发型",
+      "highlight_text": "AI发型更换器",
+      "description": "使用我们的发型更换工具试戴各种发型，发现最适合我的发型！立即体验免费的AI在线发型更换工具，轻松找到完美造型！",
+      "labels": [
+          {
+              "title": "100%免费",
+              "color": "amber"
+          },
+          {
+              "title": "由AILabTools驱动",
+              "color": "red"
+          },
+          {
+              "title": "无需登录",
+              "color": "blue"
+          },
+          {
+              "title": "无限生成",
+              "color": "green"
+          }
+      ],
+      "show_happy_users": false,
+      "show_badge": false,
+      "show_label": true
+  },
+  "editor": {
+      "name": "editor",
+      "turnstile": {
+          "title": "请验证"
+      },
+      "generate_model": {
+          "title": "重试",
+          "sub_text": "确定吗？",
+          "content": "此操作无法撤销。将永久删除您的照片并从服务器移除数据。",
+          "confirm": "确认",
+          "cencel": "取消"
+      },
+      "left_box": {
+          "men_btn": "男士发型",
+          "women_btn": "女士发型",
+          "hair_style_btn": "发型选择",
+          "hair_color_btn": "发色选择",
+          "generate_btn": "生成",
+          "hair_styles": {
+              "colors": [
+                  {
+                      "title": "金发",
+                      "value": "blonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                  },
+                  {
+                      "title": "棕发",
+                      "value": "brown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/brown.jpg"
+                  },
+                  {
+                      "title": "浅棕",
+                      "value": "lightBrown",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                  },
+                  {
+                      "title": "黑发",
+                      "value": "black",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/black.jpg"
+                  },
+                  {
+                      "title": "铂金发",
+                      "value": "platinumBlonde",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                  },
+                  {
+                      "title": "白发",
+                      "value": "white",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/white.jpg"
+                  },
+                  {
+                      "title": "灰发",
+                      "value": "grey",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/grey.jpg"
+                  },
+                  {
+                      "title": "紫色",
+                      "value": "purple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/purple.jpg"
+                  },
+                  {
+                      "title": "深蓝",
+                      "value": "darkBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                  },
+                  {
+                      "title": "浅紫",
+                      "value": "lightPurple",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                  },
+                  {
+                      "title": "蓝色",
+                      "value": "blue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/blue.jpg"
+                  },
+                  {
+                      "title": "浅蓝",
+                      "value": "lightBlue",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                  },
+                  {
+                      "title": "深绿",
+                      "value": "darkGreen",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                  },
+                  {
+                      "title": "绿色",
+                      "value": "green",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/green.jpg"
+                  },
+                  {
+                      "title": "红色",
+                      "value": "red",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/red.jpg"
+                  },
+                  {
+                      "title": "酒红",
+                      "value": "burgundy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                  },
+                  {
+                      "title": "粉色",
+                      "value": "pink",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/pink.jpg"
+                  },
+                  {
+                      "title": "橙色",
+                      "value": "orange",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/color/orange.jpg"
+                  }
+              ],
+              "men": [
+                  {
+                      "title": "大背头",
+                      "value": "ManGreased",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                  },
+                  {
+                      "title": "栗子头",
+                      "value": "Chestnut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                  },
+                  {
+                      "title": "碎刘海",
+                      "value": "ChoppyBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                  },
+                  {
+                      "title": "低渐变",
+                      "value": "LowFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                  },
+                  {
+                      "title": "中分头",
+                      "value": "Middle-parted",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                  },
+                  {
+                      "title": "光背头",
+                      "value": "SlickBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                  },
+                  {
+                      "title": "锡纸烫",
+                      "value": "TinfoilPerm",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                  },
+                  {
+                      "title": "凌乱卷",
+                      "value": "CurlyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                  },
+                  {
+                      "title": "底削剪",
+                      "value": "UnderCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                  },
+                  {
+                      "title": "波浪蓬",
+                      "value": "WavyShag",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                  },
+                  {
+                      "title": "波浪中分",
+                      "value": "WavyMiddlePart",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                  },
+                  {
+                      "title": "圆寸头",
+                      "value": "BuzzCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                  },
+                  {
+                      "title": "仿鹰头",
+                      "value": "FauxHawk",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                  },
+                  {
+                      "title": "高紧渐变",
+                      "value": "HighTightFade",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                  }
+              ],
+              "women": [
+                  {
+                      "title": "经典波波头",
+                      "value": "BobCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                  },
+                  {
+                      "title": "卷发波波",
+                      "value": "CurlyBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                  },
+                  {
+                      "title": "鱼尾辫",
+                      "value": "FishtailBraid",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                  },
+                  {
+                      "title": "日式短发",
+                      "value": "JapaneseShort",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                  },
+                  {
+                      "title": "长卷发",
+                      "value": "LongCurly",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                  },
+                  {
+                      "title": "长姬发",
+                      "value": "LongHimeCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                  },
+                  {
+                      "title": "长波浪",
+                      "value": "LongWavy",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                  },
+                  {
+                      "title": "中长层次",
+                      "value": "MediumLongLayered",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                  },
+                  {
+                      "title": "精灵短发",
+                      "value": "PixieCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                  },
+                  {
+                      "title": "短卷精灵",
+                      "value": "ShortCurlyPixie",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                  },
+                  {
+                      "title": "整洁波波",
+                      "value": "ShortNeatBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                  },
+                  {
+                      "title": "齐肩直发",
+                      "value": "ShoulderLengthHair",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                  },
+                  {
+                      "title": "双丸子头",
+                      "value": "DoubleBun",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                  },
+                  {
+                      "title": "锅盖头",
+                      "value": "bowlCut",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                  },
+                  {
+                      "title": "盒辫",
+                      "value": "BoxBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                  },
+                  {
+                      "title": "发髻",
+                      "value": "Chignon",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                  },
+                  {
+                      "title": "法式刘海",
+                      "value": "FrenchBangs",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                  },
+                  {
+                      "title": "长直发",
+                      "value": "LongStraight",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                  },
+                  {
+                      "title": "长双马尾",
+                      "value": "LongTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                  },
+                  {
+                      "title": "马尾辫",
+                      "value": "Ponytail",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                  },
+                  {
+                      "title": "侧削精灵",
+                      "value": "ShortPixieWithShavedSides",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                  },
+                  {
+                      "title": "短双马尾",
+                      "value": "ShortTwintails",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                  },
+                  {
+                      "title": "光背造型",
+                      "value": "SlickedBack",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                  },
+                  {
+                      "title": "短波卷层",
+                      "value": "StackedCurlsInShortBob",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                  },
+                  {
+                      "title": "双辫子",
+                      "value": "TwinBraids",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                  },
+                  {
+                      "title": "盘发",
+                      "value": "Updo",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                  },
+                  {
+                      "title": "波浪法式波波(1920年代风)",
+                      "value": "WavyFrenchBobVibesfrom1920",
+                      "status": 1,
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                  }
+              ]
+          }
+      },
+      "right_box": {
+          "download_btn": "下载",
+          "upload_btn": "上传照片",
+          "upload_text": "点击或拖放图片试戴发型",
+          "upload_rules": [
+              "图片格式: PNG JPG JPEG",
+              "图片大小: 不超过3MB",
+              "图片分辨率: 大于200x200px，小于1999x1999px"
+          ],
+          "upload_example": "想体验发型模拟器？使用这些示例：",
+          "upload_example_imgs": [
+              "https://ai-resource.ailabtools.com/resource/361-before.png",
+              "https://ai-resource.ailabtools.com/resource/360-before.png",
+              "https://ai-resource.ailabtools.com/resource/359-before.png",
+              "https://ai-resource.ailabtools.com/resource/358-before.png"
+          ]
+      }
+  },
+  "example": {
+      "name": "example",
+      "title": "发型效果示例",
+      "description": "通过我们的虚拟发型生成器试戴发型，找到完美造型所需的一切",
+      "imgs": [
+          {
+              "title": "长波浪发",
+              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-1.png"
+          },
+          {
+              "title": "侧削精灵短发",
+              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-2.png"
+          },
+          {
+              "title": "精灵短发",
+              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-3.png"
+          },
+          {
+              "title": "长双马尾",
+              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-4.png"
+          },
+          {
+              "title": "盘发造型",
+              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-5.png"
+          },
+          {
+              "title": "发髻造型",
+              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-6.png"
+          },
+          {
+              "title": "波波头",
+              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-7.png"
+          },
+          {
+              "title": "短卷精灵",
+              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-8.png"
+          },
+          {
+              "title": "双丸子头",
+              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-9.png"
+          },
+          {
+              "title": "玉米辫",
+              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-10.png"
+          },
+          {
+              "title": "1920年代波浪法式波波",
+              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-11.png"
+          },
+          {
+              "title": "长姬发式",
+              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-12.png"
+          },
+          {
+              "title": "卷发波波",
+              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-13.png"
+          },
+          {
+              "title": "齐肩直发",
+              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-14.png"
+          },
+          {
+              "title": "双辫子",
+              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-15.png"
+          },
+          {
+              "title": "中分发型",
+              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-16.png"
+          },
+          {
+              "title": "圆寸头",
+              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-17.png"
+          },
+          {
+              "title": "二分区发型",
+              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-18.png"
+          },
+          {
+              "title": "凌乱卷发",
+              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-19.png"
+          },
+          {
+              "title": "高扎长发",
+              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
+              "effectImage": "/imgs/example/hairstyle-r-20.png"
+          }
+      ]
+  },
+  "branding": {
+      "title": "AI发型更换器基于顶尖技术打造",
+      "items": [
+          {
+              "title": "Next.js",
+              "image": {
+                  "src": "/imgs/logos/nextjs.svg",
+                  "alt": "Next.js"
+              }
+          },
+          {
+              "title": "React",
+              "image": {
+                  "src": "/imgs/logos/react.svg",
+                  "alt": "React"
+              }
+          },
+          {
+              "title": "TailwindCSS",
+              "image": {
+                  "src": "/imgs/logos/tailwindcss.svg",
+                  "alt": "TailwindCSS"
+              }
+          },
+          {
+              "title": "Shadcn/UI",
+              "image": {
+                  "src": "/imgs/logos/shadcn.svg",
+                  "alt": "Shadcn/UI"
+              }
+          },
+          {
+              "title": "Vercel",
+              "image": {
+                  "src": "/imgs/logos/vercel.svg",
+                  "alt": "Vercel"
+              }
+          }
+      ]
+  },
+  "introduce": {
+      "name": "introduce",
+      "title": "AI发型更换器API服务",
+      "label": "产品介绍",
+      "email": "mailto:business@ailabtools.com",
+      "description": "AI发型更换器API利用深度学习精准检测面部特征和头发区域，实现实时虚拟发型变换（短发、长发、卷发、染色）。适用于美妆应用、电商、社交媒体和AR平台，具有快速处理、隐私合规和高用户参与度等特点。",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "items": [
+          {
+              "title": "深度研究",
+              "description": "我们深入研究不同地区的文化背景和审美偏好，确保发型设计精准符合预期效果。",
+              "icon": "RiNextjsFill"
+          },
+          {
+              "title": "个性化定制",
+              "description": "结合先进AI技术与本地发型师专业经验，为每位客户提供个性化发型设计方案。",
+              "icon": "RiDatabase2Line"
+          },
+          {
+              "title": "持续创新",
+              "description": "紧跟全球时尚潮流，持续探索最新发型趋势与技术，确保您始终引领时尚前沿。",
+              "icon": "RiCloudyFill"
+          }
+      ]
+  },
+  "benefit": {
+      "name": "benefit",
+      "title": "为何选择AI发型更换器？",
+      "label": "核心优势",
+      "description": "体验最佳的免费AI在线发型工具，享受以下卓越优势：",
+      "items": [
+          {
+              "title": "逼真发型模拟",
+              "description": "我们的AI发型生成器创造逼真变换效果，让您以惊人精度试戴各种发型。",
+              "icon": "RiMagicLine"
+          },
+          {
+              "title": "数百种发型",
+              "description": "从经典造型到潮流发型，我们的虚拟发型生成器提供无限可能，打造专属发型。",
+              "icon": "RiScissorsCutLine"
+          },
+          {
+              "title": "即时效果",
+              "description": "凭借快速精准的AI技术，秒级获取虚拟发型效果。",
+              "icon": "RiTimerFlashLine"
+          }
+      ]
+  },
+  "usage": {
+      "name": "usage",
+      "title": "如何定制专属发型",
+      "email": "mailto:business@ailabtools.com",
+      "description": "为满足每位客户的独特需求，我们提供基于先进AI图像处理技术的个性化发型服务。",
+      "image": {
+          "src": "/imgs/features/1.png"
+      },
+      "image_position": "left",
+      "text_align": "center",
+      "items": [
+          {
+              "title": "发型图像采集",
+              "description": "请提供至少30张高清目标发型图像。",
+              "image": {
+                  "src": "/imgs/features/image-1.png"
+              }
+          },
+          {
+              "title": "数据处理",
+              "description": "AI团队进行裁剪、标注和增强等数据处理。",
+              "image": {
+                  "src": "/imgs/features/image-2.png"
+              }
+          },
+          {
+              "title": "AI模型训练",
+              "description": "使用处理后的数据精调发型模型，确保效果精准逼真。",
+              "image": {
+                  "src": "/imgs/features/image-3.png"
+              }
+          },
+          {
+              "title": "验证交付",
+              "description": "AI验证后客户确认效果，通过API交付最终发型方案。",
+              "image": {
+                  "src": "/imgs/features/image-4.png"
+              }
+          }
+      ]
+  },
+  "feature": {
+      "name": "feature",
+      "title": "AI发型更换器核心功能",
+      "description": "通过我们的AI驱动虚拟发型生成器，轻松发现完美发型！即时试戴不同造型，找到最适合您的款式。",
+      "items": [
+          {
+              "title": "AI发型模拟器",
+              "description": "通过先进AI发型生成器体验逼真发型变换。",
+              "icon": "RiRobot2Line"
+          },
+          {
+              "title": "虚拟发型试戴",
+              "description": "使用个人照片即时试戴数百种发型。",
+              "icon": "RiCameraLensFill"
+          },
+          {
+              "title": "男女发型库",
+              "description": "通过免费在线工具探索最适合您的男女发型。",
+              "icon": "RiUserSmileLine"
+          },
+          {
+              "title": "逼真发色模拟",
+              "description": "使用AI色彩模拟器尝试不同发色，找到完美搭配。",
+              "icon": "RiPaletteFill"
+          },
+          {
+              "title": "即时效果",
+              "description": "凭借快速精准的AI技术，秒级获取虚拟发型效果。",
+              "icon": "RiFlashlightFill"
+          },
+          {
+              "title": "免费使用",
+              "description": "体验最佳的免费AI在线发型工具，无限次生成。",
+              "icon": "RiMoneyDollarCircleFill"
+          }
+      ]
+  },
+  "showcase": {
+      "name": "showcase",
+      "title": "基于AI发型更换器构建的SaaS案例",
+      "description": "易用高效，快速上线。",
+      "items": [
+          {
+              "title": "ThinkAny",
+              "description": "AI搜索引擎",
+              "url": "https://thinkany.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/7.png"
+              }
+          },
+          {
+              "title": "HeyBeauty",
+              "description": "AI虚拟试妆",
+              "url": "https://heybeauty.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/5.png"
+              }
+          },
+          {
+              "title": "AI壁纸",
+              "description": "AI壁纸生成器",
+              "url": "https://aiwallpaper.shop",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/1.png"
+              }
+          },
+          {
+              "title": "AI封面",
+              "description": "AI封面生成器",
+              "url": "https://aicover.design",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/2.png"
+              }
+          },
+          {
+              "title": "GPTs作品集",
+              "description": "GPTs目录",
+              "url": "https://gpts.works",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/3.png"
+              }
+          },
+          {
+              "title": "Melodisco",
+              "description": "AI音乐播放器",
+              "url": "https://melodis.co",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/4.png"
+              }
+          },
+          {
+              "title": "Pagen",
+              "description": "AI落地页生成器",
+              "url": "https://pagen.so",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/6.png"
+              }
+          },
+          {
+              "title": "SoraFM",
+              "description": "AI视频生成器",
+              "url": "https://sorafm.trys.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/8.png"
+              }
+          },
+          {
+              "title": "PodLM",
+              "description": "AI播客生成器",
+              "url": "https://podlm.ai",
+              "target": "_blank",
+              "image": {
+                  "src": "/imgs/showcases/9.png"
+              }
+          }
+      ]
+  },
+  "stats": {
+      "name": "stats",
+      "label": "数据统计",
+      "title": "用户喜爱AI发型更换器",
+      "description": "因其简单易用和快速上线",
+      "icon": "FaRegHeart",
+      "items": [
+          {
+              "title": "获信任于",
+              "label": "99+",
+              "description": "客户"
+          },
+          {
+              "title": "内置",
+              "label": "20+",
+              "description": "组件"
+          },
+          {
+              "title": "快速上线仅需",
+              "label": "5",
+              "description": "分钟"
+          }
+      ]
+  },
+  "pricing": {
+      "name": "pricing",
+      "label": "价格方案",
+      "title": "定价计划",
+      "description": "获取AI发型更换器全部功能，快速上线您的AI SaaS项目",
+      "groups": [
+
+      ],
+      "items": [
+          {
+              "title": "入门版",
+              "description": "启动首个SaaS项目",
+              "features_title": "包含功能",
+              "features": [
+                  "100点额度（有效期1个月）",
+                  "NextJS基础模板",
+                  "SEO友好结构",
+                  "Stripe支付集成",
+                  "Supabase数据存储",
+                  "谷歌OAuth一键登录",
+                  "多语言支持"
+              ],
+              "interval": "一次性",
+              "amount": 9900,
+              "cn_amount": 69900,
+              "currency": "USD",
+              "price": "¥699",
+              "original_price": "¥1399",
+              "unit": "元",
+              "is_featured": false,
+              "tip": "一次购买，无限项目使用！",
+              "button": {
+                  "title": "获取AI发型更换器",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "starter",
+              "product_name": "AI发型更换器基础模板入门版",
+              "credits": 100,
+              "valid_months": 1
+          },
+          {
+              "title": "标准版",
+              "description": "快速上线SaaS项目",
+              "label": "热销",
+              "features_title": "包含入门版所有功能，另加",
+              "features": [
+                  "200点额度（有效期3个月）",
+                  "Vercel/Cloudflare部署支持",
+                  "隐私条款自动生成",
+                  "谷歌分析集成",
+                  "谷歌搜索控制台集成",
+                  "Discord社区",
+                  "首项目技术指导",
+                  "终身更新"
+              ],
+              "interval": "一次性",
+              "amount": 19900,
+              "cn_amount": 139900,
+              "currency": "USD",
+              "price": "¥1399",
+              "original_price": "¥2099",
+              "unit": "元",
+              "is_featured": true,
+              "tip": "一次购买，无限项目使用！",
+              "button": {
+                  "title": "获取AI发型更换器",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "standard",
+              "product_name": "AI发型更换器基础模板标准版",
+              "credits": 200,
+              "valid_months": 3
+          },
+          {
+              "title": "高级版",
+              "description": "开发任意AI SaaS项目",
+              "features_title": "包含标准版所有功能，另加",
+              "features": [
+                  "300点额度（有效期1年）",
+                  "AI商业功能",
+                  "用户中心",
+                  "积分系统",
+                  "SaaS API销售功能",
+                  "管理系统",
+                  "优先技术支持"
+              ],
+              "interval": "一次性",
+              "amount": 29900,
+              "cn_amount": 199900,
+              "currency": "USD",
+              "price": "¥1999",
+              "original_price": "¥2999",
+              "unit": "元",
+              "is_featured": false,
+              "tip": "一次购买，无限项目使用！",
+              "button": {
+                  "title": "获取AI发型更换器",
+                  "url": "/#pricing",
+                  "icon": "RiFlashlightFill"
+              },
+              "product_id": "premium",
+              "product_name": "AI发型更换器基础模板高级版",
+              "credits": 300,
+              "valid_months": 12
+          }
+      ]
+  },
+  "testimonial": {
+      "name": "testimonial",
+      "label": "用户评价",
+      "title": "用户对AI发型更换器的评价",
+      "description": "聆听开发者和创始人们分享的使用体验与见解",
+      "icon": "GoThumbsup",
+      "items": [
+          {
+              "title": "陈大卫",
+              "label": "个人用户",
+              "description": "AI发型更换器太棒了！只需上传照片就能即时尝试不同发型和发色。效果自然逼真，非常适合犹豫要不要换发型的人。",
+              "image": {
+                  "src": "/imgs/users/1.png"
+              }
+          },
+          {
+              "title": "金瑞秋",
+              "label": "个人用户",
+              "description": "这个工具让我免于决策疲劳！无需实际剪发染发就能预览各种造型，超级实用！",
+              "image": {
+                  "src": "/imgs/users/2.png"
+              }
+          },
+          {
+              "title": "马库斯·汤普森",
+              "label": "独立开发者",
+              "description": "发型调整精度惊人，连细微发丝都能准确呈现。相比其他AI换发工具，这款效果真实得多，强烈推荐！",
+              "image": {
+                  "src": "/imgs/users/3.png"
+              }
+          },
+          {
+              "title": "索菲亚·加西亚",
+              "label": "个人用户",
+              "description": "模板开箱即用且高度可定制。我们仅用数小时就搭建了AI音乐平台，而非数月。惊人的上市速度！",
+              "image": {
+                  "src": "/imgs/users/4.png"
+              }
+          },
+          {
+              "title": "詹姆斯·威尔逊",
+              "label": "初创公司创始人",
+              "description": "界面友好易操作！一键切换发型超级方便，期待未来更新更多发型和发色选项！",
+              "image": {
+                  "src": "/imgs/users/5.png"
+              }
+          },
+          {
+              "title": "张安娜",
+              "label": "初创公司创始人",
+              "description": "AI发型更换器是颠覆性产品！让我在真正剪发前轻松尝试新造型，AI精准度令人印象深刻！",
+              "image": {
+                  "src": "/imgs/users/6.png"
+              }
+          }
+      ]
+  },
+  "faq": {
+      "name": "faq",
+      "label": "常见问题",
+      "title": "常见问题解答",
+      "description": "关于我们的免费AI在线发型工具有疑问？我们为您解答",
+      "items": [
+          {
+              "title": "虚拟发型试戴如何运作？",
+              "description": "我们的AI发型模拟器采用先进算法，将发型映射到上传的照片上，创造逼真变换效果，让您以惊人精度试戴发型"
+          },
+          {
+              "title": "真的可以免费试戴发型吗？",
+              "description": "是的！AI发型更换器完全免费使用。您可以无成本试戴发型并尝试不同造型"
+          },
+          {
+              "title": "如何使用AI发型试戴API？",
+              "description": "1、注册开发者账号 2、创建应用获取API密钥 3、按照发型更换器API文档集成，构建专属虚拟发型生成器"
+          },
+          {
+              "title": "可以使用自己的照片吗？",
+              "description": "当然可以！上传个人照片试戴发型，我们的发型模拟器最适合使用清晰的正脸照片"
+          },
+          {
+              "title": "适合男女用户吗？",
+              "description": "是的，我们的免费男女发型在线工具包含全性别款式。无论经典男发还是潮流女发，一应俱全"
+          }
+      ]
+  },
+  "cta": {
+      "name": "cta",
+      "title": "开启您的AI发型创业项目",
+      "description": "从这里开始，用AI发型更换器实现转型",
+      "buttons": [
+          {
+              "title": "获取API密钥",
+              "url": "https://www.ailabtools.com/doc/get-api-key",
+              "target": "_blank",
+              "icon": "GoArrowUpRight"
+          },
+          {
+              "title": "阅读文档",
+              "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+              "target": "_blank",
+              "variant": "outline"
+          }
+      ]
+  },
+  "footer": {
+      "name": "footer",
+      "brand": {
+          "title": "AI发型更换器",
+          "description": "AI发型更换器通过AI分析自拍照，提供多样发型和发色选择。实时预览让您轻松找到最适合脸型的造型",
+          "logo": {
+              "src": "/logo.png",
+              "alt": "AI发型更换器"
+          },
+          "url": "/"
+      },
+      "copyright": "© 2025 • AI发型更换器 版权所有",
+      "nav": {
+          "items": [
+              {
+                  "title": "关于我们",
+                  "children": [
+                      {
+                          "title": "功能特色",
+                          "url": "/zh-cn/#feature",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "案例展示",
+                          "url": "/zh-cn/#expalme",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "编辑器",
+                          "url": "/zh-cn/#editor",
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "title": "资源",
+                  "children": [
+                      {
+                          "title": "定制服务",
+                          "url": "/#usage",
+                          "target": "_self"
+                      },
+                      {
+                          "title": "开发文档",
+                          "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
+                          "target": "_blank"
+                      },
+                      {
+                          "title": "获取API密钥",
+                          "url": "https://www.ailabtools.com/doc/get-api-key",
+                          "target": "_blank"
+                      }
+                  ]
+              }
+          ]
+      },
+      "social": {
+          "items": [
+              {
+                  "title": "电子邮件",
+                  "icon": "RiMailLine",
+                  "url": "mailto:businesst@ailabtools.com",
+                  "target": "_self"
+              }
+          ]
+      },
+      "agreement": {
+          "items": [
+              {
+                  "title": "隐私政策",
+                  "url": "/privacy-policy"
+              },
+              {
+                  "title": "服务条款",
+                  "url": "/terms-of-service"
+              }
+          ]
+      }
+  }
+}
