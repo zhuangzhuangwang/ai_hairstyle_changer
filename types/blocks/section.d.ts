@@ -13,7 +13,7 @@ export interface SectionItem {
 }
 
 export interface Section {
-  email: any;
+  email?: any;
   disabled?: boolean;
   name?: string;
   title?: string;
