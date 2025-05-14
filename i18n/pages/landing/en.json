@@ -3,7 +3,7 @@
   "theme": "light",
   "header": {
       "brand": {
-          "title": "AI Hairstyle Changer - Try On Hairstyles Virtually",
+          "title": "AI Hairstyle Changer",
           "logo": {
               "src": "/logo.png",
               "alt": "AI Hairstyle Changer - Virtual Hair Style Generator"
@@ -50,7 +50,7 @@
       "show_locale": true
   },
   "hero": {
-      "title": "AI Hairstyle Changer - Try On Hairstyles With Your Picture For Free",
+      "title": "AI Hairstyle Changer For Try On Hairstyles",
       "highlight_text": "AI Hairstyle Changer",
       "description": "Discover what hairstyle suits me with our advanced haircut simulator. Try on hairstyles virtually using our AI-powered hair style generator and find your perfect look instantly! Our free men hairstyle online tool helps you visualize different cuts before committing.",
       "labels": [
