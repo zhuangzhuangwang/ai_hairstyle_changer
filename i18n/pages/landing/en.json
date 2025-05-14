@@ -88,8 +88,8 @@
           "cencel": "Cancel"
       },
       "left_box": {
-          "men_btn": "Male Hairstyles - Try On Hairstyles For Men",
-          "women_btn": "Female Hairstyles - Virtual Hair Style Women",
+          "men_btn": "Male",
+          "women_btn": "Female",
           "hair_style_btn": "Hair Style",
           "hair_color_btn": "Hair Color",
           "generate_btn": "Generate",
@@ -714,7 +714,7 @@
   },
   "feature": {
       "name": "feature",
-      "title": "Key Features of AI Hairstyle Changer - Try On Hairstyles",
+      "title": "Key Features of AI Hairstyle Change",
       "description": "Discover your perfect hairstyle effortlessly with our AI-powered virtual hair style generator! Try on different looks instantly and find what hairstyle suits me best.",
       "items": [
           {
@@ -840,7 +840,7 @@
   "stats": {
       "name": "stats",
       "label": "Stats",
-      "title": "People Love AI HairStyle Changer - Try On Hairstyles",
+      "title": "People Love AI HairStyle Changer",
       "description": "for it's easy to use and fast to ship virtual hair style generator.",
       "icon": "FaRegHeart",
       "items": [
@@ -973,7 +973,7 @@
   "testimonial": {
       "name": "testimonial",
       "label": "Testimonial",
-      "title": "What Users Say About AI HairStyle Changer - Try On Hairstyles",
+      "title": "What Users Say About AI HairStyle Changer",
       "description": "Hear from the developers and founders of AI HairStyle Changer as they share their experiences with our virtual hair style generator.",
       "icon": "GoThumbsup",
       "items": [
@@ -1077,7 +1077,7 @@
   "footer": {
       "name": "footer",
       "brand": {
-          "title": "AI Hairstyle Changer - Try On Hairstyles",
+          "title": "AI Hairstyle Changer",
           "description": "AI Hairstyle Changer uses AI to analyze your selfie, offering a variety of hairstyles and colors through our virtual hair style generator. With real-time previews in our haircut simulator, you can easily find what hairstyle suits me best.",
           "logo": {
               "src": "/logo.png",
@@ -1085,7 +1085,7 @@
           },
           "url": "/"
       },
-      "copyright": "© 2025 • AI HairStyle Changer - Try On Hairstyles Virtually All rights reserved.",
+      "copyright": "© 2025 • AI HairStyle Changer.",
       "nav": {
           "items": [
               {
