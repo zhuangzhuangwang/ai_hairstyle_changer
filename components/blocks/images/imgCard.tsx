@@ -67,11 +67,11 @@ export function HairStyleCard({ title, originalImage, effectImage, className }: 
         <h3 className="text-white text-lg font-medium text-center">
           {title}
         </h3>
-        <div className="flex justify-center items-center mt-2">
+        {/* <div className="flex justify-center items-center mt-2">
           <span className="text-xs text-white/80 bg-white/20 px-3 py-1 rounded-full">
             Hover to compare
           </span>
-        </div>
+        </div> */}
       </div>
 
       {/* 悬浮提示 */}
@@ -80,7 +80,7 @@ export function HairStyleCard({ title, originalImage, effectImage, className }: 
         showOriginal ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
       )}>
         <span className="text-xs text-white">
-          {showOriginal ? "Original Photo" : "Effect Photo"}
+          {showOriginal ? "Original Photo" : ""}
         </span>
       </div>
     </div>
