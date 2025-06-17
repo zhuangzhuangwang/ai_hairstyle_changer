@@ -209,85 +209,85 @@
                       "title": "Зачес назад",
                       "value": "ManGreased",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                      "img": "./imgs/hairstyles/men/ManGreased.webp"
                   },
                   {
                       "title": "Каштановая стрижка",
                       "value": "Chestnut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                      "img": "./imgs/hairstyles/men/Chestnut.webp"
                   },
                   {
                       "title": "Рваная челка",
                       "value": "ChoppyBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.webp"
                   },
                   {
                       "title": "Низкий фейд",
                       "value": "LowFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                      "img": "./imgs/hairstyles/men/LowFade.webp"
                   },
                   {
                       "title": "Пробор посередине",
                       "value": "Middle-parted",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                      "img": "./imgs/hairstyles/men/Middle-parted.webp"
                   },
                   {
                       "title": "Гладкий зачес",
                       "value": "SlickBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                      "img": "./imgs/hairstyles/men/SlickBack.webp"
                   },
                   {
                       "title": "Химическая завивка",
                       "value": "TinfoilPerm",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.webp"
                   },
                   {
                       "title": "Беспорядочные кудри",
                       "value": "CurlyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/CurlyShag.webp"
                   },
                   {
                       "title": "Андеркат",
                       "value": "UnderCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                      "img": "./imgs/hairstyles/men/UnderCut.webp"
                   },
                   {
                       "title": "Волнистая шапочка",
                       "value": "WavyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyShag.webp"
                   },
                   {
                       "title": "Волнистый пробор",
                       "value": "WavyMiddlePart",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.webp"
                   },
                   {
                       "title": "Бритая стрижка",
                       "value": "BuzzCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                      "img": "./imgs/hairstyles/men/BuzzCut.webp"
                   },
                   {
                       "title": "Ирокез",
                       "value": "FauxHawk",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                      "img": "./imgs/hairstyles/men/FauxHawk.webp"
                   },
                   {
                       "title": "Высокий фейд",
                       "value": "HighTightFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                      "img": "./imgs/hairstyles/men/HighTightFade.webp"
                   }
               ],
               "women": [
@@ -295,163 +295,163 @@
                       "title": "Классический боб",
                       "value": "BobCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                      "img": "./imgs/hairstyles/women/BobCut.webp"
                   },
                   {
                       "title": "Кудрявый боб",
                       "value": "CurlyBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                      "img": "./imgs/hairstyles/women/CurlyBob.webp"
                   },
                   {
                       "title": "Рыбий хвост",
                       "value": "FishtailBraid",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                      "img": "./imgs/hairstyles/women/FishtailBraid.webp"
                   },
                   {
                       "title": "Японская каре",
                       "value": "JapaneseShort",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                      "img": "./imgs/hairstyles/women/JapaneseShort.webp"
                   },
                   {
                       "title": "Длинные кудри",
                       "value": "LongCurly",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                      "img": "./imgs/hairstyles/women/LongCurly.webp"
                   },
                   {
                       "title": "Длинное химе",
                       "value": "LongHimeCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                      "img": "./imgs/hairstyles/women/LongHimeCut.webp"
                   },
                   {
                       "title": "Длинные волны",
                       "value": "LongWavy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                      "img": "./imgs/hairstyles/women/LongWavy.webp"
                   },
                   {
                       "title": "Средние слои",
                       "value": "MediumLongLayered",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.webp"
                   },
                   {
                       "title": "Пикси",
                       "value": "PixieCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                      "img": "./imgs/hairstyles/women/PixieCut.webp"
                   },
                   {
                       "title": "Короткие кудри",
                       "value": "ShortCurlyPixie",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.webp"
                   },
                   {
                       "title": "Аккуратный боб",
                       "value": "ShortNeatBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.webp"
                   },
                   {
                       "title": "Прямые до плеч",
                       "value": "ShoulderLengthHair",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.webp"
                   },
                   {
                       "title": "Два пучка",
                       "value": "DoubleBun",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                      "img": "./imgs/hairstyles/women/DoubleBun.webp"
                   },
                   {
                       "title": "Горшок",
                       "value": "bowlCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                      "img": "./imgs/hairstyles/women/bowlCut.webp"
                   },
                   {
                       "title": "Африканские косички",
                       "value": "BoxBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/BoxBraids.webp"
                   },
                   {
                       "title": "Шиньон",
                       "value": "Chignon",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                      "img": "./imgs/hairstyles/women/Chignon.webp"
                   },
                   {
                       "title": "Французская челка",
                       "value": "FrenchBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                      "img": "./imgs/hairstyles/women/FrenchBangs.webp"
                   },
                   {
                       "title": "Длинные прямые",
                       "value": "LongStraight",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                      "img": "./imgs/hairstyles/women/LongStraight.webp"
                   },
                   {
                       "title": "Два хвоста",
                       "value": "LongTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/LongTwintails.webp"
                   },
                   {
                       "title": "Хвостик",
                       "value": "Ponytail",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                      "img": "./imgs/hairstyles/women/Ponytail.webp"
                   },
                   {
                       "title": "Пикси с выбритыми висками",
                       "value": "ShortPixieWithShavedSides",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.webp"
                   },
                   {
                       "title": "Два коротких хвоста",
                       "value": "ShortTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortTwintails.webp"
                   },
                   {
                       "title": "Зачес назад",
                       "value": "SlickedBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                      "img": "./imgs/hairstyles/women/SlickedBack.webp"
                   },
                   {
                       "title": "Кудрявый боб",
                       "value": "StackedCurlsInShortBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.webp"
                   },
                   {
                       "title": "Две косы",
                       "value": "TwinBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/TwinBraids.webp"
                   },
                   {
                       "title": "Прическа вверх",
                       "value": "Updo",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                      "img": "./imgs/hairstyles/women/Updo.webp"
                   },
                   {
                       "title": "Волнистый боб (стиль 1920-х)",
                       "value": "WavyFrenchBobVibesfrom1920",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
                   }
               ]
           }
@@ -481,103 +481,103 @@
       "imgs": [
           {
               "title": "Длинные волнистые",
-              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-1.png"
+              "originalImage": "/imgs/example/hairstyle-o-1.webp",
+              "effectImage": "/imgs/example/hairstyle-r-1.webp"
           },
           {
               "title": "Короткое пикси с выбритыми висками",
-              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-2.png"
+              "originalImage": "/imgs/example/hairstyle-o-2.webp",
+              "effectImage": "/imgs/example/hairstyle-r-2.webp"
           },
           {
               "title": "Стрижка пикси",
-              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-3.png"
+              "originalImage": "/imgs/example/hairstyle-o-3.webp",
+              "effectImage": "/imgs/example/hairstyle-r-3.webp"
           },
           {
               "title": "Два длинных хвоста",
-              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-4.png"
+              "originalImage": "/imgs/example/hairstyle-o-4.webp",
+              "effectImage": "/imgs/example/hairstyle-r-4.webp"
           },
           {
               "title": "Прическа вверх",
-              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-5.png"
+              "originalImage": "/imgs/example/hairstyle-o-5.webp",
+              "effectImage": "/imgs/example/hairstyle-r-5.webp"
           },
           {
               "title": "Шиньон",
-              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-6.png"
+              "originalImage": "/imgs/example/hairstyle-o-6.webp",
+              "effectImage": "/imgs/example/hairstyle-r-6.webp"
           },
           {
               "title": "Каре",
-              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-7.png"
+              "originalImage": "/imgs/example/hairstyle-o-7.webp",
+              "effectImage": "/imgs/example/hairstyle-r-7.webp"
           },
           {
               "title": "Короткие кудри",
-              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-8.png"
+              "originalImage": "/imgs/example/hairstyle-o-8.webp",
+              "effectImage": "/imgs/example/hairstyle-r-8.webp"
           },
           {
               "title": "Два пучка",
-              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-9.png"
+              "originalImage": "/imgs/example/hairstyle-o-9.webp",
+              "effectImage": "/imgs/example/hairstyle-r-9.webp"
           },
           {
               "title": "Африканские косички",
-              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-10.png"
+              "originalImage": "/imgs/example/hairstyle-o-10.webp",
+              "effectImage": "/imgs/example/hairstyle-r-10.webp"
           },
           {
               "title": "Волнистый боб в стиле 1920-х",
-              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-11.png"
+              "originalImage": "/imgs/example/hairstyle-o-11.webp",
+              "effectImage": "/imgs/example/hairstyle-r-11.webp"
           },
           {
               "title": "Длинное химе",
-              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-12.png"
+              "originalImage": "/imgs/example/hairstyle-o-12.webp",
+              "effectImage": "/imgs/example/hairstyle-r-12.webp"
           },
           {
               "title": "Кудрявый боб",
-              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-13.png"
+              "originalImage": "/imgs/example/hairstyle-o-13.webp",
+              "effectImage": "/imgs/example/hairstyle-r-13.webp"
           },
           {
               "title": "Прямые до плеч",
-              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-14.png"
+              "originalImage": "/imgs/example/hairstyle-o-14.webp",
+              "effectImage": "/imgs/example/hairstyle-r-14.webp"
           },
           {
               "title": "Две косы",
-              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-15.png"
+              "originalImage": "/imgs/example/hairstyle-o-15.webp",
+              "effectImage": "/imgs/example/hairstyle-r-15.webp"
           },
           {
               "title": "Пробор посередине",
-              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-16.png"
+              "originalImage": "/imgs/example/hairstyle-o-16.webp",
+              "effectImage": "/imgs/example/hairstyle-r-16.webp"
           },
           {
               "title": "Бритая стрижка",
-              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-17.png"
+              "originalImage": "/imgs/example/hairstyle-o-17.webp",
+              "effectImage": "/imgs/example/hairstyle-r-17.webp"
           },
           {
               "title": "Двухблочная стрижка",
-              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-18.png"
+              "originalImage": "/imgs/example/hairstyle-o-18.webp",
+              "effectImage": "/imgs/example/hairstyle-r-18.webp"
           },
           {
               "title": "Беспорядочные кудри",
-              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-19.png"
+              "originalImage": "/imgs/example/hairstyle-o-19.webp",
+              "effectImage": "/imgs/example/hairstyle-r-19.webp"
           },
           {
               "title": "Собранные волосы",
-              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-20.png"
+              "originalImage": "/imgs/example/hairstyle-o-20.webp",
+              "effectImage": "/imgs/example/hairstyle-r-20.webp"
           }
       ]
   },

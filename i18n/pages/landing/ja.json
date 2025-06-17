@@ -209,85 +209,85 @@
                       "title": "スリックバック",
                       "value": "ManGreased",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                      "img": "./imgs/hairstyles/men/ManGreased.webp"
                   },
                   {
                       "title": "チェストナットカット",
                       "value": "Chestnut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                      "img": "./imgs/hairstyles/men/Chestnut.webp"
                   },
                   {
                       "title": "チョッピーバング",
                       "value": "ChoppyBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.webp"
                   },
                   {
                       "title": "ローフェード",
                       "value": "LowFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                      "img": "./imgs/hairstyles/men/LowFade.webp"
                   },
                   {
                       "title": "ミドルパート",
                       "value": "Middle-parted",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                      "img": "./imgs/hairstyles/men/Middle-parted.webp"
                   },
                   {
                       "title": "スリックバック",
                       "value": "SlickBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                      "img": "./imgs/hairstyles/men/SlickBack.webp"
                   },
                   {
                       "title": "ティンフォイルパーマ",
                       "value": "TinfoilPerm",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.webp"
                   },
                   {
                       "title": "メシーカール",
                       "value": "CurlyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/CurlyShag.webp"
                   },
                   {
                       "title": "アンダーカット",
                       "value": "UnderCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                      "img": "./imgs/hairstyles/men/UnderCut.webp"
                   },
                   {
                       "title": "ウェービーシャグ",
                       "value": "WavyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyShag.webp"
                   },
                   {
                       "title": "ウェービーミドルパート",
                       "value": "WavyMiddlePart",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.webp"
                   },
                   {
                       "title": "バズカット",
                       "value": "BuzzCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                      "img": "./imgs/hairstyles/men/BuzzCut.webp"
                   },
                   {
                       "title": "フォーホーク",
                       "value": "FauxHawk",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                      "img": "./imgs/hairstyles/men/FauxHawk.webp"
                   },
                   {
                       "title": "ハイタイトフェード",
                       "value": "HighTightFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                      "img": "./imgs/hairstyles/men/HighTightFade.webp"
                   }
               ],
               "women": [
@@ -295,163 +295,163 @@
                       "title": "クラシックボブ",
                       "value": "BobCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                      "img": "./imgs/hairstyles/women/BobCut.webp"
                   },
                   {
                       "title": "カーリーボブ",
                       "value": "CurlyBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                      "img": "./imgs/hairstyles/women/CurlyBob.webp"
                   },
                   {
                       "title": "フィッシュテールブレード",
                       "value": "FishtailBraid",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                      "img": "./imgs/hairstyles/women/FishtailBraid.webp"
                   },
                   {
                       "title": "ジャパニーズショート",
                       "value": "JapaneseShort",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                      "img": "./imgs/hairstyles/women/JapaneseShort.webp"
                   },
                   {
                       "title": "ロングカール",
                       "value": "LongCurly",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                      "img": "./imgs/hairstyles/women/LongCurly.webp"
                   },
                   {
                       "title": "ロング姫カット",
                       "value": "LongHimeCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                      "img": "./imgs/hairstyles/women/LongHimeCut.webp"
                   },
                   {
                       "title": "ロングウェービー",
                       "value": "LongWavy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                      "img": "./imgs/hairstyles/women/LongWavy.webp"
                   },
                   {
                       "title": "ミディアムロングレイヤード",
                       "value": "MediumLongLayered",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.webp"
                   },
                   {
                       "title": "ピクシーカット",
                       "value": "PixieCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                      "img": "./imgs/hairstyles/women/PixieCut.webp"
                   },
                   {
                       "title": "ショートカーリーピクシー",
                       "value": "ShortCurlyPixie",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.webp"
                   },
                   {
                       "title": "ショートニートボブ",
                       "value": "ShortNeatBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.webp"
                   },
                   {
                       "title": "ショルダーレングスストレート",
                       "value": "ShoulderLengthHair",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.webp"
                   },
                   {
                       "title": "ダブルバン",
                       "value": "DoubleBun",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                      "img": "./imgs/hairstyles/women/DoubleBun.webp"
                   },
                   {
                       "title": "ボウルカット",
                       "value": "bowlCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                      "img": "./imgs/hairstyles/women/bowlCut.webp"
                   },
                   {
                       "title": "ボックスブレード",
                       "value": "BoxBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/BoxBraids.webp"
                   },
                   {
                       "title": "シニョン",
                       "value": "Chignon",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                      "img": "./imgs/hairstyles/women/Chignon.webp"
                   },
                   {
                       "title": "フレンチバング",
                       "value": "FrenchBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                      "img": "./imgs/hairstyles/women/FrenchBangs.webp"
                   },
                   {
                       "title": "ロングストレート",
                       "value": "LongStraight",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                      "img": "./imgs/hairstyles/women/LongStraight.webp"
                   },
                   {
                       "title": "ロングツインテール",
                       "value": "LongTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/LongTwintails.webp"
                   },
                   {
                       "title": "ポニーテール",
                       "value": "Ponytail",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                      "img": "./imgs/hairstyles/women/Ponytail.webp"
                   },
                   {
                       "title": "サイド刈り上げピクシー",
                       "value": "ShortPixieWithShavedSides",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.webp"
                   },
                   {
                       "title": "ショートツインテール",
                       "value": "ShortTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortTwintails.webp"
                   },
                   {
                       "title": "スリックバック",
                       "value": "SlickedBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                      "img": "./imgs/hairstyles/women/SlickedBack.webp"
                   },
                   {
                       "title": "スタックカールショートボブ",
                       "value": "StackedCurlsInShortBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.webp"
                   },
                   {
                       "title": "ツインブレード",
                       "value": "TwinBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/TwinBraids.webp"
                   },
                   {
                       "title": "アップスタイル",
                       "value": "Updo",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                      "img": "./imgs/hairstyles/women/Updo.webp"
                   },
                   {
                       "title": "ウェービーフレンチボブ（1920年代風）",
                       "value": "WavyFrenchBobVibesfrom1920",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
                   }
               ]
           }
@@ -481,103 +481,103 @@
       "imgs": [
           {
               "title": "ロングウェービーヘア",
-              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-1.png"
+              "originalImage": "/imgs/example/hairstyle-o-1.webp",
+              "effectImage": "/imgs/example/hairstyle-r-1.webp"
           },
           {
               "title": "サイド刈り上げピクシー",
-              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-2.png"
+              "originalImage": "/imgs/example/hairstyle-o-2.webp",
+              "effectImage": "/imgs/example/hairstyle-r-2.webp"
           },
           {
               "title": "ピクシーカット",
-              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-3.png"
+              "originalImage": "/imgs/example/hairstyle-o-3.webp",
+              "effectImage": "/imgs/example/hairstyle-r-3.webp"
           },
           {
               "title": "ロングツインテール",
-              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-4.png"
+              "originalImage": "/imgs/example/hairstyle-o-4.webp",
+              "effectImage": "/imgs/example/hairstyle-r-4.webp"
           },
           {
               "title": "アップスタイル",
-              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-5.png"
+              "originalImage": "/imgs/example/hairstyle-o-5.webp",
+              "effectImage": "/imgs/example/hairstyle-r-5.webp"
           },
           {
               "title": "シニョン",
-              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-6.png"
+              "originalImage": "/imgs/example/hairstyle-o-6.webp",
+              "effectImage": "/imgs/example/hairstyle-r-6.webp"
           },
           {
               "title": "ボブカット",
-              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-7.png"
+              "originalImage": "/imgs/example/hairstyle-o-7.webp",
+              "effectImage": "/imgs/example/hairstyle-r-7.webp"
           },
           {
               "title": "ショートカーリーピクシー",
-              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-8.png"
+              "originalImage": "/imgs/example/hairstyle-o-8.webp",
+              "effectImage": "/imgs/example/hairstyle-r-8.webp"
           },
           {
               "title": "ダブルバン",
-              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-9.png"
+              "originalImage": "/imgs/example/hairstyle-o-9.webp",
+              "effectImage": "/imgs/example/hairstyle-r-9.webp"
           },
           {
               "title": "コーンロウ",
-              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-10.png"
+              "originalImage": "/imgs/example/hairstyle-o-10.webp",
+              "effectImage": "/imgs/example/hairstyle-r-10.webp"
           },
           {
               "title": "1920年代風ウェービーフレンチボブ",
-              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-11.png"
+              "originalImage": "/imgs/example/hairstyle-o-11.webp",
+              "effectImage": "/imgs/example/hairstyle-r-11.webp"
           },
           {
               "title": "ロング姫カット",
-              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-12.png"
+              "originalImage": "/imgs/example/hairstyle-o-12.webp",
+              "effectImage": "/imgs/example/hairstyle-r-12.webp"
           },
           {
               "title": "カーリーボブ",
-              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-13.png"
+              "originalImage": "/imgs/example/hairstyle-o-13.webp",
+              "effectImage": "/imgs/example/hairstyle-r-13.webp"
           },
           {
               "title": "ショルダーレングスストレート",
-              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-14.png"
+              "originalImage": "/imgs/example/hairstyle-o-14.webp",
+              "effectImage": "/imgs/example/hairstyle-r-14.webp"
           },
           {
               "title": "ツインブレード",
-              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-15.png"
+              "originalImage": "/imgs/example/hairstyle-o-15.webp",
+              "effectImage": "/imgs/example/hairstyle-r-15.webp"
           },
           {
               "title": "ミドルパート",
-              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-16.png"
+              "originalImage": "/imgs/example/hairstyle-o-16.webp",
+              "effectImage": "/imgs/example/hairstyle-r-16.webp"
           },
           {
               "title": "バズカット",
-              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-17.png"
+              "originalImage": "/imgs/example/hairstyle-o-17.webp",
+              "effectImage": "/imgs/example/hairstyle-r-17.webp"
           },
           {
               "title": "ツーブロック",
-              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-18.png"
+              "originalImage": "/imgs/example/hairstyle-o-18.webp",
+              "effectImage": "/imgs/example/hairstyle-r-18.webp"
           },
           {
               "title": "カーリーシャグ",
-              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-19.png"
+              "originalImage": "/imgs/example/hairstyle-o-19.webp",
+              "effectImage": "/imgs/example/hairstyle-r-19.webp"
           },
           {
               "title": "ロングヘアアップスタイル",
-              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-20.png"
+              "originalImage": "/imgs/example/hairstyle-o-20.webp",
+              "effectImage": "/imgs/example/hairstyle-r-20.webp"
           }
       ]
   },

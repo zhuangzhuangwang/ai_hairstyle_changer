@@ -867,7 +867,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                                 <div className="relative max-w-4xl max-h-screen">
                                     <img
                                     src={previewImage}
-                                    alt="预览"
+                                    alt="previewImage"
                                     className="max-w-full max-h-screen"
                                     />
                                     <button

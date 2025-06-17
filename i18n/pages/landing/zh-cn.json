@@ -209,85 +209,85 @@
                       "title": "大背头",
                       "value": "ManGreased",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                      "img": "./imgs/hairstyles/men/ManGreased.webp"
                   },
                   {
                       "title": "栗子头",
                       "value": "Chestnut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                      "img": "./imgs/hairstyles/men/Chestnut.webp"
                   },
                   {
                       "title": "碎刘海",
                       "value": "ChoppyBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.webp"
                   },
                   {
                       "title": "低渐变",
                       "value": "LowFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                      "img": "./imgs/hairstyles/men/LowFade.webp"
                   },
                   {
                       "title": "中分头",
                       "value": "Middle-parted",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                      "img": "./imgs/hairstyles/men/Middle-parted.webp"
                   },
                   {
                       "title": "光背头",
                       "value": "SlickBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                      "img": "./imgs/hairstyles/men/SlickBack.webp"
                   },
                   {
                       "title": "锡纸烫",
                       "value": "TinfoilPerm",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.webp"
                   },
                   {
                       "title": "凌乱卷",
                       "value": "CurlyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/CurlyShag.webp"
                   },
                   {
                       "title": "底削剪",
                       "value": "UnderCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                      "img": "./imgs/hairstyles/men/UnderCut.webp"
                   },
                   {
                       "title": "波浪蓬",
                       "value": "WavyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyShag.webp"
                   },
                   {
                       "title": "波浪中分",
                       "value": "WavyMiddlePart",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.webp"
                   },
                   {
                       "title": "圆寸头",
                       "value": "BuzzCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                      "img": "./imgs/hairstyles/men/BuzzCut.webp"
                   },
                   {
                       "title": "仿鹰头",
                       "value": "FauxHawk",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                      "img": "./imgs/hairstyles/men/FauxHawk.webp"
                   },
                   {
                       "title": "高紧渐变",
                       "value": "HighTightFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                      "img": "./imgs/hairstyles/men/HighTightFade.webp"
                   }
               ],
               "women": [
@@ -295,163 +295,163 @@
                       "title": "经典波波头",
                       "value": "BobCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                      "img": "./imgs/hairstyles/women/BobCut.webp"
                   },
                   {
                       "title": "卷发波波",
                       "value": "CurlyBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                      "img": "./imgs/hairstyles/women/CurlyBob.webp"
                   },
                   {
                       "title": "鱼尾辫",
                       "value": "FishtailBraid",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                      "img": "./imgs/hairstyles/women/FishtailBraid.webp"
                   },
                   {
                       "title": "日式短发",
                       "value": "JapaneseShort",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                      "img": "./imgs/hairstyles/women/JapaneseShort.webp"
                   },
                   {
                       "title": "长卷发",
                       "value": "LongCurly",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                      "img": "./imgs/hairstyles/women/LongCurly.webp"
                   },
                   {
                       "title": "长姬发",
                       "value": "LongHimeCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                      "img": "./imgs/hairstyles/women/LongHimeCut.webp"
                   },
                   {
                       "title": "长波浪",
                       "value": "LongWavy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                      "img": "./imgs/hairstyles/women/LongWavy.webp"
                   },
                   {
                       "title": "中长层次",
                       "value": "MediumLongLayered",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.webp"
                   },
                   {
                       "title": "精灵短发",
                       "value": "PixieCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                      "img": "./imgs/hairstyles/women/PixieCut.webp"
                   },
                   {
                       "title": "短卷精灵",
                       "value": "ShortCurlyPixie",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.webp"
                   },
                   {
                       "title": "整洁波波",
                       "value": "ShortNeatBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.webp"
                   },
                   {
                       "title": "齐肩直发",
                       "value": "ShoulderLengthHair",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.webp"
                   },
                   {
                       "title": "双丸子头",
                       "value": "DoubleBun",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                      "img": "./imgs/hairstyles/women/DoubleBun.webp"
                   },
                   {
                       "title": "锅盖头",
                       "value": "bowlCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                      "img": "./imgs/hairstyles/women/bowlCut.webp"
                   },
                   {
                       "title": "盒辫",
                       "value": "BoxBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/BoxBraids.webp"
                   },
                   {
                       "title": "发髻",
                       "value": "Chignon",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                      "img": "./imgs/hairstyles/women/Chignon.webp"
                   },
                   {
                       "title": "法式刘海",
                       "value": "FrenchBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                      "img": "./imgs/hairstyles/women/FrenchBangs.webp"
                   },
                   {
                       "title": "长直发",
                       "value": "LongStraight",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                      "img": "./imgs/hairstyles/women/LongStraight.webp"
                   },
                   {
                       "title": "长双马尾",
                       "value": "LongTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/LongTwintails.webp"
                   },
                   {
                       "title": "马尾辫",
                       "value": "Ponytail",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                      "img": "./imgs/hairstyles/women/Ponytail.webp"
                   },
                   {
                       "title": "侧削精灵",
                       "value": "ShortPixieWithShavedSides",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.webp"
                   },
                   {
                       "title": "短双马尾",
                       "value": "ShortTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortTwintails.webp"
                   },
                   {
                       "title": "光背造型",
                       "value": "SlickedBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                      "img": "./imgs/hairstyles/women/SlickedBack.webp"
                   },
                   {
                       "title": "短波卷层",
                       "value": "StackedCurlsInShortBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.webp"
                   },
                   {
                       "title": "双辫子",
                       "value": "TwinBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/TwinBraids.webp"
                   },
                   {
                       "title": "盘发",
                       "value": "Updo",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                      "img": "./imgs/hairstyles/women/Updo.webp"
                   },
                   {
                       "title": "波浪法式波波(1920年代风)",
                       "value": "WavyFrenchBobVibesfrom1920",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
                   }
               ]
           }
@@ -481,103 +481,103 @@
       "imgs": [
           {
               "title": "长波浪发",
-              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-1.png"
+              "originalImage": "/imgs/example/hairstyle-o-1.webp",
+              "effectImage": "/imgs/example/hairstyle-r-1.webp"
           },
           {
               "title": "侧削精灵短发",
-              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-2.png"
+              "originalImage": "/imgs/example/hairstyle-o-2.webp",
+              "effectImage": "/imgs/example/hairstyle-r-2.webp"
           },
           {
               "title": "精灵短发",
-              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-3.png"
+              "originalImage": "/imgs/example/hairstyle-o-3.webp",
+              "effectImage": "/imgs/example/hairstyle-r-3.webp"
           },
           {
               "title": "长双马尾",
-              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-4.png"
+              "originalImage": "/imgs/example/hairstyle-o-4.webp",
+              "effectImage": "/imgs/example/hairstyle-r-4.webp"
           },
           {
               "title": "盘发造型",
-              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-5.png"
+              "originalImage": "/imgs/example/hairstyle-o-5.webp",
+              "effectImage": "/imgs/example/hairstyle-r-5.webp"
           },
           {
               "title": "发髻造型",
-              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-6.png"
+              "originalImage": "/imgs/example/hairstyle-o-6.webp",
+              "effectImage": "/imgs/example/hairstyle-r-6.webp"
           },
           {
               "title": "波波头",
-              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-7.png"
+              "originalImage": "/imgs/example/hairstyle-o-7.webp",
+              "effectImage": "/imgs/example/hairstyle-r-7.webp"
           },
           {
               "title": "短卷精灵",
-              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-8.png"
+              "originalImage": "/imgs/example/hairstyle-o-8.webp",
+              "effectImage": "/imgs/example/hairstyle-r-8.webp"
           },
           {
               "title": "双丸子头",
-              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-9.png"
+              "originalImage": "/imgs/example/hairstyle-o-9.webp",
+              "effectImage": "/imgs/example/hairstyle-r-9.webp"
           },
           {
               "title": "玉米辫",
-              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-10.png"
+              "originalImage": "/imgs/example/hairstyle-o-10.webp",
+              "effectImage": "/imgs/example/hairstyle-r-10.webp"
           },
           {
               "title": "1920年代波浪法式波波",
-              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-11.png"
+              "originalImage": "/imgs/example/hairstyle-o-11.webp",
+              "effectImage": "/imgs/example/hairstyle-r-11.webp"
           },
           {
               "title": "长姬发式",
-              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-12.png"
+              "originalImage": "/imgs/example/hairstyle-o-12.webp",
+              "effectImage": "/imgs/example/hairstyle-r-12.webp"
           },
           {
               "title": "卷发波波",
-              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-13.png"
+              "originalImage": "/imgs/example/hairstyle-o-13.webp",
+              "effectImage": "/imgs/example/hairstyle-r-13.webp"
           },
           {
               "title": "齐肩直发",
-              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-14.png"
+              "originalImage": "/imgs/example/hairstyle-o-14.webp",
+              "effectImage": "/imgs/example/hairstyle-r-14.webp"
           },
           {
               "title": "双辫子",
-              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-15.png"
+              "originalImage": "/imgs/example/hairstyle-o-15.webp",
+              "effectImage": "/imgs/example/hairstyle-r-15.webp"
           },
           {
               "title": "中分发型",
-              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-16.png"
+              "originalImage": "/imgs/example/hairstyle-o-16.webp",
+              "effectImage": "/imgs/example/hairstyle-r-16.webp"
           },
           {
               "title": "圆寸头",
-              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-17.png"
+              "originalImage": "/imgs/example/hairstyle-o-17.webp",
+              "effectImage": "/imgs/example/hairstyle-r-17.webp"
           },
           {
               "title": "二分区发型",
-              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-18.png"
+              "originalImage": "/imgs/example/hairstyle-o-18.webp",
+              "effectImage": "/imgs/example/hairstyle-r-18.webp"
           },
           {
               "title": "凌乱卷发",
-              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-19.png"
+              "originalImage": "/imgs/example/hairstyle-o-19.webp",
+              "effectImage": "/imgs/example/hairstyle-r-19.webp"
           },
           {
               "title": "高扎长发",
-              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-20.png"
+              "originalImage": "/imgs/example/hairstyle-o-20.webp",
+              "effectImage": "/imgs/example/hairstyle-r-20.webp"
           }
       ]
   },

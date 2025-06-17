@@ -209,85 +209,85 @@
                       "title": "슬릭 백",
                       "value": "ManGreased",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ManGreased.jpeg"
+                      "img": "./imgs/hairstyles/men/ManGreased.webp"
                   },
                   {
                       "title": "체스트넷 컷",
                       "value": "Chestnut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Chestnut.jpeg"
+                      "img": "./imgs/hairstyles/men/Chestnut.webp"
                   },
                   {
                       "title": "초피 뱅",
                       "value": "ChoppyBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ChoppyBangs.jpeg"
+                      "img": "./imgs/hairstyles/men/ChoppyBangs.webp"
                   },
                   {
                       "title": "로우 페이드",
                       "value": "LowFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/LowFade.jpeg"
+                      "img": "./imgs/hairstyles/men/LowFade.webp"
                   },
                   {
                       "title": "미들 파트",
                       "value": "Middle-parted",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Middle-parted.jpeg"
+                      "img": "./imgs/hairstyles/men/Middle-parted.webp"
                   },
                   {
                       "title": "슬릭 백",
                       "value": "SlickBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/SlickBack.jpeg"
+                      "img": "./imgs/hairstyles/men/SlickBack.webp"
                   },
                   {
                       "title": "틴포일 펌",
                       "value": "TinfoilPerm",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/TinfoilPerm.jpeg"
+                      "img": "./imgs/hairstyles/men/TinfoilPerm.webp"
                   },
                   {
                       "title": "메시 컬",
                       "value": "CurlyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/CurlyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/CurlyShag.webp"
                   },
                   {
                       "title": "언더컷",
                       "value": "UnderCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/UnderCut.jpeg"
+                      "img": "./imgs/hairstyles/men/UnderCut.webp"
                   },
                   {
                       "title": "웨이비 샤그",
                       "value": "WavyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyShag.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyShag.webp"
                   },
                   {
                       "title": "웨이비 미들 파트",
                       "value": "WavyMiddlePart",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyMiddlePart.jpeg"
+                      "img": "./imgs/hairstyles/men/WavyMiddlePart.webp"
                   },
                   {
                       "title": "버즈 컷",
                       "value": "BuzzCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/BuzzCut.jpeg"
+                      "img": "./imgs/hairstyles/men/BuzzCut.webp"
                   },
                   {
                       "title": "포 호크",
                       "value": "FauxHawk",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/FauxHawk.jpeg"
+                      "img": "./imgs/hairstyles/men/FauxHawk.webp"
                   },
                   {
                       "title": "하이 타이트 페이드",
                       "value": "HighTightFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/HighTightFade.jpeg"
+                      "img": "./imgs/hairstyles/men/HighTightFade.webp"
                   }
               ],
               "women": [
@@ -295,163 +295,163 @@
                       "title": "클래식 밥",
                       "value": "BobCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BobCut.jpeg"
+                      "img": "./imgs/hairstyles/women/BobCut.webp"
                   },
                   {
                       "title": "컬리 밥",
                       "value": "CurlyBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/CurlyBob.jpeg"
+                      "img": "./imgs/hairstyles/women/CurlyBob.webp"
                   },
                   {
                       "title": "피쉬테일 브레이드",
                       "value": "FishtailBraid",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FishtailBraid.jpeg"
+                      "img": "./imgs/hairstyles/women/FishtailBraid.webp"
                   },
                   {
                       "title": "일본식 숏",
                       "value": "JapaneseShort",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/JapaneseShort.jpeg"
+                      "img": "./imgs/hairstyles/women/JapaneseShort.webp"
                   },
                   {
                       "title": "롱 컬리",
                       "value": "LongCurly",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongCurly.jpeg"
+                      "img": "./imgs/hairstyles/women/LongCurly.webp"
                   },
                   {
                       "title": "롱 히메 컷",
                       "value": "LongHimeCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongHimeCut.jpeg"
+                      "img": "./imgs/hairstyles/women/LongHimeCut.webp"
                   },
                   {
                       "title": "롱 웨이비",
                       "value": "LongWavy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongWavy.jpeg"
+                      "img": "./imgs/hairstyles/women/LongWavy.webp"
                   },
                   {
                       "title": "미디엄 롱 레이어드",
                       "value": "MediumLongLayered",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/MediumLongLayered.jpeg"
+                      "img": "./imgs/hairstyles/women/MediumLongLayered.webp"
                   },
                   {
                       "title": "픽시 컷",
                       "value": "PixieCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/PixieCut.jpeg"
+                      "img": "./imgs/hairstyles/women/PixieCut.webp"
                   },
                   {
                       "title": "숏 컬리 픽시",
                       "value": "ShortCurlyPixie",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.webp"
                   },
                   {
                       "title": "숏 니트 밥",
                       "value": "ShortNeatBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortNeatBob.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortNeatBob.webp"
                   },
                   {
                       "title": "숄더 렝스 스트레이트",
                       "value": "ShoulderLengthHair",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.jpeg"
+                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.webp"
                   },
                   {
                       "title": "더블 번",
                       "value": "DoubleBun",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/DoubleBun.jpeg"
+                      "img": "./imgs/hairstyles/women/DoubleBun.webp"
                   },
                   {
                       "title": "보울 컷",
                       "value": "bowlCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/bowlCut.jpeg"
+                      "img": "./imgs/hairstyles/women/bowlCut.webp"
                   },
                   {
                       "title": "박스 브레이드",
                       "value": "BoxBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BoxBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/BoxBraids.webp"
                   },
                   {
                       "title": "시뇽",
                       "value": "Chignon",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Chignon.jpeg"
+                      "img": "./imgs/hairstyles/women/Chignon.webp"
                   },
                   {
                       "title": "프렌치 뱅",
                       "value": "FrenchBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FrenchBangs.jpeg"
+                      "img": "./imgs/hairstyles/women/FrenchBangs.webp"
                   },
                   {
                       "title": "롱 스트레이트",
                       "value": "LongStraight",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongStraight.jpeg"
+                      "img": "./imgs/hairstyles/women/LongStraight.webp"
                   },
                   {
                       "title": "롱 트윈 테일",
                       "value": "LongTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/LongTwintails.webp"
                   },
                   {
                       "title": "포니테일",
                       "value": "Ponytail",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Ponytail.jpeg"
+                      "img": "./imgs/hairstyles/women/Ponytail.webp"
                   },
                   {
                       "title": "사이드 밀업 픽시",
                       "value": "ShortPixieWithShavedSides",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.webp"
                   },
                   {
                       "title": "숏 트윈 테일",
                       "value": "ShortTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortTwintails.jpeg"
+                      "img": "./imgs/hairstyles/women/ShortTwintails.webp"
                   },
                   {
                       "title": "슬릭 백",
                       "value": "SlickedBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/SlickedBack.jpeg"
+                      "img": "./imgs/hairstyles/women/SlickedBack.webp"
                   },
                   {
                       "title": "스택 컬 숏 밥",
                       "value": "StackedCurlsInShortBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.jpeg"
+                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.webp"
                   },
                   {
                       "title": "트윈 브레이드",
                       "value": "TwinBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/TwinBraids.jpeg"
+                      "img": "./imgs/hairstyles/women/TwinBraids.webp"
                   },
                   {
                       "title": "업도",
                       "value": "Updo",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Updo.jpeg"
+                      "img": "./imgs/hairstyles/women/Updo.webp"
                   },
                   {
                       "title": "웨이비 프렌치 밥 (1920년대 스타일)",
                       "value": "WavyFrenchBobVibesfrom1920",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.jpeg"
+                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
                   }
               ]
           }
@@ -481,103 +481,103 @@
       "imgs": [
           {
               "title": "롱 웨이비 헤어",
-              "originalImage": "/imgs/example/hairstyle-o-1.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-1.png"
+              "originalImage": "/imgs/example/hairstyle-o-1.webp",
+              "effectImage": "/imgs/example/hairstyle-r-1.webp"
           },
           {
               "title": "사이드 밀업 픽시",
-              "originalImage": "/imgs/example/hairstyle-o-2.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-2.png"
+              "originalImage": "/imgs/example/hairstyle-o-2.webp",
+              "effectImage": "/imgs/example/hairstyle-r-2.webp"
           },
           {
               "title": "픽시 컷",
-              "originalImage": "/imgs/example/hairstyle-o-3.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-3.png"
+              "originalImage": "/imgs/example/hairstyle-o-3.webp",
+              "effectImage": "/imgs/example/hairstyle-r-3.webp"
           },
           {
               "title": "롱 트윈 테일",
-              "originalImage": "/imgs/example/hairstyle-o-4.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-4.png"
+              "originalImage": "/imgs/example/hairstyle-o-4.webp",
+              "effectImage": "/imgs/example/hairstyle-r-4.webp"
           },
           {
               "title": "업도",
-              "originalImage": "/imgs/example/hairstyle-o-5.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-5.png"
+              "originalImage": "/imgs/example/hairstyle-o-5.webp",
+              "effectImage": "/imgs/example/hairstyle-r-5.webp"
           },
           {
               "title": "시뇽",
-              "originalImage": "/imgs/example/hairstyle-o-6.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-6.png"
+              "originalImage": "/imgs/example/hairstyle-o-6.webp",
+              "effectImage": "/imgs/example/hairstyle-r-6.webp"
           },
           {
               "title": "밥 컷",
-              "originalImage": "/imgs/example/hairstyle-o-7.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-7.png"
+              "originalImage": "/imgs/example/hairstyle-o-7.webp",
+              "effectImage": "/imgs/example/hairstyle-r-7.webp"
           },
           {
               "title": "숏 컬리 픽시",
-              "originalImage": "/imgs/example/hairstyle-o-8.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-8.png"
+              "originalImage": "/imgs/example/hairstyle-o-8.webp",
+              "effectImage": "/imgs/example/hairstyle-r-8.webp"
           },
           {
               "title": "더블 번",
-              "originalImage": "/imgs/example/hairstyle-o-9.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-9.png"
+              "originalImage": "/imgs/example/hairstyle-o-9.webp",
+              "effectImage": "/imgs/example/hairstyle-r-9.webp"
           },
           {
               "title": "콘로우",
-              "originalImage": "/imgs/example/hairstyle-o-10.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-10.png"
+              "originalImage": "/imgs/example/hairstyle-o-10.webp",
+              "effectImage": "/imgs/example/hairstyle-r-10.webp"
           },
           {
               "title": "1920년대 스타일 웨이비 프렌치 밥",
-              "originalImage": "/imgs/example/hairstyle-o-11.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-11.png"
+              "originalImage": "/imgs/example/hairstyle-o-11.webp",
+              "effectImage": "/imgs/example/hairstyle-r-11.webp"
           },
           {
               "title": "롱 히메 컷",
-              "originalImage": "/imgs/example/hairstyle-o-12.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-12.png"
+              "originalImage": "/imgs/example/hairstyle-o-12.webp",
+              "effectImage": "/imgs/example/hairstyle-r-12.webp"
           },
           {
               "title": "컬리 밥",
-              "originalImage": "/imgs/example/hairstyle-o-13.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-13.png"
+              "originalImage": "/imgs/example/hairstyle-o-13.webp",
+              "effectImage": "/imgs/example/hairstyle-r-13.webp"
           },
           {
               "title": "숄더 렝스 스트레이트",
-              "originalImage": "/imgs/example/hairstyle-o-14.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-14.png"
+              "originalImage": "/imgs/example/hairstyle-o-14.webp",
+              "effectImage": "/imgs/example/hairstyle-r-14.webp"
           },
           {
               "title": "트윈 브레이드",
-              "originalImage": "/imgs/example/hairstyle-o-15.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-15.png"
+              "originalImage": "/imgs/example/hairstyle-o-15.webp",
+              "effectImage": "/imgs/example/hairstyle-r-15.webp"
           },
           {
               "title": "미들 파트",
-              "originalImage": "/imgs/example/hairstyle-o-16.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-16.png"
+              "originalImage": "/imgs/example/hairstyle-o-16.webp",
+              "effectImage": "/imgs/example/hairstyle-r-16.webp"
           },
           {
               "title": "버즈 컷",
-              "originalImage": "/imgs/example/hairstyle-o-17.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-17.png"
+              "originalImage": "/imgs/example/hairstyle-o-17.webp",
+              "effectImage": "/imgs/example/hairstyle-r-17.webp"
           },
           {
               "title": "투 블록 컷",
-              "originalImage": "/imgs/example/hairstyle-o-18.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-18.png"
+              "originalImage": "/imgs/example/hairstyle-o-18.webp",
+              "effectImage": "/imgs/example/hairstyle-r-18.webp"
           },
           {
               "title": "컬리 샤그",
-              "originalImage": "/imgs/example/hairstyle-o-19.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-19.png"
+              "originalImage": "/imgs/example/hairstyle-o-19.webp",
+              "effectImage": "/imgs/example/hairstyle-r-19.webp"
           },
           {
               "title": "롱 헤어 업스타일",
-              "originalImage": "/imgs/example/hairstyle-o-20.jpeg",
-              "effectImage": "/imgs/example/hairstyle-r-20.png"
+              "originalImage": "/imgs/example/hairstyle-o-20.webp",
+              "effectImage": "/imgs/example/hairstyle-r-20.webp"
           }
       ]
   },
