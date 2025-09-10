@@ -743,6 +743,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                                 e.currentTarget.classList.remove('border-amber-500');
                                 const files = e.dataTransfer.files;
                                 if (files && files[0]) {
+                                    setImageUrl(null);
                                     handleFileUpload(files[0]);
                                 }
                             }}
@@ -841,6 +842,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                                         accept=".jpg,.jpeg,.png"
                                         onChange={(e) => {
                                             if (e.target.files && e.target.files[0]) {
+                                                setImageUrl(null);
                                                 handleFileUpload(e.target.files[0]);
                                             }
                                         }}

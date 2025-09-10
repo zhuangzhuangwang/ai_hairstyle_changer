@@ -27,11 +27,11 @@ export async function POST(request: Request) {
     });
     
     const { code: taskCode, msg: taskMsg, data: taskData } = await taskResponse.json();
-    
+    // console.log( taskCode, taskMsg, taskData ,'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
     if(taskCode != 0){
       return NextResponse.json(
         { error: taskMsg },
-        { status: 500 ,statusText: taskMsg}
+        { status: 500 }
       );
     }
     return NextResponse.json(
@@ -39,7 +39,8 @@ export async function POST(request: Request) {
     );
   } catch (error) {
     return NextResponse.json(
-      { status: 500 ,statusText: 'Create task error:' + error}
+      { error: error as string },
+      { status: 500 }
     );
   }
 }

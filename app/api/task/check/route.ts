@@ -15,20 +15,19 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         id: 275,
-        token,
         ai_params: {
           task_type: "async",
           image_url
         }
       })
     });
-    
+    /// console.log( taskResponse.json() ,'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
     const { code: taskCode, msg: taskMsg, data: taskData } = await taskResponse.json();
-    
+    // console.log( taskCode, taskMsg, taskData ,'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
     if(taskCode != 0){
       return NextResponse.json(
         { error: taskMsg },
-        { status: 500 ,statusText: taskMsg}
+        { status: 500 }
       );
     }
     return NextResponse.json(
@@ -36,7 +35,8 @@ export async function POST(request: Request) {
     );
   } catch (error) {
     return NextResponse.json(
-      { status: 500 ,statusText: 'Create task error:' + error}
+      { error: error as string },
+      { status: 500 }
     );
   }
 }
