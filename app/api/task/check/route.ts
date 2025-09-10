@@ -15,7 +15,6 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         id: 275,
-        token,
         ai_params: {
           task_type: "async",
           image_url
