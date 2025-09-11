@@ -121,6 +121,14 @@
     "Multiple_Faces": "Обнаружено несколько лиц!!!",
     "Large_Face_Offset": "Большое смещение лица!!!"
   },
+  "history": {
+    "title": "История",
+    "empty": "История не найдена.",
+    "original_image": "Original",
+    "result_image": "Result",
+    "retry_btn": "Retry",
+    "download_btn": "Download"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "Ошибка обработки.",
     "ERROR_PARAMETERS": "Неверные параметры.",

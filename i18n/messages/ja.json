@@ -121,6 +121,14 @@
     "Multiple_Faces": "複数の顔が検出されました!!!",
     "Large_Face_Offset": "顔の位置が大きくずれています!!!"
   },
+  "history": {
+    "title": "履歴",
+    "empty": "履歴がありません。",
+    "original_image": "原画像",
+    "result_image": "結果画像",
+    "retry_btn": "再試行",
+    "download_btn": "ダウンロード"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "処理に失敗しました。",
     "ERROR_PARAMETERS": "無効なパラメータです。",

@@ -121,6 +121,14 @@
     "Multiple_Faces": "Multiple faces detected!!!",
     "Large_Face_Offset": "Large face offset detected!!!"
   },
+  "history": {
+    "title": "History",
+    "empty": "No history records.",
+    "original_image": "Original",
+    "result_image": "Result",
+    "retry_btn": "Retry",
+    "download_btn": "Download"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "Processing failed.",
     "ERROR_PARAMETERS": "Invalid parameters.",

@@ -121,6 +121,14 @@
     "Multiple_Faces": "여러 얼굴이 감지됨!!!",
     "Large_Face_Offset": "얼굴 위치가 크게 벗어남!!!"
   },
+  "history": {
+    "title": "기록",
+    "empty": "기록이 없습니다.",
+    "original_image": "원본",
+    "result_image": "결과",
+    "retry_btn": "다시 시도",
+    "download_btn": "다운로드"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "처리 실패.",
     "ERROR_PARAMETERS": "잘못된 매개변수입니다.",

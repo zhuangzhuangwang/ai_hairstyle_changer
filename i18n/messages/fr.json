@@ -121,6 +121,14 @@
     "Multiple_Faces": "Multiples visages détectés !!!",
     "Large_Face_Offset": "Grand décalage visage détecté !!!"
   },
+  "history": {
+    "title": "Historique",
+    "empty": "Aucun historique trouvé.",
+    "original_image": "Original",
+    "result_image": "Résultat",
+    "retry_btn": "Réessayer",
+    "download_btn": "Télécharger"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "Échec traitement.",
     "ERROR_PARAMETERS": "Paramètres invalides.",

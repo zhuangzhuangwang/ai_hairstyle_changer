@@ -121,6 +121,14 @@
     "Multiple_Faces": "检测到多张人脸！！！",
     "Large_Face_Offset": "检测到人脸偏移过大！！！"
   },
+  "history": {
+    "title": "历史记录",
+    "empty": "暂无历史记录。",
+    "original_image": "原图",
+    "result_image": "结果",
+    "retry_btn": "重试",
+    "download_btn": "下载"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "处理失败。",
     "ERROR_PARAMETERS": "参数无效。",

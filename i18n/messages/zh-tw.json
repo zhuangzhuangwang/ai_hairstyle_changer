@@ -121,6 +121,14 @@
     "Multiple_Faces": "檢測到多張人臉！！！",
     "Large_Face_Offset": "檢測到人臉偏移過大！！！"
   },
+  "history": {
+    "title": "歷史記錄",
+    "empty": "暫無歷史紀錄。",
+    "original_image": "原圖",
+    "result_image": "結果",
+    "retry_btn": "重試",
+    "download_btn": "下載"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "處理失敗。",
     "ERROR_PARAMETERS": "無效參數。",

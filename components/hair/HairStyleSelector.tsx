@@ -17,6 +17,7 @@ import {
 import { Progress } from "@/components/ui/progress"  
 import { toast } from "sonner";
 import { useTranslations } from "next-intl";
+import HairHistory from './HairHistory';
 
 
 type Gender = 'female' | 'male';
@@ -49,6 +50,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
     const [showTurnstile, setShowTurnstile] = useState(false);
     const [isload, setIsload] = useState(false);
     const [loadNum, setLoadNum] = useState(0);
+    const [latestResult, setLatestResult] = useState<{ originalImageSrc: string; resultImageSrcs: string[] } | undefined>(undefined); // 新增状态
     const targetRatio = 0.15
     //  发型样式数据
     const hairData = editor.left_box.hair_styles
@@ -225,6 +227,15 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
             setShowLeftPanel(true);
             setShowRightPanel(false);
         }
+    };
+
+    // 处理历史记录的重试
+    const handleHistoryRetry = (originalImage: string) => {
+        setUploadedImage(originalImage);
+        setResultImage(null);
+        setImageUrl(originalImage);
+        setShowOriginal(true);
+        // 重置样式和颜色选择，如果需要的话。目前保持不变。
     };
 
     // 计算是否所有条件都满足
@@ -525,6 +536,15 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                     setIsPolling(false);
                     // 隐藏底部示例图片
                     setShowOriginal(false);
+
+                    // 将最新结果保存到 latestResult 状态
+                    if (imgUrl) {
+                        setLatestResult({
+                            originalImageSrc: imgUrl,
+                            resultImageSrcs: result,
+                        });
+                    }
+
                     return result;
                 }
                 if (status === -1) {
@@ -550,380 +570,374 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
         }
     };
     return (
-        <section id={editor.name} className="py-6">
-            {/* Turnstile验证弹窗 */}
-            {showTurnstile && (
-                <div 
-                    className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
-                    onClick={(e) => {
-                        // 阻止事件冒泡，防止点击背景关闭弹窗
-                        e.stopPropagation();
-                    }}
-                >
+        <>
+            <section id={editor.name} className="py-6">
+                {/* Turnstile验证弹窗 */}
+                {showTurnstile && (
                     <div 
-                        className="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full darkAmber"
-                        onClick={(e) => e.stopPropagation()}
+                        className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+                        onClick={(e) => {
+                            // 阻止事件冒泡，防止点击背景关闭弹窗
+                            e.stopPropagation();
+                        }}
                     >
-                        <div className="flex justify-between items-center mb-2">
-                            <h3 className="text-lg font-medium text-left flex-1">
-                                {editor.turnstile?.title || 'Please Verify'}
-                            </h3>
-                        </div>
-                        <div className="flex justify-center mb-2">
-                            <TurnstileWidget 
-                                onSuccess={ async (e) => {
-                                    // 开始处理
-                                    handleTurnstileSuccess(e)
-                                }}
-                                onError={() => console.error('Turnstile Fail!!!')}
-                                onExpire={() => console.log('Turnstile Time Out!!!')}
-                            />
-                        </div>
-                    </div>
-                </div>
-            )}
-            
-            <div className="flex flex-col md:flex-row container mx-auto gap-8 p-4 md:p-8 rounded-lg mt-6 dementor shadow-lg shadow-gray-500/50">
-                {/* 左侧发型选择区域 */}
-                {(!isMobile || showLeftPanel) && (
-                    <div className={`w-full md:w-[30%] flex flex-col h-[700px] ${isMobile ? 'order-2' : ''}`}>
-                        {/* 性别切换 */}
-                        <div className="flex mb-4 bg-gray-100 p-1 rounded-lg">
-                            <button 
-                                className={`flex-1 px-4 py-2 rounded-lg text-sm ${
-                                    gender === 'female' ? 'bg-amber-700/60 text-white' : 'text-gray-500'
-                                }`}
-                                onClick={() => setGender('female')}
-                            >
-                                {editor.left_box.women_btn}
-                            </button>
-                            <button 
-                                className={`flex-1 px-4 py-2 rounded-lg text-sm ${
-                                    gender === 'male' ? 'bg-amber-700/60 text-white' : 'text-gray-500'
-                                }`}
-                                onClick={() => setGender('male')}
-                            >
-                                {editor.left_box.men_btn}
-                            </button>
-                        </div>
-
-                        {/* 发型列表 */}
-                        <div className="flex-1 p-2 overflow-y-auto scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-gray-100 hover:scrollbar-thumb-amber-400 scrollbar-thumb-rounded-full">
-                            <div className="grid grid-cols-3 gap-2 pr-2">
-                                {hairData && hairData[gender === 'female' ? 'women' : 'men']?.map((style: HairStyle, index: number) => {
-                                    const isSelected = selectedStyle === style.value;
-                                    const rowStart = Math.floor(index / 3) * 4 + 1; // 每4行一组（3发型+1颜色选择器）
-                                    const rowEnd = rowStart + 1;
-
-                                    return (
-                                        <React.Fragment key={style.value}>
-                                            {/* 发型项 */}
-                                            <div
-                                                className={`bg-gray-100 rounded-lg cursor-pointer ${
-                                                    isSelected ? 'ring-2 ring-amber-600' : ''
-                                                }`}
-                                                style={{
-                                                    gridRowStart: rowStart,
-                                                    gridRowEnd: rowEnd
-                                                }}
-                                                onClick={() => setSelectedStyle(style.value)}
-                                            >
-                                                <div className="relative w-full h-full">
-                                                    <div className="relative w-full pb-[160%]">
-                                                        <img 
-                                                            src={style.img} 
-                                                            alt={style.title} 
-                                                            className="absolute inset-0 w-full h-full object-fill rounded-lg hide-scissors"
-                                                        />
-                                                    </div>
-                                                    <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-1 rounded-b-lg">
-                                                        <p className="text-sm text-white text-center hide-scissors truncate">
-                                                            {style.title}
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            {/* 颜色选择器 */}
-                                            {isSelected && (
-                                                <div
-                                                    className="col-span-3 mt-2 bg-white p-4 rounded-lg shadow-lg"
-                                                    style={{
-                                                        gridRowStart: rowStart + 1,
-                                                        gridRowEnd: rowStart + 2
-                                                    }}
-                                                >
-                                                    <div className="grid grid-cols-6 gap-2">
-                                                        {hairData && hairData.colors?.map((color: any) => (
-                                                            <div
-                                                                key={color.value}
-                                                                className={`p-1 rounded cursor-pointer ${
-                                                                    selectedColor === color.value ? 'ring-2 ring-amber-600' : ''
-                                                                }`}
-                                                                onClick={(e) => {
-                                                                    e.stopPropagation();
-                                                                    setSelectedColor(color.value);
-                                                                }}
-                                                            >
-                                                                <img
-                                                                    src={color.img}
-                                                                    alt={color.title}
-                                                                    className="w-full h-auto rounded hide-scissors"
-                                                                />
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            )}
-                                        </React.Fragment>
-                                    );
-                                })}
+                        <div 
+                            className="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full darkAmber"
+                            onClick={(e) => e.stopPropagation()}
+                        >
+                            <div className="flex justify-between items-center mb-2">
+                                <h3 className="text-lg font-medium text-left flex-1">
+                                    {editor.turnstile?.title || 'Please Verify'}
+                                </h3>
+                            </div>
+                            <div className="flex justify-center mb-2">
+                                <TurnstileWidget 
+                                    onSuccess={ async (e) => {
+                                        // 开始处理
+                                        handleTurnstileSuccess(e)
+                                    }}
+                                    onError={() => console.error('Turnstile Fail!!!')}
+                                    onExpire={() => console.log('Turnstile Time Out!!!')}
+                                />
                             </div>
                         </div>
+                    </div>
+                )}
+                
+                <div className="flex flex-col md:flex-row container mx-auto gap-8 p-4 md:p-8 rounded-lg mt-6 dementor shadow-lg shadow-gray-500/50">
+                    {/* 左侧发型选择区域 */}
+                    {(!isMobile || showLeftPanel) && (
+                        <div className={`w-full md:w-[30%] flex flex-col h-[700px] ${isMobile ? 'order-2' : ''}`}>
+                            {/* 性别切换 */}
+                            <div className="flex mb-4 bg-gray-100 p-1 rounded-lg">
+                                <button 
+                                    className={`flex-1 px-4 py-2 rounded-lg text-sm ${
+                                        gender === 'female' ? 'bg-amber-700/60 text-white' : 'text-gray-500'
+                                    }`}
+                                    onClick={() => setGender('female')}
+                                >
+                                    {editor.left_box.women_btn}
+                                </button>
+                                <button 
+                                    className={`flex-1 px-4 py-2 rounded-lg text-sm ${
+                                        gender === 'male' ? 'bg-amber-700/60 text-white' : 'text-gray-500'
+                                    }`}
+                                    onClick={() => setGender('male')}
+                                >
+                                    {editor.left_box.men_btn}
+                                </button>
+                            </div>
 
-                        {/* Generate 按钮 */}
-                        {resultImage ? (
-                            <AlertDialog>
-                            <AlertDialogTrigger asChild>
-                                <button className= 'mt-4 w-full py-3 rounded-lg transition-colors  bg-amber-700/60 text-white hover:bg-amber-700'>
+                            {/* 发型列表 */}
+                            <div className="flex-1 p-2 overflow-y-auto scrollbar-thin scrollbar-thumb-amber-300 scrollbar-track-gray-100 hover:scrollbar-thumb-amber-400 scrollbar-thumb-rounded-full">
+                                <div className="grid grid-cols-3 gap-2 pr-2">
+                                    {hairData && hairData[gender === 'female' ? 'women' : 'men']?.map((style: HairStyle, index: number) => {
+                                        const isSelected = selectedStyle === style.value;
+                                        const rowStart = Math.floor(index / 3) * 4 + 1; // 每4行一组（3发型+1颜色选择器）
+                                        const rowEnd = rowStart + 1;
+
+                                        return (
+                                            <React.Fragment key={style.value}>
+                                                {/* 发型项 */}
+                                                <div
+                                                    className={`bg-gray-100 rounded-lg cursor-pointer ${
+                                                        isSelected ? 'ring-2 ring-amber-600' : ''
+                                                    }`}
+                                                    style={{
+                                                        gridRowStart: rowStart,
+                                                        gridRowEnd: rowEnd
+                                                    }}
+                                                    onClick={() => setSelectedStyle(style.value)}
+                                                >
+                                                    <div className="relative w-full h-full">
+                                                        <div className="relative w-full pb-[160%]">
+                                                            <img 
+                                                                src={style.img} 
+                                                                alt={style.title} 
+                                                                className="absolute inset-0 w-full h-full object-fill rounded-lg hide-scissors"
+                                                            />
+                                                        </div>
+                                                        <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-1 rounded-b-lg">
+                                                            <p className="text-sm text-white text-center hide-scissors truncate">
+                                                                {style.title}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                {/* 颜色选择器 */}
+                                                {isSelected && (
+                                                    <div
+                                                        className="col-span-3 mt-2 bg-white p-4 rounded-lg shadow-lg"
+                                                        style={{
+                                                            gridRowStart: rowStart + 1,
+                                                            gridRowEnd: rowStart + 2
+                                                        }}
+                                                    >
+                                                        <div className="grid grid-cols-6 gap-2">
+                                                            {hairData && hairData.colors?.map((color: any) => (
+                                                                <div
+                                                                    key={color.value}
+                                                                    className={`p-1 rounded cursor-pointer ${
+                                                                        selectedColor === color.value ? 'ring-2 ring-amber-600' : ''
+                                                                    }`}
+                                                                    onClick={(e) => {
+                                                                        e.stopPropagation();
+                                                                        setSelectedColor(color.value);
+                                                                    }}
+                                                                >
+                                                                    <img
+                                                                        src={color.img}
+                                                                        alt={color.title}
+                                                                        className="w-full h-auto rounded hide-scissors"
+                                                                    />
+                                                                </div>
+                                                            ))}
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </React.Fragment>
+                                        );
+                                    })}
+                                </div>
+                            </div>
+
+                            {/* Generate 按钮 */}
+                            {resultImage ? (
+                                <button
+                                    className='mt-4 w-full py-3 rounded-lg transition-colors  bg-amber-700/60 text-white hover:bg-amber-700'
+                                    onClick={() => {
+                                        if (latestResult && latestResult.originalImageSrc) {
+                                            setUploadedImage(latestResult.originalImageSrc);
+                                            setImageUrl(latestResult.originalImageSrc);
+                                        }
+                                        setResultImage(null);
+                                        setShowOriginal(true);
+                                    }}
+                                >
                                     {editor.generate_model.title}
                                 </button>
-                            </AlertDialogTrigger>
-                            <AlertDialogContent>
-                              <AlertDialogHeader>
-                                <AlertDialogTitle>{editor.generate_model.sub_text}</AlertDialogTitle>
-                                <AlertDialogDescription>
-                                {editor.generate_model.content}
-                                </AlertDialogDescription>
-                              </AlertDialogHeader>
-                              <AlertDialogFooter>
-                                <AlertDialogCancel>{editor.generate_model.cencel}</AlertDialogCancel>
-                                <AlertDialogAction onClick={() => {
-                                     setResultImage(null);
-                                     setUploadedImage(null);
-                                     setImageUrl(null);
-                                     setShowOriginal(true); // 重置后显示底部示例图片
-                                  }}>{editor.generate_model.confirm}</AlertDialogAction>
-                              </AlertDialogFooter>
-                            </AlertDialogContent>
-                          </AlertDialog>
-                        ) : 
-                        <>
-                            <button 
-                                className={`mt-4 w-full py-3 rounded-lg transition-colors ${
-                                    isGenerateDisabled 
-                                        ? 'bg-gray-300 cursor-not-allowed text-gray-500' 
-                                        : 'bg-amber-700/60 text-white hover:bg-amber-700'
-                                }`}
-                                disabled={isGenerateDisabled}
-                                onClick={handleGenerate}
-                            >
-                                {editor.left_box.generate_btn}
-                            </button>
-                        </>
-                       }
-                    </div>
-                )}
+                            ) : 
+                            <>
+                                <button 
+                                    className={`mt-4 w-full py-3 rounded-lg transition-colors ${
+                                        isGenerateDisabled 
+                                            ? 'bg-gray-300 cursor-not-allowed text-gray-500' 
+                                            : 'bg-amber-700/60 text-white hover:bg-amber-700'
+                                    }`}
+                                    disabled={isGenerateDisabled}
+                                    onClick={handleGenerate}
+                                >
+                                    {editor.left_box.generate_btn}
+                                </button>
+                            </>
+                           }
+                        </div>
+                    )}
 
-                {/* 右侧上传区域 */}
-                {(!isMobile || showRightPanel) && (
-                    <div className={`w-full md:w-[70%] ${isMobile ? 'order-1' : ''}`}>
-                        <div 
-                            className="border-2 border-dashed border-gray-300 rounded-lg p-8 flex flex-col items-center justify-center min-h-[600px] relative"
-                            onDragOver={(e) => {
-                                e.preventDefault();
-                                e.currentTarget.classList.add('border-amber-500');
-                            }}
-                            onDragLeave={(e) => {
-                                e.preventDefault();
-                                e.currentTarget.classList.remove('border-amber-500');
-                            }}
-                            onDrop={(e) => {
-                                e.preventDefault();
-                                e.currentTarget.classList.remove('border-amber-500');
-                                const files = e.dataTransfer.files;
-                                if (files && files[0]) {
-                                    setImageUrl(null);
-                                    handleFileUpload(files[0]);
-                                }
-                            }}
-                        >
-                            {resultImage ? (
-                             <div className="grid grid-cols-2 gap-1 w-full h-full">
-                                {
-                                    isMobile && <AlertDialog>
-                                        <AlertDialogTrigger asChild>
-                                            <button className= 'absolute right-0 left-0 top-0 w-full bg-amber-700/60 text-white p-2 ' >
-                                            {editor.generate_model.title}
-                                            </button>
-                                        </AlertDialogTrigger>
-                                        <AlertDialogContent>
-                                        <AlertDialogHeader>
-                                            <AlertDialogTitle>{editor.generate_model.sub_text}</AlertDialogTitle>
-                                            <AlertDialogDescription>
-                                            {editor.generate_model.content}
-                                            </AlertDialogDescription>
-                                        </AlertDialogHeader>
-                                        <AlertDialogFooter>
-                                            <AlertDialogCancel>{editor.generate_model.cencel}</AlertDialogCancel>
-                                            <AlertDialogAction onClick={() => {
-                                                setResultImage(null);
-                                                setUploadedImage(null);
-                                                setImageUrl(null);
-                                                setShowOriginal(true); // 重置后显示底部示例图片
-                                            }}>{editor.generate_model.confirm}</AlertDialogAction>
-                                        </AlertDialogFooter>
-                                        </AlertDialogContent>
-                                    </AlertDialog>
-                                }
-                                {resultImage.map((imgUrl: string, index: number) => (
-                                  <div key={index} className="relative aspect-square group">
-                                    <img
-                                      src={imgUrl}
-                                      alt={`hairStyle- ${index + 1}`}
-                                      className="w-full h-full object-cover rounded-lg cursor-zoom-in transition-transform hover:scale-105"
-                                      onClick={() => {
-                                        setPreviewImage(imgUrl);
-                                        setShowFullscreenPreview(true);
-                                      }}
-                                    />
-                                    <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                                      <button
+                    {/* 右侧上传区域 */}
+                    {(!isMobile || showRightPanel) && (
+                        <div className={`w-full md:w-[70%] ${isMobile ? 'order-1' : ''}`}>
+                            <div 
+                                className="border-2 border-dashed border-gray-300 rounded-lg p-8 flex flex-col items-center justify-center min-h-[600px] relative"
+                                onDragOver={(e) => {
+                                    e.preventDefault();
+                                    e.currentTarget.classList.add('border-amber-500');
+                                }}
+                                onDragLeave={(e) => {
+                                    e.preventDefault();
+                                    e.currentTarget.classList.remove('border-amber-500');
+                                }}
+                                onDrop={(e) => {
+                                    e.preventDefault();
+                                    e.currentTarget.classList.remove('border-amber-500');
+                                    const files = e.dataTransfer.files;
+                                    if (files && files[0]) {
+                                        setImageUrl(null);
+                                        handleFileUpload(files[0]);
+                                    }
+                                }}
+                            >
+                                {resultImage ? (
+                                 <div className="grid grid-cols-2 gap-1 w-full h-full">
+                                    {
+                                        isMobile && <AlertDialog>
+                                            <AlertDialogTrigger asChild>
+                                                <button className= 'absolute right-0 left-0 top-0 w-full bg-amber-700/60 text-white p-2 ' >
+                                                {editor.generate_model.title}
+                                                </button>
+                                            </AlertDialogTrigger>
+                                            <AlertDialogContent>
+                                            <AlertDialogHeader>
+                                                <AlertDialogTitle>{editor.generate_model.sub_text}</AlertDialogTitle>
+                                                <AlertDialogDescription>
+                                                {editor.generate_model.content}
+                                                </AlertDialogDescription>
+                                            </AlertDialogHeader>
+                                            <AlertDialogFooter>
+                                                <AlertDialogCancel>{editor.generate_model.cencel}</AlertDialogCancel>
+                                                <AlertDialogAction onClick={() => {
+                                                    setResultImage(null);
+                                                    setUploadedImage(null);
+                                                    setImageUrl(null);
+                                                    setShowOriginal(true); // 重置后显示底部示例图片
+                                                }}>{editor.generate_model.confirm}</AlertDialogAction>
+                                            </AlertDialogFooter>
+                                            </AlertDialogContent>
+                                        </AlertDialog>
+                                    }
+                                    {resultImage.map((imgUrl: string, index: number) => (
+                                      <div key={index} className="relative aspect-square group">
+                                        <img
+                                          src={imgUrl}
+                                          alt={`hairStyle- ${index + 1}`}
+                                          className="w-full h-full object-cover rounded-lg cursor-zoom-in transition-transform hover:scale-105"
+                                          onClick={() => {
+                                            setPreviewImage(imgUrl);
+                                            setShowFullscreenPreview(true);
+                                          }}
+                                        />
+                                        <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                          <button
+                                            className="bg-amber-700/60 text-white px-3 py-1 rounded-lg hover:bg-amber-700"
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              const link = document.createElement('a');
+                                              link.href = imgUrl;
+                                              link.download = `result-${index}-${Date.now()}.jpg`;
+                                              document.body.appendChild(link);
+                                              link.click();
+                                              document.body.removeChild(link);
+                                            }}
+                                          >
+                                            {editor.right_box.download_btn}
+                                          </button>
+                                        </div>
+                                      </div>
+                                    ))}
+                                    
+                                  </div>
+                                ) : uploadedImage ? (
+                                    <>
+                                        {isPolling && <div className="scan-animation"></div>}
+                                        <img 
+                                            src={uploadedImage} 
+                                            alt="Uploaded preview" 
+                                            className="absolute inset-0 w-full h-full object-contain p-4"
+                                        />
+                                        <button
+                                            className="absolute top-2 right-2 bg-white/80 p-1 rounded-full hover:bg-white transition-colors hide-scissors"
+                                            onClick={() => setUploadedImage(null)}
+                                        >
+                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </button>
+                                    </>
+                                ) : isload ? (
+                                    <Progress className='w-full' value={loadNum} />
+                                ) 
+                                : (
+                                    <>
+                                        <div className="text-amber-700/60 mb-4">
+                                            <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </div>
+                                        <p className="text-center mb-4 ">{editor.right_box.upload_text}</p>
+                                        <input 
+                                            type="file"
+                                            id="fileInput"
+                                            className="hidden"
+                                            accept=".jpg,.jpeg,.png"
+                                            onChange={(e) => {
+                                                if (e.target.files && e.target.files[0]) {
+                                                    setImageUrl(null);
+                                                    handleFileUpload(e.target.files[0]);
+                                                }
+                                            }}
+                                        />
+                                        <label 
+                                            htmlFor="fileInput"
+                                            className="bg-amber-700/60 text-white px-6 py-2 rounded-lg cursor-pointer hide-scissors"
+                                        >
+                                            {editor.right_box.upload_btn}
+                                        </label>
+                                        <div className='flex flex-col items-center justify-center'>
+                                            {editor.right_box.upload_rules?.map((upload_rule: any , index: number) => (
+                                                <p key={index} className="text-gray-400 text-sm mt-4">
+                                                    {upload_rule}
+                                                </p>
+                                            ))}
+                                        </div>
+                                        
+                                    </>
+                                )}
+                            </div>
+                            {showFullscreenPreview && (
+                                <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+                                    <div className="relative max-w-4xl max-h-screen">
+                                        <img
+                                        src={previewImage}
+                                        alt="previewImage"
+                                        className="max-w-full max-h-screen"
+                                        />
+                                        <button
+                                        onClick={()=>{
+                                            setShowFullscreenPreview(false)
+                                        }}
+                                        className="absolute top-4 right-4 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold hover:bg-gray-200 transition"
+                                        >
+                                        ×
+                                        </button>
+                                        <div className="absolute bottom-2 right-2 transition-opacity">
+                                        <button
                                         className="bg-amber-700/60 text-white px-3 py-1 rounded-lg hover:bg-amber-700"
                                         onClick={(e) => {
-                                          e.stopPropagation();
-                                          const link = document.createElement('a');
-                                          link.href = imgUrl;
-                                          link.download = `result-${index}-${Date.now()}.jpg`;
-                                          document.body.appendChild(link);
-                                          link.click();
-                                          document.body.removeChild(link);
+                                            e.stopPropagation();
+                                            const link = document.createElement('a');
+                                            link.href = previewImage ? previewImage : '';
+                                            link.download = `result--${Date.now()}.jpg`;
+                                            document.body.appendChild(link);
+                                            link.click();
+                                            document.body.removeChild(link);
                                         }}
-                                      >
+                                        >
                                         {editor.right_box.download_btn}
-                                      </button>
+                                        </button>
                                     </div>
-                                  </div>
-                                ))}
-                                
-                              </div>
-                            ) : uploadedImage ? (
-                                <>
-                                    {isPolling && <div className="scan-animation"></div>}
+                                    </div>
+                                   
+                                </div>
+                            )} 
+                            { !resultImage && !isPolling && !isload && (
+                              <div className="mt-4 text-center text-gray-500">
+                                <p>{editor.right_box.upload_example}</p>
+                                <div className="flex gap-2 mt-2 justify-center">
+                                  {[
+                                    "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-1.jpeg",
+                                    "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-2.jpeg",
+                                    "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-3.jpeg",
+                                    "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-4.png"
+                                  ].map((src, index) => (
                                     <img 
-                                        src={uploadedImage} 
-                                        alt="Uploaded preview" 
-                                        className="absolute inset-0 w-full h-full object-contain p-4"
+                                      key={index}
+                                      src={src} 
+                                      alt={`Sample ${index + 1}`} 
+                                      className="w-12 h-13 rounded-lg object-cover cursor-pointer hover:ring-2 hover:ring-amber-600 transition-all hide-scissors"
+                                      onClick={() => handleSampleClick(src)}
                                     />
-                                    <button
-                                        className="absolute top-2 right-2 bg-white/80 p-1 rounded-full hover:bg-white transition-colors hide-scissors"
-                                        onClick={() => setUploadedImage(null)}
-                                    >
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                        </svg>
-                                    </button>
-                                </>
-                            ) : isload ? (
-                                <Progress className='w-full' value={loadNum} />
-                            ) 
-                            : (
-                                <>
-                                    <div className="text-amber-700/60 mb-4">
-                                        <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-                                        </svg>
-                                    </div>
-                                    <p className="text-center mb-4 ">{editor.right_box.upload_text}</p>
-                                    <input 
-                                        type="file"
-                                        id="fileInput"
-                                        className="hidden"
-                                        accept=".jpg,.jpeg,.png"
-                                        onChange={(e) => {
-                                            if (e.target.files && e.target.files[0]) {
-                                                setImageUrl(null);
-                                                handleFileUpload(e.target.files[0]);
-                                            }
-                                        }}
-                                    />
-                                    <label 
-                                        htmlFor="fileInput"
-                                        className="bg-amber-700/60 text-white px-6 py-2 rounded-lg cursor-pointer hide-scissors"
-                                    >
-                                        {editor.right_box.upload_btn}
-                                    </label>
-                                    <div className='flex flex-col items-center justify-center'>
-                                        {editor.right_box.upload_rules?.map((upload_rule: any , index: number) => (
-                                            <p key={index} className="text-gray-400 text-sm mt-4">
-                                                {upload_rule}
-                                            </p>
-                                        ))}
-                                    </div>
-                                    
-                                </>
+                                  ))}
+                                </div>
+                              </div>
                             )}
                         </div>
-                        {showFullscreenPreview && (
-                            <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
-                                <div className="relative max-w-4xl max-h-screen">
-                                    <img
-                                    src={previewImage}
-                                    alt="previewImage"
-                                    className="max-w-full max-h-screen"
-                                    />
-                                    <button
-                                    onClick={()=>{
-                                        setShowFullscreenPreview(false)
-                                    }}
-                                    className="absolute top-4 right-4 bg-white text-black rounded-full w-10 h-10 flex items-center justify-center text-xl font-bold hover:bg-gray-200 transition"
-                                    >
-                                    ×
-                                    </button>
-                                    <div className="absolute bottom-2 right-2 transition-opacity">
-                                    <button
-                                    className="bg-amber-700/60 text-white px-3 py-1 rounded-lg hover:bg-amber-700"
-                                    onClick={(e) => {
-                                        e.stopPropagation();
-                                        const link = document.createElement('a');
-                                        link.href = previewImage ? previewImage : '';
-                                        link.download = `result--${Date.now()}.jpg`;
-                                        document.body.appendChild(link);
-                                        link.click();
-                                        document.body.removeChild(link);
-                                    }}
-                                    >
-                                    {editor.right_box.download_btn}
-                                    </button>
-                                </div>
-                                </div>
-                               
-                            </div>
-                        )} 
-                        { !resultImage && !isPolling && !isload && (
-                          <div className="mt-4 text-center text-gray-500">
-                            <p>{editor.right_box.upload_example}</p>
-                            <div className="flex gap-2 mt-2 justify-center">
-                              {[
-                                "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-1.jpeg",
-                                "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-2.jpeg",
-                                "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-3.jpeg",
-                                "https://ailab-resource-shanghai.oss-cn-shanghai.aliyuncs.com/examples/hairstyle-4.png"
-                              ].map((src, index) => (
-                                <img 
-                                  key={index}
-                                  src={src} 
-                                  alt={`Sample ${index + 1}`} 
-                                  className="w-12 h-13 rounded-lg object-cover cursor-pointer hover:ring-2 hover:ring-amber-600 transition-all hide-scissors"
-                                  onClick={() => handleSampleClick(src)}
-                                />
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                    </div>
-                )}
-            </div>
-        </section>
+                    )}
+                </div>
+            </section>
+
+            {/* 历史记录组件 */}
+            <HairHistory newResult={latestResult} onRetry={handleHistoryRetry} />
+        </>
     );
 };

@@ -121,6 +121,14 @@
     "Multiple_Faces": "¡Se detectaron múltiples rostros!",
     "Large_F Face_Offset": "¡Gran desplazamiento facial detectado!"
   },
+  "history": {
+    "title": "Historial",
+    "empty": "No hay registros de historial.",
+    "original_image": "Original",
+    "result_image": "Resultado",
+    "retry_btn": "Reintentar",
+    "download_btn": "Descargar"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "Procesamiento fallido.",
     "ERROR_PARAMETERS": "Parámetros inválidos.",

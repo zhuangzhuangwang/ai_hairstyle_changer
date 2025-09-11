@@ -121,6 +121,14 @@
     "Multiple_Faces": "Mehrere Gesichter erkannt!!!",
     "Large_Face_Offset": "Große Gesichtsverschiebung erkannt!!!"
   },
+  "history": {
+    "title": "Verlauf",
+    "empty": "Keine Verlaufsaufzeichnungen.",
+    "original_image": "Original",
+    "result_image": "Ergebnis",
+    "retry_btn": "Wiederholen",
+    "download_btn": "Download"
+  },
   "aiError": {
     "PROCESSING_FAILURE": "Verarbeitung fehlgeschlagen.",
     "ERROR_PARAMETERS": "Ungültige Parameter.",
