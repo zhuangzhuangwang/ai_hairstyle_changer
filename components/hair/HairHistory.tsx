@@ -40,7 +40,7 @@ export default function HairHistory({ newResult, onRetry }: HairHistoryProps) {
             <div key={record.id} className="flex flex-col sm:flex-row items-center gap-2 border-b border-gray-600 pb-4 last:border-b-0 last:pb-0">
               {/* 原图 */}
               <div className="relative w-32 h-32 flex-shrink-0 rounded-lg overflow-hidden border border-gray-500 p-1">
-                <img src={record.originalImageSrc} alt="Original" className="w-full h-full object-cover rounded-md" />
+                <img src={record.originalImageSrc} alt="Original" className="w-full h-full object-cover object-top rounded-md" />
                 <span className="absolute bottom-0 left-0 bg-black/50 text-white text-xs px-1">{t("history.original_image")}</span>
               </div>
 
@@ -51,7 +51,7 @@ export default function HairHistory({ newResult, onRetry }: HairHistoryProps) {
                     <img
                       src={resultSrc}
                       alt={`Result ${index + 1}`}
-                      className="w-full h-full object-cover rounded-md cursor-zoom-in"
+                      className="w-full h-full object-cover object-top rounded-md cursor-zoom-in"
                       onClick={() => {
                         setPreviewImage(resultSrc);
                         setShowFullscreenPreview(true);

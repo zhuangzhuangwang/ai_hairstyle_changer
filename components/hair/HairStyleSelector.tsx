@@ -791,7 +791,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                                         <img
                                           src={imgUrl}
                                           alt={`hairStyle- ${index + 1}`}
-                                          className="w-full h-full object-cover rounded-lg cursor-zoom-in transition-transform hover:scale-105"
+                                          className="w-full h-full object-cover object-top rounded-lg cursor-zoom-in transition-transform hover:scale-105"
                                           onClick={() => {
                                             setPreviewImage(imgUrl);
                                             setShowFullscreenPreview(true);
