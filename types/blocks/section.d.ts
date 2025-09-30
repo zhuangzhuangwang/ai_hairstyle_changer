@@ -13,7 +13,7 @@ export interface SectionItem {
 }
 
 export interface Section {
-  video: any;
+  video?: any;
   email?: any;
   disabled?: boolean;
   name?: string;
