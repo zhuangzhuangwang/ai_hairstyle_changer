@@ -2,3 +2,5 @@ User-agent: *
 Disallow: /*?*q=
 Disallow: /privacy-policy
 Disallow: /terms-of-service
+Allow: /
+Sitemap: https://www.tryonhairstyle.com/sitemap.xml

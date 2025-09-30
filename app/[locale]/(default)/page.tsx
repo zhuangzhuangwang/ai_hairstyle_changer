@@ -46,8 +46,8 @@ export default async function LandingPage({
       {page.editor && <HairStyleSelector editor={page.editor} />}
       {page.example && <HairStyleGrid example={page.example} />}
       {/* {page.branding && <Branding section={page.branding} />} */}
-      {/* {page.introduce && <Feature1 section={page.introduce} />} */}
-      {/* {page.benefit && <Feature2 section={page.benefit} />} */}
+      {page.introduce && <Feature1 section={page.introduce} />}
+      {page.benefit && <Feature2 section={page.benefit} />}
       {page.usage && <Feature3 section={page.usage} />}
       {page.feature && <Feature section={page.feature} />}
       {/* {page.showcase && <Showcase section={page.showcase} />} */}

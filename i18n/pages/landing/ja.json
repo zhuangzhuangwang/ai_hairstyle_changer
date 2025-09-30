@@ -622,54 +622,63 @@
       ]
   },
   "introduce": {
-      "name": "introduce",
-      "title": "AIヘアスタイルチェンジャーAPIサービス",
-      "label": "紹介",
-      "email": "mailto:business@ailabtools.com",
-      "description": "AIヘアスタイルチェンジャーAPIは深層学習を活用して顔の特徴と髪の領域を正確に検出し、リアルタイムのバーチャルヘアスタイル変換（ショート、ロング、カール、カラー）を可能にします。美容アプリ、eコマース、ソーシャルメディア、ARプラットフォームに最適で、高速処理、プライバシー準拠、高いユーザーエンゲージメントを提供します。",
-      "image": {
-          "src": "/imgs/features/1.png"
-      },
-      "items": [
-          {
-              "title": "詳細な調査",
-              "description": "各地域の文化的背景と美的嗜好について詳細な調査を行い、ヘアスタイルデザインがお客様の期待に正確に応えるようにしています。",
-              "icon": "RiNextjsFill"
-          },
-          {
-              "title": "パーソナライズされたカスタマイズ",
-              "description": "先進のAI技術と地元の美容師の専門知識を組み合わせ、各顧客に合わせたパーソナライズされたヘアスタイルデザインソリューションを提供します。",
-              "icon": "RiDatabase2Line"
-          },
-          {
-              "title": "継続的な革新",
-              "description": "私たちは世界のファッション動向を常にリードし、最新のヘアスタイルトレンドと技術を探求し続け、お客様がスタイルの最先端であり続けることを保証します。",
-              "icon": "RiCloudyFill"
-          }
-      ]
+    "name": "introduce",
+    "title": "AIヘアスタイルチェンジャー",
+    "label": "紹介",
+    "email": "mailto:business@ailabtools.com",
+    "description": "AIヘアスタイルチェンジャーは、美容ブランド、Eコマース、個人向けのプロフェッショナルなヘアシミュレーターです。ショートヘア、カーリーヘア、メンズカット、レディースの変身を、リアルなAI結果で数秒で瞬時に試すことができます。",
+    "video": {
+        "src": "/imgs/introduce/hairstyleChanger.mp4"
+    },
+    "items": [
+        {
+        "title": "AIによるヘア変身",
+        "description": "ディープラーニングAIは何千ものヘアスタイルをサポートし、瞬時にバーチャルトライオンを実現します。",
+        "icon": "RiNextjsFill"
+        },
+        {
+        "title": "男性＆女性向けバーチャルトライオン",
+        "description": "写真をアップロードして、オンラインでヘアスタイルやヘアカラーをプレビューできます。",
+        "icon": "RiDatabase2Line"
+        },
+        {
+        "title": "美容＆Eコマース向け",
+        "description": "当社のヘアスタイルAPIをアプリ、店舗、またはバーチャル試着室に統合して、エンゲージメントと売上を向上させます。",
+        "icon": "RiCloudyFill"
+        }
+    ]
   },
   "benefit": {
-      "name": "benefit",
-      "title": "AIヘアスタイルチェンジャーを選ぶ理由",
-      "label": "メリット",
-      "description": "最高の無料AIヘアスタイルツールの素晴らしい利点をご体験ください:",
-      "items": [
-          {
-              "title": "リアルなヘアスタイルシミュレーション",
-              "description": "AI搭載のヘアカットジェネレーターが驚くほど正確にヘアスタイルを試せます。",
-              "icon": "RiMagicLine"
-          },
-          {
-              "title": "数百種類のヘアスタイル",
-              "description": "クラシックなスタイルからトレンディなヘアまで、バーチャルヘアスタイルジェネレーターで無限の可能性を。",
-              "icon": "RiScissorsCutLine"
-          },
-          {
-              "title": "即時結果",
-              "description": "高速で正確なAI技術により、数秒でヘアスタイルの結果を確認できます。",
-              "icon": "RiTimerFlashLine"
-          }
-      ]
+    "name": "benefit",
+    "title": "AIヘアスタイルチェンジャーを選ぶ理由",
+    "label": "メリット",
+    "description": "あなたの写真でヘアスタイルを試せる最高のオンラインヘアスタイルシミュレーター、AIヘアスタイルチェンジャーの力を発見してください。異なるヘアカット、カラー、スタイルを瞬時にプレビューして、あなたに最適なルックを見つけましょう。",
+    "items": [
+        {
+            "title": "リアルなヘアスタイルシミュレーション",
+            "description": "当社のAIパワードヘアカットシミュレーターは、写真のようにリアルな変身を実現します。男性用と女性用のヘアスタイルをオンラインで比類ない精度で試して、完璧なルックを見つけましょう。",
+            "icon": "RiMagicLine",
+            "image": {
+                "src": "/imgs/benefit/1.png"
+            }
+        },
+        {
+            "title": "何百ものヘアスタイル",
+            "description": "ショートヘア、カーリーヘアからトレンディなヘアカットやヘアカラーまで、当社のAIヘアスタイルジェネレーターは無限のスタイルを探求できます。",
+            "icon": "RiScissorsCutLine",
+            "image": {
+                "src": "/imgs/benefit/2.png"
+            }
+        },
+        {
+            "title": "即時結果",
+            "description": "数秒で瞬時にヘアスタイルのプレビューを取得できます。当社の高度なAIテクノロジーは高速処理を保証し、いつでもどこでもバーチャルヘアスタイルを試すことができます。",
+            "icon": "RiTimerFlashLine",
+            "image": {
+                "src": "/imgs/benefit/3.png"
+            }
+        }
+    ]
   },
   "usage": {
       "name": "usage",

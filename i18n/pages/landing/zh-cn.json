@@ -622,54 +622,63 @@
       ]
   },
   "introduce": {
-      "name": "introduce",
-      "title": "AI发型更换器API服务",
-      "label": "产品介绍",
-      "email": "mailto:business@ailabtools.com",
-      "description": "AI发型更换器API利用深度学习精准检测面部特征和头发区域，实现实时虚拟发型变换（短发、长发、卷发、染色）。适用于美妆应用、电商、社交媒体和AR平台，具有快速处理、隐私合规和高用户参与度等特点。",
-      "image": {
-          "src": "/imgs/features/1.png"
-      },
-      "items": [
-          {
-              "title": "深度研究",
-              "description": "我们深入研究不同地区的文化背景和审美偏好，确保发型设计精准符合预期效果。",
-              "icon": "RiNextjsFill"
-          },
-          {
-              "title": "个性化定制",
-              "description": "结合先进AI技术与本地发型师专业经验，为每位客户提供个性化发型设计方案。",
-              "icon": "RiDatabase2Line"
-          },
-          {
-              "title": "持续创新",
-              "description": "紧跟全球时尚潮流，持续探索最新发型趋势与技术，确保您始终引领时尚前沿。",
-              "icon": "RiCloudyFill"
-          }
-      ]
+    "name": "introduce",
+    "title": "AI发型变换器",
+    "label": "介绍",
+    "email": "mailto:business@ailabtools.com",
+    "description": "AI发型变换器是专为美容品牌、电子商务和个人设计的专业发型模拟器。只需几秒钟即可通过逼真的AI结果即时试用短发、卷发、男士发型和女士发型改造。",
+    "video": {
+        "src": "/imgs/introduce/hairstyleChanger.mp4"
+    },
+    "items": [
+        {
+        "title": "AI驱动的头发改造",
+        "description": "深度学习AI支持数千种发型，可实现即时虚拟试戴。",
+        "icon": "RiNextjsFill"
+        },
+        {
+        "title": "男女虚拟试戴",
+        "description": "上传您的照片，在线预览发型和发色。",
+        "icon": "RiDatabase2Line"
+        },
+        {
+        "title": "适用于美容和电子商务",
+        "description": "将我们的发型API集成到应用程序、商店或虚拟试衣间，以提高参与度和销售额。",
+        "icon": "RiCloudyFill"
+        }
+    ]
   },
   "benefit": {
-      "name": "benefit",
-      "title": "为何选择AI发型更换器？",
-      "label": "核心优势",
-      "description": "体验最佳的免费AI在线发型工具，享受以下卓越优势：",
-      "items": [
-          {
-              "title": "逼真发型模拟",
-              "description": "我们的AI发型生成器创造逼真变换效果，让您以惊人精度试戴各种发型。",
-              "icon": "RiMagicLine"
-          },
-          {
-              "title": "数百种发型",
-              "description": "从经典造型到潮流发型，我们的虚拟发型生成器提供无限可能，打造专属发型。",
-              "icon": "RiScissorsCutLine"
-          },
-          {
-              "title": "即时效果",
-              "description": "凭借快速精准的AI技术，秒级获取虚拟发型效果。",
-              "icon": "RiTimerFlashLine"
-          }
-      ]
+    "name": "benefit",
+    "title": "为什么选择AI发型变换器？",
+    "label": "优点",
+    "description": "发现我们AI发型变换器的强大功能——最佳在线发型模拟器，用您的照片试用发型。即时预览不同的发型、颜色和款式，看看哪种最适合您。",
+    "items": [
+        {
+            "title": "逼真的发型模拟",
+            "description": "我们AI驱动的发型模拟器提供逼真的改造。在线试用男女发型，以无与伦比的准确性找到完美造型。",
+            "icon": "RiMagicLine",
+            "image": {
+                "src": "/imgs/benefit/1.png"
+            }
+        },
+        {
+            "title": "数百种发型",
+            "description": "从短发和卷发到时尚发型和发色，我们的AI发型生成器提供无限的款式供您探索。",
+            "icon": "RiScissorsCutLine",
+            "image": {
+                "src": "/imgs/benefit/2.png"
+            }
+        },
+        {
+            "title": "即时结果",
+            "description": "在几秒钟内获得即时发型预览。我们先进的AI技术确保快速处理，让您随时随地试用虚拟发型。",
+            "icon": "RiTimerFlashLine",
+            "image": {
+                "src": "/imgs/benefit/3.png"
+            }
+        }
+    ]
   },
   "usage": {
       "name": "usage",

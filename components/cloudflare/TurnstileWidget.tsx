@@ -30,7 +30,7 @@ const TurnstileWidget: React.FC<TurnstileWidgetProps> = ({
       if (typeof window !== 'undefined' && !window.turnstile) {
         setIsLoading(true);
         const script = document.createElement('script');
-        script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+        script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?t=' + Date.now();
         script.async = true;
         script.defer = true;
         
@@ -41,10 +41,10 @@ const TurnstileWidget: React.FC<TurnstileWidgetProps> = ({
           }, 500); // 给脚本一些时间初始化
         };
         
-        script.onerror = () => {
+        script.onerror = (e: any) => {
           setIsLoading(false);
           setHasError(true);
-          console.error('Turnstile 脚本加载失败');
+          console.error('Turnstile 脚本加载失败', e);
         };
         
         document.body.appendChild(script);
@@ -87,8 +87,8 @@ const TurnstileWidget: React.FC<TurnstileWidgetProps> = ({
             },
             // 添加更多选项以确保用户交互
             appearance: 'always',
-            retry: 'never',
-            'refresh-expired': 'manual'
+            retry: 'auto',
+            'refresh-expired': 'auto'
           });
         } catch (error) {
           console.error('渲染 Turnstile 小部件时出错:', error);

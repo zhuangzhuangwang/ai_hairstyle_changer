@@ -622,54 +622,63 @@
       ]
   },
   "introduce": {
-      "name": "introduce",
-      "title": "AI Hairstyle Changer API Service - Try On Hairstyles Virtually",
-      "label": "Introduce",
-      "email": "mailto:business@ailabtools.com",
-      "description": "AI Hairstyle Changer API leverages deep learning to accurately detect facial features and hair regions, enabling real-time virtual hairstyle transformations (short, long, curly, colored). Our haircut simulator is ideal for beauty apps, e-commerce, social media, and AR platforms, offering fast processing, privacy compliance, and high user engagement.",
-      "image": {
-          "src": "/imgs/features/1.png"
-      },
-      "items": [
-          {
-              "title": "In-Depth Research",
-              "description": "We conduct in-depth research on cultural backgrounds and aesthetic preferences in different regions to ensure our hairstyle designs accurately reflect your expectations when you try on hairstyles.",
-              "icon": "RiNextjsFill"
-          },
-          {
-              "title": "Personalized Customization",
-              "description": "Using advanced AI technology combined with the expertise of local hairstylists, we provide personalized hairstyle design solutions for each customer through our virtual hair style generator.",
-              "icon": "RiDatabase2Line"
-          },
-          {
-              "title": "Continuous Innovation",
-              "description": "We stay ahead of global fashion trends, continuously exploring the latest hairstyle trends and technologies to ensure you remain at the forefront of style with our AI hairstyle online free tool.",
-              "icon": "RiCloudyFill"
-          }
-      ]
+    "name": "introduce",
+    "title": "Try On Hairstyles with Your Picture (Free)",
+    "label": "Introduce",
+    "email": "mailto:business@ailabtools.com",
+    "description": "AI Hairstyle Changer is a professional hair simulator for beauty brands, e-commerce, and individuals. Instantly try short hairstyles, curly hairstyles, men’s haircuts, and women’s transformations with realistic AI results in seconds.",
+    "video": {
+        "src": "/imgs/introduce/hairstyleChanger.mp4"
+    },
+    "items": [
+        {
+        "title": "AI-Powered Hair Transformation",
+        "description": "Deep learning AI supports thousands of hairstyles for instant virtual try-on.",
+        "icon": "RiNextjsFill"
+        },
+        {
+        "title": "Virtual Try-On for Men & Women",
+        "description": "Upload your photo to preview hairstyles and hair colors online.",
+        "icon": "RiDatabase2Line"
+        },
+        {
+        "title": "For Beauty & E-Commerce",
+        "description": "Integrate our hairstyle API into apps, stores, or virtual fitting rooms to boost engagement and sales.",
+        "icon": "RiCloudyFill"
+        }
+    ]
   },
   "benefit": {
-      "name": "benefit",
-      "title": "Why Choose AI Hairstyle Changer?",
-      "label": "Benefits",
-      "description": "Experience the best AI hairstyle online free tool with these amazing benefits: Try on hairstyles with your picture for free and discover what hairstyle suits me best.",
-      "items": [
-          {
-              "title": "Realistic Hairstyle Simulation",
-              "description": "Our AI-powered haircut generator creates realistic transformations, letting you try on haircuts with amazing accuracy through our virtual hair style men and women options.",
-              "icon": "RiMagicLine"
-          },
-          {
-              "title": "Hundreds of Hairstyles",
-              "description": "From classic cuts to trendy styles, our virtual hair style generator offers endless possibilities to create your own haircut and find what hairstyle suits me.",
-              "icon": "RiScissorsCutLine"
-          },
-          {
-              "title": "Instant Results",
-              "description": "Get your virtual hairstyle results in seconds with our fast and accurate AI technology - try on hairstyles instantly with our haircut simulator.",
-              "icon": "RiTimerFlashLine"
-          }
-      ]
+    "name": "benefit",
+    "title": "Why Choose AI Hairstyle Changer?",
+    "label": "Benefits",
+    "description": "Discover the power of our AI Hairstyle Changer – the best online hairstyle simulator to try on hairstyles with your photo. Instantly preview different haircuts, colors, and styles to see what suits you best.",
+    "items": [
+        {
+            "title": "Realistic Hairstyle Simulation",
+            "description": "Our AI-powered haircut simulator delivers photo-realistic transformations. Try on men’s and women’s hairstyles online with unmatched accuracy to find the perfect look.",
+            "icon": "RiMagicLine",
+            "image": {
+                "src": "/imgs/benefit/1.png"
+            }
+        },
+        {
+            "title": "Hundreds of Hairstyles",
+            "description": "From short hairstyles and curly hairstyles to trendy haircuts and hair colors, our AI hairstyle generator offers unlimited styles to explore.",
+            "icon": "RiScissorsCutLine",
+            "image": {
+                "src": "/imgs/benefit/2.png"
+            }
+        },
+        {
+            "title": "Instant Results",
+            "description": "Get instant hairstyle previews in seconds. Our advanced AI technology ensures fast processing, letting you try on virtual hairstyles anytime, anywhere.",
+            "icon": "RiTimerFlashLine",
+            "image": {
+                "src": "/imgs/benefit/3.png"
+            }
+        }
+    ]
   },
   "usage": {
       "name": "usage",

@@ -10,10 +10,20 @@ export default function Feature1({ section }: { section: SectionType }) {
     <section id={section.name} className="py-16">
       <div className="container">
         <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-16">
-          {section.image && (
+          {section.image && !section.video && (
             <img
               src={section.image?.src}
               alt="placeholder hero"
+              className="max-h-full w-full rounded-md object-cover"
+            />
+          )}
+          {section.video && (
+            <video
+              src={section.video?.src}
+              autoPlay={true}
+              loop={true}
+              muted 
+              playsInline={true}
               className="max-h-full w-full rounded-md object-cover"
             />
           )}

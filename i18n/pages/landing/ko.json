@@ -622,54 +622,63 @@
       ]
   },
   "introduce": {
-      "name": "introduce",
-      "title": "AI 헤어스타일 체인저 API 서비스",
-      "label": "소개",
-      "email": "mailto:business@ailabtools.com",
-      "description": "AI 헤어스타일 체인저 API는 딥러닝을 활용하여 얼굴 특징과 헤어 영역을 정확하게 감지하고, 실시간 가상 헤어스타일 변환(숏, 롱, 컬리, 컬러)을 가능하게 합니다. 뷰티 앱, 전자상거래, 소셜 미디어 및 AR 플랫폼에 이상적이며, 빠른 처리 속도, 개인정보 보호 준수 및 높은 사용자 참여를 제공합니다.",
-      "image": {
-          "src": "/imgs/features/1.png"
-      },
-      "items": [
-          {
-              "title": "심층 연구",
-              "description": "우리는 각 지역의 문화적 배경과 미적 선호도에 대한 심층 연구를 수행하여 헤어스타일 디자인이 고객의 기대에 정확히 부응하도록 합니다.",
-              "icon": "RiNextjsFill"
-          },
-          {
-              "title": "맞춤형 서비스",
-              "description": "현지 헤어디자이너의 전문 지식과 결합된 첨단 AI 기술을 사용하여 각 고객에게 맞춤형 헤어스타일 디자인 솔루션을 제공합니다.",
-              "icon": "RiDatabase2Line"
-          },
-          {
-              "title": "지속적인 혁신",
-              "description": "우리는 글로벌 패션 트렌드를 선도하며 최신 헤어스타일 트렌드와 기술을 지속적으로 탐구하여 고객이 스타일의 최전선에 머무를 수 있도록 합니다.",
-              "icon": "RiCloudyFill"
-          }
-      ]
+    "name": "introduce",
+    "title": "AI 헤어스타일 체인저",
+    "label": "소개",
+    "email": "mailto:business@ailabtools.com",
+    "description": "AI 헤어스타일 체인저는 뷰티 브랜드, 이커머스, 개인을 위한 전문적인 헤어 시뮬레이터입니다. 현실적인 AI 결과로 짧은 머리, 곱슬머리, 남성 헤어컷, 여성 변신을 몇 초 만에 즉시 시도할 수 있습니다.",
+    "video": {
+        "src": "/imgs/introduce/hairstyleChanger.mp4"
+    },
+    "items": [
+        {
+        "title": "AI 기반 헤어 변신",
+        "description": "딥러닝 AI는 수천 가지 헤어스타일을 지원하여 즉각적인 가상 체험을 제공합니다.",
+        "icon": "RiNextjsFill"
+        },
+        {
+        "title": "남성 및 여성을 위한 가상 체험",
+        "description": "사진을 업로드하여 온라인에서 헤어스타일과 헤어 컬러를 미리 볼 수 있습니다.",
+        "icon": "RiDatabase2Line"
+        },
+        {
+        "title": "뷰티 및 이커머스용",
+        "description": "헤어스타일 API를 앱, 매장 또는 가상 피팅룸에 통합하여 참여도와 판매를 높입니다.",
+        "icon": "RiCloudyFill"
+        }
+    ]
   },
   "benefit": {
-      "name": "benefit",
-      "title": "AI 헤어스타일 체인저를 선택해야 하는 이유",
-      "label": "장점",
-      "description": "최고의 무료 AI 헤어스타일 온라인 도구의 놀라운 장점을 경험해보세요:",
-      "items": [
-          {
-              "title": "현실적인 헤어스타일 시뮬레이션",
-              "description": "우리의 AI 기반 헤어컷 생성기는 놀라운 정확도로 헤어스타일을 체험할 수 있도록 현실적인 변환을 생성합니다.",
-              "icon": "RiMagicLine"
-          },
-          {
-              "title": "수백 가지 헤어스타일",
-              "description": "클래식한 컷부터 트렌디한 스타일까지, 가상 헤어스타일 생성기는 나만의 헤어스타일을 만들 수 있는 무한한 가능성을 제공합니다.",
-              "icon": "RiScissorsCutLine"
-          },
-          {
-              "title": "즉각적인 결과",
-              "description": "빠르고 정확한 AI 기술로 몇 초 안에 가상 헤어스타일 결과를 확인할 수 있습니다.",
-              "icon": "RiTimerFlashLine"
-          }
-      ]
+    "name": "benefit",
+    "title": "AI 헤어스타일 체인저를 선택하는 이유",
+    "label": "장점",
+    "description": "사진으로 헤어스타일을 시도할 수 있는 최고의 온라인 헤어스타일 시뮬레이터인 AI 헤어스타일 체인저의 힘을 발견하십시오. 다양한 헤어컷, 색상 및 스타일을 즉시 미리 보고 자신에게 가장 잘 어울리는 모습을 확인하십시오.",
+    "items": [
+        {
+            "title": "사실적인 헤어스타일 시뮬레이션",
+            "description": "AI 기반 헤어컷 시뮬레이터는 사진처럼 사실적인 변신을 제공합니다. 남성과 여성의 헤어스타일을 온라인에서 비교할 수 없는 정확도로 시도하여 완벽한 모습을 찾으십시오.",
+            "icon": "RiMagicLine",
+            "image": {
+                "src": "/imgs/benefit/1.png"
+            }
+        },
+        {
+            "title": "수백 가지 헤어스타일",
+            "description": "짧은 머리, 곱슬머리부터 트렌디한 헤어컷과 헤어 컬러까지, AI 헤어스타일 생성기는 탐색할 수 있는 무제한 스타일을 제공합니다.",
+            "icon": "RiScissorsCutLine",
+            "image": {
+                "src": "/imgs/benefit/2.png"
+            }
+        },
+        {
+            "title": "즉각적인 결과",
+            "description": "몇 초 만에 즉각적인 헤어스타일 미리보기를 얻으십시오. 당사의 고급 AI 기술은 빠른 처리를 보장하여 언제 어디서든 가상 헤어스타일을 시도할 수 있도록 합니다.",
+            "icon": "RiTimerFlashLine",
+            "image": {
+                "src": "/imgs/benefit/3.png"
+            }
+        }
+    ]
   },
   "usage": {
       "name": "usage",

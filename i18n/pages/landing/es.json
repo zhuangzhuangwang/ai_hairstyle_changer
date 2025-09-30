@@ -623,51 +623,60 @@
   },
   "introduce": {
       "name": "introduce",
-      "title": "Servicio API de Cambiador de Peinado con IA",
-      "label": "Introducción",
+      "title": "Cambiador de Peinado AI",
+      "label": "Introducir",
       "email": "mailto:business@ailabtools.com",
-      "description": "La API de Cambiador de Peinado con IA utiliza aprendizaje profundo para detectar con precisión características faciales y regiones del cabello, permitiendo transformaciones virtuales de peinados en tiempo real (cortos, largos, rizados, coloreados). Ideal para aplicaciones de belleza, comercio electrónico, redes sociales y plataformas de RA, ofrece procesamiento rápido, cumplimiento de privacidad y alta participación del usuario.",
-      "image": {
-          "src": "/imgs/features/1.png"
+      "description": "AI Hairstyle Changer es un simulador de cabello profesional para marcas de belleza, comercio electrónico e individuos. Prueba instantáneamente peinados cortos, peinados rizados, cortes de pelo para hombres y transformaciones para mujeres con resultados de IA realistas en segundos.",
+      "video": {
+          "src": "/imgs/introduce/hairstyleChanger.mp4"
       },
       "items": [
           {
-              "title": "Investigación en profundidad",
-              "description": "Realizamos investigaciones en profundidad sobre antecedentes culturales y preferencias estéticas en diferentes regiones para garantizar que nuestros diseños de peinados reflejen con precisión sus expectativas.",
+              "title": "Transformación de Cabello con IA",
+              "description": "La IA de aprendizaje profundo soporta miles de peinados para una prueba virtual instantánea.",
               "icon": "RiNextjsFill"
           },
           {
-              "title": "Personalización individualizada",
-              "description": "Utilizando tecnología avanzada de IA combinada con la experiencia de estilistas locales, proporcionamos soluciones de diseño de peinados personalizadas para cada cliente.",
+              "title": "Prueba Virtual para Hombres y Mujeres",
+              "description": "Sube tu foto para previsualizar peinados y colores de cabello online.",
               "icon": "RiDatabase2Line"
           },
           {
-              "title": "Innovación continua",
-              "description": "Nos mantenemos a la vanguardia de las tendencias globales de moda, explorando continuamente las últimas tendencias y tecnologías en peinados para garantizar que permanezca a la vanguardia del estilo.",
+              "title": "Para Belleza y Comercio Electrónico",
+              "description": "Integra nuestra API de peinados en aplicaciones, tiendas o probadores virtuales para aumentar el engagement y las ventas.",
               "icon": "RiCloudyFill"
           }
       ]
   },
   "benefit": {
       "name": "benefit",
-      "title": "¿Por qué elegir el Cambiador de Peinado con IA?",
+      "title": "¿Por qué elegir AI Hairstyle Changer?",
       "label": "Beneficios",
-      "description": "Experimenta la mejor herramienta gratuita de peinados con IA en línea con estos increíbles beneficios:",
+      "description": "Descubre el poder de nuestro AI Hairstyle Changer – el mejor simulador de peinados online para probar peinados con tu foto. Previsualiza instantáneamente diferentes cortes de pelo, colores y estilos para ver cuál te queda mejor.",
       "items": [
           {
-              "title": "Simulación de peinados realista",
-              "description": "Nuestro generador de cortes de pelo con IA crea transformaciones realistas, permitiéndote probar cortes de pelo con una precisión asombrosa.",
-              "icon": "RiMagicLine"
+              "title": "Simulación de Peinado Realista",
+              "description": "Nuestro simulador de corte de pelo impulsado por IA ofrece transformaciones fotorrealistas. Prueba peinados para hombres y mujeres online con una precisión inigualable para encontrar el look perfecto.",
+              "icon": "RiMagicLine",
+              "image": {
+                  "src": "/imgs/benefit/1.png"
+              }
           },
           {
-              "title": "Cientos de peinados",
-              "description": "Desde cortes clásicos hasta estilos modernos, nuestro generador virtual de estilos de cabello ofrece posibilidades infinitas para crear tu propio corte de pelo.",
-              "icon": "RiScissorsCutLine"
+              "title": "Cientos de Peinados",
+              "description": "Desde peinados cortos y rizados hasta cortes de pelo y colores de cabello de moda, nuestro generador de peinados con IA ofrece estilos ilimitados para explorar.",
+              "icon": "RiScissorsCutLine",
+              "image": {
+                  "src": "/imgs/benefit/2.png"
+              }
           },
           {
-              "title": "Resultados instantáneos",
-              "description": "Obtén los resultados de tu peinado virtual en segundos con nuestra tecnología de IA rápida y precisa.",
-              "icon": "RiTimerFlashLine"
+              "title": "Resultados Instantáneos",
+              "description": "Obtén previsualizaciones instantáneas de peinados en segundos. Nuestra avanzada tecnología de IA asegura un procesamiento rápido, permitiéndote probar peinados virtuales en cualquier momento y lugar.",
+              "icon": "RiTimerFlashLine",
+              "image": {
+                  "src": "/imgs/benefit/3.png"
+              }
           }
       ]
   },

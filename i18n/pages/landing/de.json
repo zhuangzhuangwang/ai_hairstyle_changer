@@ -622,54 +622,63 @@
       ]
   },
   "introduce": {
-      "name": "introduce",
-      "title": "KI Frisuren-Wechsler API-Dienst",
-      "label": "Einführung",
-      "email": "mailto:business@ailabtools.com",
-      "description": "Die KI Frisuren-Wechsler API nutzt Deep Learning, um Gesichtszüge und Haarregionen präzise zu erkennen und ermöglicht so virtuelle Frisurentransformationen in Echtzeit (kurz, lang, lockig, gefärbt). Ideal für Beauty-Apps, E-Commerce, soziale Medien und AR-Plattformen bietet sie schnelle Verarbeitung, Datenschutzkonformität und hohe Benutzerbindung.",
-      "image": {
-          "src": "/imgs/features/1.png"
-      },
-      "items": [
-          {
-              "title": "Tiefgehende Forschung",
-              "description": "Wir führen tiefgehende Forschungen zu kulturellen Hintergründen und ästhetischen Vorlieben in verschiedenen Regionen durch, um sicherzustellen, dass unsere Frisurendesigns Ihren Erwartungen entsprechen.",
-              "icon": "RiNextjsFill"
-          },
-          {
-              "title": "Personalisierte Anpassung",
-              "description": "Mit fortschrittlicher KI-Technologie in Kombination mit der Expertise lokaler Friseure bieten wir maßgeschneiderte Frisurendesign-Lösungen für jeden Kunden.",
-              "icon": "RiDatabase2Line"
-          },
-          {
-              "title": "Kontinuierliche Innovation",
-              "description": "Wir bleiben auf dem neuesten Stand der globalen Modetrends und erforschen kontinuierlich die neuesten Frisurentrends und Technologien, um Sie an der Spitze des Stils zu halten.",
-              "icon": "RiCloudyFill"
-          }
-      ]
+    "name": "introduce",
+    "title": "AI Hairstyle Changer",
+    "label": "Einführen",
+    "email": "mailto:business@ailabtools.com",
+    "description": "AI Hairstyle Changer ist ein professioneller Haarsimulator für Schönheitsmarken, E-Commerce und Einzelpersonen. Probieren Sie sofort Kurzhaarfrisuren, Lockenfrisuren, Herrenhaarschnitte und Damenfrisuren mit realistischen KI-Ergebnissen in Sekundenschnelle an.",
+    "video": {
+        "src": "/imgs/introduce/hairstyleChanger.mp4"
+    },
+    "items": [
+        {
+        "title": "KI-gestützte Haartransformation",
+        "description": "Deep-Learning-KI unterstützt Tausende von Frisuren für die sofortige virtuelle Anprobe.",
+        "icon": "RiNextjsFill"
+        },
+        {
+        "title": "Virtuelle Anprobe für Männer & Frauen",
+        "description": "Laden Sie Ihr Foto hoch, um Frisuren und Haarfarben online zu testen.",
+        "icon": "RiDatabase2Line"
+        },
+        {
+        "title": "Für Schönheit & E-Commerce",
+        "description": "Integrieren Sie unsere Haarschnitt-API in Apps, Geschäfte oder virtuelle Umkleidekabinen, um Engagement und Umsatz zu steigern.",
+        "icon": "RiCloudyFill"
+        }
+    ]
   },
   "benefit": {
-      "name": "benefit",
-      "title": "Warum KI Frisuren-Wechsler wählen?",
-      "label": "Vorteile",
-      "description": "Erleben Sie das beste kostenlose KI-Frisuren-Tool online mit diesen fantastischen Vorteilen:",
-      "items": [
-          {
-              "title": "Realistische Frisurensimulation",
-              "description": "Unser KI-gestützter Haarschnitt-Generator erstellt realistische Transformationen, mit denen Sie Haarschnitte mit erstaunlicher Genauigkeit ausprobieren können.",
-              "icon": "RiMagicLine"
-          },
-          {
-              "title": "Hunderte von Frisuren",
-              "description": "Von klassischen Schnitten bis zu trendigen Styles bietet unser virtueller Frisuren-Generator endlose Möglichkeiten, Ihren eigenen Haarschnitt zu kreieren.",
-              "icon": "RiScissorsCutLine"
-          },
-          {
-              "title": "Sofortige Ergebnisse",
-              "description": "Erhalten Sie Ihre virtuellen Frisuren-Ergebnisse in Sekundenschnelle mit unserer schnellen und präzisen KI-Technologie.",
-              "icon": "RiTimerFlashLine"
-          }
-      ]
+    "name": "benefit",
+    "title": "Warum sollten Sie sich für den AI Hairstyle Changer entscheiden?",
+    "label": "Vorteile",
+    "description": "Entdecken Sie die Leistungsfähigkeit unseres AI Hairstyle Changer – des besten Online-Haarsimulators, um Frisuren mit Ihrem Foto auszuprobieren. Sehen Sie sich sofort verschiedene Haarschnitte, Farben und Stile an, um zu sehen, was Ihnen am besten steht.",
+    "items": [
+        {
+            "title": "Realistische Haarsimulation",
+            "description": "Unser KI-gestützter Haarschnittsimulator liefert fotorealistische Transformationen. Probieren Sie Herren- und Damenfrisuren online mit unübertroffener Genauigkeit an, um den perfekten Look zu finden.",
+            "icon": "RiMagicLine",
+            "image": {
+                "src": "/imgs/benefit/1.png"
+            }
+        },
+        {
+            "title": "Hunderte von Frisuren",
+            "description": "Von Kurzhaarfrisuren und Lockenfrisuren bis hin zu trendigen Haarschnitten und Haarfarben bietet unser KI-Haargenerator unbegrenzte Stile zum Erkunden.",
+            "icon": "RiScissorsCutLine",
+            "image": {
+                "src": "/imgs/benefit/2.png"
+            }
+        },
+        {
+            "title": "Sofortige Ergebnisse",
+            "description": "Erhalten Sie sofortige Frisurenvorschauen in Sekundenschnelle. Unsere fortschrittliche KI-Technologie gewährleistet eine schnelle Verarbeitung, sodass Sie virtuelle Frisuren jederzeit und überall ausprobieren können.",
+            "icon": "RiTimerFlashLine",
+            "image": {
+                "src": "/imgs/benefit/3.png"
+            }
+        }
+    ]
   },
   "usage": {
       "name": "usage",
