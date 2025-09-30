@@ -26,7 +26,7 @@
         "show_locale": true
     },
     "hero": {
-        "title": "Try On Hairstyle Online with AI Hairstyle Changer",
+        "title": "Try On Hairstyle with Your Photo ☞ AI Hairstyle Changer",
         "highlight_text": "AI Hairstyle Changer",
         "description": "Try on hairstyle with your photo in seconds. Our AI Hairstyle Changer is a virtual hair style generator that previews realistic haircuts and colors before you commit. Use it to try on hairstyle before a salon visit.",
         "labels": [
@@ -143,22 +143,22 @@
             {"title": "Long Wavy Hair — Try On Hairstyle Online", "originalImage": "/imgs/example/hairstyle-o-1.webp", "effectImage": "/imgs/example/hairstyle-r-1.webp"},
             {"title": "Short Pixie With Shaved Sides - Haircut Simulator", "originalImage": "/imgs/example/hairstyle-o-2.webp", "effectImage": "/imgs/example/hairstyle-r-2.webp"},
             {"title": "Pixie Cut Hair — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-3.webp", "effectImage": "/imgs/example/hairstyle-r-3.webp"},
-            {"title": "Long Twintails — Try On Hairstyle With Your Picture", "originalImage": "/imgs/example/hairstyle-o-4.webp", "effectImage": "/imgs/example/hairstyle-r-4.webp"},
+            {"title": "Long Twintails — Virtual Hairstyle Preview", "originalImage": "/imgs/example/hairstyle-o-4.webp", "effectImage": "/imgs/example/hairstyle-r-4.webp"},
             {"title": "Updo Hair - AI Hairstyle Online Free", "originalImage": "/imgs/example/hairstyle-o-5.webp", "effectImage": "/imgs/example/hairstyle-r-5.webp"},
             {"title": "Chignon Hair - Haircut Generator", "originalImage": "/imgs/example/hairstyle-o-6.webp", "effectImage": "/imgs/example/hairstyle-r-6.webp"},
             {"title": "Bob Haircut — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-7.webp", "effectImage": "/imgs/example/hairstyle-r-7.webp"},
             {"title": "Short Curly Pixie - Free Men Hairstyle Online", "originalImage": "/imgs/example/hairstyle-o-8.webp", "effectImage": "/imgs/example/hairstyle-r-8.webp"},
-            {"title": "Double Bun — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-9.webp", "effectImage": "/imgs/example/hairstyle-r-9.webp"},
+            {"title": "Double Bun — Hairstyle Preview", "originalImage": "/imgs/example/hairstyle-o-9.webp", "effectImage": "/imgs/example/hairstyle-r-9.webp"},
             {"title": "Cornrows - Create Your Own Haircut Generator", "originalImage": "/imgs/example/hairstyle-o-10.webp", "effectImage": "/imgs/example/hairstyle-r-10.webp"},
-            {"title": "Wavy French Bob (1920s Vibe) — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-11.webp", "effectImage": "/imgs/example/hairstyle-r-11.webp"},
+            {"title": "Wavy French Bob (1920s Vibe)", "originalImage": "/imgs/example/hairstyle-o-11.webp", "effectImage": "/imgs/example/hairstyle-r-11.webp"},
             {"title": "Long Hime Cut — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-12.webp", "effectImage": "/imgs/example/hairstyle-r-12.webp"},
-            {"title": "Curly Bob — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-13.webp", "effectImage": "/imgs/example/hairstyle-r-13.webp"},
-            {"title": "Shoulder-Length Straight — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-14.webp", "effectImage": "/imgs/example/hairstyle-r-14.webp"},
-            {"title": "Twin Braids — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-15.webp", "effectImage": "/imgs/example/hairstyle-r-15.webp"},
+            {"title": "Curly Bob — Hairstyle Preview", "originalImage": "/imgs/example/hairstyle-o-13.webp", "effectImage": "/imgs/example/hairstyle-r-13.webp"},
+            {"title": "Shoulder-Length Straight — Hairstyle Preview", "originalImage": "/imgs/example/hairstyle-o-14.webp", "effectImage": "/imgs/example/hairstyle-r-14.webp"},
+            {"title": "Twin Braids — Haircut Simulator", "originalImage": "/imgs/example/hairstyle-o-15.webp", "effectImage": "/imgs/example/hairstyle-r-15.webp"},
             {"title": "Middle-parted Hair - AI Hairstyle Online Free", "originalImage": "/imgs/example/hairstyle-o-16.webp", "effectImage": "/imgs/example/hairstyle-r-16.webp"},
             {"title": "Buzz Cut — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-17.webp", "effectImage": "/imgs/example/hairstyle-r-17.webp"},
-            {"title": "Two Block Haircut — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-18.webp", "effectImage": "/imgs/example/hairstyle-r-18.webp"},
-            {"title": "Curly Shag — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-19.webp", "effectImage": "/imgs/example/hairstyle-r-19.webp"},
+            {"title": "Two Block Haircut — Haircut Simulator", "originalImage": "/imgs/example/hairstyle-o-18.webp", "effectImage": "/imgs/example/hairstyle-r-18.webp"},
+            {"title": "Curly Shag — Hairstyle Try-On", "originalImage": "/imgs/example/hairstyle-o-19.webp", "effectImage": "/imgs/example/hairstyle-r-19.webp"},
             {"title": "Long Hair Tied Up — Try On Hairstyle", "originalImage": "/imgs/example/hairstyle-o-20.webp", "effectImage": "/imgs/example/hairstyle-r-20.webp"}
         ]
     },
@@ -371,7 +371,7 @@
     "faq": {
         "name": "faq",
         "label": "FAQ",
-        "title": "Frequently Asked Questions - Try on hairstyle",
+        "title": "Frequently Asked Questions — Try On Hairstyle",
         "description": "Have questions about our AI hairstyle online free tool and haircut simulator? We've got answers.",
         "items": [
             {"title": "How does the virtual hairstyle try-on work?", "description": "Our AI-powered haircut simulator maps hairstyles onto your uploaded photo for a realistic preview. It helps you try on hairstyle before cutting or coloring."},
