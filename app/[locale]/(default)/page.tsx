@@ -5,6 +5,7 @@ import Feature from "@/components/blocks/feature";
 import Feature1 from "@/components/blocks/feature1";
 import Feature2 from "@/components/blocks/feature2";
 import Feature3 from "@/components/blocks/feature3";
+import Feature4 from "@/components/blocks/feature4";
 import Hero from "@/components/blocks/hero";
 import Pricing from "@/components/blocks/pricing";
 import Showcase from "@/components/blocks/showcase";
@@ -55,6 +56,7 @@ export default async function LandingPage({
       {/* {page.pricing && <Pricing pricing={page.pricing} />} */}
       {page.testimonial && <Testimonial section={page.testimonial} />}
       {page.faq && <FAQ section={page.faq} />}
+      {page.externalLinks && <Feature4 section={page.externalLinks}/>}
       {page.cta && <CTA section={page.cta} />}
     </>
   );

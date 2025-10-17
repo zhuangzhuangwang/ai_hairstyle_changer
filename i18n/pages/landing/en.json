@@ -401,6 +401,144 @@
             {"title": "Read Document", "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "outline"}
         ]
     },
+    "externalLinks": {
+        "name": "externalLinks",
+        "heading": "About Try On Hairstyle · External Links",
+        "variant": "cards",
+        "subheading": "Media Coverage, Tutorials & Reviews, Developer Docs, and Ecosystem Partnerships",
+        "button_text": "Visit External Links",
+        "items": [
+            {
+                "title": "Best Free Hairstyle Changer 2025",
+                "desc": "Medium list of the most realistic hairstyle changers.",
+                "url": "https://medium.com/@775872451/best-free-hairstyle-changer-2025-realistic-try-on-798b0bd30488",
+                "tag": "Media",
+                "badge": "New",
+                "rel": ["nofollow"],
+                "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+                "date": "2025-10-15"
+            },
+            {
+                "title": "Try On Hairstyles Online Free — Pick Your Style",
+                "desc": "Blogspot article on trying hairstyles online for free.",
+                "url": "https://practiai.blogspot.com/2025/10/try-on-hairstyles-online-free-pick-your.html",
+                "tag": "Media",
+                "badge": "New",
+                "rel": ["nofollow"],
+                "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+                "date": "2025-10-03"
+            },
+            {
+                "title": "AI Hairstyle: Try Before You Cut — Free, Tested 2025",
+                "desc": "Medium article on free and tested hairstyle try-on tools.",
+                "url": "https://medium.com/@ztnimi/ai-hairstyle-try-before-you-cut-free-tested-2025-977a6e9c6cd8",
+                "tag": "Media",
+                "badge": "New",
+                "rel": ["nofollow"],
+                "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+                "date": "2025-10-10"
+            },
+            {
+                "title": "Penny’s Note (Substack)",
+                "desc": "Short note on Substack about hairstyle try-on experience.",
+                "url": "https://substack.com/profile/402217867-penny/note/c-165862080",
+                "tag": "Media",
+                "rel": ["nofollow"],
+                "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+                "date": "2025-10-10"
+            },
+            {
+              "title": "AI Hairstyle Changer Review (TechDaily)",
+              "desc": "Focuses on realistic hair strands and color fidelity with multiple style comparisons.",
+              "url": "https://example.com/review/hairstyle",
+              "tag": "Media",
+              "badge": "New",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-10-10"
+            },
+            {
+              "title": "AI Hairstyle Changer: Try Before You Cut",
+              "desc": "Medium article by Ztnimi about testing hairstyles before committing.",
+              "url": "https://medium.com/@ztnimi/ai-hairstyle-changer-try-before-you-cut-e459ab4fe54e",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-19"
+            },
+            {
+              "title": "Try On Hairstyles Online: The Easiest Way to Pick Your Next Cut",
+              "desc": "LiveJournal blog on trying hairstyles online before visiting the salon.",
+              "url": "https://miaopenny.livejournal.com/449.html?newpost=1",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-17"
+            },
+            {
+              "title": "It’s Already 2025, Are You Still Taking a Gamble With Haircuts?",
+              "desc": "Medium opinion piece on using AI hairstyle try-on instead of guessing.",
+              "url": "https://medium.com/@ztnimi/its-already-2025-are-you-still-taking-a-gamble-with-haircuts-a85a68a4edd6",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-10"
+            },
+            {
+              "title": "Best AI Hairstyle Changer Tools (2025)",
+              "desc": "LiveJournal article reviewing different AI hairstyle changers.",
+              "url": "https://ext-6841077.livejournal.com/429.html?newpost=1",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" }
+            },
+            {
+              "title": "Thinking of a Buzz Cut? Try It Online First",
+              "desc": "Blogger post on testing buzz cuts virtually.",
+              "url": "https://ztmini.blogspot.com/2025/09/thinking-of-buzz-cut-try-it-online.html",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-18"
+            },
+            {
+              "title": "2025: How to Try on Hairstyles Online for Free",
+              "desc": "Medium guide on free virtual hairstyle try-on tools.",
+              "url": "https://medium.com/@ztnimi/2025-how-to-try-on-hairstyles-online-for-free-a-simple-way-to-find-your-perfect-look-4afd9637e2b1",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-25"
+            },
+            {
+              "title": "AI Hairstyle Simulator — Free Virtual Try-On",
+              "desc": "Medium article by 775872451 on testing hairstyles and colors virtually.",
+              "url": "https://medium.com/@775872451/ai-hairstyle-simulator-free-virtual-try-on-0a61ccc450c5",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-26"
+            },
+            {
+              "title": "I Tried 2025’s Top Haircuts at Try On Hairstyle",
+              "desc": "Medium review of the year’s most popular haircuts.",
+              "url": "https://medium.com/@ztnimi/i-tried-2025s-top-haircuts-at-try-on-hairstyle-e3fc792e6a5c",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-27"
+            },
+            {
+              "title": "Try On Hairstyles — Virtual Hairstyle Try-On Tool",
+              "desc": "Medium article about using AI to preview hairstyles.",
+              "url": "https://medium.com/@775872451/try-on-hairstyles-virtual-hairstyle-try-on-tool-1d99924ad007",
+              "tag": "Media",
+              "rel": ["nofollow"],
+              "utm": { "source": "site", "medium": "referral", "campaign": "about-links" },
+              "date": "2025-09-19"
+            }
+          ]          
+    },
     "footer": {
         "name": "footer",
         "brand": {
