@@ -29,6 +29,11 @@ export async function generateMetadata({
     },
     description: t("metadata.description") || "",
     keywords: t("metadata.keywords") || "",
+    verification: {
+      other: {
+        "saashub-verification": t("metadata.saashub-verification") || "",
+      },
+    }
   };
 }
 
