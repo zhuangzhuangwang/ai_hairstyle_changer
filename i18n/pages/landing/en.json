@@ -15,11 +15,11 @@
                 {"title": "Features", "url": "/#feature", "icon": "HiOutlineSparkles"},
                 {"title": "Example", "url": "/#example", "icon": "FaQuestion"},
                 {"title": "FAQ", "url": "/#faq", "icon": "FaQuestion"},
-                {"title": "API DOCS", "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "link", "icon": "HiOutlineSparkles"}
+                {"title": "API DOCS", "url": "https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "link", "icon": "HiOutlineSparkles"}
             ]
         },
         "buttons": [
-            {"title": "GET API KEY", "url": "https://www.ailabtools.com/doc/get-api-key", "target": "_blank", "variant": "link", "icon": "RiArrowRightUpLine"}
+            {"title": "GET API KEY", "url": "https://www.ailabtools.com/docs/get-api-key", "target": "_blank", "variant": "link", "icon": "RiArrowRightUpLine"}
         ],
         "show_sign": false,
         "show_theme": false,
@@ -397,8 +397,8 @@
         "title": "Launch Your AI Hairstyle Startup - Hairstyle Try-On API",
         "description": "Start here, transform with AI HairStyle Changer's virtual hair style generator and haircut simulator by aihair. Try on hairstyle with one click.",
         "buttons": [
-            {"title": "Get ApiKey — AI Hairstyle Changer (aihair)", "url": "https://www.ailabtools.com/doc/get-api-key", "target": "_blank", "icon": "GoArrowUpRight"},
-            {"title": "Read Document for aihair", "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "outline"}
+            {"title": "Get ApiKey — AI Hairstyle Changer (aihair)", "url": "https://www.ailabtools.com/docs/get-api-key", "target": "_blank", "icon": "GoArrowUpRight"},
+            {"title": "Read Document for aihair", "url": "https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "outline"}
         ]
     },
     "externalLinks": {
@@ -557,8 +557,8 @@
                 ]},
                 {"title": "Resources", "children": [
                     {"title": "Customize", "url": "/#usage", "target": "_self"},
-                    {"title": "Documents", "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank"},
-                    {"title": "Get ApiKey", "url": "https://www.ailabtools.com/doc/get-api-key", "target": "_blank"}
+                    {"title": "Documents", "url": "https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank"},
+                    {"title": "Get ApiKey", "url": "https://www.ailabtools.com/docs/get-api-key", "target": "_blank"}
                 ]}
             ]
         },
