@@ -6,7 +6,7 @@
             "title": "AI Hairstyle Changer",
             "logo": {
                 "src": "/logo.png",
-                "alt": "AI Hairstyle Changer - Virtual Hair Style Generator — Try On Hairstyle"
+                "alt": "AI Hairstyle Changer - Virtual Hair Style Generator — Try On Hairstyle by aihair"
             },
             "url": "/"
         },
@@ -28,7 +28,7 @@
     "hero": {
         "title": "Try On Hairstyle with Your Photo ☞ AI Hairstyle Changer",
         "highlight_text": "AI Hairstyle Changer",
-        "description": "Try on hairstyle with your photo in seconds. Our AI Hairstyle Changer is a virtual hair style generator that previews realistic haircuts and colors before you commit. Use it to try on hairstyle before a salon visit.",
+        "description": "Try on hairstyle with your photo in seconds. Our AI Hairstyle Changer (aihair) is a virtual hair style generator that previews realistic haircuts and colors before you commit. Use it to try on hairstyle before a salon visit.",
         "labels": [
             {"title": "100% Free", "color": "amber"},
             {"title": "Powered by AILabTools", "color": "red"},
@@ -119,8 +119,8 @@
         },
         "right_box": {
             "download_btn": "Download",
-            "upload_btn": "Upload a Photo — Try On Hairstyle",
-            "upload_text": "Click or drag and drop your image to try on hairstyle — free",
+            "upload_btn": "Upload a Photo — Try On Hairstyle (aihair)",
+            "upload_text": "Click or drag and drop your image to try on hairstyle — free with aihair",
             "upload_rules": [
                 "Image Format: PNG JPG JPEG",
                 "Image Size: No more than 3 MB.",
@@ -138,7 +138,7 @@
     "example": {
         "name": "example",
         "title": "Hairstyles Example - Virtual Hairstyle Try-On",
-        "description": "Everything you need to Try On Hairstyle and find what hairstyle suits me with our virtual hair style generator. Powered by AI Hairstyle Changer.",
+        "description": "Everything you need to Try On Hairstyle and find what hairstyle suits me with our virtual hair style generator. Powered by AI Hairstyle Changer and aihair.",
         "imgs": [
             {"title": "Long Wavy Hair — Try On Hairstyle Online", "originalImage": "/imgs/example/hairstyle-o-1.webp", "effectImage": "/imgs/example/hairstyle-r-1.webp"},
             {"title": "Short Pixie With Shaved Sides - Haircut Simulator", "originalImage": "/imgs/example/hairstyle-o-2.webp", "effectImage": "/imgs/example/hairstyle-r-2.webp"},
@@ -174,60 +174,60 @@
     },
     "introduce": {
       "name": "introduce",
-      "title": "Try on hairstyle with Your Picture (Free)",
+      "title": "Try on hairstyle with Your Picture (Free) - aihair",
       "label": "Introduce",
       "email": "mailto:business@ailabtools.com",
-      "description": "AI Hairstyle Changer is a professional hair simulator for beauty brands, e-commerce, and individuals. Instantly try short hairstyles, curly hairstyles, men’s haircuts, and women’s transformations with realistic AI results in seconds.",
+      "description": "AI Hairstyle Changer is a professional hair simulator for beauty brands, e-commerce, and individuals. Instantly try short hairstyles, curly hairstyles, men’s haircuts, and women’s transformations with realistic AI results in seconds, powered by aihair.",
       "video": {"src": "/imgs/introduce/hairstyleChanger.mp4"},
       "items": [
-          {"title": "AI-Powered Hair Transformation", "description": "Deep learning AI supports thousands of hairstyles for instant virtual try-on.", "icon": "RiNextjsFill"},
-          {"title": "Virtual Try-On for Men & Women", "description": "Upload your photo to preview hairstyles and hair colors online — Try On Hairstyle", "icon": "RiDatabase2Line"},
-          {"title": "For Beauty & E-Commerce", "description": "Integrate our hairstyle API into apps, stores, or virtual fitting rooms to boost engagement and sales, helping customers try on hairstyle.", "icon": "RiCloudyFill"}
+          {"title": "AI-Powered Hair Transformation", "description": "Deep learning AI supports thousands of hairstyles for instant virtual try-on with aihair reliability.", "icon": "RiNextjsFill"},
+          {"title": "Virtual Try-On for Men & Women", "description": "Upload your photo to preview hairstyles and hair colors online — Try On Hairstyle via aihair", "icon": "RiDatabase2Line"},
+          {"title": "For Beauty & E-Commerce", "description": "Integrate our hairstyle API into apps, stores, or virtual fitting rooms to boost engagement and sales, helping customers try on hairstyle using the aihair engine.", "icon": "RiCloudyFill"}
       ]
     },
     "benefit": {
       "name": "benefit",
       "title": "Why Choose AI Hairstyle Changer? — Hair Style Generator",
       "label": "Benefits",
-      "description": "Discover the power of our AI Hairstyle Changer – the best online hairstyle simulator to try on hairstyle with your photo. Instantly preview different haircuts, colors, and styles to see what suits you best. Explore every virtual hair style with realistic previews.",
+      "description": "Discover the power of our AI Hairstyle Changer (aihair) – the best online hairstyle simulator to try on hairstyle with your photo. Instantly preview different haircuts, colors, and styles to see what suits you best. Explore every virtual hair style with realistic previews.",
       "items": [
-          {"title": "Realistic Hairstyle Simulation", "description": "Our AI-powered haircut simulator delivers photo-realistic transformations so you can try on hairstyle online with unmatched accuracy.", "icon": "RiMagicLine", "image": {"src": "/imgs/benefit/1.png"}},
-          {"title": "Hundreds of Hairstyles", "description": "From short hairstyles and curly hairstyles to trendy haircuts and hair colors, our AI hairstyle generator offers unlimited styles to explore.", "icon": "RiScissorsCutLine", "image": {"src": "/imgs/benefit/2.png"}},
-          {"title": "Instant Results", "description": "Get instant hairstyle previews in seconds. Our advanced AI technology ensures fast processing, letting you try on virtual hairstyles anytime, anywhere.", "icon": "RiTimerFlashLine", "image": {"src": "/imgs/benefit/3.png"}}
+          {"title": "Realistic Hairstyle Simulation", "description": "Our AI-powered haircut simulator delivers photo-realistic transformations so you can try on hairstyle online with unmatched accuracy, fueled by aihair.", "icon": "RiMagicLine", "image": {"src": "/imgs/benefit/1.png"}},
+          {"title": "Hundreds of Hairstyles", "description": "From short hairstyles and curly hairstyles to trendy haircuts and hair colors, our AI hairstyle generator offers unlimited styles to explore with the aihair library.", "icon": "RiScissorsCutLine", "image": {"src": "/imgs/benefit/2.png"}},
+          {"title": "Instant Results", "description": "Get instant hairstyle previews in seconds. Our advanced AI technology ensures fast processing, letting you try on virtual hairstyles anytime, anywhere via aihair.", "icon": "RiTimerFlashLine", "image": {"src": "/imgs/benefit/3.png"}}
       ]
     },
     "usage": {
         "name": "usage",
         "title": "How to Customize Private Hairstyles — Virtual Hairstyle Try-On",
         "email": "mailto:business@ailabtools.com",
-        "description": "To cater to each customer's unique needs, we provide personalized hairstyle services powered by advanced AI image processing technology. Create your own haircut generator with our tools. Powered by AI Hairstyle Changer for developers. This flow lets you try on hairstyle for brand libraries.",
+        "description": "To cater to each customer's unique needs, we provide personalized hairstyle services powered by advanced AI image processing technology. Create your own haircut generator with our tools. Powered by AI Hairstyle Changer (aihair) for developers. This flow lets you try on hairstyle for brand libraries.",
         "image": {"src": "/imgs/features/1.png"},
         "image_position": "left",
         "text_align": "center",
         "items": [
-            {"title": "Hairstyle Image Collection", "description": "Please provide at least 30 high-resolution images of the hairstyles you want to customize for your virtual hair style generator.", "image": {"src": "/imgs/features/image-1.png"}},
-            {"title": "Data Processing", "description": "Our AI team handles data processing, including cropping, labeling, and enhancement for your try on hairstyle experience.", "image": {"src": "/imgs/features/image-2.png"}},
-            {"title": "AI Model Training", "description": "Our AI team refines the hairstyle model using the processed data for accurate and realistic results so you can try on hairstyle confidently.", "image": {"src": "/imgs/features/image-3.png"}},
-            {"title": "Validation & Delivery", "description": "After AI validation, customers review the results. Once approved, the hairstyle is delivered via API to try on hairstyle with your picture for free.", "image": {"src": "/imgs/features/image-4.png"}}
+            {"title": "Hairstyle Image Collection", "description": "Please provide at least 30 high-resolution images of the hairstyles you want to customize for your virtual hair style generator powered by aihair.", "image": {"src": "/imgs/features/image-1.png"}},
+            {"title": "Data Processing", "description": "Our AI team handles data processing, including cropping, labeling, and enhancement for your try on hairstyle experience using aihair tooling.", "image": {"src": "/imgs/features/image-2.png"}},
+            {"title": "AI Model Training", "description": "Our AI team refines the hairstyle model using the processed data for accurate and realistic results so you can try on hairstyle confidently with aihair.", "image": {"src": "/imgs/features/image-3.png"}},
+            {"title": "Validation & Delivery", "description": "After AI validation, customers review the results. Once approved, the hairstyle is delivered via API to try on hairstyle with your picture for free through aihair.", "image": {"src": "/imgs/features/image-4.png"}}
         ]
     },
     "feature": {
         "name": "feature",
         "title": "Key Features of AI Hairstyle Changer — Virtual Hair Style & Hair Style Generator",
-        "description": "Discover your perfect hairstyle effortlessly with our AI-powered virtual hair style generator! Try on different looks instantly and find what hairstyle suits me best.",
+        "description": "Discover your perfect hairstyle effortlessly with our AI-powered virtual hair style generator from aihair! Try on different looks instantly and find what hairstyle suits me best, anchored by the aihair pipeline.",
         "items": [
-            {"title": "AI-Powered Haircut Simulator", "description": "Experience realistic hairstyle transformations with our advanced AI haircut generator so you can try on hairstyle naturally.", "icon": "RiRobot2Line"},
-            {"title": "Virtual Hairstyle Try-On", "description": "Try on hairstyle instantly with your own photo using our virtual hair style generator—free men hairstyle online options included.", "icon": "RiCameraLensFill"},
-            {"title": "Men & Women Hairstyles", "description": "Discover what hairstyle suits you best with our free men and women hairstyle online tool—virtual hair style options available.", "icon": "RiUserSmileLine"},
-            {"title": "Realistic Hair Color Simulation", "description": "Try different hair colors with our AI-powered color simulator to find your perfect match during the hairstyle try-on.", "icon": "RiPaletteFill"},
-            {"title": "Instant Results", "description": "Get your virtual hairstyle results in seconds with our fast and accurate AI technology—create your own haircut generator instantly.", "icon": "RiFlashlightFill"},
-            {"title": "Free to Use", "description": "Experience the best AI hairstyle online free tool with unlimited generations—try on haircuts without any cost.", "icon": "RiMoneyDollarCircleFill"}
+            {"title": "AI-Powered Haircut Simulator", "description": "Experience realistic hairstyle transformations with our advanced AI haircut generator so you can try on hairstyle naturally, driven by aihair models.", "icon": "RiRobot2Line"},
+            {"title": "Virtual Hairstyle Try-On", "description": "Try on hairstyle instantly with your own photo using our virtual hair style generator—free men hairstyle online options included through aihair.", "icon": "RiCameraLensFill"},
+            {"title": "Men & Women Hairstyles", "description": "Discover what hairstyle suits you best with our free men and women hairstyle online tool—virtual hair style options available and updated by aihair.", "icon": "RiUserSmileLine"},
+            {"title": "Realistic Hair Color Simulation", "description": "Try different hair colors with our AI-powered color simulator to find your perfect match during the hairstyle try-on using the aihair tone engine.", "icon": "RiPaletteFill"},
+            {"title": "Instant Results", "description": "Get your virtual hairstyle results in seconds with our fast and accurate AI technology—create your own haircut generator instantly via aihair.", "icon": "RiFlashlightFill"},
+            {"title": "Free to Use", "description": "Experience the best AI hairstyle online free tool with unlimited generations—try on haircuts without any cost on the aihair platform.", "icon": "RiMoneyDollarCircleFill"}
         ]
     },
     "showcase": {
         "name": "showcase",
         "title": "AI SaaS Startups built with AI HairStyle Changer",
-        "description": "Easy to use and fast to ship. Try on hairstyle with your picture for free using our API.",
+        "description": "Easy to use and fast to ship. Try on hairstyle with your picture for free using our API, built on aihair.",
         "items": [
             {"title": "ThinkAny", "description": "AI Search Engine", "url": "https://thinkany.ai", "target": "_blank", "image": {"src": "/imgs/showcases/7.png"}},
             {"title": "HeyBeauty", "description": "AI Virtual Try On", "url": "https://heybeauty.ai", "target": "_blank", "image": {"src": "/imgs/showcases/5.png"}},
@@ -243,25 +243,25 @@
     "stats": {
         "name": "stats",
         "label": "Stats",
-        "title": "People Love AI HairStyle Changer — AI Hairstyle Changer",
-        "description": "for it's easy to use and fast to ship virtual hair style generator to try on hairstyle.",
+        "title": "People Love AI HairStyle Changer — AI Hairstyle Changer (aihair)",
+        "description": "for it's easy to use and fast to ship virtual hair style generator to try on hairstyle, powered by the aihair stack.",
         "icon": "FaRegHeart",
         "items": [
-            {"title": "Trusted by", "label": "99+", "description": "Customers using our haircut simulator"},
-            {"title": "Built in", "label": "20+", "description": "Components for hairstyle try-on — Hair Style Generator"},
-            {"title": "Ship Fast in", "label": "5", "description": "Minutes with our AI hairstyle online free tool"}
+            {"title": "Trusted by", "label": "99+", "description": "Customers using our haircut simulator on aihair"},
+            {"title": "Built in", "label": "20+", "description": "Components for hairstyle try-on — Hair Style Generator from aihair"},
+            {"title": "Ship Fast in", "label": "5", "description": "Minutes with our AI hairstyle online free tool powered by aihair"}
         ]
     },
     "pricing": {
         "name": "pricing",
         "label": "Pricing",
-        "title": "Pricing - Try on hairstyle API",
-        "description": "Get all features of AI HairStyle Changer, Ship your AI SaaS startups fast with our virtual hair style generator.",
+        "title": "Pricing - Try on hairstyle API (aihair)",
+        "description": "Get all features of AI HairStyle Changer, Ship your AI SaaS startups fast with our virtual hair style generator by aihair.",
         "groups": [],
         "items": [
             {
                 "title": "Starter",
-                "description": "Get started with your first SaaS startup to Try on hairstyle.",
+                "description": "Get started with your first SaaS startup to Try on hairstyle using aihair.",
                 "features_title": "Includes",
                 "features": [
                     "100 credits, valid for 1 month",
@@ -283,7 +283,7 @@
                 "original_price": "$199",
                 "unit": "USD",
                 "is_featured": false,
-                "tip": "Pay once. Build unlimited projects with our haircut generator!",
+                "tip": "Pay once. Build unlimited projects with our haircut generator on aihair!",
                 "button": {"title": "Get AI HairStyle Changer", "url": "/#pricing", "icon": "RiFlashlightFill"},
                 "product_id": "starter",
                 "product_name": "AI HairStyle Changer Boilerplate Starter",
@@ -292,7 +292,7 @@
             },
             {
                 "title": "Standard",
-                "description": "Ship Fast with your SaaS Startups featuring try on hairstyle.",
+                "description": "Ship Fast with your SaaS Startups featuring try on hairstyle via aihair.",
                 "label": "Popular",
                 "features_title": "Everything in Starter, plus",
                 "features": [
@@ -315,7 +315,7 @@
                 "original_price": "$299",
                 "unit": "USD",
                 "is_featured": true,
-                "tip": "Pay once. Build unlimited projects with our virtual hair style men and women options!",
+                "tip": "Pay once. Build unlimited projects with our virtual hair style men and women options from aihair!",
                 "button": {"title": "Get AI HairStyle Changer", "url": "/#pricing", "icon": "RiFlashlightFill"},
                 "product_id": "standard",
                 "product_name": "AI HairStyle Changer Boilerplate Standard",
@@ -324,7 +324,7 @@
             },
             {
                 "title": "Premium",
-                "description": "Ship Any AI SaaS Startups with full try on hairstyle capabilities.",
+                "description": "Ship Any AI SaaS Startups with full try on hairstyle capabilities backed by aihair.",
                 "features_title": "Everything in Standard, plus",
                 "features": [
                     "300 credits, valid for 1 year",
@@ -344,7 +344,7 @@
                 "original_price": "$399",
                 "unit": "USD",
                 "is_featured": false,
-                "tip": "Pay once. Build unlimited projects to Try on hairstyle with your picture for free!",
+                "tip": "Pay once. Build unlimited projects to Try on hairstyle with your picture for free — all on aihair!",
                 "button": {"title": "Get AI HairStyle Changer", "url": "/#pricing", "icon": "RiFlashlightFill"},
                 "product_id": "premium",
                 "product_name": "AI HairStyle Changer Boilerplate Premium",
@@ -357,55 +357,55 @@
         "name": "testimonial",
         "label": "Testimonial",
         "title": "What Users Say About AI HairStyle Changer",
-        "description": "Hear from the developers and founders of AI HairStyle Changer as they share their experiences with our virtual hair style generator.",
+        "description": "Hear from the developers and founders of AI HairStyle Changer as they share their experiences with our virtual hair style generator, now upgraded with aihair.",
         "icon": "GoThumbsup",
         "items": [
-            {"title": "David Chen", "label": "Individual", "description": "AI HairStyle Changer is amazing! Just upload a photo and instantly try on hairstyle with your picture for free. The results look natural and realistic—perfect for anyone unsure about changing their hairstyle.", "image": {"src": "/imgs/users/1.png"}},
-            {"title": "Rachel Kim", "label": "Individual", "description": "This haircut simulator saved me from decision fatigue! I can preview different styles without actually cutting or dyeing my hair. The free men hairstyle online options are super useful!", "image": {"src": "/imgs/users/2.png"}},
-            {"title": "Marcus Thompson", "label": "Solo Developer", "description": "The engine is precise and helps me try on hairstyle accurately. Compared to other AI hair-changing tools, this virtual hair style generator looks much more realistic.", "image": {"src": "/imgs/users/3.png"}},
-            {"title": "Sofia Garcia", "label": "Individual", "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. The ability to create your own haircut generator is incredible!", "image": {"src": "/imgs/users/4.png"}},
-            {"title": "James Wilson", "label": "Startup Founder", "description": "User-friendly interface and easy to use! Switching looks with one click is super convenient for a quick try on hairstyle.", "image": {"src": "/imgs/users/5.png"}},
-            {"title": "Anna Zhang", "label": "Startup Founder", "description": "AI HairStyle Changer lets me try on hairstyle effortlessly before committing to a real change. The 'what hairstyle suits me' feature is impressive!", "image": {"src": "/imgs/users/6.png"}}
+            {"title": "David Chen", "label": "Individual", "description": "AI HairStyle Changer is amazing! Just upload a photo and instantly try on hairstyle with your picture for free. The results look natural and realistic—perfect for anyone unsure about changing their hairstyle. Aihair keeps the strands sharp.", "image": {"src": "/imgs/users/1.png"}},
+            {"title": "Rachel Kim", "label": "Individual", "description": "This haircut simulator saved me from decision fatigue! I can preview different styles without actually cutting or dyeing my hair. The free men hairstyle online options are super useful and aihair keeps colors true.", "image": {"src": "/imgs/users/2.png"}},
+            {"title": "Marcus Thompson", "label": "Solo Developer", "description": "The engine is precise and helps me try on hairstyle accurately. Compared to other AI hair-changing tools, this virtual hair style generator looks much more realistic thanks to aihair.", "image": {"src": "/imgs/users/3.png"}},
+            {"title": "Sofia Garcia", "label": "Individual", "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. The ability to create your own haircut generator is incredible with aihair powering the base.", "image": {"src": "/imgs/users/4.png"}},
+            {"title": "James Wilson", "label": "Startup Founder", "description": "User-friendly interface and easy to use! Switching looks with one click is super convenient for a quick try on hairstyle, and the aihair backend keeps it fast.", "image": {"src": "/imgs/users/5.png"}},
+            {"title": "Anna Zhang", "label": "Startup Founder", "description": "AI HairStyle Changer lets me try on hairstyle effortlessly before committing to a real change. The 'what hairstyle suits me' feature is impressive, especially with aihair realism.", "image": {"src": "/imgs/users/6.png"}}
         ]
     },
     "faq": {
         "name": "faq",
         "label": "FAQ",
         "title": "Frequently Asked Questions — Try On Hairstyle",
-        "description": "Have questions about our AI hairstyle online free tool and haircut simulator? We've got answers.",
+        "description": "Have questions about our AI hairstyle online free tool and haircut simulator? We've got answers, plus aihair tips.",
         "items": [
-            {"title": "How does the virtual hairstyle try-on work?", "description": "Our AI-powered haircut simulator maps hairstyles onto your uploaded photo for a realistic preview. It helps you try on hairstyle before cutting or coloring."},
-            {"title": "Can I really Try on hairstyle for free?", "description": "Yes! AI Hairstyle Changer is completely free to use. You can try on haircuts and experiment with different looks through our virtual hair style generator without any cost, including free men hairstyle online options."},
-            {"title": "How to use the AI Hairstyle Try-On API?", "description": "1. Register as a developer. 2. Create an application and obtain an API key. 3. Follow the documentation to integrate a virtual haircut generator that lets users try on hairstyle with their picture for free."},
-            {"title": "Can I use my own photo?", "description": "Absolutely! Upload your photo to preview styles with our simulator. Our virtual hair style generator works best with clear, front-facing photos so you can try on hairstyle with better accuracy."},
-            {"title": "Is this suitable for both men and women?", "description": "Yes. You can preview men’s and women’s hairstyles and hair colors in a virtual hair style experience and try on hairstyle in seconds."},
+            {"title": "How does the virtual hairstyle try-on work?", "description": "Our AI-powered haircut simulator maps hairstyles onto your uploaded photo for a realistic preview. It helps you try on hairstyle before cutting or coloring with aihair precision."},
+            {"title": "Can I really Try on hairstyle for free?", "description": "Yes! AI Hairstyle Changer is completely free to use. You can try on haircuts and experiment with different looks through our virtual hair style generator without any cost, including free men hairstyle online options on aihair."},
+            {"title": "How to use the AI Hairstyle Try-On API?", "description": "1. Register as a developer. 2. Create an application and obtain an API key. 3. Follow the documentation to integrate a virtual haircut generator that lets users try on hairstyle with their picture for free using aihair endpoints."},
+            {"title": "Can I use my own photo?", "description": "Absolutely! Upload your photo to preview styles with our simulator. Our virtual hair style generator works best with clear, front-facing photos so you can try on hairstyle with better accuracy through aihair."},
+            {"title": "Is this suitable for both men and women?", "description": "Yes. You can preview men’s and women’s hairstyles and hair colors in a virtual hair style experience and try on hairstyle in seconds on aihair."},
 
-            {"title": "How do I preview hairstyles for men or women?", "description": "Open the editor, upload a clear front-facing photo, and start to try on hairstyle to preview styles. You can also browse looks in our virtual hair style gallery."},
-            {"title": "Does the tool support face shapes?", "description": "Yes. Suggestions adapt by face shape and length to help you try on hairstyle that matches your features."},
-            {"title": "Can I use it without signing up?", "description": "Yes. Guest mode works instantly, and you can try on hairstyle without creating an account."},
-            {"title": "Are the results realistic?", "description": "We aim for photorealism: edge-aware alignment and color blending help you try on hairstyle realistically."},
-            {"title": "How do I change hair color during the try-on?", "description": "Select a color chip and run it again to try on hairstyle with the new shade while keeping volume and shape consistent."},
-            {"title": "Can I download the preview?", "description": "Yes, use the Download button to save your try on hairstyle result for sharing or feedback."},
-            {"title": "What photo rules improve results?", "description": "Use a sharp, front-facing photo with even lighting to try on hairstyle cleanly and avoid artifacts."},
-            {"title": "Is it mobile-friendly?", "description": "Absolutely. Tap Upload on mobile and try on hairstyle on the go—the flow is optimized for small screens."},
-            {"title": "How does the API power hairstyle try-on?", "description": "Integrate our endpoints to add a try on hairstyle experience into your app. The generator powers a programmable virtual hair style flow."},
-            {"title": "What makes your try-on different?", "description": "Edge-aware rendering and color realism. Our stack pairs diffusion with a tuned generator to deliver consistent try on hairstyle previews."}
+            {"title": "How do I preview hairstyles for men or women?", "description": "Open the editor, upload a clear front-facing photo, and start to try on hairstyle to preview styles. You can also browse looks in our virtual hair style gallery curated by aihair."},
+            {"title": "Does the tool support face shapes?", "description": "Yes. Suggestions adapt by face shape and length to help you try on hairstyle that matches your features, using aihair matching."},
+            {"title": "Can I use it without signing up?", "description": "Yes. Guest mode works instantly, and you can try on hairstyle without creating an account — aihair keeps it simple."},
+            {"title": "Are the results realistic?", "description": "We aim for photorealism: edge-aware alignment and color blending help you try on hairstyle realistically with aihair rendering."},
+            {"title": "How do I change hair color during the try-on?", "description": "Select a color chip and run it again to try on hairstyle with the new shade while keeping volume and shape consistent, assisted by aihair color science."},
+            {"title": "Can I download the preview?", "description": "Yes, use the Download button to save your try on hairstyle result for sharing or feedback straight from aihair."},
+            {"title": "What photo rules improve results?", "description": "Use a sharp, front-facing photo with even lighting to try on hairstyle cleanly and avoid artifacts — aihair performs best with good inputs."},
+            {"title": "Is it mobile-friendly?", "description": "Absolutely. Tap Upload on mobile and try on hairstyle on the go—the flow is optimized for small screens with aihair speed."},
+            {"title": "How does the API power hairstyle try-on?", "description": "Integrate our endpoints to add a try on hairstyle experience into your app. The generator powers a programmable virtual hair style flow using aihair services."},
+            {"title": "What makes your try-on different?", "description": "Edge-aware rendering and color realism. Our stack pairs diffusion with a tuned generator to deliver consistent try on hairstyle previews, all tuned by aihair."}
         ]
     },
     "cta": {
         "name": "cta",
         "title": "Launch Your AI Hairstyle Startup - Hairstyle Try-On API",
-        "description": "Start here, transform with AI HairStyle Changer's virtual hair style generator and haircut simulator. Try on hairstyle with one click.",
+        "description": "Start here, transform with AI HairStyle Changer's virtual hair style generator and haircut simulator by aihair. Try on hairstyle with one click.",
         "buttons": [
-            {"title": "Get ApiKey — AI Hairstyle Changer", "url": "https://www.ailabtools.com/doc/get-api-key", "target": "_blank", "icon": "GoArrowUpRight"},
-            {"title": "Read Document", "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "outline"}
+            {"title": "Get ApiKey — AI Hairstyle Changer (aihair)", "url": "https://www.ailabtools.com/doc/get-api-key", "target": "_blank", "icon": "GoArrowUpRight"},
+            {"title": "Read Document for aihair", "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api", "target": "_blank", "variant": "outline"}
         ]
     },
     "externalLinks": {
         "name": "externalLinks",
-        "heading": "About Try On Hairstyle · External Links",
+        "heading": "About Try On Hairstyle · External Links (aihair)",
         "variant": "cards",
-        "subheading": "Media Coverage, Tutorials & Reviews, Developer Docs, and Ecosystem Partnerships",
+        "subheading": "Media Coverage, Tutorials & Reviews, Developer Docs, and Ecosystem Partnerships powered by aihair",
         "button_text": "Visit External Links",
         "items": [
             {
@@ -543,7 +543,7 @@
         "name": "footer",
         "brand": {
             "title": "AI Hairstyle Changer",
-            "description": "AI Hairstyle Changer analyzes your selfie and offers a variety of hairstyles and colors through our virtual hair style generator. With real-time previews in our simulator, you can easily find what suits you and try on hairstyle before you change.",
+            "description": "AI Hairstyle Changer analyzes your selfie and offers a variety of hairstyles and colors through our virtual hair style generator. With real-time previews in our simulator, you can easily find what suits you and try on hairstyle before you change, backed by the aihair stack.",
             "logo": {"src": "/logo.png", "alt": "AI Hairstyle Changer - Virtual Hair Style Generator — Try On Hairstyle"},
             "url": "/"
         },
