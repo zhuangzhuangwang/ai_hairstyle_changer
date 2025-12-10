@@ -99,109 +99,109 @@
                       "title": "Rubio",
                       "value": "blonde",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/blonde.jpg"
                   },
                   {
                       "title": "Castaño",
                       "value": "brown",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/brown.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/brown.jpg"
                   },
                   {
                       "title": "Castaño claro",
                       "value": "lightBrown",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/lightBrown.jpg"
                   },
                   {
                       "title": "Negro",
                       "value": "black",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/black.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/black.jpg"
                   },
                   {
                       "title": "Rubio platino",
                       "value": "platinumBlonde",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/platinumBlonde.jpg"
                   },
                   {
                       "title": "Blanco",
                       "value": "white",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/white.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/white.jpg"
                   },
                   {
                       "title": "Gris",
                       "value": "grey",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/grey.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/grey.jpg"
                   },
                   {
                       "title": "Morado",
                       "value": "purple",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/purple.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/purple.jpg"
                   },
                   {
                       "title": "Azul oscuro",
                       "value": "darkBlue",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/darkBlue.jpg"
                   },
                   {
                       "title": "Morado claro",
                       "value": "lightPurple",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/lightPurple.jpg"
                   },
                   {
                       "title": "Azul",
                       "value": "blue",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/blue.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/blue.jpg"
                   },
                   {
                       "title": "Azul claro",
                       "value": "lightBlue",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/lightBlue.jpg"
                   },
                   {
                       "title": "Verde oscuro",
                       "value": "darkGreen",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/darkGreen.jpg"
                   },
                   {
                       "title": "Verde",
                       "value": "green",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/green.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/green.jpg"
                   },
                   {
                       "title": "Rojo",
                       "value": "red",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/red.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/red.jpg"
                   },
                   {
                       "title": "Borgoña",
                       "value": "burgundy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/burgundy.jpg"
                   },
                   {
                       "title": "Rosa",
                       "value": "pink",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/pink.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/pink.jpg"
                   },
                   {
                       "title": "Naranja",
                       "value": "orange",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/orange.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/orange.jpg"
                   }
               ],
               "men": [
@@ -209,85 +209,85 @@
                       "title": "Engominado hacia atrás",
                       "value": "ManGreased",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ManGreased.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/ManGreased.webp"
                   },
                   {
                       "title": "Corte castaño",
                       "value": "Chestnut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Chestnut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/Chestnut.webp"
                   },
                   {
                       "title": "Flequillo desordenado",
                       "value": "ChoppyBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ChoppyBangs.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/ChoppyBangs.webp"
                   },
                   {
                       "title": "Degradado bajo",
                       "value": "LowFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/LowFade.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/LowFade.webp"
                   },
                   {
                       "title": "Partido al medio",
                       "value": "Middle-parted",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Middle-parted.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/Middle-parted.webp"
                   },
                   {
                       "title": "Hacia atrás liso",
                       "value": "SlickBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/SlickBack.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/SlickBack.webp"
                   },
                   {
                       "title": "Permanente con papel",
                       "value": "TinfoilPerm",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/TinfoilPerm.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/TinfoilPerm.webp"
                   },
                   {
                       "title": "Rizos desordenados",
                       "value": "CurlyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/CurlyShag.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/CurlyShag.webp"
                   },
                   {
                       "title": "Undercut",
                       "value": "UnderCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/UnderCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/UnderCut.webp"
                   },
                   {
                       "title": "Shag ondulado",
                       "value": "WavyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyShag.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/WavyShag.webp"
                   },
                   {
                       "title": "Partido al medio ondulado",
                       "value": "WavyMiddlePart",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyMiddlePart.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/WavyMiddlePart.webp"
                   },
                   {
                       "title": "Corte al ras",
                       "value": "BuzzCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/BuzzCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/BuzzCut.webp"
                   },
                   {
                       "title": "Faux Hawk",
                       "value": "FauxHawk",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/FauxHawk.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/FauxHawk.webp"
                   },
                   {
                       "title": "Degradado alto y ajustado",
                       "value": "HighTightFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/HighTightFade.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/HighTightFade.webp"
                   }
               ],
               "women": [
@@ -295,163 +295,163 @@
                       "title": "Bob clásico",
                       "value": "BobCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BobCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/BobCut.webp"
                   },
                   {
                       "title": "Bob rizado",
                       "value": "CurlyBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/CurlyBob.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/CurlyBob.webp"
                   },
                   {
                       "title": "Trenza de cola de pez",
                       "value": "FishtailBraid",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FishtailBraid.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/FishtailBraid.webp"
                   },
                   {
                       "title": "Corte japonés corto",
                       "value": "JapaneseShort",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/JapaneseShort.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/JapaneseShort.webp"
                   },
                   {
                       "title": "Rizado largo",
                       "value": "LongCurly",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongCurly.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongCurly.webp"
                   },
                   {
                       "title": "Corte Hime largo",
                       "value": "LongHimeCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongHimeCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongHimeCut.webp"
                   },
                   {
                       "title": "Ondulado largo",
                       "value": "LongWavy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongWavy.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongWavy.webp"
                   },
                   {
                       "title": "Capas largo medio",
                       "value": "MediumLongLayered",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/MediumLongLayered.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/MediumLongLayered.webp"
                   },
                   {
                       "title": "Corte pixie",
                       "value": "PixieCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/PixieCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/PixieCut.webp"
                   },
                   {
                       "title": "Pixie rizado corto",
                       "value": "ShortCurlyPixie",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortCurlyPixie.webp"
                   },
                   {
                       "title": "Bob pulcro corto",
                       "value": "ShortNeatBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortNeatBob.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortNeatBob.webp"
                   },
                   {
                       "title": "Liso hasta los hombros",
                       "value": "ShoulderLengthHair",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShoulderLengthHair.webp"
                   },
                   {
                       "title": "Doble moño",
                       "value": "DoubleBun",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/DoubleBun.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/DoubleBun.webp"
                   },
                   {
                       "title": "Corte tazón",
                       "value": "bowlCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/bowlCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/bowlCut.webp"
                   },
                   {
                       "title": "Trenzas africanas",
                       "value": "BoxBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BoxBraids.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/BoxBraids.webp"
                   },
                   {
                       "title": "Chignon",
                       "value": "Chignon",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Chignon.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/Chignon.webp"
                   },
                   {
                       "title": "Flequillo francés",
                       "value": "FrenchBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FrenchBangs.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/FrenchBangs.webp"
                   },
                   {
                       "title": "Liso largo",
                       "value": "LongStraight",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongStraight.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongStraight.webp"
                   },
                   {
                       "title": "Coletas largas",
                       "value": "LongTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongTwintails.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongTwintails.webp"
                   },
                   {
                       "title": "Cola de caballo",
                       "value": "Ponytail",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Ponytail.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/Ponytail.webp"
                   },
                   {
                       "title": "Pixie corto con lados afeitados",
                       "value": "ShortPixieWithShavedSides",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortPixieWithShavedSides.webp"
                   },
                   {
                       "title": "Coletas cortas",
                       "value": "ShortTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortTwintails.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortTwintails.webp"
                   },
                   {
                       "title": "Hacia atrás liso",
                       "value": "SlickedBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/SlickedBack.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/SlickedBack.webp"
                   },
                   {
                       "title": "Rizos apilados en bob corto",
                       "value": "StackedCurlsInShortBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/StackedCurlsInShortBob.webp"
                   },
                   {
                       "title": "Trenzas gemelas",
                       "value": "TwinBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/TwinBraids.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/TwinBraids.webp"
                   },
                   {
                       "title": "Recogido",
                       "value": "Updo",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Updo.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/Updo.webp"
                   },
                   {
                       "title": "Bob francés ondulado (estilo años 20)",
                       "value": "WavyFrenchBobVibesfrom1920",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
                   }
               ]
           }
@@ -481,103 +481,103 @@
       "imgs": [
           {
               "title": "Cabello ondulado largo",
-              "originalImage": "/imgs/example/hairstyle-o-1.webp",
-              "effectImage": "/imgs/example/hairstyle-r-1.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-1.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-1.webp"
           },
           {
               "title": "Pixie corto con lados afeitados",
-              "originalImage": "/imgs/example/hairstyle-o-2.webp",
-              "effectImage": "/imgs/example/hairstyle-r-2.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-2.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-2.webp"
           },
           {
               "title": "Corte pixie",
-              "originalImage": "/imgs/example/hairstyle-o-3.webp",
-              "effectImage": "/imgs/example/hairstyle-r-3.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-3.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-3.webp"
           },
           {
               "title": "Coletas largas",
-              "originalImage": "/imgs/example/hairstyle-o-4.webp",
-              "effectImage": "/imgs/example/hairstyle-r-4.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-4.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-4.webp"
           },
           {
               "title": "Recogido",
-              "originalImage": "/imgs/example/hairstyle-o-5.webp",
-              "effectImage": "/imgs/example/hairstyle-r-5.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-5.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-5.webp"
           },
           {
               "title": "Chignon",
-              "originalImage": "/imgs/example/hairstyle-o-6.webp",
-              "effectImage": "/imgs/example/hairstyle-r-6.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-6.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-6.webp"
           },
           {
               "title": "Corte bob",
-              "originalImage": "/imgs/example/hairstyle-o-7.webp",
-              "effectImage": "/imgs/example/hairstyle-r-7.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-7.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-7.webp"
           },
           {
               "title": "Pixie rizado corto",
-              "originalImage": "/imgs/example/hairstyle-o-8.webp",
-              "effectImage": "/imgs/example/hairstyle-r-8.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-8.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-8.webp"
           },
           {
               "title": "Doble moño",
-              "originalImage": "/imgs/example/hairstyle-o-9.webp",
-              "effectImage": "/imgs/example/hairstyle-r-9.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-9.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-9.webp"
           },
           {
               "title": "Trenzas africanas",
-              "originalImage": "/imgs/example/hairstyle-o-10.webp",
-              "effectImage": "/imgs/example/hairstyle-r-10.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-10.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-10.webp"
           },
           {
               "title": "Bob francés ondulado (estilo años 20)",
-              "originalImage": "/imgs/example/hairstyle-o-11.webp",
-              "effectImage": "/imgs/example/hairstyle-r-11.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-11.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-11.webp"
           },
           {
               "title": "Corte Hime largo",
-              "originalImage": "/imgs/example/hairstyle-o-12.webp",
-              "effectImage": "/imgs/example/hairstyle-r-12.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-12.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-12.webp"
           },
           {
               "title": "Bob rizado",
-              "originalImage": "/imgs/example/hairstyle-o-13.webp",
-              "effectImage": "/imgs/example/hairstyle-r-13.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-13.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-13.webp"
           },
           {
               "title": "Liso hasta los hombros",
-              "originalImage": "/imgs/example/hairstyle-o-14.webp",
-              "effectImage": "/imgs/example/hairstyle-r-14.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-14.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-14.webp"
           },
           {
               "title": "Trenzas gemelas",
-              "originalImage": "/imgs/example/hairstyle-o-15.webp",
-              "effectImage": "/imgs/example/hairstyle-r-15.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-15.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-15.webp"
           },
           {
               "title": "Partido al medio",
-              "originalImage": "/imgs/example/hairstyle-o-16.webp",
-              "effectImage": "/imgs/example/hairstyle-r-16.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-16.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-16.webp"
           },
           {
               "title": "Corte al ras",
-              "originalImage": "/imgs/example/hairstyle-o-17.webp",
-              "effectImage": "/imgs/example/hairstyle-r-17.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-17.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-17.webp"
           },
           {
               "title": "Corte two block",
-              "originalImage": "/imgs/example/hairstyle-o-18.webp",
-              "effectImage": "/imgs/example/hairstyle-r-18.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-18.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-18.webp"
           },
           {
               "title": "Shag rizado",
-              "originalImage": "/imgs/example/hairstyle-o-19.webp",
-              "effectImage": "/imgs/example/hairstyle-r-19.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-19.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-19.webp"
           },
           {
               "title": "Cabello largo recogido",
-              "originalImage": "/imgs/example/hairstyle-o-20.webp",
-              "effectImage": "/imgs/example/hairstyle-r-20.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-20.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-20.webp"
           }
       ]
   },
@@ -587,35 +587,35 @@
           {
               "title": "Next.js",
               "image": {
-                  "src": "/imgs/logos/nextjs.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/nextjs.svg",
                   "alt": "Next.js"
               }
           },
           {
               "title": "React",
               "image": {
-                  "src": "/imgs/logos/react.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/react.svg",
                   "alt": "React"
               }
           },
           {
               "title": "TailwindCSS",
               "image": {
-                  "src": "/imgs/logos/tailwindcss.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/tailwindcss.svg",
                   "alt": "TailwindCSS"
               }
           },
           {
               "title": "Shadcn/UI",
               "image": {
-                  "src": "/imgs/logos/shadcn.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/shadcn.svg",
                   "alt": "Shadcn/UI"
               }
           },
           {
               "title": "Vercel",
               "image": {
-                  "src": "/imgs/logos/vercel.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/vercel.svg",
                   "alt": "Vercel"
               }
           }
@@ -628,7 +628,7 @@
       "email": "mailto:business@ailabtools.com",
       "description": "AI Hairstyle Changer es un simulador de cabello profesional para marcas de belleza, comercio electrónico e individuos. Prueba instantáneamente peinados cortos, peinados rizados, cortes de pelo para hombres y transformaciones para mujeres con resultados de IA realistas en segundos.",
       "video": {
-          "src": "/imgs/introduce/hairstyleChanger.mp4"
+          "src": "https://www.youtube.com/shorts/_3D2KV_z4A4?feature=share"
       },
       "items": [
           {
@@ -659,7 +659,7 @@
               "description": "Nuestro simulador de corte de pelo impulsado por IA ofrece transformaciones fotorrealistas. Prueba peinados para hombres y mujeres online con una precisión inigualable para encontrar el look perfecto.",
               "icon": "RiMagicLine",
               "image": {
-                  "src": "/imgs/benefit/1.png"
+                  "src": "https://imgs.tryonhairstyle.com/benefit/1.png"
               }
           },
           {
@@ -667,7 +667,7 @@
               "description": "Desde peinados cortos y rizados hasta cortes de pelo y colores de cabello de moda, nuestro generador de peinados con IA ofrece estilos ilimitados para explorar.",
               "icon": "RiScissorsCutLine",
               "image": {
-                  "src": "/imgs/benefit/2.png"
+                  "src": "https://imgs.tryonhairstyle.com/benefit/2.png"
               }
           },
           {
@@ -675,7 +675,7 @@
               "description": "Obtén previsualizaciones instantáneas de peinados en segundos. Nuestra avanzada tecnología de IA asegura un procesamiento rápido, permitiéndote probar peinados virtuales en cualquier momento y lugar.",
               "icon": "RiTimerFlashLine",
               "image": {
-                  "src": "/imgs/benefit/3.png"
+                  "src": "https://imgs.tryonhairstyle.com/benefit/3.png"
               }
           }
       ]
@@ -686,7 +686,7 @@
       "email": "mailto:business@ailabtools.com",
       "description": "Para satisfacer las necesidades únicas de cada cliente, ofrecemos servicios de peinados personalizados con tecnología avanzada de procesamiento de imágenes con IA.",
       "image": {
-          "src": "/imgs/features/1.png"
+          "src": "https://imgs.tryonhairstyle.com/features/1.png"
       },
       "image_position": "left",
       "text_align": "center",
@@ -695,28 +695,28 @@
               "title": "Colección de imágenes de peinados",
               "description": "Proporcione al menos 30 imágenes en alta resolución de los peinados que desea personalizar.",
               "image": {
-                  "src": "/imgs/features/image-1.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-1.png"
               }
           },
           {
               "title": "Procesamiento de datos",
               "description": "Nuestro equipo de IA maneja el procesamiento de datos, incluyendo recorte, etiquetado y mejora.",
               "image": {
-                  "src": "/imgs/features/image-2.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-2.png"
               }
           },
           {
               "title": "Entrenamiento del modelo de IA",
               "description": "Nuestro equipo de IA perfecciona el modelo de peinados utilizando los datos procesados para obtener resultados precisos y realistas.",
               "image": {
-                  "src": "/imgs/features/image-3.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-3.png"
               }
           },
           {
               "title": "Validación y entrega",
               "description": "Después de la validación por IA, los clientes revisan los resultados. Una vez aprobados, el peinado se entrega mediante API.",
               "image": {
-                  "src": "/imgs/features/image-4.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-4.png"
               }
           }
       ]
@@ -769,7 +769,7 @@
               "url": "https://thinkany.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/7.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/7.png"
               }
           },
           {
@@ -778,7 +778,7 @@
               "url": "https://heybeauty.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/5.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/5.png"
               }
           },
           {
@@ -787,7 +787,7 @@
               "url": "https://aiwallpaper.shop",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/1.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/1.png"
               }
           },
           {
@@ -796,7 +796,7 @@
               "url": "https://aiccover.design",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/2.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/2.png"
               }
           },
           {
@@ -805,7 +805,7 @@
               "url": "https://gpts.works",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/3.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/3.png"
               }
           },
           {
@@ -814,7 +814,7 @@
               "url": "https://melodis.co",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/4.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/4.png"
               }
           },
           {
@@ -823,7 +823,7 @@
               "url": "https://pagen.so",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/6.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/6.png"
               }
           },
           {
@@ -832,7 +832,7 @@
               "url": "https://sorafm.trys.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/8.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/8.png"
               }
           },
           {
@@ -841,7 +841,7 @@
               "url": "https://podlm.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/9.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/9.png"
               }
           }
       ]
@@ -991,7 +991,7 @@
               "label": "Individual",
               "description": "¡El Cambiador de Peinado con IA es increíble! Solo sube una foto y prueba al instante diferentes peinados y colores. Los resultados se ven naturales y realistas, perfecto para cualquiera que no esté seguro de cambiar su peinado.",
               "image": {
-                  "src": "/imgs/users/1.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/1.png"
               }
           },
           {
@@ -999,7 +999,7 @@
               "label": "Individual",
               "description": "¡Esta herramienta me salvó de la fatiga de decisiones! Puedo previsualizar diferentes estilos sin tener que cortarme o teñirme el pelo realmente. ¡Súper útil!",
               "image": {
-                  "src": "/imgs/users/2.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/2.png"
               }
           },
           {
@@ -1007,7 +1007,7 @@
               "label": "Desarrollador independiente",
               "description": "Los ajustes de peinado son increíblemente precisos, capturando incluso los detalles más finos del cabello. En comparación con otras herramientas de cambio de peinado con IA, esta se ve mucho más realista. ¡Altamente recomendada!",
               "image": {
-                  "src": "/imgs/users/3.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/3.png"
               }
           },
           {
@@ -1015,7 +1015,7 @@
               "label": "Individual",
               "description": "Las plantillas están listas para producción y son altamente personalizables. Construimos nuestra plataforma de música con IA en horas en lugar de meses. ¡Tiempo de comercialización increíble!",
               "image": {
-                  "src": "/imgs/users/4.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/4.png"
               }
           },
           {
@@ -1023,7 +1023,7 @@
               "label": "Fundador de startup",
               "description": "¡Interfaz amigable y fácil de usar! Cambiar de peinado con un clic es súper conveniente. ¡Espero ver más opciones de peinados y colores en futuras actualizaciones!",
               "image": {
-                  "src": "/imgs/users/5.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/5.png"
               }
           },
           {
@@ -1031,7 +1031,7 @@
               "label": "Fundadora de startup",
               "description": "¡El Cambiador de Peinado con IA es revolucionario! Me permite experimentar con nuevos looks sin esfuerzo antes de comprometerme con un corte real. ¡La precisión de la IA es impresionante!",
               "image": {
-                  "src": "/imgs/users/6.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/6.png"
               }
           }
       ]

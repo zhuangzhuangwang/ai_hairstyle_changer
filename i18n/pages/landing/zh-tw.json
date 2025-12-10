@@ -99,109 +99,109 @@
                       "title": "金髮",
                       "value": "blonde",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/blonde.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/blonde.jpg"
                   },
                   {
                       "title": "棕髮",
                       "value": "brown",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/brown.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/brown.jpg"
                   },
                   {
                       "title": "淺棕",
                       "value": "lightBrown",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/lightBrown.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/lightBrown.jpg"
                   },
                   {
                       "title": "黑髮",
                       "value": "black",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/black.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/black.jpg"
                   },
                   {
                       "title": "鉑金髮",
                       "value": "platinumBlonde",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/platinumBlonde.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/platinumBlonde.jpg"
                   },
                   {
                       "title": "白髮",
                       "value": "white",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/white.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/white.jpg"
                   },
                   {
                       "title": "灰髮",
                       "value": "grey",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/grey.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/grey.jpg"
                   },
                   {
                       "title": "紫色",
                       "value": "purple",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/purple.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/purple.jpg"
                   },
                   {
                       "title": "深藍",
                       "value": "darkBlue",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/darkBlue.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/darkBlue.jpg"
                   },
                   {
                       "title": "淺紫",
                       "value": "lightPurple",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/lightPurple.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/lightPurple.jpg"
                   },
                   {
                       "title": "藍色",
                       "value": "blue",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/blue.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/blue.jpg"
                   },
                   {
                       "title": "淺藍",
                       "value": "lightBlue",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/lightBlue.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/lightBlue.jpg"
                   },
                   {
                       "title": "深綠",
                       "value": "darkGreen",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/darkGreen.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/darkGreen.jpg"
                   },
                   {
                       "title": "綠色",
                       "value": "green",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/green.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/green.jpg"
                   },
                   {
                       "title": "紅色",
                       "value": "red",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/red.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/red.jpg"
                   },
                   {
                       "title": "酒紅",
                       "value": "burgundy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/burgundy.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/burgundy.jpg"
                   },
                   {
                       "title": "粉色",
                       "value": "pink",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/pink.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/pink.jpg"
                   },
                   {
                       "title": "橙色",
                       "value": "orange",
                       "status": 1,
-                      "img": "./imgs/hairstyles/color/orange.jpg"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/color/orange.jpg"
                   }
               ],
               "men": [
@@ -209,85 +209,85 @@
                       "title": "大背頭",
                       "value": "ManGreased",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ManGreased.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/ManGreased.webp"
                   },
                   {
                       "title": "栗子頭",
                       "value": "Chestnut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Chestnut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/Chestnut.webp"
                   },
                   {
                       "title": "碎劉海",
                       "value": "ChoppyBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/ChoppyBangs.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/ChoppyBangs.webp"
                   },
                   {
                       "title": "低漸變",
                       "value": "LowFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/LowFade.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/LowFade.webp"
                   },
                   {
                       "title": "中分頭",
                       "value": "Middle-parted",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/Middle-parted.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/Middle-parted.webp"
                   },
                   {
                       "title": "光背頭",
                       "value": "SlickBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/SlickBack.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/SlickBack.webp"
                   },
                   {
                       "title": "錫紙燙",
                       "value": "TinfoilPerm",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/TinfoilPerm.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/TinfoilPerm.webp"
                   },
                   {
                       "title": "凌亂卷",
                       "value": "CurlyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/CurlyShag.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/CurlyShag.webp"
                   },
                   {
                       "title": "底削剪",
                       "value": "UnderCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/UnderCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/UnderCut.webp"
                   },
                   {
                       "title": "波浪蓬",
                       "value": "WavyShag",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyShag.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/WavyShag.webp"
                   },
                   {
                       "title": "波浪中分",
                       "value": "WavyMiddlePart",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/WavyMiddlePart.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/WavyMiddlePart.webp"
                   },
                   {
                       "title": "圓寸頭",
                       "value": "BuzzCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/BuzzCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/BuzzCut.webp"
                   },
                   {
                       "title": "仿鷹頭",
                       "value": "FauxHawk",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/FauxHawk.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/FauxHawk.webp"
                   },
                   {
                       "title": "高緊漸變",
                       "value": "HighTightFade",
                       "status": 1,
-                      "img": "./imgs/hairstyles/men/HighTightFade.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/men/HighTightFade.webp"
                   }
               ],
               "women": [
@@ -295,163 +295,163 @@
                       "title": "經典波波頭",
                       "value": "BobCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BobCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/BobCut.webp"
                   },
                   {
                       "title": "捲髮波波",
                       "value": "CurlyBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/CurlyBob.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/CurlyBob.webp"
                   },
                   {
                       "title": "魚尾辮",
                       "value": "FishtailBraid",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FishtailBraid.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/FishtailBraid.webp"
                   },
                   {
                       "title": "日式短髮",
                       "value": "JapaneseShort",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/JapaneseShort.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/JapaneseShort.webp"
                   },
                   {
                       "title": "長捲髮",
                       "value": "LongCurly",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongCurly.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongCurly.webp"
                   },
                   {
                       "title": "長姬髮式",
                       "value": "LongHimeCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongHimeCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongHimeCut.webp"
                   },
                   {
                       "title": "長波浪",
                       "value": "LongWavy",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongWavy.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongWavy.webp"
                   },
                   {
                       "title": "中長層次",
                       "value": "MediumLongLayered",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/MediumLongLayered.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/MediumLongLayered.webp"
                   },
                   {
                       "title": "精靈短髮",
                       "value": "PixieCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/PixieCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/PixieCut.webp"
                   },
                   {
                       "title": "短捲精靈",
                       "value": "ShortCurlyPixie",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortCurlyPixie.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortCurlyPixie.webp"
                   },
                   {
                       "title": "整潔波波",
                       "value": "ShortNeatBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortNeatBob.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortNeatBob.webp"
                   },
                   {
                       "title": "齊肩直髮",
                       "value": "ShoulderLengthHair",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShoulderLengthHair.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShoulderLengthHair.webp"
                   },
                   {
                       "title": "雙丸子頭",
                       "value": "DoubleBun",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/DoubleBun.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/DoubleBun.webp"
                   },
                   {
                       "title": "鍋蓋頭",
                       "value": "bowlCut",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/bowlCut.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/bowlCut.webp"
                   },
                   {
                       "title": "盒辮",
                       "value": "BoxBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/BoxBraids.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/BoxBraids.webp"
                   },
                   {
                       "title": "髮髻",
                       "value": "Chignon",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Chignon.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/Chignon.webp"
                   },
                   {
                       "title": "法式劉海",
                       "value": "FrenchBangs",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/FrenchBangs.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/FrenchBangs.webp"
                   },
                   {
                       "title": "長直髮",
                       "value": "LongStraight",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongStraight.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongStraight.webp"
                   },
                   {
                       "title": "長雙馬尾",
                       "value": "LongTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/LongTwintails.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/LongTwintails.webp"
                   },
                   {
                       "title": "馬尾辮",
                       "value": "Ponytail",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Ponytail.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/Ponytail.webp"
                   },
                   {
                       "title": "側削精靈",
                       "value": "ShortPixieWithShavedSides",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortPixieWithShavedSides.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortPixieWithShavedSides.webp"
                   },
                   {
                       "title": "短雙馬尾",
                       "value": "ShortTwintails",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/ShortTwintails.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/ShortTwintails.webp"
                   },
                   {
                       "title": "光背造型",
                       "value": "SlickedBack",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/SlickedBack.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/SlickedBack.webp"
                   },
                   {
                       "title": "短波捲層",
                       "value": "StackedCurlsInShortBob",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/StackedCurlsInShortBob.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/StackedCurlsInShortBob.webp"
                   },
                   {
                       "title": "雙辮子",
                       "value": "TwinBraids",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/TwinBraids.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/TwinBraids.webp"
                   },
                   {
                       "title": "盤髮",
                       "value": "Updo",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/Updo.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/Updo.webp"
                   },
                   {
                       "title": "波浪法式波波(1920年代風)",
                       "value": "WavyFrenchBobVibesfrom1920",
                       "status": 1,
-                      "img": "./imgs/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
+                      "img": "https://imgs.tryonhairstyle.com/hairstyles/women/WavyFrenchBobVibesfrom1920.webp"
                   }
               ]
           }
@@ -481,103 +481,103 @@
       "imgs": [
           {
               "title": "長波浪髮",
-              "originalImage": "/imgs/example/hairstyle-o-1.webp",
-              "effectImage": "/imgs/example/hairstyle-r-1.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-1.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-1.webp"
           },
           {
               "title": "側削精靈短髮",
-              "originalImage": "/imgs/example/hairstyle-o-2.webp",
-              "effectImage": "/imgs/example/hairstyle-r-2.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-2.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-2.webp"
           },
           {
               "title": "精靈短髮",
-              "originalImage": "/imgs/example/hairstyle-o-3.webp",
-              "effectImage": "/imgs/example/hairstyle-r-3.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-3.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-3.webp"
           },
           {
               "title": "長雙馬尾",
-              "originalImage": "/imgs/example/hairstyle-o-4.webp",
-              "effectImage": "/imgs/example/hairstyle-r-4.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-4.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-4.webp"
           },
           {
               "title": "盤髮造型",
-              "originalImage": "/imgs/example/hairstyle-o-5.webp",
-              "effectImage": "/imgs/example/hairstyle-r-5.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-5.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-5.webp"
           },
           {
               "title": "髮髻造型",
-              "originalImage": "/imgs/example/hairstyle-o-6.webp",
-              "effectImage": "/imgs/example/hairstyle-r-6.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-6.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-6.webp"
           },
           {
               "title": "波波頭",
-              "originalImage": "/imgs/example/hairstyle-o-7.webp",
-              "effectImage": "/imgs/example/hairstyle-r-7.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-7.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-7.webp"
           },
           {
               "title": "短捲精靈",
-              "originalImage": "/imgs/example/hairstyle-o-8.webp",
-              "effectImage": "/imgs/example/hairstyle-r-8.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-8.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-8.webp"
           },
           {
               "title": "雙丸子頭",
-              "originalImage": "/imgs/example/hairstyle-o-9.webp",
-              "effectImage": "/imgs/example/hairstyle-r-9.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-9.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-9.webp"
           },
           {
               "title": "玉米辮",
-              "originalImage": "/imgs/example/hairstyle-o-10.webp",
-              "effectImage": "/imgs/example/hairstyle-r-10.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-10.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-10.webp"
           },
           {
               "title": "1920年代波浪法式波波",
-              "originalImage": "/imgs/example/hairstyle-o-11.webp",
-              "effectImage": "/imgs/example/hairstyle-r-11.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-11.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-11.webp"
           },
           {
               "title": "長姬髮式",
-              "originalImage": "/imgs/example/hairstyle-o-12.webp",
-              "effectImage": "/imgs/example/hairstyle-r-12.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-12.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-12.webp"
           },
           {
               "title": "捲髮波波",
-              "originalImage": "/imgs/example/hairstyle-o-13.webp",
-              "effectImage": "/imgs/example/hairstyle-r-13.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-13.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-13.webp"
           },
           {
               "title": "齊肩直髮",
-              "originalImage": "/imgs/example/hairstyle-o-14.webp",
-              "effectImage": "/imgs/example/hairstyle-r-14.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-14.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-14.webp"
           },
           {
               "title": "雙辮子",
-              "originalImage": "/imgs/example/hairstyle-o-15.webp",
-              "effectImage": "/imgs/example/hairstyle-r-15.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-15.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-15.webp"
           },
           {
               "title": "中分髮型",
-              "originalImage": "/imgs/example/hairstyle-o-16.webp",
-              "effectImage": "/imgs/example/hairstyle-r-16.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-16.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-16.webp"
           },
           {
               "title": "圓寸頭",
-              "originalImage": "/imgs/example/hairstyle-o-17.webp",
-              "effectImage": "/imgs/example/hairstyle-r-17.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-17.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-17.webp"
           },
           {
               "title": "二分區髮型",
-              "originalImage": "/imgs/example/hairstyle-o-18.webp",
-              "effectImage": "/imgs/example/hairstyle-r-18.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-18.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-18.webp"
           },
           {
               "title": "凌亂捲髮",
-              "originalImage": "/imgs/example/hairstyle-o-19.webp",
-              "effectImage": "/imgs/example/hairstyle-r-19.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-19.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-19.webp"
           },
           {
               "title": "高扎長髮",
-              "originalImage": "/imgs/example/hairstyle-o-20.webp",
-              "effectImage": "/imgs/example/hairstyle-r-20.webp"
+              "originalImage": "https://imgs.tryonhairstyle.com/example/hairstyle-o-20.webp",
+              "effectImage": "https://imgs.tryonhairstyle.com/example/hairstyle-r-20.webp"
           }
       ]
   },
@@ -587,35 +587,35 @@
           {
               "title": "Next.js",
               "image": {
-                  "src": "/imgs/logos/nextjs.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/nextjs.svg",
                   "alt": "Next.js"
               }
           },
           {
               "title": "React",
               "image": {
-                  "src": "/imgs/logos/react.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/react.svg",
                   "alt": "React"
               }
           },
           {
               "title": "TailwindCSS",
               "image": {
-                  "src": "/imgs/logos/tailwindcss.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/tailwindcss.svg",
                   "alt": "TailwindCSS"
               }
           },
           {
               "title": "Shadcn/UI",
               "image": {
-                  "src": "/imgs/logos/shadcn.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/shadcn.svg",
                   "alt": "Shadcn/UI"
               }
           },
           {
               "title": "Vercel",
               "image": {
-                  "src": "/imgs/logos/vercel.svg",
+                  "src": "https://imgs.tryonhairstyle.com/logos/vercel.svg",
                   "alt": "Vercel"
               }
           }
@@ -628,7 +628,7 @@
     "email": "mailto:business@ailabtools.com",
     "description": "AI髮型變換器是一款專為美容品牌、電子商務和個人設計的專業髮型模擬器。只需幾秒鐘即可透過逼真的AI結果即時試用短髮、捲髮、男士髮型和女士髮型改造。",
     "video": {
-        "src": "/imgs/introduce/hairstyleChanger.mp4"
+        "src": "https://www.youtube.com/shorts/_3D2KV_z4A4?feature=share"
     },
     "items": [
         {
@@ -659,7 +659,7 @@
             "description": "我們AI驅動的髮型模擬器提供逼真的改造。線上試用男女髮型，以無與倫比的準確性找到完美造型。",
             "icon": "RiMagicLine",
             "image": {
-                "src": "/imgs/benefit/1.png"
+                "src": "https://imgs.tryonhairstyle.com/benefit/1.png"
             }
         },
         {
@@ -667,7 +667,7 @@
             "description": "從短髮和捲髮到時尚髮型和髮色，我們的AI髮型生成器提供無限的款式供您探索。",
             "icon": "RiScissorsCutLine",
             "image": {
-                "src": "/imgs/benefit/2.png"
+                "src": "https://imgs.tryonhairstyle.com/benefit/2.png"
             }
         },
         {
@@ -675,7 +675,7 @@
             "description": "在幾秒鐘內獲得即時髮型預覽。我們先進的AI技術確保快速處理，讓您隨時隨地試用虛擬髮型。",
             "icon": "RiTimerFlashLine",
             "image": {
-                "src": "/imgs/benefit/3.png"
+                "src": "https://imgs.tryonhairstyle.com/benefit/3.png"
             }
         }
     ]
@@ -686,7 +686,7 @@
       "email": "mailto:business@ailabtools.com",
       "description": "為滿足每位客戶的獨特需求，我們提供基於先進AI圖像處理技術的個性化髮型服務。",
       "image": {
-          "src": "/imgs/features/1.png"
+          "src": "https://imgs.tryonhairstyle.com/features/1.png"
       },
       "image_position": "left",
       "text_align": "center",
@@ -695,28 +695,28 @@
               "title": "髮型圖像採集",
               "description": "請提供至少30張高清目標髮型圖像。",
               "image": {
-                  "src": "/imgs/features/image-1.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-1.png"
               }
           },
           {
               "title": "數據處理",
               "description": "AI團隊進行裁剪、標註和增強等數據處理。",
               "image": {
-                  "src": "/imgs/features/image-2.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-2.png"
               }
           },
           {
               "title": "AI模型訓練",
               "description": "使用處理後的數據精調髮型模型，確保效果精準逼真。",
               "image": {
-                  "src": "/imgs/features/image-3.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-3.png"
               }
           },
           {
               "title": "驗證交付",
               "description": "AI驗證後客戶確認效果，通過API交付最終髮型方案。",
               "image": {
-                  "src": "/imgs/features/image-4.png"
+                  "src": "https://imgs.tryonhairstyle.com/features/image-4.png"
               }
           }
       ]
@@ -769,7 +769,7 @@
               "url": "https://thinkany.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/7.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/7.png"
               }
           },
           {
@@ -778,7 +778,7 @@
               "url": "https://heybeauty.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/5.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/5.png"
               }
           },
           {
@@ -787,7 +787,7 @@
               "url": "https://aiwallpaper.shop",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/1.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/1.png"
               }
           },
           {
@@ -796,7 +796,7 @@
               "url": "https://aicover.design",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/2.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/2.png"
               }
           },
           {
@@ -805,7 +805,7 @@
               "url": "https://gpts.works",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/3.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/3.png"
               }
           },
           {
@@ -814,7 +814,7 @@
               "url": "https://melodis.co",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/4.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/4.png"
               }
           },
           {
@@ -823,7 +823,7 @@
               "url": "https://pagen.so",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/6.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/6.png"
               }
           },
           {
@@ -832,7 +832,7 @@
               "url": "https://sorafm.trys.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/8.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/8.png"
               }
           },
           {
@@ -841,7 +841,7 @@
               "url": "https://podlm.ai",
               "target": "_blank",
               "image": {
-                  "src": "/imgs/showcases/9.png"
+                  "src": "https://imgs.tryonhairstyle.com/showcases/9.png"
               }
           }
       ]
@@ -991,7 +991,7 @@
               "label": "個人用戶",
               "description": "AI 髮型更換器太神了！只需上傳照片即可試用各種髮型與顏色，結果非常自然真實，適合不確定要不要改變髮型的人使用。",
               "image": {
-                  "src": "/imgs/users/1.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/1.png"
               }
           },
           {
@@ -999,7 +999,7 @@
               "label": "個人用戶",
               "description": "這個工具幫我節省了選擇障礙的時間！不用真的剪髮或染髮就能預覽不同造型，超實用！",
               "image": {
-                  "src": "/imgs/users/2.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/2.png"
               }
           },
           {
@@ -1007,7 +1007,7 @@
               "label": "個人開發者",
               "description": "髮型調整非常精細，連細節都處理得很棒。比起其他 AI 髮型工具，這個的真實度更高，超推薦！",
               "image": {
-                  "src": "/imgs/users/3.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/3.png"
               }
           },
           {
@@ -1015,7 +1015,7 @@
               "label": "個人用戶",
               "description": "模板非常實用且容易客製化。我們在幾小時內就完成了 AI 音樂平台的搭建，省下數個月的開發時間！",
               "image": {
-                  "src": "/imgs/users/4.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/4.png"
               }
           },
           {
@@ -1023,7 +1023,7 @@
               "label": "新創創辦人",
               "description": "使用介面友善且操作簡單！一鍵切換髮型超方便。希望未來可以增加更多髮型與顏色選項！",
               "image": {
-                  "src": "/imgs/users/5.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/5.png"
               }
           },
           {
@@ -1031,7 +1031,7 @@
               "label": "新創創辦人",
               "description": "AI 髮型更換器真的改變了一切！讓我能輕鬆試驗新造型再決定是否實際更換，AI 精準度令人驚豔！",
               "image": {
-                  "src": "/imgs/users/6.png"
+                  "src": "https://imgs.tryonhairstyle.com/users/6.png"
               }
           }
       ]

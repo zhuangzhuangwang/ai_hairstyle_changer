@@ -1,10 +1,39 @@
+"use client";
+
 import Icon from "@/components/icon";
 import { Section as SectionType } from "@/types/blocks/section";
+import { useMemo, useState } from "react";
 
 export default function Feature1({ section }: { section: SectionType }) {
   if (section.disabled) {
     return null;
   }
+
+  const [showVideo, setShowVideo] = useState(false);
+
+  const videoSrc = section.video?.src as string | undefined;
+  const isYouTube =
+    typeof videoSrc === "string" &&
+    /(?:youtube\.com|youtu\.be)/i.test(videoSrc ?? "");
+
+  const extractYouTubeId = (url: string) => {
+    const match = url.match(/(?:v=|\/)([\w-]{11})(?:[\?&]|$)/);
+    return match?.[1];
+  };
+
+  const youtubeId = useMemo(
+    () => (videoSrc && isYouTube ? extractYouTubeId(videoSrc) : undefined),
+    [isYouTube, videoSrc]
+  );
+
+  const youtubeEmbed = useMemo(() => {
+    if (!youtubeId) return undefined;
+    return `https://www.youtube.com/embed/${youtubeId}?rel=0&autoplay=1&mute=1&loop=1&playlist=${youtubeId}`;
+  }, [youtubeId]);
+
+  const thumb = youtubeId
+    ? `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`
+    : "/YouTube-Logosu.png";
 
   return (
     <section id={section.name} className="py-16">
@@ -17,15 +46,38 @@ export default function Feature1({ section }: { section: SectionType }) {
               className="max-h-full w-full rounded-md object-cover"
             />
           )}
-          {section.video && (
-            <video
-              src={section.video?.src}
-              autoPlay={true}
-              loop={true}
-              muted 
-              playsInline={true}
-              className="max-h-full w-full rounded-md object-cover"
-            />
+          {section.video && isYouTube && (
+            <div className="relative aspect-video w-full overflow-hidden rounded-md">
+              {showVideo && youtubeEmbed ? (
+                <iframe
+                  src={youtubeEmbed}
+                  title={section.title ?? "YouTube video"}
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setShowVideo(true)}
+                  className="group relative block h-full w-full"
+                  aria-label="Play video"
+                >
+                  <img
+                    src={thumb}
+                    alt={section.title ?? "YouTube cover"}
+                    className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+                  />
+                  <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                    <img
+                      src="/YouTube-Logosu.png"
+                      alt="YouTube logo"
+                      className="h-14 w-20 drop-shadow-lg transition duration-200 group-hover:scale-105"
+                    />
+                  </div>
+                </button>
+              )}
+            </div>
           )}
           <div className="flex flex-col lg:text-left">
             {section.title && (
