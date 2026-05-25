@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -13,7 +15,6 @@ export async function GET(request: Request) {
     });
     
     const { data: stsData } = await stsResponse.json();
-    console.log('sts:'+ JSON.stringify(stsData))
     
     return NextResponse.json({
       status: 200,

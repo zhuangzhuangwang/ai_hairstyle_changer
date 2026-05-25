@@ -1,5 +1,4 @@
 import {
-  getAllHairstyleSlugs,
   getHairstylePage,
   getRelatedHairstyles,
 } from "@/services/hairstyles";
@@ -13,10 +12,6 @@ function getLocalizedPath(path: string, locale: string) {
   }
 
   return `/${locale}${path}`;
-}
-
-export function generateStaticParams() {
-  return getAllHairstyleSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
