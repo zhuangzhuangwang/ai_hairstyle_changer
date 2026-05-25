@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Guias de Peinados | AI Hairstyle Changer",
+    "description": "Explora guias de peinados, ideas de cortes, consejos por forma de rostro, mantenimiento y vistas previas con IA antes de ir al salon.",
+    "keywords": "guias de peinados, ideas de cortes, AI Hairstyle Changer, probar peinado, simulador de corte",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "Guias de Peinados",
+    "description": "Encuentra el corte adecuado antes de decidirte. Compara estilos, revisa si favorecen tu rostro y previsualiza el resultado con IA."
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "Como me veria con un Buzz Cut?",
+      "description": "Guia 2026 de buzz cut con buzz cut fade, estilos buzz cut men, consejos de rostro y vista previa IA.",
+      "image": {
+        "alt": "Vista previa IA de buzz cut y guia de tendencias"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "Hombre"
+        },
+        {
+          "title": "Vista previa IA"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "Tendencias corte bob",
+      "description": "Explora tendencias de corte bob, consejos por rostro, styling, mantenimiento y vista previa con IA.",
+      "image": {
+        "alt": "Vista previa de corte bob moderno"
+      },
+      "tags": [
+        {
+          "title": "Bob"
+        },
+        {
+          "title": "Tendencias"
+        },
+        {
+          "title": "Media melena"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "Cabello a la altura de los hombros",
+      "description": "Guia de cabello a los hombros: capas, flequillo, ondas, rostro, mantenimiento y vista previa con IA.",
+      "image": {
+        "alt": "Vista previa de cabello a los hombros"
+      },
+      "tags": [
+        {
+          "title": "Media melena"
+        },
+        {
+          "title": "Capas"
+        },
+        {
+          "title": "Facil"
+        }
+      ]
+    }
+  ]
+}

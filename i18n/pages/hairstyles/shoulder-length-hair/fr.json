@@ -1,0 +1,241 @@
+{
+  "slug": "shoulder-length-hair",
+  "locale": "fr",
+  "metadata": {
+    "title": "Cheveux aux épaules pour salons et équipes beauté : usages avec aperçu IA",
+    "description": "Guide d’usage professionnel pour salons, marques beauté, commerce en ligne, studios et plateformes autour des cheveux aux épaules.",
+    "keywords": "cheveux aux épaules, coupe aux épaules, cheveux dégradés aux épaules, aperçu coiffure IA, salon de coiffure",
+    "canonical": "/hairstyles/shoulder-length-hair"
+  },
+  "breadcrumb": [
+    {
+      "title": "Accueil",
+      "url": "/"
+    },
+    {
+      "title": "Coiffures",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Cheveux aux épaules",
+      "url": "/hairstyles/shoulder-length-hair"
+    }
+  ],
+  "hero": {
+    "title": "Cheveux aux épaules pour salons et équipes beauté : usages avec aperçu IA",
+    "description": "Guide professionnel pour utiliser l’aperçu de cheveux aux épaules en consultation, campagne beauté, commerce en ligne, studio et plateforme.",
+    "tags": [
+      {
+        "title": "cheveux aux épaules"
+      },
+      {
+        "title": "usage professionnel"
+      },
+      {
+        "title": "dégradé aux épaules"
+      },
+      {
+        "title": "aperçu IA"
+      }
+    ],
+    "image": {
+      "alt": "Flux d’aperçu pour cheveux aux épaules"
+    }
+  },
+  "cta": {
+    "title": "Testez d’abord avec la version professionnelle",
+    "description": "Utilisez la version professionnelle pour montrer des options aux épaules, des couleurs prédéfinies et des styles mi-longs avant la consultation.",
+    "button": {
+      "title": "Essayer l’aperçu professionnel",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "business-pain-point",
+      "title": "Pourquoi cette longueur compte en consultation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les cheveux aux épaules paraissent plus sûrs qu’une coupe courte, tout en créant un vrai changement. Pour les salons, marques et plateformes, c’est une longueur idéale pour réduire l’hésitation par l’image."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les questions portent souvent sur la longueur finale, le volume, le dégradé, l’entretien et la possibilité d’attacher les cheveux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une page professionnelle transforme l’inspiration en parcours de décision : expliquer, montrer, prévisualiser puis guider vers un rendez-vous, un achat ou une intégration."
+        }
+      ]
+    },
+    {
+      "id": "consultation-workflow",
+      "title": "Flux de consultation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En salon, une coupe aux épaules peut signifier plusieurs longueurs. Il faut donc clarifier le point de chute avant de couper."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le bon flux définit l’objectif, la longueur, le dégradé, la couleur et l’entretien avec un support visuel."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clarifier le point de chute : épaules, clavicule ou plus bas.",
+            "Montrer des cheveux dégradés aux épaules si le mouvement est important.",
+            "Comparer pointes nettes et pointes souples.",
+            "Enregistrer l’aperçu pour le coiffeur."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Flux de consultation pour cheveux aux épaules",
+          "caption": "L’aperçu transforme une demande générale en référence concrète."
+        }
+      ]
+    },
+    {
+      "id": "industry-use-cases",
+      "title": "Usages par secteur",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les salons l’utilisent pour clarifier la consultation. Les marques l’utilisent en campagne. Le commerce en ligne l’utilise pour recommander des produits. Les studios l’utilisent pour préparer les looks."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Salons : moins d’hésitation avant le rendez-vous.",
+            "Marques beauté : parcours plus proches du quotidien.",
+            "Commerce en ligne : meilleures recommandations.",
+            "Studios : préparation visuelle avant la séance.",
+            "Plateformes : catégorie réutilisable de longueur moyenne."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Usages professionnels des cheveux aux épaules",
+          "caption": "L’aperçu aide la consultation, la vente, le contenu et les plateformes."
+        }
+      ]
+    },
+    {
+      "id": "customer-journey",
+      "title": "Parcours client",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le client commence par l’inspiration, puis compare coupe droite, ondulations, frange ou dégradé. Sans aperçu, la décision reste souvent bloquée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un parcours plus fort explique la longueur, montre les variantes, teste sur la photo de l’utilisateur et propose une action claire."
+        },
+        {
+          "type": "quote",
+          "text": "L’objectif n’est pas seulement de montrer une coiffure, mais de raccourcir le chemin entre doute et décision."
+        }
+      ]
+    },
+    {
+      "id": "preview-and-integration",
+      "title": "Aperçu, version avancée et intégration",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pour les parcours rapides, la version professionnelle avec coiffures et couleurs prédéfinies suffit souvent."
+        },
+        {
+          "type": "paragraph",
+          "text": "La version avancée sert aux coiffures par référence, à la conservation de la couleur d’origine et à la couleur basée sur référence : https://www.ailabtools.com/hairstyle-changer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les parcours intégrés, consultez la documentation développeur : https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium"
+        },
+        {
+          "type": "cta",
+          "title": "Besoin d’un contrôle par référence ?",
+          "description": "Utilisez la version avancée lorsque les options prédéfinies ne suffisent pas.",
+          "button": {
+            "title": "Essayer la version avancée",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Options d’aperçu et d’intégration pour cheveux aux épaules",
+          "caption": "Version professionnelle pour la rapidité, version avancée pour les références et documentation pour l’intégration."
+        }
+      ]
+    },
+    {
+      "id": "operational-benefits",
+      "title": "Bénéfices opérationnels",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les équipes réduisent le temps de consultation, améliorent les briefs visuels et relient l’intention coiffure aux réservations ou produits."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Moins d’hésitation avant rendez-vous ou achat.",
+            "Briefs plus clairs pour coiffeurs et équipes.",
+            "Meilleur lien entre coiffure et produit.",
+            "Catégories réutilisables pour longueurs moyennes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "implementation-checklist",
+      "title": "Liste de mise en œuvre",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une bonne page professionnelle explique le public, le problème, les variantes, l’aperçu et l’étape suivante."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Définir l’audience.",
+            "Expliquer les points de décision.",
+            "Montrer versions droites, ondulées et dégradées.",
+            "Ajouter l’aperçu professionnel comme action rapide.",
+            "Ajouter version avancée et documentation si une intégration est nécessaire."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi cette longueur est-elle utile aux équipes beauté ?",
+      "answer": "C’est une longueur moyenne populaire, rassurante et suffisamment visible pour guider une décision."
+    },
+    {
+      "question": "Comment l’aperçu aide-t-il ?",
+      "answer": "Il montre longueur, dégradé, encadrement du visage et couleur avant la coupe."
+    },
+    {
+      "question": "Quand montrer des cheveux dégradés aux épaules ?",
+      "answer": "Quand le client veut du mouvement, moins de poids ou une silhouette plus douce."
+    },
+    {
+      "question": "Quand utiliser la version avancée ?",
+      "answer": "Quand il faut une référence visuelle, conserver la couleur d’origine ou suivre une couleur de référence."
+    },
+    {
+      "question": "Existe-t-il une voie développeur ?",
+      "answer": "Oui, avec la documentation développeur : https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium"
+    }
+  ],
+  "related": [
+    "hair-trends-bob",
+    "buzz-cut"
+  ]
+}

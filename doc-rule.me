@@ -1,0 +1,870 @@
+# Hairstyle Product Article Rules
+# 中文：发型单产品文章规则
+
+This file defines the content rules for creating single-product hairstyle SEO article pages.
+中文：本文档用于定义“单个发型产品 SEO 文章页”的内容生产规则。
+
+Use it whenever adding or rewriting a page under `i18n/pages/hairstyles/{slug}/{locale}.json`.
+中文：新增或改写 `i18n/pages/hairstyles/{slug}/{locale}.json` 页面时，必须先参考本文档。
+
+Before creating an article, confirm the primary keyword, page title, and content direction.
+中文：创建文章前，必须先确认核心关键词、页面标题和文章方向。
+
+## Core Requirements
+## 中文：核心要求
+
+- Each article must target one primary hairstyle keyword provided by the user.
+  中文：每篇文章必须围绕用户提供的一个核心发型关键词展开。
+
+- The primary keyword density should stay around 2% to 3% of the full article body.
+  中文：核心关键词密度控制在全文正文的 2% 到 3% 左右，不能堆砌。
+
+- The article length should be 1500 to 2500 English words for the source English version.
+  中文：英文源文章长度应控制在 1500 到 2500 个英文单词之间。
+
+- Each article should use 1 to 3 content images.
+  中文：每篇文章建议使用 1 到 3 张内容图片。
+
+- Product-level image URLs must be stored in the product `assets.json`, not repeated in locale JSON files.
+  中文：产品图片 URL 必须统一放到该产品的 `assets.json`，不要在各语言 JSON 中重复写图片地址。
+
+- Locale JSON files should keep only localized text such as `alt`, `caption`, headings, paragraphs, FAQ, and CTA copy.
+  中文：多语言 JSON 只保留本地化文本，例如图片 alt、caption、标题、段落、FAQ 和 CTA 文案。
+
+- The article must be useful first and promotional second.
+  中文：文章必须先提供真实有用的信息，再自然推荐产品。
+
+- Avoid thin content, keyword stuffing, generic filler, and copied third-party text.
+  中文：避免低质量短内容、关键词堆砌、泛泛而谈和复制第三方内容。
+
+## Required Product Links
+## 中文：必须使用的产品链接
+
+Every article should naturally recommend the premium hairstyle tool.
+中文：每篇文章都应自然推荐高级发型工具。
+
+Premium tool URL:
+中文：高级工具链接：
+
+```txt
+https://www.ailabtools.com/hairstyle-changer
+```
+
+Developer, API, SaaS, or integration-focused articles should also include the developer documentation.
+中文：开发者、API、SaaS 或平台集成方向的文章，还必须包含开发者文档链接。
+
+Developer documentation URL:
+中文：开发者接入文档链接：
+
+```txt
+https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium
+```
+
+## Required Page Structure
+## 中文：页面结构要求
+
+Each single-product article should include SEO metadata.
+中文：每个单产品文章页必须包含 SEO 元数据。
+
+- `title`
+  中文：页面标题。
+
+- `description`
+  中文：页面描述。
+
+- `keywords`
+  中文：页面关键词。
+
+- `canonical`
+  中文：规范链接，通常为 `/hairstyles/{slug}`。
+
+Each article should include breadcrumbs.
+中文：每篇文章需要包含面包屑导航。
+
+Each article should include a hero title and hero description.
+中文：每篇文章需要包含首屏标题和首屏描述。
+
+Each article should include tags.
+中文：每篇文章需要包含标签。
+
+Each article should include a CTA block linking to the hairstyle changer.
+中文：每篇文章需要包含指向发型工具的 CTA 区块。
+
+Each article should include 5 to 8 content sections.
+中文：每篇文章建议包含 5 到 8 个正文章节。
+
+Each article should include 3 to 6 FAQ items.
+中文：每篇文章建议包含 3 到 6 个 FAQ 问答。
+
+Each article should include related hairstyle slugs when available.
+中文：如果有相关发型页面，需要添加相关推荐 slug，形成内链。
+
+Recommended section pattern:
+中文：推荐章节结构：
+
+```txt
+1. What the hairstyle is
+   中文：介绍这个发型是什么。
+2. Why it is trending or relevant
+   中文：说明它为什么流行或为什么值得关注。
+3. Try-before-you-cut AI preview section
+   中文：加入剪发前 AI 预览章节。
+4. Face shape or hair type suitability
+   中文：说明适合的脸型、发质或人群。
+5. Styling variations
+   中文：介绍不同造型变化。
+6. Maintenance and salon tips
+   中文：说明日常打理和理发店沟通建议。
+7. Product/tool recommendation
+   中文：自然推荐产品或工具。
+8. FAQ
+   中文：常见问题。
+```
+
+## Image Rules
+## 中文：图片规则
+
+- Use 1 to 3 images per article.
+  中文：每篇文章使用 1 到 3 张图片。
+
+- Images should support the article topic, not serve as decoration.
+  中文：图片必须服务于文章主题，不能只是装饰。
+
+- Useful image type: AI preview result.
+  中文：可用图片类型：AI 预览结果图。
+
+- Useful image type: before/after transformation.
+  中文：可用图片类型：前后对比图。
+
+- Useful image type: style variation grid.
+  中文：可用图片类型：不同发型变化对比图。
+
+- Useful image type: face-shape or length comparison.
+  中文：可用图片类型：脸型或长度对比图。
+
+- Useful image type: tool workflow screenshot.
+  中文：可用图片类型：工具使用流程截图。
+
+Image URLs belong in:
+中文：图片 URL 应放在：
+
+```txt
+i18n/pages/hairstyles/{slug}/assets.json
+```
+
+Localized `alt` and `caption` belong in each locale article JSON.
+中文：本地化的 `alt` 和 `caption` 应放在各语言文章 JSON 中。
+
+Do not place image URLs directly inside locale JSON files.
+中文：不要把图片 URL 直接写进多语言 JSON 文件。
+
+## Content Directions
+## 中文：文章方向
+
+When creating a new hairstyle article, choose one primary direction below based on the keyword and user goal.
+中文：新增发型文章时，必须根据关键词和用户目标，从下面选择一个主要文章方向。
+
+The direction controls the audience, structure, CTA strength, and content emphasis.
+中文：文章方向决定目标读者、内容结构、CTA 强度和内容重点。
+
+### 1. trend-guide
+### 中文：趋势指南型
+
+Use for keywords about trends, year-based searches, seasonal looks, or popular hairstyle ideas.
+中文：适合趋势、年份、季节、热门发型灵感类关键词。
+
+Examples:
+中文：示例关键词：
+
+```txt
+hair trends bob
+2026 bob haircut trends
+short hair trends
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Consumers researching popular hairstyle ideas before cutting or styling.
+中文：剪发或造型前正在研究流行发型的普通用户。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Explain what is trending, why it is popular, who it suits, and how to preview it with AI before committing.
+中文：解释什么在流行、为什么流行、适合谁，以及如何在真正剪发前用 AI 预览。
+```
+
+Required content:
+中文：必须包含：
+
+- Current trend context.
+  中文：当前趋势背景。
+
+- Style variations.
+  中文：不同款式变化。
+
+- Face shape and hair texture guidance.
+  中文：脸型和发质适配建议。
+
+- Maintenance expectations.
+  中文：日常维护预期。
+
+- AI preview CTA.
+  中文：AI 预览 CTA。
+
+Recommended CTA:
+中文：推荐 CTA：
+
+```txt
+Try the hairstyle with AI before your salon visit.
+中文：去理发店前先用 AI 试试这个发型。
+```
+
+### 2. personal-recommendation
+### 中文：个人推荐型
+
+Use for keywords about choosing a hairstyle, face shape, lifestyle fit, or personal suitability.
+中文：适合判断发型是否适合自己、脸型适配、生活方式适配类关键词。
+
+Examples:
+中文：示例关键词：
+
+```txt
+shoulder length hair
+what hairstyle suits me
+best haircut for round face
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Individuals deciding whether a hairstyle will suit their face, hair type, or lifestyle.
+中文：想判断某个发型是否适合自己脸型、发质或生活方式的个人用户。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Help the reader decide if the hairstyle fits them, then recommend AI preview as the safest next step.
+中文：帮助读者判断发型是否适合自己，然后自然推荐 AI 预览作为更稳妥的下一步。
+```
+
+Required content:
+中文：必须包含：
+
+- Who the hairstyle suits.
+  中文：适合哪些人。
+
+- Face shape fit.
+  中文：适合哪些脸型。
+
+- Hair texture fit.
+  中文：适合哪些发质。
+
+- Styling effort.
+  中文：日常打理难度。
+
+- Pros and cons.
+  中文：优点和限制。
+
+- AI preview CTA.
+  中文：AI 预览 CTA。
+
+Recommended CTA:
+中文：推荐 CTA：
+
+```txt
+Upload your photo and compare the hairstyle before cutting.
+中文：上传照片，在剪发前先比较发型效果。
+```
+
+### 3. industry-use-case
+### 中文：行业应用型
+
+Use for articles targeting salons, beauty brands, ecommerce, virtual try-on platforms, photo studios, or marketing teams.
+中文：适合面向美发沙龙、美妆品牌、电商、虚拟试妆平台、影楼或营销团队的文章。
+
+Examples:
+中文：示例关键词：
+
+```txt
+AI hairstyle try on for salons
+virtual hairstyle tool for beauty brands
+hairstyle preview for ecommerce
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Business users who want to improve consultation, conversion, customer engagement, or virtual try-on workflows.
+中文：希望提升咨询效率、转化率、用户互动或虚拟试发体验的 B 端用户。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Show how this hairstyle page and AI preview workflow can reduce hesitation and improve customer decision-making.
+中文：说明发型文章页和 AI 预览流程如何减少用户犹豫并提升决策效率。
+```
+
+Required content:
+中文：必须包含：
+
+- Business pain point.
+  中文：业务痛点。
+
+- Customer journey.
+  中文：客户决策流程。
+
+- Use cases by industry.
+  中文：不同行业应用场景。
+
+- Operational benefits.
+  中文：运营收益。
+
+- Premium tool recommendation.
+  中文：高级工具推荐。
+
+- Optional developer/API path.
+  中文：可选的开发者或 API 接入路径。
+
+Required link:
+中文：必须链接：
+
+```txt
+https://www.ailabtools.com/hairstyle-changer
+```
+
+### 4. developer-integration
+### 中文：开发者接入型
+
+Use for API, SDK, SaaS, app, platform, or workflow automation topics.
+中文：适合 API、SDK、SaaS、App、平台集成或自动化工作流相关主题。
+
+Examples:
+中文：示例关键词：
+
+```txt
+hairstyle changer API
+AI hairstyle API integration
+virtual haircut API
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Developers, product managers, SaaS builders, app teams, and platform integrators.
+中文：开发者、产品经理、SaaS 团队、App 团队和平台集成方。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Explain how to integrate hairstyle preview into a product experience and when to use the premium developer API.
+中文：说明如何把发型预览能力接入产品体验，以及什么时候使用高级开发者 API。
+```
+
+Required content:
+中文：必须包含：
+
+- Integration scenario.
+  中文：接入场景。
+
+- Input image expectations.
+  中文：输入图片要求。
+
+- Output/result workflow.
+  中文：输出结果流程。
+
+- UX recommendations.
+  中文：用户体验建议。
+
+- API documentation CTA.
+  中文：API 文档 CTA。
+
+- Premium tool link.
+  中文：高级工具链接。
+
+Required links:
+中文：必须链接：
+
+```txt
+https://www.ailabtools.com/hairstyle-changer
+https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium
+```
+
+### 5. competitor-comparison
+### 中文：竞品对比型
+
+Use for comparison content between AI hairstyle preview, manual editing, filters, salon consultation, or competing tools.
+中文：适合比较 AI 发型预览、手动修图、普通滤镜、理发店咨询或其他工具方案的内容。
+
+Examples:
+中文：示例关键词：
+
+```txt
+best hairstyle changer
+AI hairstyle changer vs haircut filter
+bob haircut filter comparison
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Readers comparing tools or methods before choosing where to preview a hairstyle.
+中文：正在比较不同工具或方法、想选择发型预览方案的用户。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Compare methods fairly, explain tradeoffs, and position AI hairstyle preview as a practical next step.
+中文：公平比较不同方案，解释优缺点，并把 AI 发型预览作为实用下一步。
+```
+
+Required content:
+中文：必须包含：
+
+- Comparison criteria.
+  中文：对比标准。
+
+- Pros and cons.
+  中文：优缺点。
+
+- Quality, speed, realism, privacy, and usability discussion.
+  中文：质量、速度、真实感、隐私和易用性讨论。
+
+- Product recommendation.
+  中文：产品推荐。
+
+- FAQ addressing alternatives.
+  中文：针对替代方案的 FAQ。
+
+Avoid:
+中文：避免：
+
+```txt
+Unsupported claims, direct attacks, or naming competitors without evidence.
+中文：未经证实的结论、直接攻击竞品、无证据点名竞品。
+```
+
+### 6. how-to-preview
+### 中文：操作教程型
+
+Use for tutorial-style content focused on completing the try-on workflow.
+中文：适合围绕“如何在线试发型”“如何上传照片预览发型”的教程型内容。
+
+Examples:
+中文：示例关键词：
+
+```txt
+how to try bob haircut online
+try shoulder length hair with photo
+how to preview buzz cut
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Users who already want to try the hairstyle and need simple steps.
+中文：已经想试发型、需要明确操作步骤的用户。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Teach the reader how to upload, choose, preview, compare, and decide.
+中文：教用户如何上传照片、选择发型、预览结果、比较效果并做决定。
+```
+
+Required content:
+中文：必须包含：
+
+- Step-by-step workflow.
+  中文：分步骤操作流程。
+
+- Photo upload tips.
+  中文：照片上传建议。
+
+- Style selection tips.
+  中文：发型选择建议。
+
+- Result interpretation.
+  中文：结果判断方法。
+
+- CTA to premium tool.
+  中文：指向高级工具的 CTA。
+
+Recommended structure:
+中文：推荐结构：
+
+```txt
+Step 1: Upload a clear photo
+中文：第 1 步：上传清晰照片。
+Step 2: Choose the hairstyle
+中文：第 2 步：选择发型。
+Step 3: Compare variations
+中文：第 3 步：比较不同效果。
+Step 4: Save or use the result for salon discussion
+中文：第 4 步：保存结果或用于和理发师沟通。
+```
+
+### 7. conversion-landing
+### 中文：转化落地页型
+
+Use when the page should be more commercial and product-led while still staying SEO-friendly.
+中文：适合商业意图更强、以产品转化为主但仍需保持 SEO 内容价值的页面。
+
+Examples:
+中文：示例关键词：
+
+```txt
+AI bob haircut filter
+try shoulder length hair online
+AI hairstyle changer for women
+```
+
+Audience:
+中文：目标读者：
+
+```txt
+Users ready to try the tool, not just read about the hairstyle.
+中文：已经准备使用工具，而不只是了解发型知识的用户。
+```
+
+Core angle:
+中文：核心角度：
+
+```txt
+Explain the hairstyle briefly, then focus on why previewing it with AI reduces risk and speeds up decision-making.
+中文：简要解释发型，然后重点说明 AI 预览如何降低试错风险并加快决策。
+```
+
+Required content:
+中文：必须包含：
+
+- Strong above-the-fold value proposition.
+  中文：首屏强价值主张。
+
+- Short hairstyle explanation.
+  中文：简短发型解释。
+
+- Benefits of AI preview.
+  中文：AI 预览的好处。
+
+- Tool workflow.
+  中文：工具使用流程。
+
+- Use cases.
+  中文：使用场景。
+
+- CTA repeated naturally.
+  中文：自然重复 CTA。
+
+## SEO Rules
+## 中文：SEO 规则
+
+- The primary keyword should appear in the metadata title.
+  中文：核心关键词应出现在 metadata title 中。
+
+- The primary keyword should appear in the metadata description.
+  中文：核心关键词应出现在 metadata description 中。
+
+- The primary keyword should appear in the hero title or first paragraph.
+  中文：核心关键词应出现在首屏标题或首段中。
+
+- The primary keyword should appear in at least two section headings when natural.
+  中文：在自然的情况下，核心关键词应出现在至少两个章节标题中。
+
+- The primary keyword should appear in FAQ question or answer when natural.
+  中文：在自然的情况下，核心关键词应出现在 FAQ 问题或答案中。
+
+- Keyword density target: 2% to 3%.
+  中文：关键词密度目标为 2% 到 3%。
+
+- Use secondary keywords naturally.
+  中文：自然使用次级关键词。
+
+- Do not force exact-match phrases.
+  中文：不要强行塞入完全匹配关键词。
+
+- Avoid repeating the same sentence pattern across articles.
+  中文：避免不同文章重复同样的句式和结构。
+
+- Use internal links to related hairstyle pages when available.
+  中文：有相关发型页面时，应添加内链。
+
+- Keep canonical path as `/hairstyles/{slug}`.
+  中文：canonical 路径保持为 `/hairstyles/{slug}`。
+
+## Product Recommendation Rules
+## 中文：产品推荐规则
+
+Mention the premium hairstyle changer naturally.
+中文：自然提及高级发型更换工具。
+
+Recommended placement:
+中文：推荐放置位置：
+
+- AI preview section.
+  中文：AI 预览章节。
+
+- CTA block.
+  中文：CTA 区块。
+
+- Closing recommendation.
+  中文：文章结尾建议。
+
+- FAQ answer if relevant.
+  中文：相关 FAQ 答案中。
+
+Use this URL:
+中文：使用这个链接：
+
+```txt
+https://www.ailabtools.com/hairstyle-changer
+```
+
+Do not over-promote.
+中文：不要过度推销。
+
+The article should remain useful even if the reader does not click.
+中文：即使用户不点击链接，文章本身也必须有价值。
+
+## Developer Documentation Rules
+## 中文：开发者文档规则
+
+Only include developer documentation in `developer-integration`, `industry-use-case`, or API-related articles.
+中文：只有开发者接入、行业应用或 API 相关文章才加入开发者文档。
+
+Use this URL:
+中文：使用这个链接：
+
+```txt
+https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium
+```
+
+Explain the integration value before linking.
+中文：在给出文档链接前，先解释接入价值。
+
+## Localization Rules
+## 中文：多语言规则
+
+- English is the source content.
+  中文：英文是源内容。
+
+- Other locale files should preserve the same structure and article direction.
+  中文：其他语言文件应保持相同结构和文章方向。
+
+- Translate meaning, not word-for-word phrasing.
+  中文：翻译语义，不要逐字硬翻。
+
+- Keep product links unchanged.
+  中文：产品链接保持不变。
+
+- Keep image URLs only in `assets.json`.
+  中文：图片 URL 只放在 `assets.json` 中。
+
+- Localize alt text, captions, CTA copy, FAQ, and section headings.
+  中文：本地化 alt、caption、CTA、FAQ 和章节标题。
+
+## Forbidden Content
+## 中文：禁止内容
+
+- Do not make medical claims about hair growth or hair loss treatment.
+  中文：不要声称能治疗脱发、生发或提供医疗效果。
+
+- Do not promise that a hairstyle will suit everyone.
+  中文：不要承诺某个发型适合所有人。
+
+- Do not claim API capabilities that are not documented.
+  中文：不要宣传文档中没有说明的 API 能力。
+
+- Do not attack competitors.
+  中文：不要攻击竞品。
+
+- Do not stuff keywords unnaturally.
+  中文：不要不自然地堆砌关键词。
+
+- Do not use copied third-party article text.
+  中文：不要复制第三方文章内容。
+
+- Do not place image URLs directly inside locale JSON files.
+  中文：不要把图片 URL 直接写入多语言 JSON 文件。
+
+## Creation Workflow
+## 中文：创建流程
+
+When creating a new hairstyle product article:
+中文：创建新的单发型产品文章时：
+
+1. Confirm the primary keyword and article title.
+   中文：确认核心关键词和文章标题。
+
+2. Choose one content direction from this file.
+   中文：从本文档中选择一个文章方向。
+
+3. Create or update `i18n/pages/hairstyles/{slug}/assets.json`.
+   中文：创建或更新 `i18n/pages/hairstyles/{slug}/assets.json`。
+
+4. Create the English article JSON first.
+   中文：先创建英文文章 JSON。
+
+5. Create locale JSON files using the same structure.
+   中文：使用相同结构创建其他语言 JSON。
+
+6. Update `i18n/pages/hairstyles/index/{locale}.json`.
+   中文：更新发型列表页的多语言 JSON。
+
+7. Update `services/hairstyles.ts` slug whitelist.
+   中文：更新 `services/hairstyles.ts` 中的 slug 白名单。
+
+8. Update navigation if the product should appear in the header menu.
+   中文：如果该产品需要展示在顶部导航中，则更新导航。
+
+9. Run JSON validation.
+   中文：运行 JSON 校验。
+
+10. Run type check and build.
+    中文：运行类型检查和构建验证。
+
+## Simple User Input Format
+## 中文：简化输入格式
+
+When asking Codex to create or update a hairstyle product article, provide a short brief like this.
+中文：让 Codex 创建或修改发型产品文章时，按下面的简化格式提供信息即可。
+
+```txt
+Action: create | update
+中文：创建新页面或修改已有页面。
+
+Product slug: shoulder-length-hair
+中文：产品 slug，也就是页面路径和目录名。
+
+Keywords:
+- shoulder length hair
+- medium length hairstyles
+- haircuts for shoulder length hair
+中文：核心关键词可以是一个，也可以是多个。第一个关键词默认作为主关键词，其余作为辅助关键词。
+
+Chinese keywords:
+- 齐肩发
+- 及肩发
+- 中长发发型
+中文：对应中文关键词，也可以提供多个。
+
+Page title: Shoulder Length Hair Guide 2026
+中文：页面标题或标题方向。
+
+Direction: personal-recommendation
+中文：文章方向，从本文档 7 个方向中选择一个。
+
+Locales: all | en | zh-cn | en,zh-cn
+中文：要创建或修改的语言范围。
+
+Images:
+- hero: https://example.com/hero.webp
+- content: https://example.com/before-after.webp
+中文：图片可选；提供后放入 assets.json。
+
+Related:
+- hair-trends-bob
+- buzz-cut
+中文：相关推荐 slug，可选。
+
+Notes:
+- Focus on face shape and maintenance.
+- Keep CTA natural.
+- Do not include developer API content.
+中文：其他补充要求，可选。
+```
+
+Rules for multiple keywords:
+中文：多个关键词的处理规则：
+
+- Use the first keyword as the primary keyword.
+  中文：第一个关键词作为主关键词。
+
+- Use the remaining keywords as secondary keywords.
+  中文：其他关键词作为辅助关键词。
+
+- The 2% to 3% density rule applies mainly to the primary keyword.
+  中文：2% 到 3% 的密度要求主要针对主关键词。
+
+- Secondary keywords should appear naturally where relevant.
+  中文：辅助关键词只需自然出现，不强制密度。
+
+## Short Create Example
+## 中文：简短创建示例
+
+```txt
+Action: create
+Product slug: shoulder-length-hair
+Keywords:
+- shoulder length hair
+- medium length hairstyles
+- shoulder length hair with layers
+Chinese keywords:
+- 齐肩发
+- 及肩发
+- 中长发发型
+Page title: Shoulder Length Hair Guide 2026: Flattering Medium Hairstyles to Try
+Direction: personal-recommendation
+Locales: all
+Images:
+- hero: https://example.com/shoulder-length-hair.webp
+- content: https://example.com/shoulder-length-before-after.webp
+Related:
+- hair-trends-bob
+- buzz-cut
+Notes:
+- Focus on face shape, layers, bangs, styling effort, and maintenance.
+- Keep the premium tool CTA natural.
+- Do not include developer API content.
+```
+
+中文：这个示例表示创建一个 `shoulder-length-hair` 页面，主关键词是 `shoulder length hair`，辅助关键词是
+`medium length hairstyles` 和 `shoulder length hair with layers`，文章方向是个人推荐型，生成所有语言版本。
+
+## Short Update Example
+## 中文：简短修改示例
+
+```txt
+Action: update
+Product slug: hair-trends-bob
+Keywords:
+- hair trends bob
+- bob haircut trends
+- 2026 bob hairstyles
+Chinese keywords:
+- 波波头发型趋势
+- 波波头
+- 2026波波头
+Page title: Hair Trends Bob 2026: Best Bob Haircut Ideas Before Your Salon Visit
+Direction: trend-guide
+Locales: en,zh-cn
+Images:
+- hero: https://example.com/bob-trends-hero.webp
+Related:
+- shoulder-length-hair
+Notes:
+- Strengthen trend context and style variation sections.
+- Keep keyword density around 2% to 3% for the first keyword.
+- Mention the premium hairstyle changer naturally in the AI preview section.
+```
+
+中文：这个示例表示只修改 `hair-trends-bob` 的英文和简体中文内容，主关键词是 `hair trends bob`，文章方向是趋势指南型。

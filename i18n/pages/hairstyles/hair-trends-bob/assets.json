@@ -1,0 +1,14 @@
+{
+  "images": {
+    "index": "https://ai-resource.ailabtools.com/web/blog/2026/05/Bob-2.webp",
+    "hero": "https://ai-resource.ailabtools.com/web/blog/2026/05/Bob-2.webp",
+    "sections": {
+      "choose-your-bob": [
+        "https://ai-resource.ailabtools.com/web/blog/2026/05/Bob-2.webp"
+      ],
+      "try-before-salon": [
+        "https://ai-resource.ailabtools.com/web/blog/2026/05/Bob-1.webp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "slug": "hair-trends-bob",
+  "locale": "es",
+  "metadata": {
+    "title": "Tendencias de corte bob 2026: elige tu bob antes de ir al salón",
+    "description": "Guía personal para elegir un bob según rostro, textura, mantenimiento y vista previa antes de cortar.",
+    "keywords": "tendencias bob, corte bob, bob 2026, ideas de bob, vista previa de peinado",
+    "canonical": "/hairstyles/hair-trends-bob"
+  },
+  "breadcrumb": [
+    {
+      "title": "Inicio",
+      "url": "/"
+    },
+    {
+      "title": "Peinados",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Tendencias bob",
+      "url": "/hairstyles/hair-trends-bob"
+    }
+  ],
+  "hero": {
+    "title": "Tendencias de corte bob 2026: elige tu bob antes de ir al salón",
+    "description": "Una guía de recomendación personal para comparar longitud, rostro, textura, mantenimiento y vista previa antes de cortar.",
+    "tags": [
+      {
+        "title": "corte bob"
+      },
+      {
+        "title": "tendencias bob"
+      },
+      {
+        "title": "peinados 2026"
+      },
+      {
+        "title": "vista previa"
+      }
+    ],
+    "image": {
+      "alt": "Ideas modernas de corte bob para el salón"
+    }
+  },
+  "cta": {
+    "title": "Prueba primero tu bob con la versión profesional",
+    "description": "Compara ideas bob predefinidas, formas cortas y colores en tu propia foto antes de pedir cita.",
+    "button": {
+      "title": "Probar vista profesional",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "personal-recommendation",
+      "title": "Empieza por tu vida real, no solo por la tendencia",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El mejor bob no es solo el que se ve bien en una modelo. Debe funcionar con tu rostro, densidad, rutina, trabajo, ropa y nivel de cambio deseado."
+        },
+        {
+          "type": "paragraph",
+          "text": "En 2026 el bob se lleva con contornos limpios, movimiento suave y detalles que enmarcan el rostro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Guarda referencias por longitud, puntas, raya, flequillo, volumen y color para convertir inspiración en una instrucción clara."
+        }
+      ]
+    },
+    {
+      "id": "choose-your-bob",
+      "title": "Elige la longitud adecuada",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La longitud define el resultado. Un bob corto destaca más, uno a la barbilla se ve pulido y uno largo es más seguro para principiantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los rostros redondos suelen favorecerse con más longitud o raya lateral. Los cuadrados pueden suavizarse con movimiento. Los alargados necesitan algo de anchura lateral."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elige una longitud segura y otra más atrevida; luego compáralas con una vista previa."
+        },
+        {
+          "type": "image",
+          "alt": "Ideas de longitud bob para 2026",
+          "caption": "Compara longitud, contorno y marco del rostro antes de ir al salón."
+        }
+      ]
+    },
+    {
+      "id": "bob-haircut-trends",
+      "title": "Tendencias bob útiles en 2026",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El bob recto es limpio y fuerte. El bob francés es más corto y expresivo. El bob italiano aporta volumen. El bob con capas ayuda en pelo grueso u ondulado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si es tu primer corte importante, un bob largo suele ser más flexible."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bob recto: pulido y definido.",
+            "Bob francés: corto, ligero y expresivo.",
+            "Bob italiano: cuerpo y movimiento.",
+            "Bob con capas: ideal para pelo grueso u ondulado.",
+            "Bob largo: opción segura para empezar."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "El mejor bob es el que puedes mantener cuando termina el peinado del salón."
+        }
+      ]
+    },
+    {
+      "id": "hair-texture",
+      "title": "Adapta el bob a tu textura",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El pelo fino necesita volumen en la raíz. El pelo grueso puede necesitar descarga interna. El pelo ondulado funciona muy bien con bobs suaves."
+        },
+        {
+          "type": "paragraph",
+          "text": "El pelo rizado debe planearse por encogimiento y forma en seco."
+        },
+        {
+          "type": "paragraph",
+          "text": "El color también cambia el efecto: oscuro y recto se ve gráfico; con mechas se nota más el movimiento."
+        }
+      ]
+    },
+    {
+      "id": "try-before-salon",
+      "title": "Prueba antes del salón con la versión profesional",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En un bob, uno o dos centímetros cambian mucho. La versión profesional ayuda a comparar formas cortas, largas y suaves antes de cortar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Usa una foto frontal clara y revisa mandíbula, cuello, hombros y proporción general."
+        },
+        {
+          "type": "cta",
+          "title": "Compara ideas bob con la versión profesional",
+          "description": "Prueba formas bob y colores predefinidos en tu foto antes de cortar.",
+          "button": {
+            "title": "Probar vista profesional",
+            "url": "/#editor"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Vista previa de bob antes del salón",
+          "caption": "La vista previa personal ayuda a comparar longitud y marco del rostro."
+        }
+      ]
+    },
+    {
+      "id": "premium-recommendation",
+      "title": "Cuándo conviene la versión avanzada",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La versión profesional basta para la mayoría. Usa la versión avanzada cuando el bob objetivo viene de una imagen de referencia concreta."
+        },
+        {
+          "type": "paragraph",
+          "text": "También conviene si necesitas conservar tu color original o copiar el color desde una referencia."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Versión profesional para pruebas rápidas de bob y color.",
+            "Versión avanzada para imágenes de referencia.",
+            "Versión avanzada para conservar el color original.",
+            "Versión avanzada para color basado en referencia."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Necesitas control por referencia?",
+          "description": "Abre la versión avanzada si los estilos predefinidos no son lo bastante específicos.",
+          "button": {
+            "title": "Probar versión avanzada",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salon-brief",
+      "title": "Convierte la inspiración en una instrucción para el salón",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lleva una foto frontal, una lateral y una imagen de lo que no quieres. Explica si priorizas definición, suavidad, volumen, facilidad o marco del rostro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pregunta por la longitud en seco, la forma de las puntas, las capas internas y cómo crecerá en seis semanas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si dudas, empieza más largo. Siempre puedes cortar más después."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qué bob me conviene en 2026?",
+      "answer": "Depende de tu rostro, textura, rutina y nivel de cambio. Para empezar, el bob largo suele ser más seguro."
+    },
+    {
+      "question": "Qué bob es más fácil de mantener?",
+      "answer": "Un bob largo o con capas suaves suele ser más fácil que un bob muy recto a la barbilla o con flequillo."
+    },
+    {
+      "question": "Puedo ver el bob antes de cortar?",
+      "answer": "Sí, con la vista profesional puedes probar formas bob y colores en tu foto."
+    },
+    {
+      "question": "Cuándo uso la versión avanzada?",
+      "answer": "Cuando necesitas referencia visual, conservar color original o copiar color desde una referencia."
+    },
+    {
+      "question": "Bob recto o con capas?",
+      "answer": "Recto para líneas limpias; con capas para movimiento, pelo grueso u ondas."
+    }
+  ],
+  "related": [
+    "shoulder-length-hair",
+    "buzz-cut"
+  ]
+}

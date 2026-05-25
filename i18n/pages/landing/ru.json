@@ -28,6 +28,17 @@
                   "icon": "FaQuestion"
               },
               {
+                  "title": "Прически",
+                  "url": "/ru/hairstyles",
+                  "icon": "HiOutlineSparkles",
+                  "children": [
+                      {"title": "Все прически", "url": "/ru/hairstyles", "icon": "HiOutlineSparkles"},
+                      {"title": "Buzz Cut", "url": "/ru/hairstyles/buzz-cut", "icon": "HiOutlineSparkles"},
+                        {"title": "Тренды стрижки боб", "url": "/ru/hairstyles/hair-trends-bob", "icon": "HiOutlineSparkles"},
+                        {"title": "Волосы до плеч", "url": "/ru/hairstyles/shoulder-length-hair", "icon": "HiOutlineSparkles"}
+                  ]
+              },
+              {
                   "title": "API Документация",
                   "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
                   "target": "_blank",

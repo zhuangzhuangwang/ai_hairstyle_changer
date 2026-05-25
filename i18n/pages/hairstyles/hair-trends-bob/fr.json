@@ -1,0 +1,242 @@
+{
+  "slug": "hair-trends-bob",
+  "locale": "fr",
+  "metadata": {
+    "title": "Tendances carré 2026 : choisir le bon carré avant le salon",
+    "description": "Guide personnel pour choisir un carré selon le visage, la texture, l’entretien et l’aperçu avant la coupe.",
+    "keywords": "tendances carré, coupe carré, carré 2026, idée carré, aperçu coiffure",
+    "canonical": "/hairstyles/hair-trends-bob"
+  },
+  "breadcrumb": [
+    {
+      "title": "Accueil",
+      "url": "/"
+    },
+    {
+      "title": "Coiffures",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Tendances carré",
+      "url": "/hairstyles/hair-trends-bob"
+    }
+  ],
+  "hero": {
+    "title": "Tendances carré 2026 : choisir le bon carré avant le salon",
+    "description": "Un guide de recommandation personnelle pour comparer longueur, forme du visage, texture, entretien et aperçu avant la coupe.",
+    "tags": [
+      {
+        "title": "coupe carré"
+      },
+      {
+        "title": "tendances carré"
+      },
+      {
+        "title": "coiffures 2026"
+      },
+      {
+        "title": "aperçu"
+      }
+    ],
+    "image": {
+      "alt": "Idées modernes de coupe carré"
+    }
+  },
+  "cta": {
+    "title": "Testez d’abord votre carré avec la version professionnelle",
+    "description": "Comparez des formes de carré prédéfinies, des coupes courtes et des couleurs sur votre photo avant le rendez-vous.",
+    "button": {
+      "title": "Essayer l’aperçu professionnel",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "personal-recommendation",
+      "title": "Choisir selon votre vie réelle",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un carré doit convenir à votre visage, votre texture, votre routine et votre envie de changement."
+        },
+        {
+          "type": "paragraph",
+          "text": "En 2026, le carré privilégie les contours propres, le mouvement doux et les détails autour du visage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Notez ce que vous aimez dans chaque référence : longueur, pointes, raie, frange, volume ou couleur."
+        }
+      ]
+    },
+    {
+      "id": "choose-your-bob",
+      "title": "Choisir la longueur",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La longueur change toute l’impression : court et affirmé, au menton et net, plus long et plus facile pour commencer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les visages ronds préfèrent souvent plus de longueur, les visages carrés un mouvement doux, les visages longs plus de largeur sur les côtés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparez une longueur sûre et une longueur plus audacieuse avec un aperçu."
+        },
+        {
+          "type": "image",
+          "alt": "Idées de longueur pour coupe carré",
+          "caption": "Comparez longueur, contour et encadrement du visage avant le salon."
+        }
+      ]
+    },
+    {
+      "id": "bob-haircut-trends",
+      "title": "Tendances utiles en 2026",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le carré droit est net, le carré français est plus expressif, le carré italien donne du volume, le carré dégradé aide les cheveux épais ou ondulés."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Carré droit : net et élégant.",
+            "Carré français : court et expressif.",
+            "Carré italien : volume et mouvement.",
+            "Carré dégradé : idéal pour cheveux épais ou ondulés.",
+            "Carré long : plus sûr pour commencer."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Le meilleur carré est celui que vous pouvez entretenir après le salon."
+        }
+      ]
+    },
+    {
+      "id": "hair-texture",
+      "title": "Adapter à la texture",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les cheveux fins ont besoin de volume, les cheveux épais de légèreté interne, les cheveux ondulés de mouvement naturel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cheveux bouclés doivent être pensés avec le retrait au séchage."
+        },
+        {
+          "type": "paragraph",
+          "text": "La couleur change aussi l’effet : foncé pour un contour graphique, mèches pour montrer le mouvement."
+        }
+      ]
+    },
+    {
+      "id": "try-before-salon",
+      "title": "Tester avant le salon",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un ou deux centimètres changent beaucoup un carré. La version professionnelle aide à comparer plusieurs formes avant de couper."
+        },
+        {
+          "type": "paragraph",
+          "text": "Utilisez une photo nette de face et observez mâchoire, cou, épaules et équilibre général."
+        },
+        {
+          "type": "cta",
+          "title": "Comparer avec la version professionnelle",
+          "description": "Testez des formes de carré et couleurs prédéfinies sur votre photo.",
+          "button": {
+            "title": "Essayer l’aperçu professionnel",
+            "url": "/#editor"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Aperçu de carré avant le salon",
+          "caption": "L’aperçu personnel aide à comparer longueur et encadrement du visage."
+        }
+      ]
+    },
+    {
+      "id": "premium-recommendation",
+      "title": "Quand choisir la version avancée",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La version professionnelle suffit souvent. Choisissez la version avancée si votre objectif vient d’une image de référence précise."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle est aussi utile pour conserver la couleur d’origine ou suivre une couleur de référence."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Version professionnelle pour essais rapides.",
+            "Version avancée pour image de référence.",
+            "Version avancée pour conserver la couleur d’origine.",
+            "Version avancée pour couleur de référence."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Besoin d’un contrôle par référence ?",
+          "description": "Ouvrez la version avancée si les options prédéfinies ne sont pas assez précises.",
+          "button": {
+            "title": "Essayer la version avancée",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salon-brief",
+      "title": "Préparer le rendez-vous",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Apportez une image de face, une image de côté et un exemple à éviter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Demandez la longueur à sec, la forme des pointes, les couches internes et la repousse après six semaines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous hésitez, commencez plus long."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel carré choisir en 2026 ?",
+      "answer": "Cela dépend du visage, de la texture, de la routine et du niveau de changement accepté."
+    },
+    {
+      "question": "Quel carré est facile à entretenir ?",
+      "answer": "Un carré long ou légèrement dégradé est souvent plus simple."
+    },
+    {
+      "question": "Puis-je voir le résultat avant de couper ?",
+      "answer": "Oui, avec l’aperçu professionnel sur votre photo."
+    },
+    {
+      "question": "Quand utiliser la version avancée ?",
+      "answer": "Quand il faut une image de référence ou un contrôle précis de la couleur."
+    },
+    {
+      "question": "Carré droit ou dégradé ?",
+      "answer": "Droit pour un contour net, dégradé pour mouvement et cheveux épais."
+    }
+  ],
+  "related": [
+    "shoulder-length-hair",
+    "buzz-cut"
+  ]
+}

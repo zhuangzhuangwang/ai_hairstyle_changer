@@ -1,0 +1,245 @@
+{
+  "slug": "shoulder-length-hair",
+  "locale": "es",
+  "metadata": {
+    "title": "Cabello a la altura de los hombros para salones y equipos de belleza: usos con vista previa de IA",
+    "description": "Guía de uso industrial para salones, marcas de belleza, comercio electrónico, estudios y plataformas que trabajan con cortes a la altura de los hombros.",
+    "keywords": "cabello a la altura de los hombros, corte a los hombros, capas a los hombros, vista previa de peinado con IA, salón de belleza",
+    "canonical": "/hairstyles/shoulder-length-hair"
+  },
+  "breadcrumb": [
+    {
+      "title": "Inicio",
+      "url": "/"
+    },
+    {
+      "title": "Peinados",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Cabello a los hombros",
+      "url": "/hairstyles/shoulder-length-hair"
+    }
+  ],
+  "hero": {
+    "title": "Cabello a la altura de los hombros para salones y equipos de belleza",
+    "description": "Guía de aplicación para consultas de salón, campañas de belleza, comercio electrónico, estudios y plataformas con vista previa de peinados.",
+    "tags": [
+      {
+        "title": "cabello a los hombros"
+      },
+      {
+        "title": "uso profesional"
+      },
+      {
+        "title": "capas a los hombros"
+      },
+      {
+        "title": "vista previa con IA"
+      }
+    ],
+    "image": {
+      "alt": "Flujo de vista previa para cabello a los hombros"
+    }
+  },
+  "cta": {
+    "title": "Prueba primero con la versión profesional",
+    "description": "Usa la versión profesional para mostrar opciones de cabello a los hombros, colores predefinidos y estilos medios antes de la consulta.",
+    "button": {
+      "title": "Probar vista profesional",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "business-pain-point",
+      "title": "Por qué esta longitud importa en consultas",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El cabello a los hombros parece más seguro que un corte muy corto, pero crea un cambio visible. Para salones, marcas y plataformas es un punto ideal para reducir dudas con imagen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las dudas suelen tratar de longitud, volumen, capas, facilidad diaria y si el pelo todavía se puede recoger."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una página de uso profesional convierte la inspiración en flujo de decisión: explicar, mostrar, previsualizar y llevar a cita, compra o integración."
+        }
+      ]
+    },
+    {
+      "id": "consultation-workflow",
+      "title": "Flujo de consulta: del deseo al briefing visual",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En salón, pedir un corte a los hombros puede significar muchas longitudes distintas. Por eso conviene aclarar el punto exacto antes de cortar."
+        },
+        {
+          "type": "paragraph",
+          "text": "El flujo ideal define objetivo, longitud, capas, color y mantenimiento con apoyo visual."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Aclarar el punto de caída: hombro, clavícula o más abajo.",
+            "Mostrar capas a los hombros si se busca movimiento.",
+            "Comparar puntas rectas y suaves.",
+            "Guardar la vista previa para el estilista."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Flujo de consulta para cabello a los hombros",
+          "caption": "La vista previa convierte una solicitud general en una referencia concreta."
+        }
+      ]
+    },
+    {
+      "id": "industry-use-cases",
+      "title": "Usos por industria",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los salones la usan para consultas claras. Las marcas para campañas. El comercio electrónico para recomendar productos. Los estudios para planear looks antes de la sesión."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las plataformas pueden usar esta longitud como categoría amplia para personas que recortan pelo largo, dejan crecer un bob o prueban una imagen profesional."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Salones: menos dudas antes de la cita.",
+            "Marcas: recorridos de campaña más cercanos.",
+            "Comercio electrónico: mejores recomendaciones.",
+            "Estudios: preparación visual antes de la sesión.",
+            "Plataformas: categoría reutilizable de longitud media."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Usos profesionales para cabello a los hombros",
+          "caption": "La vista previa ayuda en consulta, venta, contenido y plataformas."
+        }
+      ]
+    },
+    {
+      "id": "customer-journey",
+      "title": "Recorrido del cliente",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El cliente empieza con inspiración y luego compara corte recto, ondas, flequillo o capas. Sin vista previa, muchas decisiones se quedan en duda."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un recorrido más fuerte explica la longitud, muestra variantes, prueba en la foto del usuario y sugiere una acción clara."
+        },
+        {
+          "type": "quote",
+          "text": "El objetivo no es solo mostrar un peinado, sino acortar el camino entre duda y decisión."
+        }
+      ]
+    },
+    {
+      "id": "preview-and-integration",
+      "title": "Vista previa, versión avanzada e integración",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Para flujos rápidos, la versión profesional con peinados y colores predefinidos suele ser suficiente."
+        },
+        {
+          "type": "paragraph",
+          "text": "La versión avanzada sirve para peinados por referencia, conservar el color original y color basado en referencia: https://www.ailabtools.com/hairstyle-changer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Para flujos integrados, consulta la documentación para desarrolladores: https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium"
+        },
+        {
+          "type": "cta",
+          "title": "Necesitas control por referencia?",
+          "description": "Usa la versión avanzada cuando las opciones predefinidas no sean suficientes.",
+          "button": {
+            "title": "Probar versión avanzada",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Opciones de vista previa e integración para cabello a los hombros",
+          "caption": "Versión profesional para rapidez, versión avanzada para referencia y documentación para integración."
+        }
+      ]
+    },
+    {
+      "id": "operational-benefits",
+      "title": "Beneficios operativos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los equipos reducen tiempo de consulta, mejoran briefings visuales y conectan intención de peinado con reservas o productos."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Menos duda antes de cita o compra.",
+            "Briefings más claros para estilistas y equipos.",
+            "Mejor conexión entre peinado y producto.",
+            "Categorías reutilizables para longitud media."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "implementation-checklist",
+      "title": "Lista de implementación",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Una buena página profesional explica público, problema, variantes, vista previa y siguiente paso."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Definir audiencia.",
+            "Explicar puntos de decisión.",
+            "Mostrar versiones rectas, onduladas y con capas.",
+            "Añadir vista profesional como acción rápida.",
+            "Añadir versión avanzada y documentación si hace falta integración."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Por qué es útil para equipos de belleza?",
+      "answer": "Porque es una longitud media popular que se siente segura y produce cambio visible."
+    },
+    {
+      "question": "Cómo ayuda la vista previa?",
+      "answer": "Muestra longitud, capas, marco del rostro y color antes del corte."
+    },
+    {
+      "question": "Cuándo mostrar capas a los hombros?",
+      "answer": "Cuando se busca movimiento, menos peso o una silueta media más suave."
+    },
+    {
+      "question": "Cuándo usar la versión avanzada?",
+      "answer": "Cuando hacen falta referencia visual, color original o color basado en referencia."
+    },
+    {
+      "question": "Hay ruta para desarrolladores?",
+      "answer": "Sí, mediante la documentación para desarrolladores: https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium"
+    }
+  ],
+  "related": [
+    "hair-trends-bob",
+    "buzz-cut"
+  ]
+}

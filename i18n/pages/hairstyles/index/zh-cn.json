@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "发型指南 | AI发型更换器",
+    "description": "浏览发型指南、剪发灵感、脸型建议、打理技巧，并在去理发店前使用 AI 预览真实效果。",
+    "keywords": "发型指南, 剪发灵感, AI发型更换器, 在线试发型, 发型模拟器",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "发型指南",
+    "description": "在真正剪发前找到适合自己的造型。比较不同发型，了解脸型适配，并用 AI 提前预览效果。"
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "我剪 Buzz Cut 寸头会是什么样？",
+      "description": "2026 buzz cut 趋势指南，覆盖 buzz cut fade、男士寸头、脸型判断和 AI 预览建议。",
+      "image": {
+        "alt": "Buzz cut 寸头 AI 预览与趋势指南"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "男士寸头"
+        },
+        {
+          "title": "AI预览"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "波波头发型趋势",
+      "description": "了解现代波波头趋势、脸型适配、造型建议、维护技巧和 AI 预览方法。",
+      "image": {
+        "alt": "现代波波头预览"
+      },
+      "tags": [
+        {
+          "title": "波波头"
+        },
+        {
+          "title": "发型趋势"
+        },
+        {
+          "title": "中短发"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "齐肩发 / 及肩发",
+      "description": "完整了解齐肩发层次、刘海、卷度、脸型适配、维护建议和 AI 预览灵感。",
+      "image": {
+        "alt": "齐肩发预览"
+      },
+      "tags": [
+        {
+          "title": "中长发"
+        },
+        {
+          "title": "层次"
+        },
+        {
+          "title": "易打理"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "ヘアスタイルガイド | AI Hairstyle Changer",
+    "description": "髪型ガイド、ヘアカットのアイデア、顔型別のヒント、手入れ方法、AI試着プレビューを確認できます。",
+    "keywords": "髪型ガイド, ヘアカット, AI髪型チェンジャー, 髪型試着, ヘアシミュレーター",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "ヘアスタイルガイド",
+    "description": "カットする前に似合う髪型を見つけましょう。スタイルを比較し、顔型との相性を知り、AIで仕上がりを確認できます。"
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "バズカットにしたらどう見える？",
+      "description": "buzz cut fade、メンズ短髪、顔型チェック、AIプレビューを含む2026年バズカットガイド。",
+      "image": {
+        "alt": "バズカットAIプレビューとトレンドガイド"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "メンズ"
+        },
+        {
+          "title": "AIプレビュー"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "ボブヘアトレンド",
+      "description": "ボブヘアの最新トレンド、顔型別の選び方、スタイリング、手入れ、AIプレビューを紹介します。",
+      "image": {
+        "alt": "ボブヘアのプレビュー"
+      },
+      "tags": [
+        {
+          "title": "ボブ"
+        },
+        {
+          "title": "トレンド"
+        },
+        {
+          "title": "ミディアム"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "肩までの髪",
+      "description": "肩までの長さ、レイヤー、前髪、ウェーブ、顔型別のヒント、AIプレビューをまとめたガイドです。",
+      "image": {
+        "alt": "肩までの髪のプレビュー"
+      },
+      "tags": [
+        {
+          "title": "ミディアム"
+        },
+        {
+          "title": "レイヤー"
+        },
+        {
+          "title": "簡単スタイル"
+        }
+      ]
+    }
+  ]
+}

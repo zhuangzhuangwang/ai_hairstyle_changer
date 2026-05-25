@@ -28,6 +28,17 @@
                   "icon": "FaQuestion"
               },
               {
+                  "title": "发型指南",
+                  "url": "/zh-cn/hairstyles",
+                  "icon": "HiOutlineSparkles",
+                  "children": [
+                      {"title": "全部发型", "url": "/zh-cn/hairstyles", "icon": "HiOutlineSparkles"},
+                      {"title": "寸头 Buzz Cut", "url": "/zh-cn/hairstyles/buzz-cut", "icon": "HiOutlineSparkles"},
+                        {"title": "波波头发型趋势", "url": "/zh-cn/hairstyles/hair-trends-bob", "icon": "HiOutlineSparkles"},
+                        {"title": "齐肩发 / 及肩发", "url": "/zh-cn/hairstyles/shoulder-length-hair", "icon": "HiOutlineSparkles"}
+                  ]
+              },
+              {
                   "title": "API文档",
                   "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
                   "target": "_blank",

@@ -1,0 +1,17 @@
+{
+  "images": {
+    "index": "https://ai-resource.ailabtools.com/web/blog/2025/10/before-and-after-1536x1097.jpg",
+    "hero": "https://ai-resource.ailabtools.com/web/blog/2025/10/before-and-after-1536x1097.jpg",
+    "sections": {
+      "what-would-i-look-like": [
+        "https://ai-resource.ailabtools.com/web/blog/2025/10/Buzz-Cut.jpg"
+      ],
+      "buzz-cut-fade": [
+        "https://imgs.tryonhairstyle.com/example/hairstyle-r-17.webp"
+      ],
+      "buzz-cut-men": [
+        "https://ai-resource.ailabtools.com/web/blog/2025/10/before-and-after-1536x1097.jpg"
+      ]
+    }
+  }
+}

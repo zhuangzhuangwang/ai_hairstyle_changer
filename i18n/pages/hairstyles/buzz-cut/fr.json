@@ -1,0 +1,259 @@
+{
+  "slug": "buzz-cut",
+  "locale": "fr",
+  "metadata": {
+    "title": "À quoi ressemblerais-je avec une coupe très courte ? Guide tendance 2026 | Changeur de coiffure par intelligence artificielle",
+    "description": "Guide de coupe très courte à la tondeuse, dégradé, styles masculins, conseils de visage et aperçu avant la coupe.",
+    "keywords": "coupe très courte, coupe à la tondeuse, dégradé, coiffure courte homme, aperçu coiffure, simulateur de coiffure, intelligence artificielle coiffure",
+    "canonical": "/hairstyles/buzz-cut"
+  },
+  "breadcrumb": [
+    {
+      "title": "Accueil",
+      "url": "/"
+    },
+    {
+      "title": "Coiffures",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Coupe très courte",
+      "url": "/hairstyles/buzz-cut"
+    }
+  ],
+  "hero": {
+    "title": "À quoi ressemblerais-je avec une coupe très courte ? Guide tendance 2026",
+    "description": "Guide de coupe très courte, de dégradé et de styles masculins avec conseils de visage et aperçu avant la coupe.",
+    "tags": [
+      {
+        "title": "coupe très courte"
+      },
+      {
+        "title": "dégradé"
+      },
+      {
+        "title": "coiffure homme"
+      },
+      {
+        "title": "aperçu"
+      }
+    ],
+    "image": {
+      "alt": "Aperçu d’une coupe très courte par intelligence artificielle"
+    }
+  },
+  "cta": {
+    "title": "Testez d’abord la coupe avec la version professionnelle",
+    "description": "Utilisez la version professionnelle de ce site pour comparer des coiffures courtes, des dégradés et des couleurs prédéfinies sur votre photo.",
+    "button": {
+      "title": "Essayer l’aperçu professionnel",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-a-buzz-cut",
+      "title": "Qu’est-ce qu’une coupe très courte ?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une coupe très courte est une coupe courte à la tondeuse. La coupe très courte moderne varie selon la longueur et le dégradé."
+        },
+        {
+          "type": "paragraph",
+          "text": "En 2026, la coupe très courte reste tendance pour son côté net, pratique et affirmé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous vous demandez à quoi vous ressembleriez avec une coupe très courte, observez la forme du visage, l’implantation et le style personnel."
+        }
+      ]
+    },
+    {
+      "id": "what-would-i-look-like",
+      "title": "À quoi ressemblerais-je avec une coupe très courte ?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La coupe très courte rend le visage, les yeux, la machoire et le front plus visibles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un visage rond profite souvent d une coupe très courte avec dégradé avec un peu plus de longueur dessus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un aperçu intelligence artificielle sur votre propre photo donne une réponse plus fiable."
+        },
+        {
+          "type": "cta",
+          "title": "Visualisez d’abord avec la version professionnelle",
+          "description": "L’aperçu professionnel convient aux styles courts prédéfinis et aux couleurs prédéfinies.",
+          "button": {
+            "title": "Ouvrir l aperçu professionnel",
+            "url": "/#editor"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Apercu intelligence artificielle coupe très courte",
+          "caption": "Un aperçu intelligence artificielle version professionnelle aide à vérifier le rendu avant la coupe."
+        }
+      ]
+    },
+    {
+      "id": "buzz-cut-fade",
+      "title": "Choisir une coupe très courte avec dégradé",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La coupe très courte avec dégradé ajoute une transition progressive sur les côtés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le dégradé bas est discret, le dégradé moyen est équilibré et le dégradé haut est plus marqué."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bas dégradé: discret et propre.",
+            "Moyen dégradé: choix polyvalent.",
+            "Haut dégradé: audacieux.",
+            "À blanc dégradé: tres net mais plus exigeant."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Apercu coupe très courte avec dégradé avec transition nette",
+          "caption": "L’aperçu aide à comparer un dégradé bas, moyen et haut avant le rendez-vous."
+        }
+      ]
+    },
+    {
+      "id": "buzz-cut-men",
+      "title": "Guide de coupe très courte homme",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les styles coupe très courte homme changent selon barbe, ligne frontale et vêtements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les cheveux épais paraissent plus légers; les cheveux fins peuvent sembler plus uniformes."
+        },
+        {
+          "type": "paragraph",
+          "text": "C est pratique si vous voulez peu de coiffage."
+        },
+        {
+          "type": "image",
+          "alt": "Apercu avant apres coupe très courte homme",
+          "caption": "Utilisez l aperçu comme référence pour la longueur, la hauteur du dégradé et le style."
+        }
+      ]
+    },
+    {
+      "id": "should-i-get-a-buzz-cut",
+      "title": "Devrais-je faire une coupe très courte ?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Avant de couper, vérifiez visage, implantation et rythme d entretien."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour commencer, une longueur moyenne avec un dégradé bas ou moyen est plus prudente."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Visage rond: garder un peu de longueur dessus.",
+            "Visage long: éviter le dégradé trop haut.",
+            "Visage carré: lignes nettes utiles.",
+            "Doute: prévisualiser avec intelligence artificielle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-would-i-look-with-a-buzz-cut",
+      "title": "Voir le résultat en ligne",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Utilisez une photo nette de face."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparez coupe très courte uniforme, coupe très courte avec dégradé et longueurs différentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour la plupart des décisions personnelles, version professionnelle sur ce site suffit: il prend en charge les coiffures prédéfinies et les couleurs prédéfinies. Choisissez version avancée si vous avez besoin de plus de contrôle: coiffure basée sur une référence, conservation de la couleur originale ou couleur issue d une image de référence. C est utile pour reproduire une photo précise de célébrité, de barbier ou de marque."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Utilisez version professionnelle pour des coiffures et couleurs prédéfinies rapides.",
+            "Utilisez version avancée si le rendu cible vient d une image de référence.",
+            "Utilisez version avancée si la couleur originale doit être conservée.",
+            "Utilisez version avancée si la couleur doit suivre une référence."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Besoin d un contrôle par référence?",
+          "description": "Ouvrez version avancée pour la coiffure par référence, la couleur originale et la couleur basée sur référence.",
+          "button": {
+            "title": "Essayer version avancée",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Entretien et conseils barbier",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L entretien quotidien est simple, mais la forme demande des retouches."
+        },
+        {
+          "type": "paragraph",
+          "text": "Précisez longueur, hauteur de dégradé et ligne frontale au barbier."
+        },
+        {
+          "type": "paragraph",
+          "text": "La meilleure coupe très courte est celui qui équilibre votre visage."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "À quoi ressemblerais-je avec une coupe très courte ?",
+      "answer": "Votre visage et votre ligne de cheveux seront plus visibles. Un aperçu intelligence artificielle aide."
+    },
+    {
+      "question": "Un visage rond peut-il porter une coupe très courte ?",
+      "answer": "Oui, surtout avec une coupe très courte avec dégradé et un peu de longueur dessus."
+    },
+    {
+      "question": "Qu est-ce qu une coupe très courte avec dégradé ?",
+      "answer": "Un top court avec des côtés fondus progressivement."
+    },
+    {
+      "question": "Quelle longueur pour debuter ?",
+      "answer": "#3 ou #4 est souvent plus sur."
+    },
+    {
+      "question": "Puis-je voir avant de couper ?",
+      "answer": "Oui, avec un aperçu intelligence artificielle sur votre photo."
+    }
+  ],
+  "related": [
+    "hair-trends-bob",
+    "shoulder-length-hair"
+  ]
+}

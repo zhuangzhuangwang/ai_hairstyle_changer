@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "髮型指南 | AI髮型更換器",
+    "description": "瀏覽髮型指南、剪髮靈感、臉型建議、整理技巧，並在剪髮前使用 AI 預覽真實效果。",
+    "keywords": "髮型指南, 剪髮靈感, AI髮型更換器, 線上試髮型, 髮型模擬器",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "髮型指南",
+    "description": "在真正剪髮前找到適合自己的造型。比較不同髮型，了解臉型適配，並用 AI 提前預覽效果。"
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "我剪 Buzz Cut 寸頭會是什麼樣？",
+      "description": "2026 buzz cut 趨勢指南，涵蓋 buzz cut fade、男士寸頭、臉型判斷和 AI 預覽建議。",
+      "image": {
+        "alt": "Buzz cut 寸頭 AI 預覽與趨勢指南"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "男士寸頭"
+        },
+        {
+          "title": "AI預覽"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "波波頭髮型趨勢",
+      "description": "了解現代波波頭趨勢、臉型適配、造型建議、維護技巧和 AI 預覽方法。",
+      "image": {
+        "alt": "現代波波頭預覽"
+      },
+      "tags": [
+        {
+          "title": "波波頭"
+        },
+        {
+          "title": "髮型趨勢"
+        },
+        {
+          "title": "中短髮"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "齊肩髮 / 及肩髮",
+      "description": "完整了解齊肩髮層次、瀏海、捲度、臉型適配、維護建議和 AI 預覽靈感。",
+      "image": {
+        "alt": "齊肩髮預覽"
+      },
+      "tags": [
+        {
+          "title": "中長髮"
+        },
+        {
+          "title": "層次"
+        },
+        {
+          "title": "易整理"
+        }
+      ]
+    }
+  ]
+}

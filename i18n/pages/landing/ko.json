@@ -28,6 +28,17 @@
                   "icon": "FaQuestion"
               },
               {
+                  "title": "헤어스타일",
+                  "url": "/ko/hairstyles",
+                  "icon": "HiOutlineSparkles",
+                  "children": [
+                      {"title": "전체 헤어스타일", "url": "/ko/hairstyles", "icon": "HiOutlineSparkles"},
+                      {"title": "버즈컷", "url": "/ko/hairstyles/buzz-cut", "icon": "HiOutlineSparkles"},
+                        {"title": "보브컷 트렌드", "url": "/ko/hairstyles/hair-trends-bob", "icon": "HiOutlineSparkles"},
+                        {"title": "어깨 길이 머리", "url": "/ko/hairstyles/shoulder-length-hair", "icon": "HiOutlineSparkles"}
+                  ]
+              },
+              {
                   "title": "API 문서",
                   "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
                   "target": "_blank",

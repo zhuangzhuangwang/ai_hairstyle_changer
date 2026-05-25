@@ -1,0 +1,259 @@
+{
+  "slug": "buzz-cut",
+  "locale": "de",
+  "metadata": {
+    "title": "Wie sehe ich mit einem Maschinenschnitt aus? Trendratgeber 2026 | Frisurenvorschau mit künstlicher Intelligenz",
+    "description": "Ratgeber zum Maschinenschnitt mit Übergang, Gesichtsform-Tipps, Herrenstil und Vorschau vor dem Schnitt.",
+    "keywords": "Maschinenschnitt, kurzer Haarschnitt, Herren Kurzhaarschnitt, Übergang, Frisurenvorschau, passt ein Maschinenschnitt zu mir, künstliche Intelligenz Frisur",
+    "canonical": "/hairstyles/buzz-cut"
+  },
+  "breadcrumb": [
+    {
+      "title": "Startseite",
+      "url": "/"
+    },
+    {
+      "title": "Frisuren",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Maschinenschnitt",
+      "url": "/hairstyles/buzz-cut"
+    }
+  ],
+  "hero": {
+    "title": "Wie sehe ich mit einem Maschinenschnitt aus? Trendratgeber 2026",
+    "description": "Maschinenschnitt, Übergänge und Herren-Kurzhaarstile mit Gesichtsform-Tipps und Vorschau vor dem Schnitt.",
+    "tags": [
+      {
+        "title": "Maschinenschnitt"
+      },
+      {
+        "title": "Übergang"
+      },
+      {
+        "title": "Herren Kurzhaar"
+      },
+      {
+        "title": "KI-Vorschau"
+      }
+    ],
+    "image": {
+      "alt": "KI-Vorschau eines Maschinenschnitts"
+    }
+  },
+  "cta": {
+    "title": "Maschinenschnitt zuerst mit der Profi-Version testen",
+    "description": "Nutze die Profi-Version auf dieser Seite für vordefinierte Kurzhaarformen, Übergänge und Haarfarben.",
+    "button": {
+      "title": "Profi-Vorschau testen",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-a-buzz-cut",
+      "title": "Was ist ein Maschinenschnitt?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ein Maschinenschnitt ist ein kurzer Maschinenschnitt. Der moderne Maschinenschnitt variiert durch Länge und Übergang."
+        },
+        {
+          "type": "paragraph",
+          "text": "2026 bleibt der Maschinenschnitt beliebt, weil er klar, pflegeleicht und selbstbewusst wirkt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wer wie ich mit einem Maschinenschnitt aussehe fragt, sollte Gesichtsform, Haarlinie und Kopfform prüfen."
+        }
+      ]
+    },
+    {
+      "id": "what-would-i-look-like",
+      "title": "Wie sehe ich mit einem Maschinenschnitt aus?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ein Maschinenschnitt macht Augen, Stirn, Kiefer und Kopfform sichtbarer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Runde Gesichter profitieren oft von einem Maschinenschnitt mit Übergang mit etwas Länge oben."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eine KI-Vorschau mit eigenem Foto ist genauer als reines Raten."
+        },
+        {
+          "type": "cta",
+          "title": "Eindruck zuerst mit Profi-Vorschau prüfen",
+          "description": "Die Profi-Vorschau eignet sich für vordefinierte kurze Stile und Haarfarben-Voreinstellungen.",
+          "button": {
+            "title": "Profi-Vorschau öffnen",
+            "url": "/#editor"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "KI Maschinenschnitt Vorschau",
+          "caption": "Eine KI-Vorschau der Profi-Version zeigt den Eindruck, bevor der Schnitt endgueltig wird."
+        }
+      ]
+    },
+    {
+      "id": "buzz-cut-fade",
+      "title": "Maschinenschnitt mit Übergang waehlen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Der Maschinenschnitt mit Übergang verbindet kurzen Oberkopf mit auslaufenden Seiten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Niedriger Übergang wirkt dezent, mittlerer Übergang ausgewogen, hoher Übergang kraftvoll."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Niedriger Übergang: dezent und sauber.",
+            "Mittlerer Übergang: vielseitig.",
+            "Hoher Übergang: auffällig.",
+            "Hautnaher Übergang: sehr scharf, mehr Pflege."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Maschinenschnitt mit Übergang Vorschau mit sauberem Uebergang",
+          "caption": "Die Übergangsvorschau hilft beim Vergleich von niedrigem, mittlerem und hohem Übergang."
+        }
+      ]
+    },
+    {
+      "id": "buzz-cut-men",
+      "title": "Herren-Maschinenschnitt Ratgeber",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Herren-Maschinenschnitt Stile hängen von Bart, Haarlinie und Kleidung ab."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dickes Haar wird leichter; dünnes Haar kann gleichmäßiger wirken."
+        },
+        {
+          "type": "paragraph",
+          "text": "Praktisch für alle, die kaum Frisieren wollen."
+        },
+        {
+          "type": "image",
+          "alt": "Maschinenschnitt Maenner Vorher-Nachher Vorschau",
+          "caption": "Nutze die Vorschau als Referenz für Länge, Übergangshöhe und Pflegestil."
+        }
+      ]
+    },
+    {
+      "id": "should-i-get-a-buzz-cut",
+      "title": "Sollte ich einen Maschinenschnitt tragen?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pruefe Gesicht, Haarlinie und Pflegeaufwand, bevor du schneidest."
+        },
+        {
+          "type": "paragraph",
+          "text": "Zum Start ist eine mittlere Länge mit niedrigem oder mittlerem Übergang sicherer."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rundes Gesicht: oben etwas Länge lassen.",
+            "Langes Gesicht: hohen Übergang vermeiden.",
+            "Eckiges Gesicht: klare Linien helfen.",
+            "Unsicher: KI testen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-would-i-look-with-a-buzz-cut",
+      "title": "Im Internet prüfen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Nutze ein klares Frontfoto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vergleiche einheitlichen Maschinenschnitt, Maschinenschnitt mit Übergang und unterschiedliche Längen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fuer die meisten privaten Entscheidungen reicht Profi-Version auf dieser Seite aus: Es unterstützt vordefinierte Frisuren und vordefinierte Haarfarben. Wähle erweiterte Version, wenn du mehr Kontrolle brauchst: referenzbasierte Frisuren, Beibehaltung der Originalhaarfarbe oder Haarfarbe aus einem Referenzbild. Das ist sinnvoll, wenn du einen konkreten Promi-, Friseur- oder Marken-Eindruck nachbilden willst."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Profi-Version für schnelle voreingestellte Frisuren und voreingestellte Haarfarben.",
+            "erweiterte Version, wenn der Ziel-Eindruck aus einem Referenzbild kommt.",
+            "erweiterte Version, wenn die Originalhaarfarbe erhalten bleiben soll.",
+            "erweiterte Version, wenn die Haarfarbe einer Referenz folgen soll."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Mehr Kontrolle mit Referenzbild?",
+          "description": "Öffne die erweiterte Version für referenzbasierte Frisuren, Originalfarbe und referenzbasierte Haarfarbe.",
+          "button": {
+            "title": "erweiterte Frisurenvorschau testen",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Pflege und Friseur-Tipps",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Im Alltag einfach, aber regelmäßige Konturen sind wichtig."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sag dem Friseur Länge, Übergangshöhe und Haarlinie genau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Der beste Maschinenschnitt ist nicht immer der kürzeste."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Wie sehe ich mit einem Maschinenschnitt aus?",
+      "answer": "Gesichtsform, Haarlinie und Kiefer werden sichtbarer. KI-Vorschau hilft."
+    },
+    {
+      "question": "Passt es zu rundem Gesicht?",
+      "answer": "Ja, oft besser mit Maschinenschnitt mit Übergang und etwas Länge oben."
+    },
+    {
+      "question": "Was ist ein Maschinenschnitt mit Übergang?",
+      "answer": "Kurzer Oberkopf mit verlaufenden Seiten."
+    },
+    {
+      "question": "Welche Länge zuerst?",
+      "answer": "#3 oder #4 ist oft sicher."
+    },
+    {
+      "question": "Kann ich es vorher sehen?",
+      "answer": "Ja, per KI-Vorschau mit eigenem Foto."
+    }
+  ],
+  "related": [
+    "hair-trends-bob",
+    "shoulder-length-hair"
+  ]
+}

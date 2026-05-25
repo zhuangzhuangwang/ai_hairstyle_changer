@@ -1,0 +1,245 @@
+{
+  "slug": "shoulder-length-hair",
+  "locale": "de",
+  "metadata": {
+    "title": "Schulterlanges Haar für Salons und Beauty-Teams: KI-Vorschau und Branchenanwendungen",
+    "description": "Branchenleitfaden für schulterlange Frisuren in Salonberatung, Beauty-Kampagnen, E-Commerce, Studios und Plattformen.",
+    "keywords": "schulterlanges Haar, Haarschnitt schulterlang, gestuftes schulterlanges Haar, KI Frisurenvorschau, Salon Beratung",
+    "canonical": "/hairstyles/shoulder-length-hair"
+  },
+  "breadcrumb": [
+    {
+      "title": "Startseite",
+      "url": "/"
+    },
+    {
+      "title": "Frisuren",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Schulterlanges Haar",
+      "url": "/hairstyles/shoulder-length-hair"
+    }
+  ],
+  "hero": {
+    "title": "Schulterlanges Haar für Salons und Beauty-Teams: KI-Vorschau und Branchenanwendungen",
+    "description": "Ein Branchenleitfaden für Beratung, Kampagnen, E-Commerce, Studios und Plattformen, die schulterlange Frisuren visuell planbar machen wollen.",
+    "tags": [
+      {
+        "title": "schulterlanges Haar"
+      },
+      {
+        "title": "Branchenanwendung"
+      },
+      {
+        "title": "gestufte mittlere Länge"
+      },
+      {
+        "title": "KI-Vorschau"
+      }
+    ],
+    "image": {
+      "alt": "Vorschauworkflow für schulterlanges Haar"
+    }
+  },
+  "cta": {
+    "title": "Schulterlange Frisuren zuerst mit der Profi-Version prüfen",
+    "description": "Nutze die Profi-Version für vordefinierte mittlere Längen, Haarfarben und Beratungsvarianten.",
+    "button": {
+      "title": "Profi-Vorschau testen",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "business-pain-point",
+      "title": "Warum schulterlanges Haar in Beratungen wichtig ist",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Schulterlanges Haar wirkt sicherer als ein sehr kurzer Schnitt, bietet aber trotzdem sichtbare Veränderung. Für Salons, Marken und Plattformen ist es ein guter Moment, um Unsicherheit visuell zu reduzieren."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kunden fragen oft nach Endlänge, Volumen, Stufen, Alltagstauglichkeit und der Frage, ob sich der Schnitt noch zusammenbinden lässt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eine Branchen-Seite macht daraus einen Entscheidungsprozess: Stil erklären, Varianten zeigen, Vorschau anbieten und dann zu Termin, Kauf oder Integration führen."
+        }
+      ]
+    },
+    {
+      "id": "consultation-workflow",
+      "title": "Beratungsworkflow: vom Wunsch zum visuellen Briefing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In der Salonberatung ist die Anfrage oft ungenau. Schulterlänge kann Schulter, Schlüsselbein oder etwas darunter bedeuten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ein guter Ablauf klärt Ziel, Länge, Stufen, Farbe und Pflegeaufwand, bevor geschnitten wird."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Landepunkt klären: Schulter, Schlüsselbein oder darunter.",
+            "Gestuftes schulterlanges Haar zeigen, wenn Bewegung gewünscht ist.",
+            "Stumpfe und weiche Spitzen visuell vergleichen.",
+            "Vorschau als Referenz für Stylist und Terminnotiz speichern."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Beratungsworkflow für schulterlanges Haar",
+          "caption": "Eine Vorschau macht aus einem unklaren Wunsch ein konkretes Briefing."
+        }
+      ]
+    },
+    {
+      "id": "industry-use-cases",
+      "title": "Branchenanwendungen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Salons nutzen die Vorschau für klarere Beratung. Beauty-Marken nutzen sie für Kampagnen. E-Commerce verbindet Frisurenwunsch mit Pflege- und Stylingprodukten. Studios planen Looks vor dem Shooting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plattformen können schulterlanges Haar als breite Kategorie für Nutzer verwenden, die lange Haare kürzen, einen Bob herauswachsen lassen oder einen professionelleren Look testen."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Salons: weniger Unsicherheit vor dem Termin.",
+            "Beauty-Marken: alltagsnahe Kampagnenstrecken.",
+            "E-Commerce: bessere Produktempfehlungen.",
+            "Studios: bessere Vorbereitung vor dem Shooting.",
+            "Plattformen: wiederverwendbare Kategorie für mittlere Längen."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Branchenanwendungen für schulterlange Frisuren",
+          "caption": "Die Vorschau unterstützt Beratung, Verkauf, Content-Produktion und Plattform-Erlebnisse."
+        }
+      ]
+    },
+    {
+      "id": "customer-journey",
+      "title": "Kundenreise: Inspiration, Vorschau, Entscheidung",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Die Kundenreise beginnt meist mit Inspiration. Danach werden glatte, wellige und gestufte Varianten verglichen. Ohne Vorschau bleibt oft Unsicherheit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ein stärkerer Ablauf erklärt die Länge, zeigt Varianten, prüft das Ergebnis auf dem eigenen Foto und führt dann zur nächsten Aktion."
+        },
+        {
+          "type": "quote",
+          "text": "Das Ziel ist nicht nur, eine Frisur zu zeigen, sondern den Weg von Zweifel zu Entscheidung zu verkürzen."
+        }
+      ]
+    },
+    {
+      "id": "preview-and-integration",
+      "title": "Vorschau, erweiterte Version und Integration",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Für schnelle Beratungen reicht die Profi-Version mit vordefinierten Frisuren und Haarfarben oft aus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Die erweiterte Version eignet sich für Referenzfrisuren, Erhalt der Originalfarbe und Haarfarbe nach Referenz: https://www.ailabtools.com/hairstyle-changer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Für eingebettete Workflows hilft die Entwicklerdokumentation: https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium"
+        },
+        {
+          "type": "cta",
+          "title": "Mehr Kontrolle mit Referenzbild?",
+          "description": "Nutze die erweiterte Version, wenn vordefinierte Optionen nicht genau genug sind.",
+          "button": {
+            "title": "Erweiterte Version testen",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Vorschau- und Integrationsoptionen für schulterlanges Haar",
+          "caption": "Profi-Version für schnelle Vorschau, erweiterte Version für Referenzen und Dokumentation für Integration."
+        }
+      ]
+    },
+    {
+      "id": "operational-benefits",
+      "title": "Operative Vorteile",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Teams sparen Beratungszeit, verbessern visuelle Briefings und verbinden Frisurenwünsche mit Buchungen oder Produktempfehlungen."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Weniger Unsicherheit vor Termin oder Kauf.",
+            "Klarere Briefings für Stylisten und Teams.",
+            "Bessere Verbindung zwischen Frisurenwunsch und Produkt.",
+            "Wiederverwendbare Kategorien für mittlere Längen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "implementation-checklist",
+      "title": "Umsetzungscheckliste",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Eine gute Branchen-Seite erklärt Zielgruppe, Kundenproblem, Varianten, Vorschau und nächsten Schritt."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Zielgruppe definieren.",
+            "Entscheidungspunkte erklären.",
+            "Glatte, wellige und gestufte Varianten zeigen.",
+            "Profi-Vorschau als schnelle Aktion anbieten.",
+            "Erweiterte Version und Entwicklerdokumentation bei Bedarf ergänzen."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Warum ist schulterlanges Haar für Beauty-Teams nützlich?",
+      "answer": "Es ist eine beliebte mittlere Länge, die sicher wirkt und trotzdem sichtbare Veränderung erzeugt."
+    },
+    {
+      "question": "Wie hilft die Vorschau bei einem Haarschnitt auf Schulterlänge?",
+      "answer": "Sie zeigt Länge, Stufen, Gesichtsumrahmung und Farbe vor dem Schnitt."
+    },
+    {
+      "question": "Wann sollte man gestuftes schulterlanges Haar zeigen?",
+      "answer": "Wenn Bewegung, weniger Schwere oder ein weicherer mittlerer Schnitt gewünscht ist."
+    },
+    {
+      "question": "Wann ist die erweiterte Version sinnvoll?",
+      "answer": "Wenn Referenzbilder, Originalfarbe oder Farbe nach Referenz wichtig sind."
+    },
+    {
+      "question": "Gibt es eine Entwickleroption?",
+      "answer": "Ja, über die Entwicklerdokumentation: https://www.ailabtools.com/docs/ai-portrait/effects/hairstyle-editor-premium"
+    }
+  ],
+  "related": [
+    "hair-trends-bob",
+    "buzz-cut"
+  ]
+}

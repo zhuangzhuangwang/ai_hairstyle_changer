@@ -1,0 +1,17 @@
+{
+  "images": {
+    "index": "https://ai-resource.ailabtools.com/web/blog/2026/05/shoulder-length-hair-2.webp",
+    "hero": "https://ai-resource.ailabtools.com/web/blog/2026/05/shoulder-length-hair-1.webp",
+    "sections": {
+      "consultation-workflow": [
+        "https://ai-resource.ailabtools.com/web/blog/2026/05/shoulder-length-hair-1.webp"
+      ],
+      "industry-use-cases": [
+        "https://ai-resource.ailabtools.com/web/blog/2026/05/shoulder-length-hair-2.webp"
+      ],
+      "preview-and-integration": [
+        "https://ai-resource.ailabtools.com/web/blog/2026/05/shoulder-length-hair.webp"
+      ]
+    }
+  }
+}

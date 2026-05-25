@@ -1,0 +1,246 @@
+{
+  "slug": "hair-trends-bob",
+  "locale": "de",
+  "metadata": {
+    "title": "Bob-Trends 2026: So findest du den passenden Bob vor dem Salontermin",
+    "description": "Persönlicher Ratgeber für Bob-Frisuren 2026 mit Gesichtsform, Haarstruktur, Pflegeaufwand und Vorschau vor dem Schnitt.",
+    "keywords": "Bob-Trends, Bob-Frisur, Bob 2026, Bob Empfehlung, Frisurenvorschau",
+    "canonical": "/hairstyles/hair-trends-bob"
+  },
+  "breadcrumb": [
+    {
+      "title": "Startseite",
+      "url": "/"
+    },
+    {
+      "title": "Frisuren",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Bob-Trends",
+      "url": "/hairstyles/hair-trends-bob"
+    }
+  ],
+  "hero": {
+    "title": "Bob-Trends 2026: So findest du den passenden Bob vor dem Salontermin",
+    "description": "Ein persönlicher Empfehlungsratgeber für Bob-Länge, Gesichtsform, Haarstruktur, Pflegeaufwand und Vorschau vor dem Friseurbesuch.",
+    "tags": [
+      {
+        "title": "Bob-Frisur"
+      },
+      {
+        "title": "Bob-Trends"
+      },
+      {
+        "title": "2026 Frisuren"
+      },
+      {
+        "title": "Vorschau mit künstlicher Intelligenz"
+      }
+    ],
+    "image": {
+      "alt": "Moderne Bob-Frisur als persönliche Empfehlung"
+    }
+  },
+  "cta": {
+    "title": "Bob zuerst mit der Profi-Version prüfen",
+    "description": "Vergleiche vordefinierte Bob-Ideen, kurze Formen und Haarfarben auf deinem eigenen Foto, bevor du den Salontermin buchst.",
+    "button": {
+      "title": "Profi-Vorschau testen",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "personal-recommendation",
+      "title": "Beginne mit deinem Alltag, nicht nur mit dem Trend",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ein Bob sollte nicht nur auf einem Foto gut aussehen. Er muss zu Gesichtsform, Haardichte, Stylingzeit, Beruf, Kleidung und deinem Mut zur Veränderung passen."
+        },
+        {
+          "type": "paragraph",
+          "text": "2026 wirken Bob-Frisuren sauber, beweglich und stärker auf das Gesicht abgestimmt. Kinnlänge wirkt präzise, ein längerer Bob ist sicherer, ein kurzer französischer Bob ist ausdrucksstärker."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sammle Referenzen nach Länge, Spitzen, Scheitel, Pony, Volumen und Farbe. So wird aus Inspiration ein klarer Friseurwunsch."
+        }
+      ]
+    },
+    {
+      "id": "choose-your-bob",
+      "title": "Wähle zuerst die passende Länge",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Die Länge entscheidet über die Wirkung. Ein kurzer Bob fällt auf, ein kinnlanger Bob wirkt elegant, ein langer Bob ist für den ersten Schnitt oft entspannter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Runde Gesichter profitieren oft von etwas mehr Länge oder Seitenscheitel. Kantige Gesichter wirken weicher mit leichter Bewegung. Längliche Gesichter brauchen Breite an den Seiten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lege eine sichere Länge und eine mutige Länge fest und vergleiche beide mit einer Vorschau."
+        },
+        {
+          "type": "image",
+          "alt": "Bob-Längen und Gesichtsform im Vergleich",
+          "caption": "Vergleiche Länge, Kontur und Gesichtsumrahmung, bevor du zum Salon gehst."
+        }
+      ]
+    },
+    {
+      "id": "bob-haircut-trends",
+      "title": "Bob-Trends, die 2026 sinnvoll sind",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ein stumpfer Bob wirkt klar und gepflegt. Ein französischer Bob ist kürzer und lebendiger. Ein italienischer Bob gibt mehr Volumen. Ein gestufter Bob hilft bei viel oder welligem Haar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Für den ersten großen Schnitt ist ein langer Bob meist die sicherere Wahl. Für eine stärkere Veränderung funktioniert eine kinnlange oder kürzere Form."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Stumpfer Bob: sauber, präzise und auffällig.",
+            "Französischer Bob: kurz, leicht und ausdrucksstark.",
+            "Italienischer Bob: mehr Volumen und Schwung.",
+            "Gestufter Bob: gut bei viel, welligem oder schwerem Haar.",
+            "Langer Bob: flexibel für den ersten Versuch."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Die beste Bob-Frisur ist die, die auch nach dem Salonstyling noch zu deinem Alltag passt."
+        }
+      ]
+    },
+    {
+      "id": "hair-texture",
+      "title": "Passe den Bob an deine Haarstruktur an",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Feines glattes Haar braucht oft Volumen am Ansatz. Dickes Haar braucht Gewichtsentfernung. Welliges Haar wirkt in weichen Bob-Formen besonders natürlich."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lockiges Haar braucht Planung wegen Sprungkraft und trockener Länge. Eine gute Empfehlung betrachtet nicht nur den Salonmoment, sondern auch den Zustand nach dem Waschen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Auch Farbe verändert die Wirkung: Dunkle Konturen wirken grafisch, Highlights zeigen Bewegung, ein einheitlicher Farbton macht die Form klarer."
+        }
+      ]
+    },
+    {
+      "id": "try-before-salon",
+      "title": "Vor dem Salon mit der Profi-Version testen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bei einem Bob können ein bis zwei Zentimeter viel verändern. Die Profi-Version dieser Seite eignet sich, um kurze, längere und weichere Bob-Formen vorab zu vergleichen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nutze ein klares Foto von vorne. Prüfe Kieferlinie, Halslänge, Schulterbreite und Gesamtbalance."
+        },
+        {
+          "type": "cta",
+          "title": "Bob-Ideen mit der Profi-Version vergleichen",
+          "description": "Teste vordefinierte Bob-Formen und Haarfarben auf deinem Foto, bevor du kürzer schneidest.",
+          "button": {
+            "title": "Profi-Vorschau testen",
+            "url": "/#editor"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Bob-Vorschau vor dem Salontermin",
+          "caption": "Eine persönliche Vorschau hilft bei Länge und Gesichtsumrahmung."
+        }
+      ]
+    },
+    {
+      "id": "premium-recommendation",
+      "title": "Wann die erweiterte Version besser ist",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Für die meisten Tests reicht die Profi-Version. Die erweiterte Version ist sinnvoll, wenn der gewünschte Bob aus einem bestimmten Referenzbild stammt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sie ist auch hilfreich, wenn die Haarfarbe genau bleiben soll: ursprüngliche Haarfarbe erhalten oder Farbe aus einer Referenz übernehmen."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Profi-Version für schnelle Bob- und Farbvorschauen.",
+            "Erweiterte Version für konkrete Referenzbilder.",
+            "Erweiterte Version zum Erhalten der ursprünglichen Haarfarbe.",
+            "Erweiterte Version für Haarfarbe nach Referenz."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Mehr Kontrolle mit Referenzbild?",
+          "description": "Öffne die erweiterte Frisurenvorschau, wenn vordefinierte Optionen nicht genau genug sind.",
+          "button": {
+            "title": "Erweiterte Frisurenvorschau testen",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salon-brief",
+      "title": "Aus Bob-Inspiration wird ein Friseurbriefing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Bring ein Frontbild, ein Seitenbild und ein Beispiel mit, das du nicht möchtest. Erkläre, ob Schärfe, Weichheit, Volumen, Pflegeleichtigkeit oder Gesichtsumrahmung wichtiger ist."
+        },
+        {
+          "type": "paragraph",
+          "text": "Frage nach trockener Länge, Spitzenform, inneren Stufen und dem Herauswachsen nach sechs Wochen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wenn du unsicher bist, starte länger. Kürzen geht später immer, Länge kommt nicht sofort zurück."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Welche Bob-Frisur passt 2026 am besten zu mir?",
+      "answer": "Das hängt von Gesichtsform, Haarstruktur, Stylingzeit und Mut zur Veränderung ab. Für den ersten Schnitt ist ein längerer Bob oft sicherer."
+    },
+    {
+      "question": "Welche Bob-Frisur ist pflegeleicht?",
+      "answer": "Ein langer oder weich gestufter Bob ist meist leichter als ein sehr stumpfer kinnlanger Bob oder ein Bob mit Pony."
+    },
+    {
+      "question": "Kann ich einen Bob vorher ansehen?",
+      "answer": "Ja, mit der Profi-Vorschau kannst du Bob-Formen und Haarfarben auf deinem Foto testen."
+    },
+    {
+      "question": "Wann brauche ich die erweiterte Version?",
+      "answer": "Wenn du ein Referenzbild, exakte Farbe oder Erhalt der Originalfarbe brauchst."
+    },
+    {
+      "question": "Stumpfer oder gestufter Bob?",
+      "answer": "Stumpf für klare Linien, gestuft für Bewegung, viel Haar oder Wellen."
+    }
+  ],
+  "related": [
+    "shoulder-length-hair",
+    "buzz-cut"
+  ]
+}

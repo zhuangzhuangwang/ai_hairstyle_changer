@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Frisuren-Guides | AI Hairstyle Changer",
+    "description": "Entdecke Frisuren-Guides, Haarschnitt-Ideen, Tipps fur Gesichtsformen, Pflegehinweise und KI-Vorschauen vor dem Salonbesuch.",
+    "keywords": "Frisuren Guide, Haarschnitt Ideen, AI Hairstyle Changer, Frisur ausprobieren, Haarschnitt Simulator",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "Frisuren-Guides",
+    "description": "Finde den passenden Schnitt, bevor du dich entscheidest. Vergleiche Styles, prufe die Gesichtsform und sieh dir den Look mit KI an."
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "Wie sehe ich mit einem Buzz Cut aus?",
+      "description": "Buzz-Cut-Guide 2026 mit buzz cut fade, buzz cut men Styles, Gesichtsform-Tipps und KI-Vorschau.",
+      "image": {
+        "alt": "AI Buzz Cut Vorschau und Trendguide"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "Herren"
+        },
+        {
+          "title": "KI Vorschau"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "Bob-Frisuren Trends",
+      "description": "Entdecke Bob-Trends, Tipps fur Gesichtsformen, Styling, Pflege und KI-Vorschau.",
+      "image": {
+        "alt": "Moderne Bob Frisur Vorschau"
+      },
+      "tags": [
+        {
+          "title": "Bob"
+        },
+        {
+          "title": "Trends"
+        },
+        {
+          "title": "Mittellang"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "Schulterlanges Haar",
+      "description": "Guide fur schulterlanges Haar: Stufen, Pony, Wellen, Gesichtsform, Pflege und KI-Vorschau.",
+      "image": {
+        "alt": "Schulterlanges Haar Vorschau"
+      },
+      "tags": [
+        {
+          "title": "Mittellang"
+        },
+        {
+          "title": "Stufen"
+        },
+        {
+          "title": "Einfach"
+        }
+      ]
+    }
+  ]
+}

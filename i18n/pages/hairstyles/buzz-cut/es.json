@@ -1,0 +1,259 @@
+{
+  "slug": "buzz-cut",
+  "locale": "es",
+  "metadata": {
+    "title": "Cómo me vería con un corte rapado? Guía de tendencias 2026 | Cambiador de peinados con inteligencia artificial",
+    "description": "Guía de corte rapado, degradado, estilos masculinos, consejos de rostro y vista previa antes de cortar.",
+    "keywords": "corte rapado, corte militar, degradado, pelo corto hombre, simulador de peinado, corte rapado con foto, inteligencia artificial peinado",
+    "canonical": "/hairstyles/buzz-cut"
+  },
+  "breadcrumb": [
+    {
+      "title": "Inicio",
+      "url": "/"
+    },
+    {
+      "title": "Peinados",
+      "url": "/hairstyles"
+    },
+    {
+      "title": "Corte rapado",
+      "url": "/hairstyles/buzz-cut"
+    }
+  ],
+  "hero": {
+    "title": "Cómo me vería con un corte rapado? Guía de tendencias 2026",
+    "description": "Guía de corte rapado, degradado y estilos masculinos con consejos de rostro y vista previa antes de cortar.",
+    "tags": [
+      {
+        "title": "corte rapado"
+      },
+      {
+        "title": "degradado"
+      },
+      {
+        "title": "pelo corto hombre"
+      },
+      {
+        "title": "vista previa"
+      }
+    ],
+    "image": {
+      "alt": "Vista previa de corte rapado con inteligencia artificial"
+    }
+  },
+  "cta": {
+    "title": "Prueba primero el corte rapado con la versión profesional",
+    "description": "Empieza con la versión profesional de este sitio para comparar peinados cortos, degradados y colores predefinidos en tu foto.",
+    "button": {
+      "title": "Probar vista profesional",
+      "url": "/#editor"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-a-buzz-cut",
+      "title": "Qué es un corte rapado?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un corte rapado es un corte corto con máquina. El corte rapado moderno cambia con el largo y el degradado."
+        },
+        {
+          "type": "paragraph",
+          "text": "En 2026 sigue en tendencia por ser limpio, práctico y seguro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si preguntas cómo me vería con un corte rapado, revisa rostro, línea del cabello y forma de cabeza."
+        }
+      ]
+    },
+    {
+      "id": "what-would-i-look-like",
+      "title": "Cómo me vería con un corte rapado?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un corte rapado hace más visibles ojos, frente, mandíbula y cabeza."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un rostro redondo suele favorecerse con corte rapado con degradado y algo más de largo arriba."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una vista previa inteligencia artificial con tu foto es más útil que imaginarlo."
+        },
+        {
+          "type": "cta",
+          "title": "Previsualiza primero con la versión profesional",
+          "description": "La vista previa profesional sirve para estilos cortos predefinidos y colores predefinidos antes de decidir.",
+          "button": {
+            "title": "Abrir vista previa profesional",
+            "url": "/#editor"
+          }
+        },
+        {
+          "type": "image",
+          "alt": "Vista previa inteligencia artificial de corte rapado",
+          "caption": "Una vista previa profesional con inteligencia artificial ayuda a ver el resultado antes de cortar."
+        }
+      ]
+    },
+    {
+      "id": "buzz-cut-fade",
+      "title": "Elegir un corte rapado con degradado",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El corte rapado con degradado combina parte superior corta con laterales degradados."
+        },
+        {
+          "type": "paragraph",
+          "text": "El degradado bajo es discreto, el degradado medio es equilibrado y el degradado alto resulta más marcado."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bajo degradado: limpio y sútil.",
+            "Medio degradado: versatil.",
+            "Alto degradado: atrevido.",
+            "A piel degradado: muy marcado, más mantenimiento."
+          ]
+        },
+        {
+          "type": "image",
+          "alt": "Vista previa de corte rapado con degradado con transicion limpia",
+          "caption": "La vista previa ayuda a comparar degradado bajo, medio y alto antes de hablar con el barbero."
+        }
+      ]
+    },
+    {
+      "id": "buzz-cut-men",
+      "title": "Guía corte rapado masculino",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los estilos corte rapado masculino dependen de barba, línea y estilo personal."
+        },
+        {
+          "type": "paragraph",
+          "text": "El pelo grueso se ve más ligero; el pelo fino puede verse más uniforme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es práctico si quieres poco peinado diario."
+        },
+        {
+          "type": "image",
+          "alt": "Vista previa antes y después de corte rapado para hombres",
+          "caption": "Usa la vista previa como referencia para longitud, degradado y estilo general."
+        }
+      ]
+    },
+    {
+      "id": "should-i-get-a-buzz-cut",
+      "title": "Debería hacerme un corte rapado?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Antes de cortar, revisa rostro, línea y mantenimiento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para empezar, una longitud media con degradado bajo o medio es más segura."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rostro redondo: deja algo de largo arriba.",
+            "Rostro largo: evita degradado alto.",
+            "Rostro cuadrado: líneas limpias ayudan.",
+            "Duda: prueba con inteligencia artificial."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-would-i-look-with-a-buzz-cut",
+      "title": "Verlo online",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Usa una foto frontal clara."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compara corte rapado uniforme, corte rapado con degradado y largos diferentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para la mayoria de decisiones personales, la versión profesional de este sitio es suficiente: admite peinados predefinidos y colores de pelo predefinidos. Elige la versión avanzada cuando necesites más control: peinados basados en referencia, conservar el color original o copiar color desde una imagen de referencia. Es útil si quieres imitar una foto concreta de celebridad, barbero o marca."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Usa la versión profesional para peinados y colores predefinidos rápidos.",
+            "Usa la versión avanzada si el estilo objetivo viene de una imagen de referencia.",
+            "Usa la versión avanzada si quieres conservar tu color original.",
+            "Usa la versión avanzada si el color debe seguir una referencia."
+          ]
+        },
+        {
+          "type": "cta",
+          "title": "Necesitas control por imagen de referencia?",
+          "description": "Abre la versión avanzada para transferencia de peinado por referencia, color original y color basado en referencia.",
+          "button": {
+            "title": "Probar versión avanzada",
+            "url": "https://www.ailabtools.com/hairstyle-changer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Mantenimiento y consejos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Es facil a diario, pero necesita retoques para verse limpio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explica largo, altura del degradado y línea al barbero."
+        },
+        {
+          "type": "paragraph",
+          "text": "El mejor corte rapado no siempre es el más corto."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Cómo me vería con un corte rapado?",
+      "answer": "Tu rostro, línea del cabello y mandíbula se veran mas. La inteligencia artificial ayuda."
+    },
+    {
+      "question": "Sirve para rostro redondo?",
+      "answer": "Si, sobre todo con corte rapado con degradado y algo de largo arriba."
+    },
+    {
+      "question": "Qué es corte rapado con degradado?",
+      "answer": "Parte superior corta con laterales degradados."
+    },
+    {
+      "question": "Qué largo probar primero?",
+      "answer": "#3 o #4 suele ser seguro."
+    },
+    {
+      "question": "Puedo verlo antes?",
+      "answer": "Si, con una vista previa inteligencia artificial en tu foto."
+    }
+  ],
+  "related": [
+    "hair-trends-bob",
+    "shoulder-length-hair"
+  ]
+}

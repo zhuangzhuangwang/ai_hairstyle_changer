@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Guides Coiffure | AI Hairstyle Changer",
+    "description": "Explorez des guides coiffure, des idees de coupe, des conseils selon la forme du visage, l'entretien et des apercus IA avant le salon.",
+    "keywords": "guides coiffure, idees coupe, AI Hairstyle Changer, essai coiffure, simulateur coupe",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "Guides Coiffure",
+    "description": "Trouvez la bonne coupe avant de vous lancer. Comparez les styles, verifiez l'accord avec votre visage et visualisez le resultat avec l'IA."
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "A quoi ressemblerais-je avec un Buzz Cut ?",
+      "description": "Guide 2026 du buzz cut avec buzz cut fade, styles buzz cut men, conseils visage et apercu IA.",
+      "image": {
+        "alt": "Apercu IA buzz cut et guide tendance"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "Homme"
+        },
+        {
+          "title": "Apercu IA"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "Tendances coupe bob",
+      "description": "Decouvrez les tendances bob, les conseils par forme de visage, le styling, l entretien et l apercu IA.",
+      "image": {
+        "alt": "Apercu coupe bob moderne"
+      },
+      "tags": [
+        {
+          "title": "Bob"
+        },
+        {
+          "title": "Tendances"
+        },
+        {
+          "title": "Cheveux mi-longs"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "Cheveux mi-longs aux epaules",
+      "description": "Guide des cheveux aux epaules: couches, frange, ondulations, visage, entretien et apercu IA.",
+      "image": {
+        "alt": "Apercu cheveux aux epaules"
+      },
+      "tags": [
+        {
+          "title": "Mi-long"
+        },
+        {
+          "title": "Couches"
+        },
+        {
+          "title": "Facile"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Hairstyle Guides | AI Hairstyle Changer",
+    "description": "Explore hairstyle guides, haircut ideas, face shape tips, maintenance advice, and AI hairstyle try-on previews before you visit the salon.",
+    "keywords": "hairstyle guides, haircut ideas, AI hairstyle changer, hairstyle try on, haircut simulator",
+    "canonical": "/hairstyles"
+  },
+  "hero": {
+    "title": "Hairstyle Guides",
+    "description": "Find the right haircut before you commit. Compare styles, learn what fits your face shape, and preview the look with AI."
+  },
+  "items": [
+    {
+      "slug": "buzz-cut",
+      "title": "What Would I Look Like with a Buzz Cut?",
+      "description": "A 2026 buzz cut trend guide covering buzz cut fade options, buzz cut men styling, face-shape checks, and AI preview advice.",
+      "image": {
+        "alt": "Buzz cut AI preview and trend guide"
+      },
+      "tags": [
+        {
+          "title": "Buzz Cut"
+        },
+        {
+          "title": "Buzz Cut Fade"
+        },
+        {
+          "title": "Men"
+        },
+        {
+          "title": "AI Preview"
+        }
+      ]
+    },
+    {
+      "slug": "hair-trends-bob",
+      "title": "Hair Trends Bob",
+      "description": "Explore modern bob haircut trends, face-shape tips, styling ideas, maintenance, and AI preview advice.",
+      "image": {
+        "alt": "Modern bob haircut preview"
+      },
+      "tags": [
+        {
+          "title": "Bob Haircut"
+        },
+        {
+          "title": "Hair Trends"
+        },
+        {
+          "title": "Medium Hair"
+        }
+      ]
+    },
+    {
+      "slug": "shoulder-length-hair",
+      "title": "Shoulder Length Hair",
+      "description": "A complete guide to shoulder length hair, layers, bangs, waves, face-shape tips, maintenance, and AI preview ideas.",
+      "image": {
+        "alt": "Shoulder length hair preview"
+      },
+      "tags": [
+        {
+          "title": "Medium Hair"
+        },
+        {
+          "title": "Layers"
+        },
+        {
+          "title": "Easy Styling"
+        }
+      ]
+    }
+  ]
+}

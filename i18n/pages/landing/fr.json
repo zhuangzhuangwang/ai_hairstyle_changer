@@ -28,6 +28,17 @@
                   "icon": "FaQuestion"
               },
               {
+                  "title": "Coiffures",
+                  "url": "/fr/hairstyles",
+                  "icon": "HiOutlineSparkles",
+                  "children": [
+                      {"title": "Toutes les coiffures", "url": "/fr/hairstyles", "icon": "HiOutlineSparkles"},
+                      {"title": "Buzz Cut", "url": "/fr/hairstyles/buzz-cut", "icon": "HiOutlineSparkles"},
+                        {"title": "Tendances coupe bob", "url": "/fr/hairstyles/hair-trends-bob", "icon": "HiOutlineSparkles"},
+                        {"title": "Cheveux aux epaules", "url": "/fr/hairstyles/shoulder-length-hair", "icon": "HiOutlineSparkles"}
+                  ]
+              },
+              {
                   "title": "Api Docs",
                   "url": "https://www.ailabtools.com/doc/ai-portrait/effects/hairstyle-editor-pro/api",
                   "target": "_blank",
