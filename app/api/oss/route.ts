@@ -7,7 +7,7 @@ export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const bucket = searchParams.get('bucket') || 'ailab-tem';
     
-    const stsResponse = await fetch(`https://hairstyle-app.ailabtools.com/api/system/upload/get-sts-cert?bucket=${bucket}`, {
+    const stsResponse = await fetch(`https://hairstyle-app.ailabtools.com/api/system/upload/get-sts-cert?bucket=${bucket}&_t=${Date.now()}`, {
       method: 'GET',
       headers: {
         'Accept-Language': 'zh-cn'
