@@ -287,7 +287,8 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                     accessKeySecret: ossConfig.accessKeySecret,
                     stsToken: ossConfig.stsToken,
                     bucket: ossConfig.bucket,
-                    endpoint: ossConfig.endpoint
+                    endpoint: ossConfig.endpoint,
+                    cname: true
                 });
                 
                 // 3. 转换并上传图片到OSS
@@ -383,7 +384,8 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                             accessKeySecret: ossConfig.accessKeySecret,
                             stsToken: ossConfig.stsToken,
                             bucket: ossConfig.bucket,
-                            endpoint: ossConfig.endpoint
+                            endpoint: ossConfig.endpoint,
+                            cname: true
                         });
                         const uploadResult = await ossClient.put(
                             `haircut/${Date.now()}.jpg`, 
