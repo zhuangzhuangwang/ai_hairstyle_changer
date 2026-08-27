@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
-    const bucket = searchParams.get('bucket') || 'ailab-tem';
+    const bucket = searchParams.get('bucket') || 'ailab-inputs';
     
     const stsResponse = await fetch(`https://hairstyle-app.ailabtools.com/api/system/upload/get-sts-cert?bucket=${bucket}&_t=${Date.now()}`, {
       method: 'GET',
@@ -24,7 +24,7 @@ export async function GET(request: Request) {
         stsToken: stsData.Credentials.SecurityToken,
         region: 'oss-cn-shanghai',
         bucket: stsData.Bucket,
-        endpoint: stsData.Endpoint
+        endpoint: stsData.AccelerateDomain
       }
     });
   } catch (error) {

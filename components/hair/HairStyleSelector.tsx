@@ -275,7 +275,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
             // 显示扫描动效（首次轮询时触发）
             setIsPolling(true);
             if (!imageUrl) {
-                const stsRes = await fetch(`/api/oss?bucket=ailab-tem`);
+                const stsRes = await fetch(`/api/oss?bucket=ailab-inputs`);
                 if (!stsRes.ok) throw new Error(t("editorError.Failed"));
                 const { data: ossConfig } = await stsRes.json();
                 
@@ -372,7 +372,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                         const url = URL.createObjectURL(imageBlob as Blob);
                         setUploadedImage(url as string)
 
-                        const stsRes = await fetch(`/api/oss?bucket=ailab-tem`);
+                        const stsRes = await fetch(`/api/oss?bucket=ailab-inputs`);
                         if (!stsRes.ok) throw new Error('upload fail!!!');
                         const { data: ossConfig } = await stsRes.json();
                         // 2. 初始化OSS客户端
