@@ -27,6 +27,33 @@ type HairStyle = {
     img: string;
 };
 
+const getImageExtension = (file: Blob): string => {
+    if (file instanceof File) {
+        const fileExtension = file.name.match(/\.([^.]+)$/)?.[1];
+        if (fileExtension) {
+            return fileExtension.toLowerCase();
+        }
+    }
+
+    return file.type.split('/')[1]?.toLowerCase() || 'bin';
+};
+
+const createUploadKey = (file: Blob): string => {
+    const dateParts = new Intl.DateTimeFormat('en', {
+        timeZone: 'Asia/Shanghai',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        hourCycle: 'h23',
+    }).formatToParts(new Date()).reduce<Record<string, string>>((parts, part) => {
+        parts[part.type] = part.value;
+        return parts;
+    }, {});
+
+    return `haircut/${dateParts.year}-${dateParts.month}-${dateParts.day}-${dateParts.hour}/${crypto.randomUUID()}.${getImageExtension(file)}`;
+};
+
 
 export default function HairStyleSelector({ editor }: { editor: any }) {
     const t = useTranslations(); // 多语言errormsg
@@ -38,6 +65,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
     const [selectedStyle, setSelectedStyle] = useState<string | null>(null);
     const [selectedColor, setSelectedColor] = useState<string | null>(null);
     const [uploadedImage, setUploadedImage] = useState<string | null>(null);
+    const [uploadedFile, setUploadedFile] = useState<File | null>(null);
     const [imageUrl, setImageUrl] = useState<string | null>(null);
     const [resultImage, setResultImage] = useState<string[] | null>(null);
     const [previewImage, setPreviewImage] = useState<string | undefined>(undefined);
@@ -102,6 +130,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
             reader.onload = (e) => {
                 setLoadNum(100)
                 setIsload(false)
+                setUploadedFile(processedImage);
                 setUploadedImage(e.target?.result as string);
             };
             reader.readAsDataURL(processedImage);
@@ -222,6 +251,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
     // 处理示例图片点击
     const handleSampleClick = (src: string) => {
         setUploadedImage(src);
+        setUploadedFile(null);
         setImageUrl(src)
         if (isMobile) {
             setShowLeftPanel(true);
@@ -232,6 +262,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
     // 处理历史记录的重试
     const handleHistoryRetry = (originalImage: string) => {
         setUploadedImage(originalImage);
+        setUploadedFile(null);
         setResultImage(null);
         setImageUrl(originalImage);
         setShowOriginal(true);
@@ -293,9 +324,9 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                 
                 // 3. 转换并上传图片到OSS
                 const blob = await fetch(uploadedImage).then(r => r.blob());
-                const file = new File([blob], "haircut.jpg", { type: blob.type });
+                const file = uploadedFile || new File([blob], `upload.${getImageExtension(blob)}`, { type: blob.type });
                 const uploadResult = await ossClient.put(
-                    `haircut/${Date.now()}.jpg`, 
+                    createUploadKey(file),
                     file
                 );
                 // 检测人脸占比信息
@@ -388,7 +419,7 @@ export default function HairStyleSelector({ editor }: { editor: any }) {
                             cname: true
                         });
                         const uploadResult = await ossClient.put(
-                            `haircut/${Date.now()}.jpg`, 
+                            createUploadKey(imageBlob as Blob),
                             imageBlob
                         );
                         imgUrl = uploadResult.url
